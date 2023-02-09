@@ -5,6 +5,7 @@ local Player = game:GetService'Players'.LocalPlayer;
 local UIS = game:GetService'UserInputService';
 local mobs = {""} -- MOBS TABLE
 local npcs = {""}
+local Players = game:FindService("Players")
 getgenv().mob = nil -- SELECTED MOB
 getgenv().npc = nil
 --MOBS
@@ -165,15 +166,14 @@ localCheats:AddButton({
 	Default = false,
 	Callback = function(Value)
 		local Player = game:GetService'Players'.LocalPlayer;
-local UIS = game:GetService'UserInputService';
-UIS.InputBegan:connect(function(UserInput)
+        UIS.InputBegan:connect(function(UserInput)
         if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.LeftShift then
             _G.Running = true
                 while wait(0.005) and _G.Running == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-end
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
+            end
         end
 end)
 UIS.InputEnded:connect(function(UserInput)
@@ -184,6 +184,32 @@ end)
 	end    
 })
 
+localCheats:AddButton({
+	Name = "Infinite jump!",
+	Callback = function()
+        _G.JumpHeight = 150;
+ 
+function Action(Object, Function) if Object ~= nil then Function(Object); end end
+ 
+UIS.InputBegan:connect(function(UserInput)
+    if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+        Action(Player.Character.Humanoid, function(self)
+            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                Action(self.Parent.HumanoidRootPart, function(self)
+                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+                end)
+            end
+        end)
+    end
+end)
+end
+  
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 
 
 -- UPDATING THE MOBS
@@ -196,7 +222,7 @@ game:GetService("Workspace").Living.ChildAdded:Connect(function() -- WHEN MOB SP
         for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
         if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
     end
-    mobdropdown:Refresh(mobs,true)
+    autoFarm:Refresh(newList, true)
 end)
 
 game:GetService("Workspace").Living.ChildRemoved:Connect(function() -- WHEN MOB DIES / GETS REMOVED
@@ -207,6 +233,6 @@ game:GetService("Workspace").Living.ChildRemoved:Connect(function() -- WHEN MOB 
         for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
         if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
     end
-    mobdropdown:Refresh(mobs,true)
+    autoFarm:Refresh(newList, true)
 end)
 OrionLib:Init()
