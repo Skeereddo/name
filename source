@@ -53,6 +53,7 @@ local HeadOff = Vector3.new(0, 0.5, 0)
 local LegOff = Vector3.new(0,3,0)
 getgenv().mob = nil -- SELECTED MOB
 getgenv().npc = nil
+getgenv().Esp = false
 --MOBS
 for _,v in pairs(game:GetService("Workspace").Living:GetChildren()) do -- LOOPS THROUGH ALL MOBS
     insert = true -- VALUE TO CHECK THE MOB
@@ -84,7 +85,11 @@ local localCheats = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
+local ESP = Window:MakeTab({
+	Name = "ESP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
 
 --Toggles
@@ -209,6 +214,15 @@ teleport:AddToggle({
             end
         end
 })
+
+ESP:AddToggle({
+	Name = "ESP",
+	Default = false,
+	Callback = function(Value)
+		getgenv().Esp = true
+	end    
+})
+
 localCheats:AddButton({
 	Name = "WalkSpeed (LEFT SHIFT)",
 	Default = false,
@@ -252,92 +266,29 @@ localCheats:AddButton({
             end)
         end
      })
-     if getgenv().Stop == true then return end
-        local Outlines = true
-        local OutlineColoring = Color3.fromRGB(255, 255, 255)
-        local OutlineFill = false
-        local FillOpacity = 1
-        local FillColoring = Color3.fromRGB(255, 255, 255)
-        
-        local NameTags = true
-        local TextFont = Enum.Font.RobotoMono
-        local NameColor = Color3.fromRGB(255, 255, 255)
-        local NamePositioning = false
-        
-        
-        local Folder = Instance.new("Folder", game:GetService("CoreGui"))
-        Folder.Name = ""
-        
-        AddOutline = function(Character)
-            local Highlight = Instance.new("Highlight", Folder)
-            
-            Highlight.OutlineColor = OutlineColoring
-            Highlight.Adornee = Character
-            
-            if OutlineFill == true then
-                Highlight.FillColor = FillColoring
-                Highlight.FillTransparency = FillOpacity
-            else
-                Highlight.FillTransparency = 1
-            end
+        if getgenv().Esp == true then
+            print(Esp)
+            print(getgenv().Esp)
+        local Esp = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/x114/RobloxScripts/main/OpenSourceEsp"))()
+        -- Boxes --
+        Esp.Box = true
+        Esp.BoxColor = Color3.fromRGB(255,255,255)
+        Esp.BoxOutline = true
+        Esp.BoxOutlineColor = Color3.fromRGB(0,0,0)
+        -- HealthBars --
+        Esp.HealthBar = true
+        Esp.HealthBarSide = "Left" -- Left,Bottom,Right
+        -- Names --
+        Esp.Names = true
+        Esp.NamesColor = Color3.fromRGB(255,255,255)
+        Esp.NamesOutline = true
+        Esp.NamesFont = 2
+        Esp.NamesSize = 13
+        else
+            Esp.Box = false
+            Esp.HealthBar = false
+            Esp.Names = false
         end
-        
-        AddNameTag = function(Character)
-            local BGui = Instance.new("BillboardGui", Folder)
-            local Frame = Instance.new("Frame", BGui)
-            local TextLabel = Instance.new("TextLabel", Frame)
-            
-            BGui.Adornee = Character:WaitForChild("Head")
-            BGui.StudsOffset = Vector3.new(0, 3, 0)
-            BGui.AlwaysOnTop = true
-            
-            BGui.Size = UDim2.new(4, 0, 0.5, 0)
-            Frame.Size = UDim2.new(1, 0, 1, 0)
-            TextLabel.Size = UDim2.new(1, 0, 1, 0)
-            
-            Frame.BackgroundTransparency = 1
-            TextLabel.BackgroundTransparency = 1
-            
-            TextLabel.Text = Character.Name
-            TextLabel.Font = TextFont
-            TextLabel.TextColor3 = NameColor
-            TextLabel.TextScaled = NamePositioning
-        end
-        
-        for i, v in ipairs(game:GetService("Players"):GetPlayers()) do
-            if v ~= game:GetService("Players").LocalPlayer then
-                v.CharacterAdded:Connect(function(Character)
-                    if Outlines == true then
-                        AddOutline(Character)
-                    end
-                    if NameTags == true then
-                        AddNameTag(Character)
-                    end
-                end)
-                
-                if v.Character then
-                    if Outlines == true then
-                        AddOutline(v.Character)
-                    end
-                    if NameTags == true then
-                        AddNameTag(v.Character)
-                    end
-                end
-            end
-            getgenv().Stop = true
-        end
-        
-        game:GetService("Players").PlayerAdded:Connect(function(Player)
-            Player.CharacterAdded:Connect(function(Character)
-                if Outlines == true then
-                    AddOutline(Character)
-                end
-                if NameTags == true then
-                    AddNameTag(Character)
-                end
-            end)
-        end)
-
 
 
 -- UPDATING THE MOBS
@@ -350,7 +301,6 @@ game:GetService("Workspace").Living.ChildAdded:Connect(function() -- WHEN MOB SP
         for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
         if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
     end
-    autoFarm:Refresh(newList, true)
 end)
 
 game:GetService("Workspace").Living.ChildRemoved:Connect(function() -- WHEN MOB DIES / GETS REMOVED
@@ -361,6 +311,5 @@ game:GetService("Workspace").Living.ChildRemoved:Connect(function() -- WHEN MOB 
         for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
         if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
     end
-    autoFarm:Refresh(newList, true)
 end)
 OrionLib:Init()
