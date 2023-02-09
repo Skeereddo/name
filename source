@@ -91,7 +91,6 @@ autoFarm:AddToggle({
                             if mob.Humanoid.Health == 0 then wait(0.1) mob:Destroy() break; end -- IF THE MOB IS DEAD THEN JUST DESTROY IT FOR FASTER FARMING
                         end
                         if mob:FindFirstChild("HumanoidRootPart") then
-                            mouse1press()
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = mob.HumanoidRootPart.CFrame * CFrame.new(0,0,6) -- TELEPORT TO THE MOB
                             end
                         end
