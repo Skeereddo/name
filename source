@@ -220,10 +220,6 @@ ESP:AddToggle({
 	Default = false,
 	Callback = function(y)
         getgenv().esp = y
-            if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
-     -- LOOP WHICH REPEATS UNTIL THE UNTIL IS TRUE / DONE
-                    wait() -- WAIT SO WE DONT CRASH
-                    if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
                 local esp2 = esp
                     if esp ~= esp2 then end
                     if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
@@ -249,10 +245,11 @@ ESP:AddToggle({
                             Esp.Box = false
                             Esp.HealthBar = false
                             Esp.Names = false
-                                end
+                                end   
                             end
                         end
                     end})
+
 localCheats:AddButton({
 	Name = "WalkSpeed (LEFT SHIFT)",
 	Default = false,
@@ -267,14 +264,14 @@ localCheats:AddButton({
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
             end
         end
-end)
+    end)
 UIS.InputEnded:connect(function(UserInput)
         if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.LeftShift then
                 _G.Running = false
-        end
-end)
-	end    
-})
+                end
+            end)
+	    end    
+    })
 
 localCheats:AddButton({
 	Name = "Infinite jump!",
@@ -289,13 +286,13 @@ localCheats:AddButton({
             if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
                 Action(self.Parent.HumanoidRootPart, function(self)
                     self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
-                         end)
+                            end)
                         end
                     end)
                 end
             end)
         end
-     })
+        })
 
 
 
