@@ -218,10 +218,37 @@ teleport:AddToggle({
 ESP:AddToggle({
 	Name = "ESP",
 	Default = false,
-	Callback = function(Value)
-		getgenv().Esp = true
-	end    
-})
+	Callback = function(y)
+        getgenv().esp = y
+            if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
+     -- LOOP WHICH REPEATS UNTIL THE UNTIL IS TRUE / DONE
+                    wait() -- WAIT SO WE DONT CRASH
+                    if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
+                local esp2 = esp
+                    if esp ~= esp2 then end
+                    if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
+                    if esp ~= nil then
+                        local Esp = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/x114/RobloxScripts/main/OpenSourceEsp"))()
+                        -- Boxes --
+                        Esp.Box = true
+                        Esp.BoxColor = Color3.fromRGB(255,255,255)
+                        Esp.BoxOutline = true
+                        Esp.BoxOutlineColor = Color3.fromRGB(0,0,0)
+                        -- HealthBars --
+                        Esp.HealthBar = true
+                        Esp.HealthBarSide = "Left" -- Left,Bottom,Right
+                        -- Names --
+                        Esp.Names = true
+                        Esp.NamesColor = Color3.fromRGB(255,255,255)
+                        Esp.NamesOutline = true
+                        Esp.NamesFont = 2
+                        Esp.NamesSize = 13
+                        else
+                            Esp.Box = false
+                            Esp.HealthBar = false
+                            Esp.Names = false
+                        end
+                            end})
 
 localCheats:AddButton({
 	Name = "WalkSpeed (LEFT SHIFT)",
