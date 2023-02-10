@@ -253,10 +253,6 @@ ESP:AddToggle({
                             end
                         end
                     end})
-while true do
-    wait(1)
-    print(getgenv().esp)
-end
 localCheats:AddButton({
 	Name = "WalkSpeed (LEFT SHIFT)",
 	Default = false,
