@@ -1,121 +1,104 @@
---VARIABILI
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Player = game:GetService("Players").LocalPlayer;
 local UIS = game:GetService'UserInputService';
-local mobs = {""} -- MOBS TABLE
-local npcs = {""}
+
 local Players = game:FindService("Players")
 local camera = game:GetService("Workspace").CurrentCamera
 local CurrentCamera = Workspace.CurrentCamera
 local worldToViewportPoint = CurrentCamera.worldToViewportPoint
 local UserInputService = cloneref(game:GetService'UserInputService')
-local HttpService = cloneref(game:GetService'HttpService')
-local TweenService = cloneref(game:GetService'TweenService')
-local RunService = cloneref(game:GetService'RunService')
-local Players = game:GetService'Players'
-local LocalPlayer = Players.LocalPlayer
-local Camera = workspace.CurrentCamera
-local Mouse = LocalPlayer:GetMouse()
-local V2New = Vector2.new
-local V3New = Vector3.new
-local WTVP = Camera.WorldToViewportPoint
-local WorldToViewport = function(...) return WTVP(Camera, ...) end
-local Menu = {}
-local MouseHeld = false
-local LastRefresh = 0
-local OptionsFile = 'IC3_ESP_SETTINGS.dat'
-local Binding = false
-local BindedKey = nil
-local OIndex = 0
-local LineBox = {}
-local UIButtons = {}
-local Sliders = {}
-local ColorPicker = { Loading = false, LastGenerated = 0 }
-local Dragging = false
-local DraggingUI = false
-local Rainbow = false
-local DragOffset = V2New()
-local DraggingWhat = nil
-local OldData = {}
-local IgnoreList = {}
-local EnemyColor = Color3.new(1, 0, 0)
-local TeamColor = Color3.new(0, 1, 0)
-local MenuLoaded = false
-local ErrorLogging = false
-local TracerPosition = V2New(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y - 135)
-local DragTracerPosition = false
-local SubMenu = {}
-local IsSynapse = syn and not PROTOSMASHER_LOADED
-local Connections = { Active = {} }
-local Signal = {} Signal.__index = Signal
-local GetCharacter, CurrentColorPicker, Spectating
-
-local HeadOff = Vector3.new(0, 0.5, 0)
-local LegOff = Vector3.new(0,3,0)
+local mobs = {""} -- MOBS TABLE
+local npcs = {""}
 getgenv().mob = nil -- SELECTED MOB
 getgenv().npc = nil
 getgenv().Esp = false
+
 --MOBS
 for _,v in pairs(game:GetService("Workspace").Living:GetChildren()) do -- LOOPS THROUGH ALL MOBS
     insert = true -- VALUE TO CHECK THE MOB
     for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
     if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
 end
-for _,v in pairs(game:GetService("Workspace").DialogNPCs:GetChildren()) do -- LOOPS THROUGH ALL MOBS
+--NPCS
+for _,v in pairs(game:GetService("Workspace").DialogNPCs:GetChildren()) do -- LOOPS THROUGH ALL NPCS
     insert = true -- VALUE TO CHECK THE MOB
-    for _,v2 in pairs(npcs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
-    if insert then table.insert(npcs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
+    for _,v2 in pairs(npcs) do if v2 == v.Name then insert = false end end -- CHECKS IF NPCS IS ALREADY IN THE TABLE
+    if insert then table.insert(npcs, v.Name) end -- IF THE NPCS ISNT INSERTED THEN INSERT IT
 end
---UI
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Chainsaw Man", HidePremium = false, IntroEnabled = false, SaveConfig = true, ConfigFolder = "Chainsaw man"})
 
---Tab
-local autoFarm = Window:MakeTab({
-	Name = "AutoFarm",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local teleport = Window:MakeTab({
-	Name = "Teleport",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local localCheats = Window:MakeTab({
-	Name = "localCheats",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local ESP = Window:MakeTab({
-	Name = "ESP",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+local Window = Rayfield:CreateWindow({
+	Name = "Chainsaw Man: Devil's Heart",
+	LoadingTitle = "Skeered Hub",
+	LoadingSubtitle = "by Skeered",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = "Skeered Hub",
+		FileName = "Rayfield"
+	},
+	KeySystem = false, -- Set this to true to use their key system
+	KeySettings = {
+		Title = "Sirius Hub",
+		Subtitle = "Key System",
+		Note = "Join the discord (discord.gg/sirius)",
+		SaveKey = true,
+		Key = "ABCDEF"
+	}
 })
 
+Rayfield:Notify({
+    Title = "Welcome to Skeered Hub",
+    Content = "Chainsaw Man: Devil's Heart",
+    Duration = 2.5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+        Ignore = {
+            Name = "Okay!",
+            Callback = function()
+        end
+        },
+        },
+    })
 
---Toggles
-autoFarm:AddDropdown({
-	Name = "mobdropdown",
-	Default = "1",
+local Autofarm = Window:CreateTab("Autofarm", 4483345998) -- Title, Image
+local Teleport = Window:CreateTab("Teleport", 4370305588) -- Title, Image
+local localCheats = Window:CreateTab("LocalCheats", 6961018885) -- Title, Image
+local Esp = Window:CreateTab("ESP", 10802202912) -- Title, Image
+local Farm = Autofarm:CreateSection("Mob/Player farm")
+local NPC = Teleport:CreateSection("NPCs")
+local Movement = localCheats:CreateSection("Movements")
+local PlayerESP = Esp:CreateSection("Player ESP")
+
+local Mobchoose = Autofarm:CreateDropdown({
+	Name = "Mob/Player",
 	Options = mobs,
+	CurrentOption = "Skeered HUB",
+	Flag = "MobPlayer", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(v)
 		getgenv().mob = v
-	end    
+	end,
 })
-teleport:AddDropdown({
-	Name = "NPC",
-	Default = "1",
+local NpcChoose = Teleport:CreateDropdown({
+	Name = "NPCs",
 	Options = npcs,
+	CurrentOption = "1",
+	Flag = "Npc", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(t)
-        getgenv().npc = t
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = npc.HumanoidRootPart.CFrame * CFrame.new(0,0,6)
-	end    
-})
+		getgenv().npc = t
+		getgenv().teleport = t
+            local npc = game:GetService("Workspace").DialogNPCs:FindFirstChild(getgenv().npc)
+                    npc = game:GetService("Workspace").DialogNPCs:FindFirstChild(getgenv().npc)
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = npc.HumanoidRootPart.CFrame * CFrame.new(0,2,-5) -- TELEPORT TO THE MOB
+                            getgenv().teleport = false        
+                    wait() -- WAIT SO WE DONT CRASH
+				end})
+        
 
-autoFarm:AddToggle({
-	Name = "Autofarm",
-	Default = false,
+local Farmstart = Autofarm:CreateToggle({
+	Name = "Mob/Player farm",
+	CurrentValue = false,
+	Flag = "Farmstart", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
 	Callback = function(v)
-        getgenv().autofarmmobs = v
+		getgenv().autofarmmobs = v
         while wait() do -- INFINITE LOOP
             if getgenv().autofarmmobs == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
             if getgenv().mob == nil then -- IF THE MOB ISNT SELECTED
@@ -153,6 +136,9 @@ autoFarm:AddToggle({
                         end
                         if mob:FindFirstChild("HumanoidRootPart") then
                             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = mob.HumanoidRootPart.CFrame * CFrame.new(0,0,6) -- TELEPORT TO THE MOB
+                            local A_1 = "NormalAttack"
+                            local hit = game:GetService("ReplicatedStorage").events.remote
+                            hit:FireServer(A_1)
                             end
                         end
                     end
@@ -160,66 +146,72 @@ autoFarm:AddToggle({
                 end
             end
         end
+	})
+local Autoattack = Autofarm:CreateToggle({
+	Name = "Auto Attack",
+	CurrentValue = false,
+	Flag = "Attack", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(v)
+		getgenv().autoattack = v
+		while getgenv().autoattack == true do
+		wait(0.5)
+		local A_1 = "NormalAttack"
+		local hit = game:GetService("ReplicatedStorage").events.remote
+		hit:FireServer(A_1)
+		end
+	end,
+})
+local Update = Autofarm:CreateButton({
+	Name = "Update Dropdown",
+	Callback = function()
+		Mobchoose:Set("Skeered HUB")
+	end,
+})
+local walkKey = localCheats:CreateKeybind({
+	Name = "Walkspeed Keybind",
+	CurrentKeybind = "Y",
+	HoldToInteract = false,
+	Flag = "WalkKey", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Keybind)
+		_G.Running = true
+		while wait(0.005) and _G.Running == true do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 3
+		end
+	end
 })
 
-teleport:AddToggle({
-	Name = "Teleport",
-	Default = false,
-	Callback = function(t)
-        getgenv().teleport = t
-        while wait() do -- INFINITE LOOP
-            if getgenv().teleport == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
-            if getgenv().npc == nil then -- IF THE MOB ISNT SELECTED
-                game.StarterGui:SetCore("SendNotification", { -- SHOW NOTIFIACTION
-                    Title = "Error!", -- NOTIFICACTION LABEL
-                    Text = "You havent selected a mob with the dropdown above\nUntoggle this toggle!", -- NOTIFICATION DESCRIPTION / TEXT
-                    Icon = "", -- ICON (NO ICON)
-                    Duration = 2.5 -- DURATION OF THE NOTIFIACTIOn
-                })
-                getgenv().teleport = false -- TURN OFF THE AUTO FARM
-                return -- MAKE SURE IT DOESNT EXECUTE ANYTHING UNDER // FULLY TURN OFF THE LOOP
-            end
-            local npc = game:GetService("Workspace").DialogNPCs:FindFirstChild(getgenv().npc)
-            if npc == nil then
-                game.StarterGui:SetCore("SendNotification", { -- SHOW NOTIFIACTION
-                    Title = "Info!", -- NOTIFICACTION LABEL
-                    Text = "There is currently no spawned mobs of this type!\nJust wait until they spawn", -- NOTIFICATION DESCRIPTION / TEXT
-                    Icon = "", -- ICON (NO ICON)
-                    Duration = 2.5 -- DURATION OF THE NOTIFIACTIOn
-                })
-                while wait() do -- LOOP WHICH REPEATS UNTIL THE UNTIL IS TRUE / DONE
-                    wait() -- WAIT SO WE DONT CRASH
-                    if getgenv().teleport == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
-                    if game:GetService("Workspace").DialogNPCs:FindFirstChild(getgenv().npc) ~= nil then break; end
-                end -- IF THE MOB IS SPAWNED THEN GO ON WITH THE AUTOFARM
-            else
-                local npc2 = npc
-                while wait() do
-                    npc = game:GetService("Workspace").DialogNPCs:FindFirstChild(getgenv().npc)
-                    if npc ~= npc2 then break; end
-                    if getgenv().teleport == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
-                    if npc ~= nil then
-                        if npc:FindFirstChild("Humanoid") then
-                            if npc.Humanoid.Health == 0 then wait(0.1) npc:Destroy() break; end -- IF THE MOB IS DEAD THEN JUST DESTROY IT FOR FASTER FARMING
+UIS.InputEnded:connect(function(UserInput)
+	print("Fatto")
+	if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode[walkKey.CurrentKeybind] then
+		_G.Running = false
+	end
+end)
+local InfJump = localCheats:CreateButton({
+	Name = "Infinite Jump",
+	Callback = function()
+        _G.JumpHeight = 150;
+ 
+        function Action(Object, Function) if Object ~= nil then Function(Object); end end
+ 
+        UIS.InputBegan:connect(function(UserInput)
+        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+        Action(Player.Character.Humanoid, function(self)
+            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                Action(self.Parent.HumanoidRootPart, function(self)
+                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+                            end)
                         end
-                        if npc:FindFirstChild("HumanoidRootPart") then
-                                wait()
-                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = npc.HumanoidRootPart.CFrame * CFrame.new(0,2,0) -- TELEPORT TO THE MOB
-                            getgenv().teleport = false
-                            end
-                        end
-                    end
-                    wait() -- WAIT SO WE DONT CRASH
+                    end)
                 end
-            end
+            end)
         end
-})
-
-ESP:AddToggle({
-	Name = "ESP",
-	Default = false,
-	Callback = function(y)
-        getgenv().esp = y
+        })
+local PEsp = Esp:CreateToggle({
+			Name = "Player ESP",
+			CurrentValue = false,
+			Flag = "PEsp", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+			Callback = function(y)
+				getgenv().esp = y
                 local esp2 = esp
                     if esp ~= esp2 then end
                     if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
@@ -249,72 +241,3 @@ ESP:AddToggle({
                             end
                         end
                     end})
-
-localCheats:AddButton({
-	Name = "WalkSpeed (LEFT SHIFT)",
-	Default = false,
-	Callback = function(Value)
-		local Player = game:GetService'Players'.LocalPlayer;
-        UIS.InputBegan:connect(function(UserInput)
-        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.LeftShift then
-            _G.Running = true
-                while wait(0.005) and _G.Running == true do
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
-            end
-        end
-    end)
-UIS.InputEnded:connect(function(UserInput)
-        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.LeftShift then
-                _G.Running = false
-                end
-            end)
-	    end    
-    })
-
-localCheats:AddButton({
-	Name = "Infinite jump!",
-	Callback = function()
-        _G.JumpHeight = 150;
- 
-        function Action(Object, Function) if Object ~= nil then Function(Object); end end
- 
-        UIS.InputBegan:connect(function(UserInput)
-        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
-        Action(Player.Character.Humanoid, function(self)
-            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
-                Action(self.Parent.HumanoidRootPart, function(self)
-                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
-                            end)
-                        end
-                    end)
-                end
-            end)
-        end
-        })
-
-
-
--- UPDATING THE MOBS
- 
-game:GetService("Workspace").Living.ChildAdded:Connect(function() -- WHEN MOB SPAWNS
-    for _,v2 in pairs(mobs) do table.remove(mobs, _) end -- REMOVES ALL THE OLD MOBS
-    -- ADDS THE NEW MOBS
-    for _,v in pairs(game:GetService("Workspace").Living:GetChildren()) do -- LOOPS THROUGH ALL MOBS
-        insert = true -- VALUE TO CHECK THE MOB
-        for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
-        if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
-    end
-end)
-
-game:GetService("Workspace").Living.ChildRemoved:Connect(function() -- WHEN MOB DIES / GETS REMOVED
-    for _,v2 in pairs(mobs) do table.remove(mobs, _) end -- REMOVES ALL THE OLD MOBS
-    -- ADDS THE NEW MOBS
-    for _,v in pairs(game:GetService("Workspace").Living:GetChildren()) do -- LOOPS THROUGH ALL MOBS
-        insert = true -- VALUE TO CHECK THE MOB
-        for _,v2 in pairs(mobs) do if v2 == v.Name then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
-        if insert then table.insert(mobs, v.Name) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
-    end
-end)
-OrionLib:Init()
