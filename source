@@ -227,7 +227,7 @@ ESP:AddToggle({
                 local esp2 = esp
                     if esp ~= esp2 then end
                     if getgenv().esp == false then return end -- IF THE TOGGLE IS OFF THEN STOP THE LOOP
-                    if esp ~= nil then
+                    if esp == true then
                         local Esp = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/x114/RobloxScripts/main/OpenSourceEsp"))()
                         -- Boxes --
                         Esp.Box = true
@@ -243,13 +243,20 @@ ESP:AddToggle({
                         Esp.NamesOutline = true
                         Esp.NamesFont = 2
                         Esp.NamesSize = 13
-                        else
+                        while esp == true do
+                            wait()
+                        if esp == false then
                             Esp.Box = false
                             Esp.HealthBar = false
                             Esp.Names = false
+                                end
+                            end
                         end
-                            end})
-
+                    end})
+while true do
+    wait(1)
+    print(getgenv().esp)
+end
 localCheats:AddButton({
 	Name = "WalkSpeed (LEFT SHIFT)",
 	Default = false,
@@ -293,29 +300,7 @@ localCheats:AddButton({
             end)
         end
      })
-        if getgenv().Esp == true then
-            print(Esp)
-            print(getgenv().Esp)
-        local Esp = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/x114/RobloxScripts/main/OpenSourceEsp"))()
-        -- Boxes --
-        Esp.Box = true
-        Esp.BoxColor = Color3.fromRGB(255,255,255)
-        Esp.BoxOutline = true
-        Esp.BoxOutlineColor = Color3.fromRGB(0,0,0)
-        -- HealthBars --
-        Esp.HealthBar = true
-        Esp.HealthBarSide = "Left" -- Left,Bottom,Right
-        -- Names --
-        Esp.Names = true
-        Esp.NamesColor = Color3.fromRGB(255,255,255)
-        Esp.NamesOutline = true
-        Esp.NamesFont = 2
-        Esp.NamesSize = 13
-        else
-            Esp.Box = false
-            Esp.HealthBar = false
-            Esp.Names = false
-        end
+
 
 
 -- UPDATING THE MOBS
