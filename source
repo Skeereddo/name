@@ -241,7 +241,7 @@ local PEsp = Esp:CreateToggle({
                             end
                         end
                     end})
-local ServerHop = AutoFarm:CreateButton({
+local ServerHop = Autofarm:CreateButton({
 				Name = "ServerHop",
 				Callback = function()
 					Time = 1 -- seconds
