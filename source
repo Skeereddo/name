@@ -1,3 +1,4 @@
+wait(5)
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Player = game:GetService("Players").LocalPlayer;
 local UIS = game:GetService'UserInputService';
@@ -25,7 +26,7 @@ for _,v in pairs(game:GetService("Workspace").DialogNPCs:GetChildren()) do -- LO
     for _,v2 in pairs(npcs) do if v2 == v.Name then insert = false end end -- CHECKS IF NPCS IS ALREADY IN THE TABLE
     if insert then table.insert(npcs, v.Name) end -- IF THE NPCS ISNT INSERTED THEN INSERT IT
 end
-
+local invite = "https://discord.gg/gbHkVD5S2g"
 local Window = Rayfield:CreateWindow({
 	Name = "Chainsaw Man: Devil's Heart",
 	LoadingTitle = "Skeered Hub",
@@ -35,14 +36,15 @@ local Window = Rayfield:CreateWindow({
 		FolderName = "Skeered Hub",
 		FileName = "Rayfield"
 	},
-	KeySystem = false, -- Set this to true to use their key system
+	KeySystem = true, -- Set this to true to use their key system
 	KeySettings = {
-		Title = "Sirius Hub",
+		Title = "Skeered Hub",
 		Subtitle = "Key System",
-		Note = "Join the discord (discord.gg/sirius)",
+		Note = "Paste your clipboard for discord invite (key)",
 		SaveKey = true,
-		Key = "ABCDEF"
-	}
+		Key = "TyForTheChance"
+	},
+		setclipboard(invite)
 })
 
 Rayfield:Notify({
@@ -252,6 +254,8 @@ local ServerHop = Autofarm:CreateButton({
 					local actualHour = os.date("!*t").hour
 					local Deleted = false
 					function TPReturner()
+						wait(5)
+						syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/source'))()")
 					local Site;
 					if foundAnything == "" then
 						Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. 11345435986 .. '/servers/Public?sortOrder=Asc&limit=100'))
@@ -301,12 +305,13 @@ local ServerHop = Autofarm:CreateButton({
 						pcall(function()
 							TPReturner()
 							if foundAnything ~= "" then
+								
 								TPReturner()
 					end
 					end)
 					end
 					end
-					-- If you'd like to use a script before server hopping (Like a Automatic Chest collector you can put the Teleport() after it collected everything.
+
 					Teleport()
 				end,
 })
