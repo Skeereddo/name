@@ -181,7 +181,6 @@ local walkKey = localCheats:CreateKeybind({
 })
 
 UIS.InputEnded:connect(function(UserInput)
-	print("Fatto")
 	if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode[walkKey.CurrentKeybind] then
 		_G.Running = false
 	end
