@@ -2263,6 +2263,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				Error(text)
 			end
 			function DropdownSettings:Refresh(NewOptions,Selecteds)
+				print("Lol")
 				DropdownSettings.Items = {}
 				DropdownSettings.Items.Selected = {}
 				for _, option in ipairs(Dropdown.List:GetChildren()) do
