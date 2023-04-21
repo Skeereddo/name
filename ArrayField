@@ -2197,14 +2197,14 @@ function RayfieldLibrary:CreateWindow(Settings)
 					end
 				end
 			end
-			function DropdownSettings:Add(Items,Selected)
+			function Dropdown:Add(Items,Selected)
 				AddOptions(Items,Selected)
 			end
 			
 			AddOptions(DropdownSettings.Options,DropdownSettings.CurrentOption)
 			
             --fix
-			function DropdownSettings:Set(NewOption)
+			function Dropdown:Set(NewOption)
 			for _,Option in ipairs(DropdownSettings.Items) do
 			 local DropdownOption = Option.Option
 			 Option.Selected = false
@@ -2263,10 +2263,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 			function DropdownSettings:Error(text)
 				Error(text)
 			end
-			function DropdownSettings:Refresh(NewOptions,Selecteds)
+			function Dropdown:Refresh(NewOptions,Selecteds)
 				print("Lol")
-				DropdownSettings.Items = {}
-				DropdownSettings.Items.Selected = {}
+				Dropdown.Items = {}
+				Dropdown.Items.Selected = {}
 				for _, option in ipairs(Dropdown.List:GetChildren()) do
 					if option.ClassName == "Frame" and option ~= SearchBar and option ~= Dropdown.List.PlaceHolder then
 						option:Destroy()
