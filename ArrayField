@@ -10,7 +10,7 @@ Arrays  | Designing + Programming + New Features
 and Rafa =D
 
 ]]
-
+print("Refreshed")
 local Release = "Rafa Edition"
 local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
@@ -2549,7 +2549,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 			Dropdown.Toggle.Rotation = 180
 
-			local function RefreshSelected()
+			function RefreshSelected()
 				if #DropdownSettings.Items.Selected > 1 then
 					local NT = {}
 					for _,kj in ipairs(DropdownSettings.Items.Selected) do
