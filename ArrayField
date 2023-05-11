@@ -2102,7 +2102,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 							DropdownSettings.Items.Selected[table.find(DropdownSettings.Items.Selected,OptionInTable)].Selected = true
 						end
 					end
-					RefreshSelected()
+					
 				end
 
 				if IsSelected then
@@ -2125,7 +2125,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 					if OptionInTable.Selected then
 						OptionInTable.Selected = false
 						table.remove(DropdownSettings.Items.Selected,table.find(DropdownSettings.Items.Selected,OptionInTable))
-						RefreshSelected()
 						TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}):Play()
 						SaveConfiguration()
 						return
@@ -2139,7 +2138,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 						Dropdown.Selected.Text = Option.Name or Option
 					else
 						table.insert(DropdownSettings.Items.Selected,OptionInTable)
-						RefreshSelected()
 					end
 					
 					local Success, Response = pcall(function()
@@ -2256,7 +2254,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 					end
 				end
 				DropdownSettings.Items.Selected = Confirmed
-				RefreshSelected()
 				--Dropdown.Selected.Text = NewText
 			end
 			function DropdownSettings:Error(text)
@@ -2616,7 +2613,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 							DropdownSettings.Items.Selected[table.find(DropdownSettings.Items.Selected,OptionInTable)].Selected = true
 						end
 					end
-					RefreshSelected()
 				end
 
 				if IsSelected then
@@ -2639,7 +2635,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 					if OptionInTable.Selected then
 						OptionInTable.Selected = false
 						table.remove(DropdownSettings.Items.Selected,table.find(DropdownSettings.Items.Selected,OptionInTable))
-						RefreshSelected()
 						TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}):Play()
 						SaveConfiguration()
 						return
@@ -2653,7 +2648,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 						Dropdown.Selected.Text = Option.Name or Option
 					else
 						table.insert(DropdownSettings.Items.Selected,OptionInTable)
-						RefreshSelected()
 					end
 					
 					local Success, Response = pcall(function()
