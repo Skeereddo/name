@@ -256,6 +256,19 @@
         end
         })
 
+        local InfStam = Misc:CreateToggle({
+            Name = "Inf Stamina",
+            CurrentValue = false,
+            Flag = "Stam",
+            SectionParent = Miscs,
+            Callback = function(v)
+                getgenv().Stam = v
+                while getgenv().Stam and task.wait(0.3) do
+                    getrenv()._G:Stamina(-9e9)
+                end
+            end,
+        })
+
         local Walk = Misc:CreateToggle({
             Name = "Walkspeed",
             CurrentValue = false,
