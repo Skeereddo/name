@@ -1,4 +1,5 @@
-       repeat wait() until game:IsLoaded()
+        repeat wait() until game:IsLoaded()
+
 
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
@@ -73,6 +74,102 @@
 
             return Instance
         end
+
+        local enabled = true
+        local walkSpeed = 100
+        
+        function Walkspeed()
+            local UIS = game:GetService("UserInputService")
+            local RS = game:GetService("RunService")
+            local W, A, S, D
+            local xVelo, yVelo
+        
+            RS.RenderStepped:Connect(function()
+                if not enabled then return end
+                task.wait(0.1)
+                local HRP = game.Players.LocalPlayer.Character.HumanoidRootPart
+                local C = game.Workspace.CurrentCamera
+                local LV = C.CFrame.LookVector
+        
+                for i,v in pairs(UIS:GetKeysPressed()) do
+                    if v.KeyCode == Enum.KeyCode.W then
+                        W = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.A then
+                        A = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.S then
+                        S = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.D then
+                        D = true
+                    end
+                end
+        
+                if W == true and S == true then
+                    yVelo = false
+                    W,S = nil
+                end
+        
+                if A == true and D == true then
+                    xVelo = false
+                    A,D = nil
+                end
+        
+                if yVelo ~= false then
+                    if W == true then
+                        if xVelo ~= false then
+                            if A == true then
+                                local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(45), 0)).LookVector
+                                HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+                                W,A = nil
+                            else
+                                if D == true then
+                                    local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-45), 0)).LookVector
+                                    HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+                                    W,D = nil
+                                end
+                            end
+                        end
+                    else
+                        if S == true then
+                            if xVelo ~= false then
+                                if A == true then
+                                    local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(135), 0)).LookVector
+                                    HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+                                    S,A = nil
+                                else
+                                    if D == true then
+                                        local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-135), 0)).LookVector
+                                        HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+                                        S,D = nil
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+        
+        if W == true then
+           HRP.Velocity = Vector3.new((LV.X * walkSpeed), HRP.Velocity.Y, (LV.Z * walkSpeed))
+        end
+        if S == true then
+           HRP.Velocity = Vector3.new(-(LV.X * walkSpeed), HRP.Velocity.Y, -(LV.Z * walkSpeed))
+        end
+        if A == true then
+           local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(90), 0)).LookVector
+           HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+        end
+        if D == true then
+           local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-90), 0)).LookVector
+           HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+        end
+        
+        xVelo, yVelo, W, A, S, D = nil
+        end)
+        
+        end
+
         --#endregion
 
         --Main
@@ -141,6 +238,50 @@
             end
         })
         
+        local Godmode = Main:CreateToggle({
+            Name = "Godmode (ONLY IF YOU HAVE KAMADO)",
+            CurrentValue = false,
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().god = v
+                if getgenv().god then
+                    local ohBoolean1 = true
+        
+                    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
+                elseif not getgenv().god then
+                    local ohBoolean1 = false
+        
+                    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
+                end
+        end
+        })
+
+        local Walk = Misc:CreateToggle({
+            Name = "Walkspeed",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "MobEsp",
+            Callback = function(Value)
+                Walkspeed()
+                enabled = Value
+            end
+        })
+        
+        local speedSlider = Misc:CreateSlider({
+            Name = "WSpeed",
+            Info = "Select how fast you go lol", -- Speaks for itself, Remove if none.
+            Range = {0, 300},
+            Increment = 1,
+            Suffix = "Speed",
+            CurrentValue = 100,
+            SectionParent = Miscs,
+            Flag = "Walkspeed2",
+        
+            Callback = function(Value)
+                walkSpeed = Value
+            end,
+        })
+
         function Teleport(Position, Offset, Speed)
             local Distance = Client:DistanceFromCharacter(Position + (Offset or Vector3.zero))
 
