@@ -1,6 +1,5 @@
         repeat wait() until game:IsLoaded()
 
-
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
         local TweenService = game:GetService("TweenService")
@@ -34,6 +33,9 @@
         }
 
         function Attack()
+            if Method == nil then 
+                Method = "Fist"
+            end
             local Method = AttackMethods[Method]
 
             for Cycle=1, 5 do
@@ -74,102 +76,6 @@
 
             return Instance
         end
-
-        local enabled = true
-        local walkSpeed = 100
-        
-        function Walkspeed()
-            local UIS = game:GetService("UserInputService")
-            local RS = game:GetService("RunService")
-            local W, A, S, D
-            local xVelo, yVelo
-        
-            RS.RenderStepped:Connect(function()
-                if not enabled then return end
-                task.wait(0.1)
-                local HRP = game.Players.LocalPlayer.Character.HumanoidRootPart
-                local C = game.Workspace.CurrentCamera
-                local LV = C.CFrame.LookVector
-        
-                for i,v in pairs(UIS:GetKeysPressed()) do
-                    if v.KeyCode == Enum.KeyCode.W then
-                        W = true
-                    end
-                    if v.KeyCode == Enum.KeyCode.A then
-                        A = true
-                    end
-                    if v.KeyCode == Enum.KeyCode.S then
-                        S = true
-                    end
-                    if v.KeyCode == Enum.KeyCode.D then
-                        D = true
-                    end
-                end
-        
-                if W == true and S == true then
-                    yVelo = false
-                    W,S = nil
-                end
-        
-                if A == true and D == true then
-                    xVelo = false
-                    A,D = nil
-                end
-        
-                if yVelo ~= false then
-                    if W == true then
-                        if xVelo ~= false then
-                            if A == true then
-                                local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(45), 0)).LookVector
-                                HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
-                                W,A = nil
-                            else
-                                if D == true then
-                                    local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-45), 0)).LookVector
-                                    HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
-                                    W,D = nil
-                                end
-                            end
-                        end
-                    else
-                        if S == true then
-                            if xVelo ~= false then
-                                if A == true then
-                                    local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(135), 0)).LookVector
-                                    HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
-                                    S,A = nil
-                                else
-                                    if D == true then
-                                        local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-135), 0)).LookVector
-                                        HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
-                                        S,D = nil
-                                    end
-                                end
-                            end
-                        end
-                    end
-                end
-        
-        if W == true then
-           HRP.Velocity = Vector3.new((LV.X * walkSpeed), HRP.Velocity.Y, (LV.Z * walkSpeed))
-        end
-        if S == true then
-           HRP.Velocity = Vector3.new(-(LV.X * walkSpeed), HRP.Velocity.Y, -(LV.Z * walkSpeed))
-        end
-        if A == true then
-           local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(90), 0)).LookVector
-           HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
-        end
-        if D == true then
-           local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-90), 0)).LookVector
-           HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
-        end
-        
-        xVelo, yVelo, W, A, S, D = nil
-        end)
-        
-        end
-
         --#endregion
 
         --Main
@@ -215,29 +121,55 @@
         local Teleport = Teleports:CreateSection("Teleport")
         local Miscs = Misc:CreateSection("Others")
 
+        local Tutorial = Main:CreateParagraph({Title = "Auto Dungeon Tutorial", Content = "New ServerHop Dungeon:\nPut the script in Auto Execute\nYou must activate Auto Buy EXP or WEN on Dead\nFor now it will farm with fist when you server hop"})
+
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
             Options = {"Fist", "Claws", "Sword"},
             CurrentOption = "Select something here",
             MultiSelection = false,
-            Flag = "Npcs",
+            Flag = "Method",
             SectionParent = Settings,
             Callback = function(v)
                 Method = v
             end,
         })
 
-        local AutoDungeon = Main:CreateToggle({
-            Name = "Auto Dungeon",
+        local AutoBuyExp = Main:CreateToggle({
+            Name = "Auto Buy EXP on dead",
             CurrentValue = false,
-            Flag = "AutoFarm",
+            Flag = "BuyExp",
             SectionParent = Farm,
             Callback = function(v)
-                _G.Enabled = v
+                _G.EXP = v
 
             end
         })
-        
+
+        local AutoBuyWen = Main:CreateToggle({
+            Name = "Auto Buy WEN on dead",
+            CurrentValue = false,
+            Flag = "BuyWen",
+            SectionParent = Farm,
+            Callback = function(v)
+                _G.WEN = v
+
+            end
+        })
+
+        local AutoDungeon = Main:CreateToggle({
+            Name = "Auto Dungeon",
+            CurrentValue = false,
+            Flag = "AutoDungeon",
+            SectionParent = Farm,
+            Callback = function(v)
+                _G.Enabled = v
+                local ohString1 = "Normal"
+
+                game:GetService("ReplicatedStorage").TeleportCirclesEvent:FireServer(ohString1)
+            end
+        })
+
         local Godmode = Main:CreateToggle({
             Name = "Godmode (ONLY IF YOU HAVE KAMADO)",
             CurrentValue = false,
@@ -294,7 +226,7 @@
                 walkSpeed = Value
             end,
         })
-
+        
         function Teleport(Position, Offset, Speed)
             local Distance = Client:DistanceFromCharacter(Position + (Offset or Vector3.zero))
 
@@ -320,12 +252,13 @@
             while _G.Enabled do
                 task.wait()
                 for i, v in next, Mobs:GetChildren() do
-                    Mob = v:FindFirstChildOfClass("Model")
+                    if v:FindFirstChildOfClass("Model") and v:FindFirstChildOfClass("Model"):FindFirstChild("Humanoid") and v:FindFirstChildOfClass("Model"):FindFirstChild("Humanoid").Health > 0 then
+                        Mob = v:FindFirstChildOfClass("Model")
                     pcall(function()
                         BodyVelocity:Clone().Parent = Client.Character.LowerTorso
                         BodyAngularVelocity:Clone().Parent = Client.Character.LowerTorso
         
-                        Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 128)
+                        Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 200)
                     end)        
                     
                     repeat
@@ -335,21 +268,23 @@
                             end
         
                             Client.Character.HumanoidRootPart.CFrame = Mob.HumanoidRootPart.CFrame
-                            wait(0.25)
+                            wait(0.30)
                             Attack()
-                            Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 256)
+                            task.wait(0.1)
+                            Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 250)
                             repeat wait() until Client:WaitForChild("combotangasd123", 9e9).Value == 0 and wait(0.25)
                         end)
                         if not Status or not _G.Enabled then
                             break
                         end
         
-                    until wait() and not _G.Enabled
+                    until wait() and not _G.Enabled or Mob:FindFirstChild("Humanoid") and Mob:FindFirstChild("Humanoid").Health <= 0
         
                     pcall(function()
                         Client.Character.LowerTorso:FindFirstChildOfClass("BodyVelocity"):Destroy()
                         Client.Character.LowerTorso:FindFirstChildOfClass("BodyAngularVelocity"):Destroy()    
                     end)
+                end
                 end
                 wait()
             end
@@ -372,3 +307,32 @@ end)
             end
             end
         end)
+
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+            if _G.EXP then
+                _G.Enabled = false
+                task.wait(15)
+                game:GetService("ReplicatedStorage").TeleportToShop:FireServer()
+                task.wait(1)
+                Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Shop Items"]["EXP Elixir"].Handle.CFrame
+                task.wait(0.3)
+                repeat
+                    fireproximityprompt(game:GetService("Workspace")["Shop Items"]["EXP Elixir"].Handle.Buy)
+                until task.wait() and Client.leaderstats.Points.Value < 25
+                task.wait(0.1)
+                game:GetService("TeleportService"):Teleport(9321822839, Client)  -- replace the numbers with the id of the game you want to teleport to
+            elseif _G.WEN then
+                _G.Enabled = false
+                task.wait(15)
+                game:GetService("ReplicatedStorage").TeleportToShop:FireServer()
+                task.wait(1)
+                Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Shop Items"]["Wen Bag"]["Cylinder.001"].CFrame
+                task.wait(0.3)
+                repeat
+                    fireproximityprompt(game:GetService("Workspace")["Shop Items"]["Wen Bag"].Buy)
+                until task.wait() and Client.leaderstats.Points.Value < 25
+                task.wait(0.1)
+                game:GetService("TeleportService"):Teleport(9321822839, Client)  -- replace the numbers with the id of the game you want to teleport to
+            end
+            
+            end)
