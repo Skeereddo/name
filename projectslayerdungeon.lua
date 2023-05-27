@@ -1,4 +1,4 @@
-        repeat wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
@@ -30,6 +30,8 @@
             Fist = "fist_combat",
             Sword = "Sword_Combat_Slash",
             Claws = "claw_Combat_Slash",
+            Fans = "fans_combat_slash",
+            Scythe = "Scythe_Combat_Slash",
         }
 
         function Attack()
@@ -125,7 +127,7 @@
 
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
-            Options = {"Fist", "Claws", "Sword"},
+            Options = {"Fist", "Claws", "Sword", "Fans", "Scythe"},
             CurrentOption = "Select something here",
             MultiSelection = false,
             Flag = "Method",
