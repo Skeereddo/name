@@ -1,1 +1,2665 @@
-([[This file was protected with MoonSec V3 by Federal#9999]]):gsub('.+', (function(a) _EGpddCxqFsBE = a; end)); return(function(t,...)local s;local g;local d;local o;local e;local n;local f=24915;local u=0;local p={};while u<330 do u=u+1;while u<0x35e and f%0x4b9e<0x25cf do u=u+1 f=(f+42)%20790 local l=u+f if(f%0x182a)<=0xc15 then f=(f-0x18a)%0x308c while u<0x334 and f%0x40d6<0x206b do u=u+1 f=(f-191)%38122 local e=u+f if(f%0x4c3a)<=0x261d then f=(f+0x192)%0x14e4 local f=99954 if not p[f]then p[f]=0x1 g=(not g)and _ENV or g;end elseif f%2~=0 then f=(f+0x26c)%0x6633 local f=16344 if not p[f]then p[f]=0x1 o=tonumber;end else f=(f-0x337)%0x6cbd u=u+1 local f=39836 if not p[f]then p[f]=0x1 d="\4\8\116\111\110\117\109\98\101\114\77\113\110\79\102\73\103\120\0\6\115\116\114\105\110\103\4\99\104\97\114\77\114\67\71\76\107\117\106\0\6\115\116\114\105\110\103\3\115\117\98\74\121\99\122\122\77\115\76\0\6\115\116\114\105\110\103\4\98\121\116\101\111\79\114\76\100\76\102\117\0\5\116\97\98\108\101\6\99\111\110\99\97\116\121\108\77\105\72\90\109\112\0\5\116\97\98\108\101\6\105\110\115\101\114\116\74\114\75\65\76\76\120\112\5";end end end elseif f%2~=0 then f=(f+0xae)%0xa3ed while u<0x21d and f%0x3b7a<0x1dbd do u=u+1 f=(f+112)%743 local g=u+f if(f%0x2474)<=0x123a then f=(f*0x24b)%0x732b local f=65905 if not p[f]then p[f]=0x1 s={};end elseif f%2~=0 then f=(f+0x207)%0x952b local f=22831 if not p[f]then p[f]=0x1 end else f=(f+0x1a1)%0x8baa u=u+1 local f=21535 if not p[f]then p[f]=0x1 end end end else f=(f+0x21d)%0x5366 u=u+1 while u<0xa5 and f%0x10a0<0x850 do u=u+1 f=(f-387)%25260 local d=u+f if(f%0x4560)>=0x22b0 then f=(f+0x2da)%0x992a local f=52463 if not p[f]then p[f]=0x1 e=function(e)local f=0x01 local function p(u)f=f+u return e:sub(f-u,f-0x01)end while true do local u=p(0x01)if(u=="\5")then break end local f=n.byte(p(0x01))local f=p(f)if u=="\2"then f=s.MqnOfIgx(f)elseif u=="\3"then f=f~="\0"elseif u=="\6"then g[f]=function(u,f)return t(8,nil,t,f,u)end elseif u=="\4"then f=g[f]elseif u=="\0"then f=g[f][p(n.byte(p(0x01)))];end local u=p(0x08)s[u]=f end end end elseif f%2~=0 then f=(f+0x1ed)%0xa4a3 local f=479 if not p[f]then p[f]=0x1 g=getfenv and getfenv();end else f=(f+0x1aa)%0x7dea u=u+1 local f=24058 if not p[f]then p[f]=0x1 n=string;end end end end end f=(f*334)%28516 end e(d);local f={};for u=0x0,0xff do local p=s.MrCGLkuj(u);f[u]=p;f[p]=u;end local function l(u)return f[u];end local n=(function(d,e)local t,p=0x01,0x10 local u={{},{},{}}local g=-0x01 local f=0x01 local n=d while true do u[0x03][s.JyczzMsL(e,f,(function()f=t+f return f-0x01 end)())]=(function()g=g+0x01 return g end)()if g==(0x0f)then g=""p=0x000 break end end local g=#e while f<g+0x01 do u[0x02][p]=s.JyczzMsL(e,f,(function()f=t+f return f-0x01 end)())p=p+0x01 if p%0x02==0x00 then p=0x00 s.JrKALLxp(u[0x01],(l((((u[0x03][u[0x02][0x00]]or 0x00)*0x10)+(u[0x03][u[0x02][0x01]]or 0x00)+n)%0x100)));n=d+n;end end return s.ylMiHZmp(u[0x01])end);e(n(85,"J^4.w,VE?6rLTyU(L2"));e(n(18,"HdFh1k6;zm(,A.8O888Fh.FAdzO.O&.;6F,<(Omkz6k;16kmd(FTFF.8.z;z6;Ax(dz.z6;11zkkd.hPOY5.OkAF6;km,F(Fz;;(68k.1kh.F,:..h8m.6kz1A(;m6zF6;k(1dA.FhckD68h.6(,AFz,m6zm1.1hF,AA,8dkO;Oz.(6k,((pzOm?;6hmk61z/(F6EAAm,86zk8,hmhm0;;k.k(hkh6ddPpOz.O.),8,1mdmz;;kkhh.AA.2(_;OhOF.,AA;,(868kz6F1.d.dkl;((mzOm.dA;A4z.;Oz(;F1FFAd.h1(Amm,O,m(,,m(hzD66kO6A8z.(h1d.lOO88(AOAF(m;mz(6868F8FdIkdm(YmhOBA,,(,FmmFzzk6AkAh,F,Fdd;.m8.81A6(8(,mAdzUz6k1AhAd,Q,&d...(.dmk,1;;6z;zOz8;1_hQdkpzOA.A,mm;(m;m6A6F1.8(.(hkdk4(Od...A(F,z;kzzzdk.6F16A6,zqOOdOF.1kO(8(Fmhzd;Fk6FdF.RO8(&FA18;6h"));local f=(-6781+(function()local e,g=0,1;(function(p,f,u)u(f(u and p,u,p),f(u and p,f,f)and f(f,f,f),u(f,u and u,u))end)(function(u,f,p)if e>341 then return u end e=e+1 g=(g-132)%17519 if(g%1830)>915 then return p else return u(f(u,p,f),u(f,f,f),f(f,u,f))end return u(f(f,p,f)and p(f,p,u),f(u,f,u),u(f,f,u))end,function(u,f,p)if e>384 then return u end e=e+1 g=(g*56)%9697 if(g%1894)<947 then return f else return p(u(u,f,p),u(p,f,u and p),f(f and u,u,f and f))end return p(f(p,f,f and u)and u(u,p,f),f(p,u,u),f(f,f,f))end,function(p,f,u)if e>138 then return f end e=e+1 g=(g-345)%16975 if(g%992)<496 then return u else return f(u(p,p,u),p(u and p,u,u)and f(u and f,p and f,u),u(p,f and f,p)and f(u,p and u,f))end return f(f(p,u,p),f(f,f,p),f(p,u,p)and f(u and p,f,u))end)return g;end)())local h=s.YhqGxMPr or s.sGmvjdsv;local gf=(getfenv)or(function()return _ENV end);local e=3;local j=1;local g=2;local d=4;local function pf(a,...)local l=n(f,"_w+BuVpgJWfG.,KYJFugpWJ.GZKuYVwJBGGwYJwBBWuKp.gB.+KBYGw,VBpwgJGu..NwwW,VHuwfB,pUYTwVBKVYgupu.g,,Rg+Bu+ggJ.uGgVWaGB,pukJwGBfJ.Gwu+.VVw+BJVggfW,)puYpgWIu,gJW+GV,JpYWkf+.gK.3.+KVBgKBgp^g.WY.+u,g.WYGK,JYW+G,Gw(+ uBpp,.}YuJppg,W,Gf.wwLBwuWpGfwfY.pR+wfuYpg+BVVpJJGfKwJVWJGJg..YVwp+GBVgGW+GBKWQw+fu.;+BwugpfJ,wBBYpVJgfw.VYgwB+GVYggf{.+gJG+G,K-:BgJfK,WYK+JBfu.JXGp,V.Vi,BKV+J+gW.V,.wwB++KguWGGYpYf+Gu,gYfVKGV,gYVlY+,pwgYVVW.KuwwBVuVgVJ,G+gwWWGp,WY.p4GQ..YuwFuwY++wBgVfg,YB+JuWg,WVGKK=KVwWu,pBJYGJpJWVf,,ZYBpfWK.YYBYV+fVfJwWgGu,WWJ.p,,Mt+BJ..fYKw.Y+uJg,WK,+KfwBBVKGwBB8VBgp ++.u&pGWgGGp.WuGw,uYgW+f,.BKuw+BVK,wJB+VVgJ9++BVVguWWGWKwYY+p,gR+w.BYp+,WX,BgVBJwfB.WKKwZ.wKf/p+Wu..+YgwJugpWJ+GupVWbff.,YaVufG.,KGGYwgVJp,uGuYJvWuGg,fu,J.fu.WKKwuBKVKgWW,.,,+ipB.VG9GBwVEgBWp/uuVp+J,uppYJGfK,wBgJpfJ.GKVApBfKfw++YV+gVKGwKVggVJ.f.pGf1GF,BYppYfV,wYpwf+WVgVgWY.uK.rK-fuwgwJgG},wCwGB,,YJwGBK.YKWwKBfVYgYfG.YgffJGYK+/VgYf.K+Yp+p+Gp.gKfW,wKGwG.,Yfw+BVVJK+!BBVVWggf#fK,.hJwGu.Y,+fu+pVJJw+BBpVJpW..wKpwBBgVJJ++,Vug+WVGJwKpfJ+GG,fJG,+,oYBwpgfGYYBnGBGuWgYWBgw.GYY+BVwpVuBWW..YKwuBgpBBJpBff,}YGKgBwV,JVgB.GK.Y,+puguKuWgJJKGw,uuGgGGX.G,p WBwVwgBfg.w,,-,GYKYOu+gufGWYYwuBfuVJGf+.BYwKWBKpwgpfJVJg,W,.-KBpgJGGYgAWKGV,JYGpwGB.WKJwKB+uBgYWYG,Kwww.BYw)J+GuKGuypw.BGgwJVWg,VY!wBBGVgwpBKVGgKfw+,Vfgpf+GwKJWg.B,.YY++W6.,/u.K+up,JffK.+K,fu.fKW/.+Y.W,pew+Y,YTp+uugpfYfwwugVWJwB,pBJ+fV.JVug.Wg.BgJf,G,KIPBJ,fKKmYu+fBfVGW6G+.fYBwV+,V.gKfgGGYww&.kYB(V+JuG,wY,wVuKVWpHfY,oKJRfu=uKpVfwGWKKhp.+KGng+fu,GYrB+fu+pGJ,GVppWVfG.KYwgBg.fwK,2u+g+WJwW,WVKV,gY,,.yV+wuupg.YwGBwVVJ+WK.tJnG+.VKJiGWVGpKJ#uwYufpYWVGY.fY!wBuuVfJGfKVYJGfu.gKfgpfBGp,WaV+GV+ggWgf,p.WVGw,uYgJwf+,uKWOGBgp+wXu,VVgJWGw+upgkJ.Gf,.(++gYpp,JGVYGpK,w,BWV+gpfpgg.K:Y+wu.guJKGKgmW,GV,JYGJ.fp,GYBk,BWVYJpfG.GKwfU,GKVxJ+GWGK4MB+V+,p+JBf+GWY,wKBJptg.fGfBKgjV+Ju.gJpK.uKgrJGfKpYY++uVGfEyw.+uVWJWGQ.pKBeJ.gYw4.+YV+GW6w+KV+p+W+ff.YJKKg,BYpwWW^.gKGwJKJVwggW,GWWgwwwKVB+BWpGG,GxBwgBJp.JCf+JwYGwPBKVVByJZ.VKJefw+ugpJuJfwfwGwwpVOwfpBfV.gKGwG+,VGBVpKWwGu,g.+Y,{g+fu,.uYJ++BKp.JKGu,WfJwYB,wwpGWJ.KK+w+KBBfgGJ,GJKcYf+f,GYY+JuupgJfYfBVppJWWf.BKufB.GKJLG+KGYKBYf+pupgl+uu.pWJ.fY+wpWJ!fr,1YufV,VKf^,B(G.KW:g+wVBgWWuGf,pY,+Ju+V.J.BKpVJBfp.WVYgYWKGKK.W..JKwhu+gWB,GYp,BwJpGJwfc,pK,fW..KKwwBuWWgGfB.sKBMpW,.V,YYg+uBKY.+GuwpuJgYfBWVwJ.WG.G.Y8+BuuKgJWY.wguWuGg,fY,+&uBpp.Wf,,gY+wVBJ.fKfHV+,VVpKW+.JgufuGW,.YYpWff,..YwBuuVgg.fJ.wKwwwBfV.o,BBV+gVWJ}WuKpuWguJgBJ,G-,BBWJwW,,wKB!JB.V J;B+VWggWfG,uppYWVGJ,KW4Gp,VYJwGJ..+Yw=..GYwwABBVpK,wV+YugHpBeuGpKWwwfu pJJwJ+,+YWw..,N+w+BVVJ,+Dg+YuJgpfwWB,YYp+Gu.uKJufK.fKWwKBBVVwVBGVfg,fdwpVfpfWWVkguWVGJ,GV?pYuVgwJff,,DVVJYVWfYKf g+fVfgRW+V+JEWgGf,,pgJJGf,WYKwKu+pGgWfg,BKpfV.YKfm,B7.gKVegBwu.puJfGfp.WWGw,uYgpffW.wY.NGBGuGVBWB.W,WW..GKwcu+gW.,+YKwgBGpGpYGB.gYVwJBTV+w+u-VggfW,CpuugJWpp.,%YK+wYJuWpKJupVW+ff.,Y2ppWG.VKwl+Bp}VVpgGWwKuWVGY,fY,+;fG,fY,w.BYpwJJf.V.Wgfw.uKgVKW+G.,J;p+JuKgBu+GW,gfG^wuhpWJVWKg,,uwV+gV+gfWu.ugpfVGG,K&wggGu.GYWw.B+uWg.fK.JY+wWBGK.wfBwVugg#w++VuppWVGg,YvBwBuBp.JKBYgUJufg.fVugVfg.uK+vJ+JV6gJW.f.,.YuwWufYGBBuHpBJpY.BgVJgKfw.G,fKGB=uJg.WpG+KBY+YKBfpfJBfK.fYff.,+YwwuBgf%,KwBBgKg7K+.uYg+,f+fu,p,WBuVp,Jff,,au gGf,.uKK7p.pYH7G+KVwGJ8d+,BKp+JYfG.,J,GB,+YVwJJJGYKfw+.J8u&,B&VB.WYK+JuupVWWpJ,BY,+JYuV,gGGC,ufBwYBJpw+YWW.uWJ2g+,u,FVu+ufp,WEwpu+p+Jwf,,pKuyYBgV,gBWV.B,Wew+VuYpGW,Gw.K*VwJufpuJKGVpVJfff.,YPJpfGGGg,f+.+KV{Jgu.wG+WV.w,fY,+6Wf.gYVwgu+p+gfW,GYG?f+.YKgAf+,Gp,.OW+,BGp+WwG+.fK.++,+YGwgBfV,.Yww:GVgJ>Wu.ugJWJGG,KNw+uuggK.,Gw,pYpwWB..,Kgw..WYgHKBwVu.fYY+GuuuKJG.+Gw;VwguBp.w.uppwJufgwBp5pBWJ.JKYawBwKBwf+JuGpK,u+UudVYJGGu.+.,wVBGVwgBfwGgY>w++fVjgqWK.pgwf+Gp,WY.pBfg,JKGw-B.VVgVfV.KGKHu+guGp,+KuYgBfJGJ,GYKWufW,GY,wpB,pJJ+Wf,rKJwwBBVfp.W+GfKW#fGGKp8H+Bup,=Yw+BupV,JffrGYKVfV.GKf:,BDW.KuYY+GK^df+VuJpG,g+uwgpBJBf+.KYgfg.,K.#YB+..KfY.+KK+dG+gufp,,B++uJVKpBGu.GJpfY.GKKwwfp..KJiG+WVwp,+fV.pYW+GVu.g+JBfp,+.fw++Kp+guWW.,KwwwwpVuiWB.uKgwWu+fBYgwW2GV,VYWwwuwppJKfu.fKw>.+WuGCGBBVxgBWp+NuwgBWuff.YJ.GK,wYuwgf+GKKKQgB+uKpGWJ.uKgY,++VBp,JVGWpGWgG9,BYpJVfG.ZKpwJB.V,ggWYGGgJfpG,KbOBWWfKKaYY+uuupJWwWY.,YW2..GYuwmBBVp.wwkBBV+u.J,GYpYWKGu,gYfVYfW,wKfcf+KVGgggf.KK6s.BVKVwu+fu,gs,.+uu.pwWwGpGJK,w,uuVfggW.VGJGfa.BKpVuWVGG,KYp+,u,VYuwJJ..YpHKuWYu+uBWV.gYKV+,uWg,JYGuKJY.+.wKpuJgfG.,J,Gf,+YVwJJu..Kg.uwfVKpKW,G.KuYfG,K.N++VuJf.SB+VuBwgpgf+.uK.wf+fp&guBBVJgJWGGKVBpVJGu,p,WUVBGYfB.Y+YfBJpG*.GKKwwgf.QKpL+zKuugBJKu,gWW+GV,Ju+JBGVGgK.w.uBVWgpWGVfJJWY.+KVVuWffY,VY,+VuwVwJWGg,+KKf,,fY+wVBJWKYecp+VVGpYgpGKKBZG+,,YYY++uVpJJGfK,wYuwJuXV,J=fB+,uKJ8Wg.g,KWWGK,KRw+uWf,YYGGw,JYpwWB.f.YwxW+,VglYBJVuggWf{wuVgpWfGG,GmJGB,JYJwGBKf.KW+b.GY+wmBBVp.,UVBBuKpf+WVBpKWwGuufVYWwGu..YuwUBYYHwBBVVJgGYp.+KVlg+fu,.fWu.w,WY.wYfY,uY,wKBBpuggfW.WKW(..uK,!W+.uY,wYu+wuWp+JpG.pJWNf,,iYBJWf,.KKJwZ+.KWwg+KVwgu,f+.u+pwWgfG. YVw,BppuJYB.p.Jwfu.gVBJFf+.+,J:V+GVggVJJGf,uYK+V,VY,wfB,pA.VwJ+Ku,JBWfVpgYWGGKKwpGJ.GKKIYV+wu.Yf+BBYp+JVYVBfV+JpfvG.K,WK..KBqp+WGW,Keg+JB,pJJ,Gg.WKJR.ulYwwJBpVWg.Y+BWVugfJYuYgfWuGg,fu*W+fJ.gY,ww+BVBggBWpVgKfw.uV%g,WWGB,YRV+.VwgwJguppYJGfK,wBfJBfW,uKVwVBWKfwJ+YV+gVKYw.uggVpfGp,.,1wJB.p+g,B,pVJ+fV.JBKJBWgGfK}w+GKKuXB+puWKtYd+Vu&YW+0BKpwJuYW+GVGggWJVgJVW.GYK+pJWuGfKwYp+guGu+J.G+,pKGff.,KYw+BVfKg.ff.wKu=gWwG+KuY.+uu.gbJ*G#.JK,wK.YYpwuBgVf,9wr+JuGp,+,p+g+WVGJuwpgWBfW,gY.w.uJV.JBf+,7YJw+BgVggJWK.VgVWKGf,,ylJffG,,YBwuu4pGwWBYVKJwfu+KuGgfWVVuJwWWG.,YuJJpGf,JfKYKBWpGJ+f..uJuGw.WK.MYWY.uK,*K+BwBpgWBGB,9YGGu,.YWw.BY,UYuwGBYpBgYBVVYgfW,.vBpgGJG.3,JNp+wB,Y.++uwpuJgYgBppBgpBgp+g.WY.+V.ggW,GWKuyuwJB,p++wuGppJWf.wJpVpwfgG.K+Fp+JKJwg+,V5gB,K+,VypYg+Gu,GYYKYuup,JVW,VKJpfB.pKWVYWu.uKGY,+,,Y5p+uugpf.YwVBYpVWbB,pJJ+fV.JuKJBfu.JKptgBwVggw+gVwp.JYG++OpwJgff.+YWwW+GKKw.BBVpgWKK+uuJggJ,GK,pGwZ++gB,W2uwp.JpfW..BRJgfW.gWGKu++Vpgu+GV+gNWBGpB,pwJGfB,KJWGV.KYwwug,.WKWHu+JVJVgJ,G.,gWpGY,GYK+wfG..YKwYBVpwJ.BfpBgYf+.V+Kp.fSGKGVnB+p,K{.+BuppWYYwuupp+g,fYGYYViV+WVpg+BwV,gpWWG.+/ggWWGgJGKww.B,pBJpBKgKJBfp.WBBgufpW,KwYY++upg+ggG.,.LMwJuJp,WVJ+.fKpwpB+VBgVJg.3KwTG+wuYagBgu.pYW+w.B,pYJwGp,pYWhYBGpugYWY.gKwf<.JKV#J+Gfw,.Y,+Bupgb+wp+ppJWf.wWpwgKfpgGK+IfBgufgWWYGuWB WwKuKgVJgGgJJYww,uBwuJGf+.+fA;K+Gp+S,BfV+gVWJ)wBYgBWwfJ,pYWw+u+pWJ.B,pVJ+fV.JV,pYfJGG,.:KGKYu;B+puWGYYu+MBWuVJfGB,uKWKWBYpwJuf+.uGKw++uVMgW+WVWpKWwGu+Gp+W+fK.gKGwG+&pwgBWK.pK%w .+KpXg+fu,.+KfGgKwY.wYu+,WYgwKu+pBg,fV.wgKfV.BKpxWWEGu,uqfwY,.Dg+wuupg,BwGBBpVgGfp.wK,wp.pYBUG+KVwK+Y.BwuXpBJYGV,.mw+wBgYpBYBGVKJwKGBpuKgfWYGg,GGWKu+KVhgwfwJG,gYgYuV;pWW+J#.GKgwYBw+YJuWfGYKN(.+pVppJWKGp,YswYYYf+KBYp+JVKYBupugpVufgK.A.+gNBu,JfGW,ul+wpuGpKwYufpuJgff+uVwgYfw..K.&u+guWkWB+uKgwWu+fBYgwJpfJ,uYYfY.YY+wVBJVGgK,VeuKJwf+,V0gBY,wKVZp+JBGw,uYuw.BJpggff..pYOwg.gKY1.+YV+KgYWB+VwppWJuJgwJ,G3,BVWJJff.,Kg-JB.K.wGBwVugg,,B+V+gVJGGgK-,+wBu+V,J,WYp+Jffg.fK,V,f+..,KYD+KKBwu+JuGpK,.w,uBppgKGV,VKg.W+BVugBfV.gKWWY.pKuAg+fG,,BYu++uVY,+,u+pVJJYGuNptgKW.G,Yw.nwpV+pffVGuKuWp.W,GYK+wJV,.YKw.Y2uBgYW..gWYKJBwVgJ+WB.BKgWJ.L,,3X+BW,.KK,wYuwpBwWuwVKJwfuwKB,g,WVGJ,fWf..,Y1++VWG,tX++VB,pVJwGmJo,p;G+.pogJfw.BgWGBGKKw1ugGfY,WYV+BuVpGW?VY,pYu.J++VggYWJgg.KkY+wu.guJKGKg/WpGV,JYGJTGf,JK.fG,wYswBBpGj,,QJBpKpwB+GuKgwKGwYuBgwJVWp.WYGwwBup>wpupVGgKfwIgVWpYJK.u,J,f+GuGpYJpGu,YYWfYKwYuwgBfWYYVwgBfuKgKWVGKKKK.+,BYpfW+f.,.JKGG,BYpwWWB.JYF Ww.V,pYWf.+,.1.GKKf(B+puW,gYu+GugV,JgfB.+YgQ..GYKw6BBVpK^AwBBVpp,WfG4.YYVw,BGVYJGGu..Yf++.,/ww+BVVJ.KHB+YuJVuWW.+KBYJ%BuJg+JuJg,GK,wWu+Y+wWBgVfg,Rg+JVfgXJYVlg.WVGJ,GpVJpGJ,fK,wYBWpBJff.VYgYf+.VKJjG+Kp,GuWJ,+,,:X+BJ,.K47YYuupuJJf(,#YVw,2fV+pKWKGf,GY,bYuJpWWBfW,gJY.B,uYgwfJpfK,pKGwGuI+YJWWfGfKBh,B&uYugWYGY,.Gu,KYWw.BYfBYfw.BfBug+fp.ugGG3.xKBhpggGGJY,V+uugpgJ+Gz,GYV.fYVu+V.JWfu,V.J.BYulJ+GuKG,kBwJBKppJKffGWYK}KuBVGJWfu.ngYfY.uKgLfgf.V,Y1f+++YpuJKff.GYYwgu=p+wJuuV,JLfB+YV.gKWuGB,W6g+Wufgf+VuGpfJ,G#u/VgJ,fuprJKfV.JKGVpfV.JKgKw++VuuuWW.+,fY+GBKWYJwGBKGJKWeWB+V.gYWKgpGYZGBwo+upW,GY,,Y,+BuppKwKuGpBJpfWwgVuJGJJG,KYw++fV+pKW,uYgwWu.w,WY.wYfY,uY,wKBB++ggfB.BKoFG.uY+PW+.uY.Vyu+,uWp+gVGp.JYBwGBVpVwguBV.gYf+z.u,gYg,GB,KY.w,VwgB+uu,pWJ.fYuFpKJGfGGYYJw+.JKYv,B(VB.WN,BwuBgV+pV+pGJKGwBGV.JKff.YKgwGBVVwJ+BBpBgJWGGKuWgBWpGV,fYV+gBgppJwGB.fYuX...YBwwBuVgK,:,+wVfgu+fVVpYW+GV+BpFWgWu,,YfwKB+V,wuu+VWg.WY+GVJgKJ.Gf,fYJ+BBYgBJVfYpgWKf..YY+pJW,.gKBhuBJegg,W.G,,Jdf+wuVp,JWpV,NYk+%BpYV+VBfV,JmYpBwuKgwfwGg,WKaBUuH+wpYf.KBJKG,,BYpwWfW.KYgwJ+,w.JoWp.X,.YGBluV7uBwuWp.JYwYuup,JKfBW+YuwW+Yp7JBBupwgWW.GYuGgJWff,KpY+wguGpBWBfVpuJ.fW..KYp:fufGKYwB+YKVtY+fu,g0,p+VuJpJJBGw,.Ypf.,pYwwuBgWGY+wuB+B+gJWG.BgBW.GJ,GYKJJfW,GYgw+BKpWwgB,V.gYf++GVwgWW+V+gpWgGf,,VYpfugp,J.fY,+BGJwfK,+J+fY.gKf!,W,.+KG-.+wwwg+Wgf,,K^wG+KjYgwfB,.gKJwfBpVwJBWB.W,WY,+fup3VBgufp,WtwpuGVfJYfB.BY+wGBWV+g+fgGG,GwT+uKuwV+Wu.pY,JwpufpJBKf+,eYB.f>YVYJpfWGKKYf^,VKV=J+GWwKmr+w,uBpuWVGV.gY,wVBKp!pJWW,wKgDY+GKJwg+,VngBKWw.uKpJW+GWfGYfw.uVVWJYfKVKJJfB.pKWpPWuGK,fbJ+fV&gV+Vu,pfJ,Gyw.puJYfV,BKgfp,JKGOKBwG,Kfv++puupgJGGg,.Mw+wuVV,J,G+,fJVfG.fK,wsWf.WKKYK.MKKAV+JuG.+zJwWB.pJg*fV,VY.w++YVuwBBYVJgGWK<YVB+gp.G.KVYYwfBKpK+oVupVJJfGuBVYJRfpG,KJn,B+ufgKWJGuKVYJ+fuupKWVuVp,Jff,,SVpJVfgGYKNwp.pYW>G+KVw.JY.+pu+g7W+GJ,,f.=BuwwVpVG1,JK+w+.JYp7,B7VBGWtK+KVwpgWBG..wKYw,uWV.wGuVp6JBfpw+VfJ+fpGpKpYK+BK+ww+gufp,K+wJuBVKJWfw.gYgY+BfVggYfgVJJ+W,.)KBp,JK.X,VYJ+wBWp+wYVwpuJgff++pBgJfJf+KfRYBgVWVGW5.vKgY,wfBYYK+uuBppJWYYBGpwJ.BWpBgKfw.uBVgWu,WuKVRVB4uf)PBBuVpJJGwuB+p+JfWW.NKYwr+JufJ;JK.VKwYW+KupE++GugpfJ,zBugVGJWf..uKpfp,9KGnKBwGY,.wB+,V+pJWWG.pYJYG+,VYJwGBKGf.ufJ,BK,wPBBWgKKwv+K)+VwWgGfK+W+.w,gYfw,Wg..YuS,BGppVJfuGGYiww+puJCJ+Ku,gjWBY.BfpfW+uBpJJJfG.KV.gWGnVGJ.f(.BKpVuWVGG,KYp+,u,VYuwWw..YKwVBYVgwguVV.gYf++.u,gYfwGu,.Y.wKV+p.JJGJpfWVfY,+YVgGff,RY(wWBGVBgGWVVuW+WWG.,YVpJ,Gw,KfKwfugwgJJf.,ufBT.BJVK+YWu.g,WHu+.Iwp,WfG,K+YVKw,ghuw.BYp+.Kw.BXVGVuW.GJKJ1u+VugmgBLu.pYW+wGuwpWJ+JK,BKWfG,fY3wBBp.)KwwB+BVwguWYGpKBYWwJBKgA+wugppJWf.wVVGJgW,V.Wwfw.uKgV,W+GK,gKB+JVwg+JgW.,lY-wBB,BWJ,WY.GYufp.pKW/.+YV+BV8fYG,YXK+uugpf,%++BJVgJ,fwG+KglJB.Vug,WYVVJpWfG,KZufWJff.K,fwguKBKJ,f,.K,gwiBKV+wwBKVpgWW.HGVwpJJWGgGKY,wVV:VYJYuwgbJpfW..B,JwVVfGYQM.Kw+JpJWgfK,gYJGg,fY.wYu+GBJWGw.KYwwufj.JYL*VBVVf9fBBuYg+WVvJugVYWffW,WY,fK,gYBwpBW.KKuwBBfVwg,WBV+JpWgGf,,V4gpppuG+kBwY+uJJBf{.BYBXW+GPfVVfVGVggfgG.,Yo+pKGGfYYB+uBgV.JJfw.wYwwfwJV+w2uBVVgJWGBwupgJWGG+,YYVwuBfp+Jbfu,TYWwwBYpgw+B.VggfW,:guJgfgpGGKu2Vwf,WY.wKuwpu.ffG,gY&wBBp.6,KKg+,BGu.pFfwfBYGGJ,KY,+{uB,uKK+uuBYVwVBJVGgKfw.u,guW+KVJgBWpGWwYpqJKGw.fK.wwB.YVw.BfV,J:wg+guGgJWuVBgKWJGG,KpJJWGG,K(p+6BJpVgYB,ppJ+fV.JuwgBWu.JKp0.YTKweY+puWp.Y.+wufpGJefG,kYfo.B.V+g.BupwgWW.GYBVgOJ,GrK4YpwJYgu+W+f+puWgfW..KYpuWf.JKgLg+uuVgGJYGw.Bvg+VuGV,JpfgppJYfG.KYwVJfm.,KPnYBVufAfBwuYg+WVBwuupBJ,fJpJJYf,,%YBgGfG.KKKwu.pYcaG+KVw,GY.+KVtguJufW,uJ,Gg,+YVwJfw.gKYoJwuVWpYpwVuGpWWG.,YpfWWG.,G*wKGAB+pJ.WK,gGwx,B+p^ggfgGgK,CK+BVBpgWpGJKwYV+wuf+ggYfK.YGuYGBpVBgpfpG.,Ktw+Yw+guJfGW,u.w++BWpuJ.g/fVYWw.+KpWVWWYGKKJ*B.BY+(J+GuKGuPW+Wu.p+JKGgGVYW+LBJpwJBBWpVgKfw.uBfgKf+Gu,.dVY,B,gBJBupg+JGfK,wVJJ.fg.,YBwgBJV+gfWpVBgGWJGG,KuupfGW.GYfwV,uwBwWB.VY,p^fBuV%gKf9.pKGGfBwuY+BpJGKK{}BwgugVKJgGgJw,JwW+GVpgKWJ.JgffKGYK+7VgBGu,fY,wVu.p.gKJY,Bfp,wwKBJpVJAGwfufw.wKung+fu,g1WGYp,f4:wYu+pV,pwfu+VpwVuBVfg,f)6pVJpKJ,.B,g,g+,uYg+WUG+pJJYf,,EYBVgWG.GYVzg.pKKQG+KVw.w(pw.++gBWBuggIJ.fY,+uJgWGw.B../Wu%VKwBBLVBgp,,G,,Yi++puJpGJK.BJ+YgwfB,WVJBfp.WYKY,B+VVgJ.WGKKwxuu,8bp,WEGB,.YWw,BYWfJVf.5pKKwwBuV,gfWK.mKguw+Wu.pYWWGV,WYGwK+KpuJgff.KYZwBBppGpfWY.+KV+V+.uKgwGuwB,GY,+xuBppYBf.KwYWwVBWVG.pf+.uKg+fBGVUguWpGf,.pW++VgguJGG0,wuWwJBfV,f6GC.pKG&.BwV+,YWJ.,Kgjw+gugGYJKG?,BwpwGB.p+J+fJ.JYg*KuBu+ggWKG,j,Cu+puWJ.KGGB,WYJwYBK,VJuGWK+K,wVBBJBgfW.GY^+w,+JVipKWpGu+uYG+YuVpBJ.fWYWY/w+BVgJJGWK.gKuC,+f.BgOfV,Z,WrBwY,JpVJJfGKKYfwuBKVfJuf?.,KgwGwfuYgfWVuK,GYK+wpu.BJGGV,mYGwpp+V.Wwfu.VYwbG.uVwguWg,fKw 1+.upg+J..V,B^gB+BGpJJwBf.gKfI,VrpfgpfBG.KWP+JWuJg,fJGw,YYgG^B,p&JB.p.KK.wfB+pRgJgfGKYBY++gVpp,+pGB,pYWB.WGpBWwfJ,gKKVABupWJpW,.,KBu.+fu.pYG+Gf,JLJwKuKpufwfG,YYVwBuuVW.+f .+KV+JuguKgYWu.V,fBg+wVVgJJWGG.YG.wVBJVGWKfB.uYpzfB.VNgJWp.GKpYYB+uVVfJGfK,wwu+JBfp,JQGB.pp,(.uwpVgVfWGG,0)w+uugJfW,GCKuYp+fB.J+J+Gg,VKG+5BwupggWfG,?>wo+pVGp.fwG+wKYJwGuKpwWgfg,,K,w7BBpJWuW.,BK+G1+JuGpKfB.g,gzYw,YfpBJpfW,KYpw+uGVJfBWK.wKuwWwJu,JgWBgG,WY.wYVuVBJJ.B.KBYwVBgVfJYJK.BYYbWYYuYg+WVGKB.YYBGuuGgJffK,XYuwpBWJJgYf+.VH!jG+KVwJp+,GfYJa0BKuppWJ..w,WYVBuBGpKJwfu.gY.wWBlgxgpfgG,,YR+BgpwpGf.GwW+YgwfB,g+WJfpKJK.,JB+VVgJf,,WKw+u+gW.p,WlGBKJPgw.pTp+,ofJ.GKK+B.fVgW.W,U+KB>p+WVKgvW+,J,J,BwKuwpuWWfK.,wuwBugVWg.WY,uYGAJV8uKuwWuGg,f^YBuuBJ.JW,K.YY+wVufpWgK.J.uWJ-f+,V7JVfoGWMuYYKKuVpJJGGuufYVBYBffpJAfu.pKfz.BBJ,gVWJGG+g3w+VuggxKKGwYGYp+CB.p3J+fg.JKGBfBwVuggWKG,K%AB+pgVp.JYG+,fYJwGBKJwW.fJYBK,+uBB,,gWfK.KK+BU+JpVpKWwGu,g,uw,pWpBGwfW.KKYB+JVVWfVWK,VKuJK+fVYJJWBK+,Ww.+)u+pVJJGW.KwGwupBVfgYf9KB6y?WVguYJpWVBY,GwzB+uuWuJfGY,wYBwpBWpggY.,.VwViGB VwWuWGGf7Ws:BgupYPJ..wKwYVupBG,,Jwfu.gKfKgBQgYgp.gG.Kws+uVWJp.GGGwKJYgfwB,g+WWfpYJK.w,B+VVgJWG,mKwBw+ggWp,W+GBYpPWw.p,p+WWfJV+KK+Bu+VgffW,wBKu&p+Wu.JuW+KB,J+GwKuBpufg.O.,wYwBufVWFBWY,uYu JV.uKfgWuGg,fY,YfuBWVJW,,.YYuwVVJgBgY,w.uYGlfGuVRJVfVGWdKYYWguVpJJGfKfGYuugBfJYJmfV.p-W+uB7JBgVf.GGpV>wBpGJpG.hGAPKYgwWB.VYJGfVYWKGuwBwVpggf..GKsBV+p,fp.JYG+,VwwwGgNpwJVfg..K,BDBGVpf.W.YwK+J.+JV,ggWwKW,gwGw,u2pBJpfK..++w+pfVJg,WKKwBuXgVKu,JuWBwG,Ww.+.u+WfJJGY.K+YwVVgpJg,,p.BYf6WwguYW+f+GJw+YKBVuuYVJf.,KuYBuKBWgngYuB.VKJfY+KJfguWgGf,,?XBVp+pW.pfYVjYVwJBGVKJYfu}%Kf!YB&VVgpGW.Y,YBG+VJwpG.kG+,uWGwfggpeJBfp.WK.+wuBVVGBWGuGKwtu+gufgWW2K,,pYGw.uwp+fV.B.G+JwwpKVgVFW,.puu/gpuu.WJW+Gp,JY.wKuwW{Jgff.,YUwBBpVWg.W..++rAJ+.uKf,Wu,g+fY,V,uBWJJWfY.Yw+B+BJWWgK,k.uVfafu,p.gB,VGW)GYYJKuVJJJYfKwwYuu+BfGGJA.BKzKWu,+YJwgVK.GGYKVw+uJWpfGWGDYVYpBWu.VY.VfVYVKGuWBwguWwWfnwK#+.+paYp.fY.V,VB,wGpgpwGgfJKfYKwPgWVpf+W.fpK++VBuu.GVWw,,,gpVw,p0pYJgYw..wWw+B,VJJwYY.++,lgu,u,gwWBGg,WY.uGu+pVJJGY.KYwwuBg.KgKKW.BKg<WgguYg+WGGJ+gYK+wuupgJff,,fYBpBBWV.gYf+.VKJw.+KWYguWJGf,,bAuBVJpW,GfYYWYVK,BGgKWwfuwgKfBKBzJfggGW,J,YVB+VWJpG.KG+,uggwfJKp8JVfp.GK.+Yu4VV.fWG,+Kwuf+gufgVW-sV,pYGw.uwp+WgfG.Guwww,KVggfW,.pYG6pg.u.EgW+Gp,JYGwKuVWYJgff.,JJwBBgVWJKJ,.+BJ?J,VuKgwWuG,,GY,gBuBYKJWf,.YY+wVB.WpgKfw.ugYIf+KVrgg,wGW,.YY.+uVpWJG.NGYYupfBfwWJ{fB.pKYJVB{fVgVBuGG,YNw+VugpK.JG),BYpGVB.pZJ+fW/BKGIKBwYBggWGG,Y+Yw+pW.p.uGG+,VYJ+wGgp+,gfgpfK,wwBBVggWf:YfK+^V+JKGpKW+Gu,gKVw,WBpBf.fW..KYw+ugVJ.KWK.+KusW+fVB,wWukf,Wg&wYuBpVJ.fG.Kw,wuBgVfWufx.BKp3WVJuYg+WV-G,GYK+wuuWBJff,,;n.wpBWV.gY.K.VKJtGVpVwguWgGf.J%0gJupGBJ.fY,+wV+uB.GuJwGJ.gVJy,BpGuggY%G.uVc++puJp,JKGwoCYgwfB,pKJBfp.WK.BGB+VVgJK,GKKw)u+gG.pKKVGB+,YWw,BYp+WpfJ+ZKKVGBuVggfG,,+KBV.+Wp-pY.wGp,KV.wYWJpuKwff.KYPwpBpVWfJWY.+KVVV+GuKgwWuKB,fY,+/VYppJWf..YwKwVBJVGGgfw.uKgDfWYVw.JWpwd,.EZ++uVpGJGMB,wBKwgBfV,fUfV.pBYi.VWV+.+WJ.wBYU+gGugfBJ,Gw,BYgwWB.JGJ+fV.JBW{KBwVuggt.GKBV?Bg,uWp,JYG+KYYJg BKfGJufg.fA,w.BBf.gW.pGYsf5p+Kf.pYKJGusuYfwKuCpuJpfWYJKYw+BVfpgGWK.wKufW+ff+g/KfGp,fY.wY+,pV,,fG++YwwuBgp.J.fQwWKpBB+.uYg+WGwW,.VV+wVVpgJGf,,pYBwppVV.gYf+,YKJ8G+KVwf2WgGf,,+w+BuppWJ.,G,+YVwJVKVKJwfu.gwpO,B!VBGWWWG.,Ye+VwuJpGJK,K,uYgwfB,J.JBfp.WRG8YB+VVgJ,fGKBWIu+Jufp,WQGB,GYWgwBYGfJVfW.GKKwKBuf.gfYw.9KB(pBGVWpYKJGV,KYGwKuwJuWBfG+uYq+gBpu.g.WYpuKVV,+GfVgwWVGg,fKJ+XWJpp,,f..YY++gugVG,ufwwGKgvf+,g:gYWgwM,.wB++YJpJJGV:,wuWwgWwV,JwfB.p,us.JuV+.WWJGG,KwBBBug.MJ,+W,BYpwWBKfGJBY..JYuaKBwVugg,WG,BJaB+guWp.JYG+,KYJg^BKGWJufJ.fK,wYBBfGgWY#GYK+hVBfVgpKKgGuGYYfw,uHpV,+ff+BKYu,BVVJgGWKjyKuVY+fuKg8WBGp,WwgwYWgpVK4fG.YYwwuuJVf,+fewgKpzW+.pwg.WVqK,G.f+wuupgJfWJ,=ufwppwV.gYf+.V+gvGJpVwgVWgGf,,m^BwupGKJ.4g,+YpwJBGVYJwYW.gBKP,BhVBJJGpG.BVe++KuJpGJKGgBVYJgwB,WYJBfg.WYBHYB+JwgJWGGKYG u+gufp,G.GB,pYWB,BYp+JVfJYgKKwwBugGgfW,.^KBB++Wu.pYGgGV,JYGwKp,puJgffYBYxwBBpVWfJWY.+KV5.+GuKgwWuKB,fY,+2uJppJWf..YBwwVW4VGgYfw.uKgHfBKVC.JWpww,.F8++uVgJJG0B,wuJwgBfV,W+fG.pBY:.pEV+gVWJ.wBY7+gGugfJJ,Gw,BYGwWB.JGJ+fV.JxV7KBwVugg.pG,KoqBuguWp.JYG+}wYJwGBKJVJufg.fK,B.BBVpgW.wGYK+kV+JggpKWwGuY,Yfw,u pB.VfW+uKYwBBVVJgGWK,fKuV.+ffVgEWuGp,Wh+wYWgpV,.fG.KYw+puYVf,Bf%p+KpZW+.VV,BWpdY,GBu+wuVpgJYf,,kwYwpBWV.WWf+.VKJ:GVfVwguWg,G,,tA+BupWVJ.fY,+wWwJBGVKJw,v.gKf1,VVVBgpWWG.PG!++VuJWwJKGw,uYgVWB,GJJBfg.WK.aYB+pGgJY GKBWOu+Jufp,ffGB+GYWgyBYp+JVGf,VKKpgBuJGgfW,.PKWpg+ffBpY..GV,WYG+yuwpuGBff.,YS+,BpVWg.WYKKKVmJ+GpYgwWuGg,fB.+QWGppJff..YY+wVBYVG,Bfww.Kg3G+,VzJBWprK,.VB++uVpJW,GK,wufwgpVV,JcfB..ufj,JpV+KwWJG.,K4u+uugWpJ,GA,BBuwWB.VYJ+,w.JKG)KpbVuggWfG,b.}B+puWfGJYG+,VYJVfBKGWJufJ.fK,wHBBpugWYwGYBfIV+WuGpKWYGu+.YfgwuEpBJpGGKWKYpJBVBKgGWK.wKfpJ+GfugH.+Gp,fY.+uu+pVGufG.KYwBJBgVfg,fnKYKpMW+.JVg+WVGJ,G+f+wuupgGJf,,&YBwppVV.gYf+.YKJDG+KVwfRWgGf,,<.+BuppWJ.KK,+u,wJB.VKJwfu.gMB ,JVVB.KWWG,,Yb+BguJ.MJK%V,uYgwfuYgfJBY..W+GwxB+VVgfKgGYBJLuu,ufp,W1GBwVYWguBYpBJVfJ.GKKw+Buf.gfYV.HKuXp+WVYpYKgGV+.YGwKuwgpJWff+BYA+JBgVWg.fV+BKpVY+GpugwWVGgKwY,+PpYppJWf.KWY+wVBJVGfffw.uKg+.+,V0gBWpKV,.YY++pppJJGfK,w+lwgBfV,fufB.pKWn.VGV+gVWJYw,KEw+uugWpJ,G>,BY,wWB.VYJ+,w.JKG;KV}VuggWfG,wYPBgKuWp,JYG+,VYJwYBKGpJuYY.fKKw(BBp,gWYwGYBp V+JuGJFf+Gu+,YfZKuqpBJpfY+,Y/pWBVJYgGWY.wKJIg+fgWg<WBGpYBY.wYu+pVGufG.KYwBVBgVfg,f&KYKp)W+.gBg+WVGJ,G+f+wuupgfBf,,nYBwpgJV.,gf+.pKJ0G+KVwg,Wg:Y,,VJ+BugpWJ.GY,+ufwJJYVKJwfu,WYfT,JpVB.gWWG.,YsJJpuW.+JK,G,uYJwfuVpxJB,+.WK.%Yu.VVgJWGGKZ,Uu+gufJYWNGB,pYWuJBYp+JV.W.GKKwwBuJBgfW,.5/g(p+Wu.pYGKGV,JYGVuuwpuJgffYWY!wBBpplg.WY.+KVBu+GuKgwGBGg,fY,+2pYppJWf.Y+Y+wVBJVGG,fww.KgIG+,VigBWp,u,.Vu++W,pJJ.fK,weuwgJYV,,ufB.pKWwKugV+.GWJBg,K<w+uu,.GJK&g,BuGwWB,VYJffV.Jwg/KBwVuWwWfG,K?>BV+uWp.JY,u,VYJwGBKJ,Jufg.f9Kw?BBVpgW.JGYK+cVu.uGpKWwGu^BYfw,uLWWJpfW..KYBKBVVJgGfV.wKu:g+fgWg=WBGpYJY.wYu+pVGufG.KYwBgBgVfg,fDi+Kppw+.V^g+WVGJ,Gww+wWWpgK+f,,wYBwpuKV.,uf+wWKJoG+KpBJJWgwS,,Wf+BuppWW+wH,Bu.wJuBVKJ+fu.KKfU,V.VBgpWW,p,Y#++VuJWgJKGw,uwWwfB,p3JB,+.WK.NYppVVgJWGGKk,Eu+gufJKWtGB,pYWuJBYp+JV.K.GKKwwBuJBgfW,.EYf0p+Wu.pYGKGV,JYGBguwpuJgffe.Y-pGBpVfg.WY.+KVwB+GfBgwK.Gg,GY,+vuJpp,Kf.+BY+wVBJp,WVfwwfKgwB+KV7gBW.wf,,Vp++fBpJJ.fK,JYuwgppV,JjfBKdKW&.+YV+fwWJGG,K+B+uugpfJ,,.,BYpwWg=VYJ+fV.Jwg2KBwVuWJWfG,KDjBV+uWp.JY,J,VYJwGBKJ,Jufg.f2uwzBBVpgW.JGYK+HVuwuGpKWwGuwpYfgVu puJpfW..KY+YBVf,gGYp.wKV0g+fpgg6KJGp+,Y.wYu+ggWBfG+uYwPKBgVfg,fp+uKgp-+.pwg+WpGJK+YK+wgEpgJff,KfYBwpBWV.fGf+.VKJ+.+KVwguWgKp,,L4+BpfpWJ.fY,++wwJBGVKfpfu.gKfT,V.VBgpWWK+,YS++VuJWgJKGw,uwVwfB,pmJB,+.WK.1YuVVVgJWGGK+h8ugYufpKWoGB,pYWBpBYGgJVIa.GKYwwBuVGgfY+.IBgQp+Wu.JwfuGV+KYGGpuwpuJgG9+KYwpfBpf.g.fL.+KJIJ+GgfgwWuGgYuY,+xuBppGVf..YY+BgBJVGgKfwYQKgXf+,JugBWpGW,.BK++W,pJJ.fK,wYuwguYV,,VfBwKKWI,+YV+g,WJw),KVV+uugpfWYGf,Bu.wWVVpcJ+fV.Ku.MYJJVu,fWfGKKSap+puWWJJYG+,Vw+wGBKpwJu,B.fK,wPVVVpgWW.GYqKsV+JuGf+WwGu,gYfV.u4GGJpff..KYw+BVVWgGYB.wB.Ng+Gu,grfgGp+KY.gBu+pVJJG,KGYwpfBgJ#g,fa.BKJVV+,fpg+GWGJ,GYK+wJBpgK+f,,wYBwpBWV.Jgf+wfKJpB+KV+guWgG.,,VV+BWfpWJ.fYKu gwJWwVK,VfV.gKfwBWwVu.,WW.W,YnB+Vu,pGJK,,,uYgwfVgp7JBfp.WwJzYB+VVWWWGGKKw%uVBufp,WX,+,pYWw.BYJKJVfJ.GYGwwBuVggf.W.kKB1pBuu.pYW+GVw.Y.gpuwpVJgff.,YXGVBpfKg.Yg.+KpDJ+GBWgwKWGgY,Y,+UuBppguf.+VY+pWBJVGgKGB,BKgpw+,VjguWpGWK+p!+BW,pJWKfK,+YuwGBfV,f.fB.pKW+p+YV+gVWJKg,KLw+upJpfJ,Gi,B++wWB.VYfpfV.JKG1KV,VuggWfKBKEAB+puWYBJYSG,VYWwGBKpwWpf,.fugw*Y,VpgWW.GYYusVg,uG.JWwGV,gYfwYuAGJJp....KYw+BVp.gGYu.wBJtg+fu,J+WpGpBaY.B,u+pVJJG,G.Ywp.Bg,Bg,f*.BKpWj+.fJg+WVGJ,GYKBBVwpgKuf,WfYBwpBWV.Juf+wfKJpV+KV+guWg.,,,VV+BpWpWJ.fY,+*VwJWwVK,Vfu.gKfwYuuVB.,WWwp,Y-++VuK..JY:W,uupwfBKp3JJfp.WwJIYB+VVW+WGGKKwauVBufp,Wn,u,pYWw.BYJKJVfJ.Gw+wwBuVggf.W.tKBQpuKu.pYW+GVNuYGwKuwJfJgff.,YEWfBpG+g.fe.+KVHJB,VpgwKKGgfuY,+&uBppJGf.+uY+pYBJV.gKfw.KKgVY+,gBgBWpGW,.wV++WGpJ,YfK,wYu+WuBV,,gfB,JKWb.+YVJ,pWWwB,KwK+uuJpfW+GU,B++wWB.VYW.fV.JKGeKV,VuggWf,KK%tB+puWWJJYG+,Vw.wGBKpwJu,B.fK,wzVJVpgWW.GYFK V+JuGWuWwGu,gYffuu#G.Jpff..KYw+ugpggGYJ.wfKdg+fu,gFfJGp+KY.gWu+ppJJfGKgYwpWBgg,g,f4.BKp+w+.fVg+KWGJ,GYKBBugpgKwf,K,YBwpBWp+KOfBw,KJ+,+KV+guWWGf,,+.+BuppWfpfY,+YVwJpgVKJwfuKJKf2,B0VBY,WWwV,YzB+VuJpGfo.p,uVwwf^gpRJBfp.WTu&YJgVV,+WGGYKwvuB.uf.+W3,p,pYWw.BYgVJVYK.Gu+wwBuVgJ.f,.DBf5pgJu,pYW+GGBWY.gpuwWuJgfG.,YuwBBpJVg.WY.+YYrJ+GuKgw.-Gg,fY,uwuBppJWf.YGY+wVBJgYgKfw.uKgBp+,VPgBG.GW,.YY+++upJKufK,+YuwgBfpYWGfB+8KW,p+YV+gVWJ,w,KVp+ufwpfJKGI,BPBwWWwVY,pfV.JKG+huBVu.,WfpuK3=B+puY.,WE/W,VwRwGBYpwJVfg.fwWwnBBVp.GW.GYK+9VpguG.pWwGV,gYfw,uIgYJpYK..ugw+BpVJgGfu.wBWCggKu,g}WB.JKwY.gVu+.>JJfG.KYggVBJGwg,KG.BKgZWBmuYg+.wGJ,GYKB,uupgJff,Y.YBwpBWfKgYf+.VKJBg+KVwguffGf,,E&+Bg+pWJ.fYKcYVwJBGVK.tfuwYKf7KBQVBgpWW.W,YVg+VfNpGJYGw,uwBwfW+pC,gfp.WK.+wuKVV.KWGfgKw6u+gV .KWw0f,pEVw.uOp+JWfJ.GwfwwBuVgWpW,.CKB1pVVu.pYW+Tg,JYGwKuwW3Jgff.,+uwBBpVWg..G.+KV*JBWuKgwWuGgwWY,gJuBpgJWf..YY+wpBJGvgKYW.uKJ!f+,V+gBKGGWBhYY++uVgfJ,fK+gYuwBBfV,J0fW+gKfpB+YVpgVWWGGK+Nw+ugBpfJ,GLKYYpwWB.VYfKfV.JKGpyBwVuggWfKWK*(B+pg,p.JYG+,V+uwGBKpwW+fg.fK,wDg+Vp,wW..:K+(V+JuGJ+Ww}W,gV+w,uwpBJp.u..uuw+JWVJgGWK,BYJEgJvu,fwWuGp,We+JFuBG.JJ+G.KY+wuBWVfg,...BKpcWu,uYg+WVGJEgYK+wuugVJff,,zYBVVBWGugYfB.VKJ0G+KpgguK.GfBV5=+uuppWWgfY+gYVp.BGVKJwGp,KKfpBBD.ugpWWG.KVpB+pWYpGfgGw,VYgwGB,p<fYfp.WK.wVB+VVgJWGY,KwV.+guGp,W=GB,pY,w.Wup+,,fJ..KKwwBVVg.YW,wuKBEp+WVKgWW+aG,JBWwKuwpuJ,>G.KugwBV+VWg,WY.WKV?JVguKgwWu,w,fY,+8uBW+JWf..YwuwVBJVGgK.,.uKg2fpwVAgBWpGW1JYY++uVGJJGfK,wYuuBBfV,JOK..pKW{.+YgKgVWJGGwpqw+uugpfGWGQ,BYpuKB.VYJ+fV6gKGppBwVVggWfG,K( Y+pWKp.KgG+,pYJwGVBpw,WfgwKK,woBBpJWuW.wVK+gV+JuGpKWgwV,JVww,pJpBJgfW.YKYw+pwVJgGWK,GKuSg+fu,W.WBGp,Ww,wYu+pVJJ,g.KYwwuJgVfg,f6.B+V?WJuuYgBWVGJ,GYKBguuG.JfjV,7YuwpBWgBgYYg.VB.IG+KVwJpWKGfBB5xpfugpWJ.GVBBYppYBGWpJwfV.gKY5,BAgYgpWWG.1C-++VuJpGGfGw,uYg+YB,psJBfpYVK.}YB+WKgJWGGKKwBC+gufp,,4GB,pYWw.pGp+JVfJ,BKKwwBuVgw.W,wVKBV,+Wu,pYW+f=,JV7wKWVpuJgff,YYYwBJ.VWuKWY.+KV-KJ.uY.JWu>Y,fYK+6ufppJW,J.YY+wVV.VGgKfw.uwBTf+,V#WWWpGW,.YYuKuVpJJG.V,wYuwgBfJWJrfB.p-G#.+YV+gV.uGG,KRw+.ugpfJ,G1YYYpwWB.pKJ+fV.JKGBfBwVuggfpG,K9hB+pJJp.KgG+,pYJwGBKpwW+fgwYK,pJBBVggWW..BK+Vf+JWYpKWwGuKWYKw,WppBugfW..KYwJWpVW,+WK++KuZJ+fVxg%WBK+,WY.wYp+pVJJfG.Kw,wuBgVfJVfm.BKp^WVJuYg+WV.g,GYK+wuufpJf}V,XYuwpBWV.gYfJ.VB,!GJpVwgVWgGfKu>kgJupG,J.fY,+Lg+JBGGuJw,u.gKfA,BpGuggYRG.Yf0++puJg+JKGw<eYgwfB,gfJBfp.WK.BGB+VVgJG.GKKwyu+ggpp,W1GBKWYWw.BYp+GwfJ.GKKBVBuVggfW,K.KBQp+WpGpYW+GV,J+gwKuwpuJYff.,YvwBp+VWg.WY.GKVoJ+GuKGNWu8Y,fYK+duBppJW.O.YugwVWFVGgYfw.uYY/fJ+V7.gWpGW,.ww+uuVGKJG.,,+YuwgulGKJwYf.pBpF.BHV+gJWJGGzf<w+uugJuJ,Ga,BYpuVB.VYJ+.p.JKGzKBwJdggWfG,w,5B+puWp..KG++,YJw.BKpwJufgKgK,pVBBfKgWW,GYK+*W+Jf8pKKVGu,gYf+YVgpB,.fWVgKYw+BVVK,.WYwJKuwG+fuKg/WuGp,W+JwYu+pVGJfG.KYwwugpVf,Vfc.uKp7W+.uYgBWVe,,GVp+wuVpgJf.+,FuJwpJ,V.gYf+,gYWxGJuVwfQWJGf,,1pJuug.#J.iV,+YpwJB.VKJw,C.gKfM,pBVBgpWWG.wKQ+g,uJp.JKGw,uYg+GB,GVJBYK.WK,PYB+pBgJY!GKBV3u+gufgYfgGB+.YWwVBYp+JVfK+.KYpJBu.<gfWK.lKJEp+WgJpYW+GVY+YGwKuwpuGBff.,Y{BuBpVWg.WYKKKVeJ+GVVgwWuGg,f+W+6uBpp.Gf..YY+wVpuVGgKfwYPKgTf+,VsG+Wpww,.Xy++uVpJJGGJ,wuWwgW+V,JwfB.pN+9.JuV+.WWJGG,KwBBAug.AJ,+J,BYpwWu+.6JBY..JwgsKB+VuJwWfG,}.ZB+puWJpJYG+,VYJugBKpwJu.W.fK,w0BBJ+gWW.GY9BIV+JuGpKG,Gu,gYfuwuUpBJpfWYJKYw+BVJKgGWK.wKuBB+fu,g<,YGp,WY.wYpKpVJJfGwJYwwuBgVffWf6.BKp+J+.uYg+WVKu,GYK+wV.pgJff,,LwYwpBWV..ff+.VKJ*Gp,Vw..WgGG,,}P+BupgwJ.}u,+u,wJB.VKJwfG.gBY8,JuVBgpWW.KKG&+gGuJ+GJKGw,uY,gGBKGgJBt,.WK,hYu+VVgJ.gGKKwbuuwufp,W3GBF+YWw.BYJuJVfJ.GKKB,BuVggfGK.;KB:p+WgJpYW+GVY.YGwKuwpuGBff.,YMuWBpVWg.WYKKKV)J+GVVgwWuGg,f+W+FuBppfJf..YY+wVpuVGgKfw,YKg=f+,V>WYWpGW,.w.++uVpJJG,f,wYuwgV+V,JqfB.pwV!.+YV+gVWJGG,K*wVkugpfJ,Yf,BYpwWB.JGJ+fV.JBJLKBwVugg.pG,KFcBBuuWp.JYG+LwYJwGBKWJJufg.fK,B.BBVpgWKVGYK+{V+JJfpKKWGu,JYfw,u?pBW+fW+wKYpfBVVWgGWK,BKuV.+ffwg{WBGpKGbYwYWJpVJ,f..KYwwfWJVG,uf?+BKpIf+.V/g+WVKu,GYK+wW+pgJff,,HB+wpWwV.Jyf+.VKJXGBGVw.WWgw+,,>w+BupgJJ.nu,+uWwJBGVKWBf..guOn,,WVBgpWW.+uT)Bg.uJGuJKG+,uo+wfB,J.JBfp.WFpRYB+VVgJ.gGKKwzuuWufp,W>GB<+YWw.BYWpJVfJ.GKKB,BuVggfGK.rKBOp+WgJpYW+GV+JYGwKuwpuGBff.,YCV.BpVWg.WYKKKVHJ+GJpgwWuGg,f+W+&uBpp.uf..YY+wVpuVGgKfwaCKgFf+,VsWYWpGW,.BW++uVpJJG,f,wYuwguYV,J<fB.p+JU.JgV+gpWJGG,KPwBpugGYJ,*J,BYgwWB.pBJ+Yf.JBYEKBwVuJWW,G,BpcBw,uWp.JYGJBpYWg+BKG+JufJ.fYBw BBJ+gWW.GY+fdV+JuGpKG,Gu,gYfugu5pBJpfWYJKYw+BVW.gGWK.wKuBB+fu,grG.Gp,WY.wYpKpVJJfGKwYwwuBgVffWfx.BKpwK+.uYg+WVYg,GVp+wuVpgJff,,TewwpJKV.,gf+.pKJZGBWVw.WWgnK,,c?+BVJgYJ.lV,+YWwWBGVKJg3V.Juw2,VGVBggWW.w,Y;+VwuJpGJKYW,uYgwfB,J.JBfp.Wwp8YB+VVgJ.gGKKw2upGufp,WSGB:+YWw.BYJGJVfJ.GKKB,BuVggfGO.xKB?p+WJGpYKfGV,WYGwKuwpuW,ff++YqpGBpVfg.WY,,KVV,+Gf+gwWuGgK.YK+?WWppJ.f,.YY+wGWWV.,Vfw+JKgEG+,VVgBWpKV,.YY++J,pJJGfK,w+}wgBfV,fffB.pKWF.VGV+gVWJYY,Kzw+uugWpJ,G;,BwYwWB.VYJ+,w.JKG{KuuVuggWfG,wY;BgKuWp,JYG+,VYJBuBKGpJuYY.fKKwOBBpfgWYwGYBp1V+JuGJmWpGu+,Yf.fulpBJpfY+,YjpWBV.YgGWY.wKfvg+fgWgeWBGp+wY.wYu+pVGufG.KYwBKBgVfg,fLKYKpmW+.WBg+WVGJ,G+f+wuupgGBf,,1YBwppVV.gYf+,JKJ*G+KVwfkWgGf,,wV+BuppWJ.KK,+u,wJB.VKJwfu.gYfy,JVVB.KWWG,,Y4+B.uJ.5JKAV,uYgwfuYgBJBY..WYWwLB+VVgKY.GYBJauJWufpKW)GJ,pYWuJBYp+JVYR.GKKwwBuJBgfW,.##,#p+Wu.pYGKGV,JYGp+uwpuJgffYWY1wBBpJ+g.WY.+KVBu+GuKgwfgGg,fY,+lJ+ppKwf.,eY+wVBJVGWBfwwWKgp++,VwgBWp.+,.Vu++WWpJJGfKKBauwgWNV,J+fB.pKWw+WEVB..WJBg,K{++uu.pfJ,,.,BYpwWJuVYJ+fV.Jwg(KBwVufwWfG,KCUBV+uWp.JYYp,VYJwGBKJ,Jufg.fwpwvBBVpgW.JGYK+tVBGuGpKWwGuwpYfgVuipuJpfW..KYwBBVf,gGYp.wKVFg+fp&gCKJGp+,Y.wYu+ggfufG+uYwBWBJVfg,fp+uKgpM+.Gfg+WpGJ,KYK+wg-pgJff,wgYBwpBWV.fGf+.VKJBu+KVwguWgKp,,4I+BVWpWJ.fY,+BuwJWBVKJ+fu.gKfI,uTVB.GWWwu,YEB+VuJgpJK>p,uuGwfB,pXWVGu.Wu+cYwgVVgJWG.uu+lVgKufJ+W1Gu,pY.w.BYJKJVfJ.GBVwwBuVggf.W.0KBqpV+u.pYW+GVbuYGwKuwggJgff.,Y3V+BpGwg.fS.+KV7J+GV,gwKWGgB+Y,+wuBppfVf.+uY+pWBJVGgKGB,.Kgpn+,K.gBWpGWK+p +BW.pJW8fK,+YuwGBfV,f.fB.pKWVu+YV+gVWJKg,K4w+ugwpfJ,GE,B++wWB.VY.JfV.JKG6KV,VuggWfKpKOtB+puWfGJYtf,VYWwGBKpwJuGB.fu+w!JGVpgfW.GYKG/Vg,uG.+WwGu,g*.+Vu-GWJpY+.,KYw+BGGWg.YV.wV,3g+Gu,guWBGp&VY.wYu+f,JJfG.KYwuZBgVfg,.f.BKp8W+.gGg+WVGJ+wYK+wuupgGpf,,SYBBYBWV.gYf+-uKJpB+KV+guWgGf,,cg+BWGpWKufY,BYVwJuYVK,pfuwGKfc,BIpVJJWWw+,YWp+VuJpGWuw+,VuKwfg&piJufp,uK.XYVKVVgJWG,YKwsu+gufWWWiGB,pwBw.BYp+JV,u.GKKwwg.VggfW,.*(YIp+Wu.WWW+GV,JYGufuwpuJgGG.,Y6wBBpJVg.WY.+YgaJ+GuKgw.PGg,fY,pVuBppJWf.YGY+wVBJJugKfw.uKgBp+,V8gBfWGW,.YY++gwpJJGfKwfYuwgBfV,f.fB.pKWu,+YV+gVWJ+f,KVW+uuJpfJ,Ge,BYWwWWwVY,ffV.WKG+KuwVu..Wf,wK&BK+gpWJJJYLg,Vu,wGgVp+Ju.u.fuBwZBBVpgWW.GYYwcVgYuGpKWwGu,gwfB;u GGJpYK..Bgw+BGgagGYp.wK.df+Gu,gMWBGfwuY.wYu+p,JGf..KYVuYBgVfg,fG.pKg9Wu.VGgBK,GJB/YKf+uuJgf+fK+JYBpKBWB.gYf+KGKJpB+KVBguWWGfY,wJ+uWYpWfIfYVWYV+fVtVY,.fui+KGa,B2VBgJWWwV,YV,+VufpGfK.f,uV%wfWpptGffgKWYYoYJ.VV,wWGMJKw+uBwuf.JW{.g,pJyw.VwpYJV}V.GcVw+BuVggfGg.qBK-pJpu.gwW+GVKGYGgfuw.wJgff.,YZpGBgGgg.WY.+KGcJVGVZgwY+Ggp,Y,JYuBWpWWf.+,Y+fgBJ.fgK,w.JKgpJ+,WwguAVGWE.dp++fBpJBwfKu?YuugVuV,,KfB}gKWgG+YJ+gWWJwW,KBf+VGppfWYwB,uVuwWYKVYJ+fV,fYw0KJYVuGBWGG,K6+BBKuW.GJY.p,VgYwGVQggJulJ.fBJwwBBVpgWGJGYuw}VJWuGgvWw,uY+Yfg.u3.+Jpuu..yYw.BVGggGY,.wWJ4gufV+g6Y+GpBJY.gGu+pVWJfG+.YwwpBgV.g,G+,.KppJ+.*Gg+WVGJ,Gw&+wfBpgJGf,,+YBBp2pV.,Kf++uKJwp+YJwgpWgwW,,gf+BJApWWKGW,+VuwJYgVKJwfu.gEpT,JYVBggWWGK,Y+++fuJ.fJKwd,uq+wGp,p,JBsV.WYGwbp.VVJfWYGKukLuB+uGp,WXGV++Yfg.BYGuJVfJ.GYKJ.BVGpgff..wuBkpBGBfpYYwGVKBY.wKuwpp,BfG+,YouYBpVWg.fYB,Kppg+G.JgwYuGg,.uW+wf+pp.Kf..YY++VGBV.,.fw,GKgpW+,g7JGWgwJ,.wB++..pJW,G,,wVVwggVVKJsfB.p.B<.JKV+,pWJG,,K+wBZuJ.WJ,4Y,B+,wfV.pGJBZu.JufRKguVuWgfpGKBY&BJVuW.VJY,+KwYWgfBK.dJuwu.fw,GYBBGVgWY.GY,JiVuJpBpYYlGuKGYffuuLgVWVfW+,KYu,BpVJgGWKWGKupp+ffKgIWVGpYWdJ+)fwpVKgfGZVY+BuuBVG,.fC++Kpu.+.pYgKWpwg,GV,+wW,pgffGW,wV+wpWJV.K+f+YVWgqGJ,Vw,uWgG/,,+UBGug.JJ..B,+g.wJu,p,JwzV.g+V)KB0VBgpgBG.BK#+JpuJp,JK,wKqYJgWB,GYJB,,.fa.wGBBGugJYfGK+usuug+Vp,KYGBBVYWgVBYJ+JWfJ+fKKg;Bu.ugfG,,sKBpV+WfGpYg,GVKfDWwKf+puKgff.,YnwBuuVW,GWY+BKVbf+GpKJ.Wuwp,fV.+tVGppJY0,,&VBwVJ4VGgYfw.VKg7fVWVPgBWp.,,.YY++uV fJGn,,wVVwgBGV,JcJK.puJ .uVV+gVWJGGgJMwJBugpGJ,Gw,BwpBnB.GKJ+GW.JW,yKBwpfggYWG,K+>B+JuWg+WYG+BuYJp,uwp+Jufg.fYwuGBBVpgWKK.+KB&V+JJYpYY)Gu,JYfw,uTgVWVfW+.KYBJBpVJgGfu++KVpJ+fGYg!WuGp,.Y.wYpKpVJJfGK+YwwuBgVffWfL.BKppJ+.uYg+WVKu,GYK+wfupgJff,K+fwwpWfV.uKf+.VKJwwJYV+,VWgYg,,nw+BugpWJ.,G,+YVwJuYVKJwfu.,uG-KW+VBJ!WWG,,Y*J+VuJWgJKGw,uVkwfB,psJB,+.WK.2YJ,VVgJWGGKT,?u+guf.fWaGB,pYWuJBYp+JVTu.GKKwwBuJBgfW,.EYgCp+Wu.pYGKGV,JYGgYuwpuJg.fKVYwgpBpp,g.+p.+Ygwg+GGBgw,YGJ,fY,+&w,ppK.f.BuY+wgBJgGJff++gKgp,+,fBgBGp.V,,pB++WfpJ,VfK,wuVwJW,V,KBfB+fKWw+W)VB,WWJBB,Kc++uuWpfJ,,.,BYpwWW+VYJ+fV.JwgIKBwVu..WfG,KIwV,uuW,^JYgf,VYJwGVPuYJu8G.fGVwqBBVpgWwKGYupcV+WuGpYWwGfBJYGJwu9fYJpff..Yww+BVJugGWK.wBGzg+fu,g7GYGp,WY.BBu+pVJJG,g.YwgJBgfWg,fH.BYJYg+.GBg+KuGJ,GYK+w.ppgKKf,,wYBwgBWp+KNfB+WKJpp+KV+guWWGf,,+.+BuppWfifY,+YVwJpgVKJwfuw.KfP,BRpV+uWW+R,Yfg+VuJpGWuw+,VVGwfGLp2Jufp.GK.0YVKVVgJWGwpKwOu+gufWWWmGB,p8,w.BYp+WgKW..V+wwpuVJgfW,,+KfUpJ,u.gfWBGV,J+GBuuw.JJgKp.,+fwBBpgug.!B.+uW5J+GuKWwW,GgBYY,BuuBK,JWGK,gY+g.BJWwgKfw.uKg+u+,GVgBY,GW,KYYu+uJpJY4fKBpYuBGBGg,W,fB+GKWgw+Y+pgVWKw.,YpJ+uG,pfJKGk,uYpwWpJVYJ+fV,.KG5KBwVuwWWf++K*pf+pufp.WVwB,pV,wGpYpwJVfg..K,wIVYVpgWW.wuK+2V+JuGWfWwGu,gSKw,uxpBWJVg..Vuw+f.VJgGWK.guVPJJYu,GgWBGg,WYYwYu+WwJJfG.KlVwuBgVfg,...BKpdWuuuYg+WVGJ?gYK+wuuJWJff,,tQV.uBW.wgYVJ.VKJkGBuG+gVY.Gf+gRD+uuppGJ.fYYKYVwJBGGpJwfu.gKfBWBIVBgpf,G.,Yq+BgYppGYBGw?uYJwfB,ppKufg+KK.JKB+VpgJW,GKKwBs+gufp,KJGB,pYWw.pGp+JVfJ,YKKwwBupW+JW,+VKBVp+fu.pYWJwp,WpkwKVJpuJJff.KYrwBp+VWg.WY,pKV-J+Gp1wYWuw.,ffG+{uBppJYA,,&VgwVfVVGgYfw.pKghfVWV>gBWpww,.YY++uVWuJGfK,wvJwgBfV,W+w0.puK0.gGV+gVWJ,GKwRwJWuggKJ,Bg,B4JB+B..pJ+K}.WKGhKBwVgggYYG,uglB+JuWJ.W,G+BfYJJ)BKWJJVf,+GKKgpBBffgWW,GYKu5V+JggpKWwGuKGYfw,u:pBG+fW..KYggBVVJgGGaB,KupK+f.JgXWBGpYWwVwYffpVW.fGuGYw+pBJVfKgfhwuKgeW+.uYJVWV+!,GpJ+wuupgJfG,,xVfwpBWV.Jwf+.VK,HGWVVwgVWgG.,,+?B,up,wJ.wp,+J.wJBGpfJw3K.gKf),BgVBfpF.G.uWz+pYuJfJJYKw,VYgJuB,KJJBY1.fw.wpB+GYgJJfGKBw^u+gV+p,YGGB,pYWwYBYW+JKfJBpKKu&Buu,gf.,.VKBgw+W5gpY,.GpyJ-fwKf.puD,fffpYc+BVVVfKpWY,BKpgB+GuKJKWu++,fY,+=upppGWG5.YV,wVpgVGgufwYuKfDfWJV-JgWgYG,,+Y+YuV,BJG..,+KfwgufppJh?,.pBVM,WfV+fVG+GGuJvw+BugpcJ,Gt+GYgJuB.VYJ+f..JwGzYBwGYgg+fG,+fCuVpV5p.YfG+JuYJu+BKWwWGfgBVK,pWBuwWgW...GK+g%+J,wpKWBGV;gF+w,fGpBKBff.+KYu+BGVJKpWKYgKVgp+fVYVKWB++,W}g+Cu+pVfJGg.YV,wufBVffgfw,BfBkWWguYOwWV+u,G4K+Vuu,wJff+,3VKwpBWBpgYof.VV+7GB&VwWufYGGupA JGup?gJ..wKwYVJBBGGYJwfu.gY.w.BkGYgpwKG.,Y/++V++pGYgGwu5Ygw.B,JvWGfgBBK.ggB+YBgJf,.,Kwgi+gV,p,WCGBKJ8Jw.f.p+lffJ.GKKww3KVgKuW,+,KBnJ+Wp.JgWB+*,JpBwK,YpuWWGW.,V,wBKpVWg.WY,uYu1JWWuKYpWuGg,fY,YfuB,wJWwf.YYuwVVJfGgYZ,.uVtzfp+VwJVWJGWufYYYYuVpJJGfK,YYuJBBf.GJ-fV.pEW+++YGYgV#wGGwBj+Bpp+pfY.GoK+YpwWB.VYJKfVBVKGg,BwVpggGfGYK%gw+pGBp..uGBKgrgwGfKpwWgfJ.fK,wtI,VpKgW.+YK+Hg+JpGJpW++B,gpVw,gVpuWJGJ..p5w+g+VJgGWK.wGKsgWWu,KwWBGJ,Ww.BguB,VJJwu.K,BwuBggggKw+.BKp&WBBuYf+uuGJu,YKpGuuG,JfG,uGYuJJBWJWgYYW.VwJGf+K.BguKWGG+g=wVBYVpWYKfY.+YVJgBGJKBUfuBWKfwwB4WfgpfWBgKAgu+VVVpGYfGw,puBwGG!p .ufp.WK.wYBBVpKfWG8BK+gg+gufJLW7+B,ppGw.uwp+fVG,.GVYwwW,VgV.W,.<YWEpW.u.pYW+G.,J+G+Vuw,gJgYu.,W.wBBpgug.wB.+KgcJ+GuKJBfwGguYY,gGuuppJWGK,uY+JGBJwZgKfw.uKg+++,.ugBM.GW,,YYB+.PpWYKfKYKYuJGBfJ,+YfBBWKWVKBQVBgp.Jpf,Kgu+uBgpfY.G(lBfVwWfYVYJpfV}YKGwKf.VVKfWf.fK-pY+puGGJWN+p,VgBwGBKpwWufJ.GpxwSgJVgK,W.GYYu*VWWuGKwWwGp,gwfBfux,VJpw+..,ww+BVVWgGw+.wKu!gBwu,f<fpGpu,Y.pWu+W5JWfG,wYwJWBgV.g,fD.BYJw++..Vg+GpGW,GYKBBVwpgPwf,+,YBwpBWV.WWf+BfKJJ++KV+gufgBV,Kgu+BgBpW(wfYq+fuwJfYVK,BfV.JKGB,,YVBKfWWf.,Ygw+VgJwfJK+V,uYGwfW.pzWB+w.fpsbYBYVVKuWG.uu+OVW.uff+WzGu,pYfw.BYJKJVfJ.GVYwwBuVgJfVg.iVgjppKu,KuW+GV,KYGWZuw,JJgf..,w5w.Bp..g.&J.+.g!J+GVggwIWGg,fY,+guBgJWGf.uVY+K.BJVGgKGw..KggY+,WfgBQ.GW,.}p++GGpJWHfK,wYu+WuWV,YgfB,+Kf3.+Ypug.WJBB,K+S+uugpfWY.w,BpYwW,WVYJ+fV,fYf!KfGVufMWGG,KswVBVuWKgJY.G,VYJwGBKg+JVw,.fpJwtBuVpJWwg.EVg6VVVuGKuWwKuEVYfW+u}GVJgff.,KY+gBV.KgGWK.wKutgBfVKgj JGp.WY.WVu+ggWKfGuuYwKYBgVfg,G2.WKpgK+.VBg+2GGJKGw<+wGWpgWgf,B.YBwJJVV,YVf+PWKJ9G+KpwYuWJ+Y,,uV+uG.pWJ...,+pJwJGdVKJBfu,WYp1,fpVB,sWfG.,Yd+uwuJ,YJKwf,up,wfB,gpJBw..WK.1YBVVVJff+GKVJ6u,Yufp,WH.BKwYWW+BYf.JVwY.GYKJ.BV.,gfff.;uYip+Yf,g&{WGVSfYGwYuwppJgffYWY7wBBp.Wg.WY.+KVBu+GuKgwKGGg,fY,Bn.BpgYYf.wuYBJ.BJVGJWfwBJKgJE+,V+gBfJ.p,.gp++pWpJJGfK,wefwgfYV,KWfBB,KW{.uJV+K.WJGG,KmW+uVWgfJ,+J,B*wwWB.VYW+GY.Jp+)KgGVuKYWf.YKYRBWKuWw<JYG+,VYJBJBY,fJufW.fK,w}uVpVgWwpGYp.oV+JuGJ<fAGuV+YfKKuepBJpfW,,Y<JGBV,BgGWY.wKuwV+G.ugjDGGpV+Y.Bwu,pV2)fGWWYwwuBgp.JWftB.Kpu,+,uYg+WV.p,GgV+wG.pgcBf,K+9WwpGwV.+wf+.VKJw,BWVwK,WgGV,,-l+Bupg,J.+p,+p,wJGuVKWBf,.gp+!,u.VugpWW.KYDA+WKuJVVJKGw,uYg+WB,,gJBwK.WpV8YuupWgJwBGKwJau+gufg,u,GBu,YW+:BY,fJVGJ,WKKJJBupugfCW.rKVV++f.upY=gGV,JYG+K.wpVYKffw+YwJGBpVWJYWYBgKVgY+GV&gwfp.B,fgV+^pgppJWf..Y/uwVfKVGKgfwB.Kg(fBfV9KGWpGW,.Fg++VgJwJG+g,wguwgBfV,W5GV.ppwM.gWV+KKWJ.,K,AwW,ugxKJ,G9,BYpBpB,,WJ+fg.JKG6KuBpBggwVG,+uxB+puWgKWKG+VwYJJuBKpwJufg,GKKJfBB,+gWW,GYK+wB+W.BpKxfGuVwYf+YuYpBYYfWWgKYw+BVpfJfWKBGKuuG+Gu,g#WB.u,fguwYGGpVA+fGKCF!wuG5VfwYfm.BKpwGBGuYK.WV..,GYK+wuugVJG+V,Mp.wpGBV.WwGw.VpwhGufV+guWg..K.D{W,up.wJ,fY,+YV+pB.,pJww,.gpuq,p(i+gpwwG.KBM+9VuJgG WG+u.Yg+gB,..JBfJwVK,JJB+VpgJWGGKYwJu+J.+p,,VGuuYYWw.uup+YGfJuBKKwBBupWg.W,BWKB+G+Wu.pYW+.B,Jg+wKffpuy4ff.,6gwBfYVWg.WY.gKVwfBfuKKGWug-,fY,+bVBgGJW+V.YB.wVG+VGW9GQ.upwRfuWVwgBWpGWuwm!W,uVpJJGfK,wYuBBBf,pJEw,.ppu!.uwp.gVw+GG.G^w+uuggfWJG?u.Ypw,B.,WJ+GV.WKGJgBwpwggegG,K+uY+g.Bp.KJG+,VYJ+GGKp+Y,fgcYKKJfBBVpW+W.BpK+gK+Ju,pKfB.g,gguw,pVpBJpfW..Yww+f,VJKuWKBGKulgu+u,KfWBGp,W?wwYVugBJJ+p.KupwuBgVfJ,Gp.BpRZWgpuYK,WV.fKfYKW.uuJBJGf,,xYBgGBf,JgYf+.VKJ>G+KVfguwwGfVJ6bWYupgGWYfYu,YV,VBGVKJwGu.KKfJgB4VggpwuG.KYEB+V.+pGWGGwuwYg+tWKpwYKfp,gK.w#B+V.gJWGKfKw;u+gf+p,W%GB,p+Vw.BYp+,.fJ.GKKwwp-VggfW,,pKB0p+Wu.WGW+GV,JVTwKuwpuJg,p.,YcwBWJVWg.WY.+ww#J+GuKWwWuGg,fY,u.uBppJW.1.YY+wVuJ,GgYwG.u+.kGfJVTgBfgGWVuYYW.uVpfJG.U,,YuW+BfJ+JTfB.pKWiY+Y.GgV7wGGVWdw+uu,pfaJG:,BYpwKB.gwJpfVuuKGwKB+Vuggff,uK:gK+pWBp.IGG+Kg*gwGGfpwf!fJ.fK,w%WJVgYpW.GYK+LV+JuGgpWw+Y,ggpw,G,pBWJ.B..pGw+YWVJgGWK,wKGTgfVu,guWBB+,Wi.BWu+KRJJGJ.KVKwuB,GGgKw..BVVDW+,uYgJWVGJkgYK+wuuGYJff,,;YBu+BWV.gYGJ.VKJCG+Kg,guWgGfB+&<+BuppWGJfY,+YVgfBGVKJwfuYBKf<,BOgBgpWWG.,Y+K+VuJpGf+Gw,uYg+fG,pwYKfpTKK,JGB+VVJpWGBgKwgY+gu.p,f+..,pgVw.pup+JVfJ.GYpwwfKVgKBW,B.KBZpuwu.KGW+GV,J}QwKVBg+Jg+g.,fgwBBpVWJ.GJ.+pwoJgVuKKKWu.WKWY,W,uBJ+Jff..YY+gfBW,WgKfw.uKgcf+,VYgBw+GWVWYYf/uVgfJKfKuKYuquBfV,J7GB,WKWJJ+YVpgVwVGGKKwW+u.BpfWfG!uyYpwYW,p YYfVKJKGnYBwVJggWfKWKlDB+pGfp.JYG+,V+uwGBKpwWJfg.fK,w^VYVpgWW.wgK+mV+JuGWfWwGu,gw6w,u>pBWp+W.,pGw+gfVWYJWK.wY.dgfuu,K.WBGJ,WeKBGu+K+JJ,y.KYwwuBggug,wG.BuYyWfWuYg+fGGJVJYK+wuup.JfGYKwYBWuBWGBJzf+.VYJ+J+K.KguKwGfVG%0BVVVpW^ffYKKYpwJBGVKKpfVupKfZ,B3VBgpWW.w,YgY+V.ppGH,GwKpYGwfGGpMgLfp.WK.wYu.VVYVWG.+KwJ++gVfgJWOBC,pDpw.f.p+JgYu..p.wwfVVggfW,,ApBQgfpu.GuWBBB,JYG+Kuw,YJg+g.,Y+wBuJpVg.w,.+Tf?J+GuKgwWfGgVpY,JWuBKuJWf.,BY+WBBJVGgKfp.uYW9,+,.YgBG,Gf,.YYB+ufpJ5WfKwGYuWpBfpYJYfBuVKW+JBFV+gVWJ+Z,YJw+uugpfJ,G(,Bw+wWGfVYjwfVuJKG+oB.VuYpWf.VKw4B+pVWg,JYBx,VY.wGG,pwWu.B.fpGwZuyVpKpW..w+KopfguGW.WwGu,gCfW,uwKwJpKK.,pKw+BVgBgGwf.wp+0g+.u,J+WWGpVJY.fJu+pVJJfG,GYwWwBg.Bg,wY.BKpSK+..Kg+WVGJK+YKBBVfpgxff,.uYBwpBWp.Wff+uuKJVV+K,wgufW.W,,Jh+BGJpWJ.fYKuQuwJG.VKfYfV.gKfI,BKVuYVWWB.,YJB+VVfgfJKBw,uC,wfB,piWVGV.Wp,SYwKVVgJWGGKKYqVfpufK,W6Bu,pIWWgu2KwJVGV.GVGwwupppgfw,.AuGmp+Wu.pY,pGpVWYGwKuwpuJgff,GYwW+Bp,Wg.+!.+Ygwg+G.KgwWKGg,fY,+AJgpg:ff..YY+wVBJVGJ.f+uBKgJf+,,wgBWJhV,,gY++f,pJJGfKKwguwJGWV,.VfuupKW<.upV+Y+WJBf,KxB+uVWg.J,B&,BwGwWB.VYJ+f,.JpWoKWfVuYgWfG,KJLBfpuWp.JYGp,VOf+BBKK+Jugu.fK,wcuBVggWw.GY+.4VfWuGJIf<GuVJYfBWuwpBJpfWwvY0WuBVVJgGWK.wKuwV+G.,g)wuGpVGY.+YG,ppzJfG,GYwJwBgp1,KfwuuKpPY+.V{g+WpGJ,G+f+wuupgWKf,,dYB+pGWV,YYf+dfKWJ.+KVwg,WgBJ,,Jt+BuJpWWK..,+gpwJWVVYJwfu.gK.#,fYVBKwWWB,,Y(+BGuJK.JKGw,uYGwfuYp.JB+J.WY+wTB+VVJJWKGKp+UugwufKYW#.VKVYWWKBYuYJVfJ.GYK.KBu,Jgffw.TpV8pBWp+pYwBGVKVYGJ,uwpp,BfGuYY%B+BpVWg.fYu+KpJW+GWBg+wpGg,fAp+/.+ppsff.,wY++guKVGMCfwKWKg#f+,VhgYWpBW,.pf++.gpJJGGJ,wgpwgBfV,JVfB,JYJs.G+V+BuWJGG,KwwBJugK.J,Yf,BgWwWuKVYJ++J.JigvYBwVuggfGG,pu&B+puWp.JYG+KKYJW,BKKuJu+G.fY,w+BB,JgWfWGYVw^VVJpVpKwBGu,GYf,Yu4pWKgffuYKYBQBVVWgGWY.wKuBB+fu,gqfgGp,WY.+YJ+ppjffGwBY+WgBgVfJKfouBKpJG+.Vwg+fgG.,GgY+wJgpJJff,K+YfwpGGV.uwf+.VKJqGBJVwYgWgB,,,kr+Bufg.J.fY,+1,w,B.VKWBGB.gg+5,VVVBgpWWG.p,I+fGuJ,pJKBW,uYgBgBKKJJBfp.WYwnYuupugJ+uGKYpau+gufp,gGGBp%YWfcBYp+JVfJY8KYWfBuK*gf+g.jYBJw+f,upY,.GVpwYGBduwpuw5ffKWYwwBBpVWJBWYu.KVbJ+GuKgwWuG,,fJV+D..ppwBf.,YYfwV.nVGJGfwBBKgBf+KV?YGWpG,,..w++uG.WJ.Bg,wwWwgBGV,JwfB.pwVS.+YV+YWWJGG,KwwB,ugY+J,YV,ugYwWB.pVJ++G.JgBXKBBVuggGBG,pudB+puWp.JYGJVwYWW.BKpJJWfJ.fKYw#BgWwgWW.GYKW3f+WuGJNfaGuVfYfu+uUpBJpfWKGKYWBBV.BgG+w.wKu+B+f,UgPWBGp,KY.BwV+pV8.fGG.YwwuBgpfJwfEupKpVB+.,Bg+fg,Z,GJ++wpipJJff,,jYJwpGKV.gYf+.VKJ%GBVVwYgWgBK,,JV+BVpKuJ,B+,+o+wJffVKWBGB.gpK<,BgVugpWW..Vf^BfJuJpYJKBV,uYWppBKKuJBfW.WK.PYu+,VgWwKGK+pkVfGufp,WuGBVgYWWYBYpuJVGfKwKKWVBug.gfW,.}KBcG+W.KpYY,GVV.YGwKuWpu{Gff.,YIwJBppGJwWYugKV+f+.uKgwfuG.,fJw+eJ,ppQKf.Kw>wwVG,VGWff+.uKg5fVGVwYWWpGW,.YY++uVgYJGB+,wgWwg.MV,WafJ.pp,Q.B.V+KuWJ.,KK2wfWuggwJKGn,BZpwYB.KBJ+fW.JgP)KBBfagJwYG,uV8B+puWg.sYGBVWYJp!BYKpJufg,WK,W+BB,fgWWKGYYuwu+J,1pKGpGu,gYfw,uKpB{WfWBgKYWgBVVJJfWKupKu&g+fV+gAfV,w,WJ+wY.VpVJJfG,K#pwuG.Vf.gfEuWKpwGBGuYYJWV,u,.YK+wuuWVJGBu,AYBwpBWV.gYfK.Vp,0GGuVwYGWg.fKfO)fJupgpJ.wK,+Eg+GBGKuJwfG.JKf-,u-V,gpwKG.KBE+fGuJp,,fG+VfYggWB,p?JBGpuWK,WuB+WfgW+wGKKwwh+g.,p,wVGB,JYW+KuYp+bGfJYcKKwwBuVgJuW,uuKBgw+W,+pYW+.u,JJwwKuwpuJ.ff,YYBwBG,VWWuf}.+KVwJBfuKYgWulw,fJu+vVVgVJWBB.YnKwpBJVGgK.Y.VpY/f+,VygBWpGWYVYYfJuVKYJGBp,wXuBBBfKBJnGo.pVJL.uwVfgVwYGGKVM++uuggfWJG>VWYpw,B.KpJ+fgwuK.WVBw.uggWfG,Y}JB+g.Yp.,uGBV.YJwGu.pw(JfgVnK,w+BBpJJwW.upK++f+JuGpKWwGW,ggYw,fGpB(,fW..opw+G.VJgGWK.pKuwWB.u,YJWB,p,WY.wYV+pfJJB+.KBGwuGYVfJYfY.BpK;WuJVFg+WVGJlWYYffuupgJff,,DYB+uBWKBgY+f.VgwCGBKVYguwKGfKf/>W+upgGfwfYVfYVYWBGVKJwGu,wKfWuBOVggp+wG.KVpB+p,*pG,.Gw,VYgwGB,p*fYfp.WK.+BB+VVgJfGBKK+JG+gJYpKwJGB,pHpw..up+r.fJ.,KK+BugVg<+W,wfKu>p+Wu.gGW+BG,JppwK.WpuJgf..,gJwBBpVWgYWY,uY.kJGuuKJ.WVGg,fn,BJuBKKJWYp.YgGwVuJ,pgY+W.uYu<fW.VigWYgGfpVYYB+uVpWJGG5,wYuuBBfV,Jz.f.pKWF.+YgKgVWJGGu7Lw+uuggf;,GwVGYpVKB,KJJ+fVKRKGWuBw,.ggW.G,Y+o,+p,+p.GuG+,VYJwGVupw5GfgBVK,WWBBVpJYW.uJK+jV+JVFpKfB..,gJuw,wfpBJpfW,.<Bw+GKVJ.VWKuGKuwWBWu,YfWB,+,fY.wYu+WBJWBp.KYwwuBgVfg,fW.BpYAWGpuYY,WV.JKVYKffuuguJfw.,n3V+fBWKpgYu+.VKJiGBKVWgu+!GfKwCqf,uppYK,G%V.YVwfBGVYJwfg.gKfBWBtVBgpf,G.,Ym++VgupGJKGwYgYgwfB,pQfYfp.WK.gwB+VVgJfGBWK+J,+gJYpKwfGB,p,Bw..pp+*KfJ.,KK+BuBVg#uW,KVKBap+Wu.Y,W+B,,JppwK.GpuJg.g.KgfwBBpVWJwWYY+Wu5JGVuKGGWuJp,flY+YuBYwJW.J,jY+wVBJJWgY+,.uKgAf+,VQgBWGGWppYYf,uVYuJGGK,JYufwBfpfJUw+.pYG>,+Y,,gVYuG.,KHwBuuKpfwgGz,gYpfuB.pVKBfpVBKGQKBwVVggWGG,KA+Y+puWp.KKG+,VYJ+GGKp+*Kfg1YKKWGBBVpWuW.ugK+JY+Ju,pKfBGW,gJVw,pupBJpfW..Ypw+GKVJKpWKu.KujgBJu,YGWBGp,W9VwYVupfJJBg.K.,wuBgVfJ,GW.BgwQWgpuYYKWV.fKfYKf,uu,WJff,,MZV+VBWKWgY<u.VKJ>G+KVYgV++GfpWieG8upgGWGfYVKYVG.BGVKJwfuKuKGWfB?VVgpWWG.Ywww+V,ppGwJGw,uYg+.u.prw+fpY,K,LYB+VVJWW.uGKwWB+guGp,Wk.w,gJuw..Gp+w+fJ,,VKw+.rVguVW,.1KBwJBgu.Y.W+YW,WYGwKuwpYJgBV.,g.wB.BVWJKfK.+gwSJ.,uKgwWu.WK+Y,f,uB}KJWf..YY+wpBJKpgK+,.ugu?fBYVGgB++GWYJto++uVgfJKfKVKYuB,BGV,J}fB,.KWWg+Y,KgV+VGGKKiG+u,+pfWfG<u+Yp+GuGVYmKfV+KKG)KBwpuY+WGuJK50g+p,Vp.WVwB,pJuwGJwpwJVfg.GK,w3VYVpgWW.wYK+5V+JVGKKW+BY,gBYwK..pBJpfG..gJw+.HVJg,WK,BK.HgGpu,WVWBGp,WY.BWu+KYJJwp.Kg,wuBggBg,+..BKp*WBwuYJuffGJpJYKVWuVpgJfG,,KYBf+BWfpgY+Y.VYfwf+K,KguGBGG,,X-+BfGpfwffY,+YVwJBGVKJ+fuVBKfWfBAKwgpfG,+,YJY+V,upGJKGwKu!Vwf.Wp?JgfpVpK.wYBBVV&uWG.GKwgB+gV#.KWwu ,ppgw.u8p+JpfJ.GwfwwBuVgJKW,.#KBwpfWu,YGW+Yf,WJJwKuwgWJgBu.,g.wBBJVWJKf..+g+8JVOuKgwWuGgKWY,fGuB,wJWBW.YY+BwBJKJgKfw.uK.QfBYVWgB+uGWVKYY++uVgJfBfKVKYupwBfKGJ*GV,VKWWf+YpKgpWJGG,Kpp+V,ppfJ,Go,BYpwWuBVY^YfVVpKGW,BwppJKWfuGKPVw+puWp.WY.B,VJVwGu+pww+fg,fYwwM.PVpJpW.+KK+#gguu.Y.WwwC,gYfw,V&KBJgBp..BuwB.BVJgGfV.wpYcgGgu,g+WB.JYuY.f,u+JfJJfG.KYw++BgKpg,{G.BguTW+.pWg++BGJ,GYK+puugWWff,VYYBVpBWV.gYG+,kKJWW+KWGgu+pGfKY(Y+B,VpWfJG*,+YVwJf>VYwwfu.gKfe,B5VBWBWWuf,YWw+V,JpGfO.u,uJpwf,pp9JBfp,Wd{vY.OVVg.WGu,KwwuBpufYGWj.{,ppJw.uwfKJpBg.G6YwwBuVgJfw,.wgw/ppKu,YKW+GVYtYGffuwY+Jgf..,7+wJBpKJg.YW.BKV;J+Gpggw+wGguVY,fYuBppW+f.VKY+wVBJVKgKGB,JKgWf+,wKgBWpGWK.6Y++,upJ,VfKpwYu+gGVVKbYfB,BKWgG+YVJ,pWWuG,KBV+uuJpfJKG ,B++wWB.VY,gfV.JKGwKGwVV<pWf)+KwWB+puWgoJYBY,VJgwGuRpwWpGG.fg,wzVJVpgWW.GYKG1VGpuG,JWwuu,gYfBVuXYBJpfW..Yuw+ugprgG+Y.w.+*g+fu,JRG?GppWY.pWu+YpJJG,,,YwfVBggpgKfo.BKppK+,Kwg+WVGJ,GYK+wVQpgwff,pwYBfJBWpKJuf+VpKJKY+KVwgufg,p,,W;+BufpWw,fYK+YgwJ.GVKJKfuBVKfwBWwVu3gWWBf,Y4B+VuWpGJK,,,uYgwfWVp<JBfp,Wp.w).+VVG,W.uYKwHuuBufYGWvuB,pYGw.VwpBJVBW.GwBwwBuVggfGw.9g+;pWBu.=yW+GVYuYGfYuwpuJgfY.,j+wfBpKGg.,+.+KV/JBGVYgw+VGg+uY,G+uBgJWJf.pwY+BwBWVGgKfw+WKJW,+,VQgBWpGW,.wB++,ppJw,fKpuYu+WuKV,w+fBJ,KW8.+Yp+JuWJu.,KRV+u,WpfW,G.,BJgwWuWVYYXfV.Ku.bY.BVuJpWfGKK/6u+puWWJJYG+,VVjwGBKpwWu+g.GgKw*gJVg2GW.GYKWCVGguGYYWwGp,gX.+.u?YVJp.K..KYw+BVp.gG+K.wuKIgG.u,gEfGGppGY.wYu+pfJJG,,.YwfgBgG8gKf1.BYpwW+.Kwg+,YGJpKYKBBVBpgw,f,K.YuwpBWV.KufBVWKJ#G+KVwguWg.Y,,W++B,WpW+(fYKu2VwJ.KVKpufu.gKfw,BKVBQJWW.8,YWV+VVJgJJKuB,u!uwffGp9JWeg.fgYqYB,VVgWWGGYKwUuVBufp,W0=G,pYWw.uYK+JpBf.GBBw+.gVggffW.;gB pGGu.gwW+.gKGYGGwuwJWJgff.,Y2+wBpKfg.yW.+gJOJ+GuYgw+gGg,fY,+VuBgJJ,f.pBY+uKBJVGgKGw.fKgW,+,WfgB+fGWKKPK++,WpJfgfY,wYuwgWYVKwVfB.pKWP.+YV+WNWJuK,KWV+u,.pfWY.t,BJfwWVJVYJ+fV,J4>qK.uVugGWfVwKewBBuuWYYJYGY,VppwGuu.+JVBG.f+,w6BuVpgfW.GY1KcV+JuG.pWwGu,gkfW,uwYpJpKK.,JBw+BVg+gG+Y.wgg7g+.u,J+fKGpp,Y.uuu+pVJJfG,gYwfpBg.ug,Bu.BKpwY+.KBg+WVGJK4YKBBpwpgwYf,+JYBwpBWp.WJf+VWKJVV+KKpgufW.W,,WV+Bp+pfJ.fY,+VfwW,wVKJwfu.gKf>,upVB0fWWVw,YWJ+VVfJBJKup,uKYwfB,p<WBfW.WJ#vYBpVVl,WG.KKfzuGGufgfWa+w,pYYg,uxYgJVw+.GKYwwBVVggf.W.zKBTpJwu.pYW+.V,gYGG+uwfWJJBY.,YkwfBpKGg.BB.+KgjJ+GVggw+gGg,fY,+VuBgJWYf.pBY++wBWVGgKGB.gKgWY+,GggBWpGW,.w6++,JpJwYfKppYu+Wu,V,wufBpBKWn.+Ypug,WJV},K3++uugpfJ,Gf,BJWwW,AVYwgfV,fK,EK.VVuWpWfG,KrwVBVuW:wJY,K,VYJwGBKGWJuBf.fJww#.JVpJGfJGYgpnVVwu.pKWw.p,KYfG+u(JpJgfW..KYwuBVKGgGB+.wgW-gB.Vwg*+gGpY+Y.wYu+ggJWfGpBYwwGBgVfg,f*.JKpW.+.KBg++fGJK,jY+w,Jpg+,f,,2YB+JBfV.wuf+.BKJ?G+KVwgJWguK,,Wu+B,GpWW+w^,BJfwJg,VKJ+fu.fKf{,V.VBgpWW,Y,Y2++VuJWgJKGw,uV,wfB,pQJB,+.WK.4Y.VVVgJWGGKJp)uGGufpYW1Gu,p5G++BYYpJVuG.GKKwwupppgfB+.SKw:p+Wu.pYKBGpp.YGG+uwYWJgGt+KYwfJBpGpg.fi.+KfrJ+GgfgwWuGgY,Y,+zuBppGVf..YY++WBJVGgKfwYCKg/f+,p.gBWpGW,.+G++uVpJfGfK,wYuwgppV,JAfBwGKW4.+YV+wfWJuY,K?B+uuJpfWY.W,BJfwWBWVYJ+fV.J,pyK.pVuJGWfG,K:wVBVuW?+JYug,VYJwGuu.+JVBK.f&gw>BuVpgfW.GY6K0V+JuGJ,WwGu,gYfYguHYgJpu8..Yww+ug4pgGB+.w+WUg+fu,J+JwGpp,Y.w,u+pVJJGw+YY+fWBgGwg,fw.BK,xW+.gGg+WVGJBBYK+wuupgGpf,,4YBp,BWV.gYf+YwKJhG+KpgguWgGf,,+.+BuppWKwfY,+YVwJpgVKJwfu+WKfA,BHVBf+WWG.,Y+++VuJpGJK,,,uYgwfVwpFJBfp.WWwiY.pVVgfWGGYKwwp+Yuf)wW1Gw,pYWw.uV.BJpB,.GpGwwBVVgg.W,.F-Y;p+Wu.W+W+GV,JYGufuwpuJgGK.,Y0wBBpYKg.BB.+KgUJ+.uKJBfJGgpKY,wKuBppJWG+B;YBffBJfwgKf+.uKW!f+,g.gBWpGWYYYY++uVpJGgfK,wYu+GBfV,J?fBpGKWf4+YVugVWWGGY83u+u,GpfBoG(,BYp+GuGVYwgfV.pKGPKBwVu.JWGVwK(Wg+p,Kp.WVwB,pJ,wGpVpwJVfg.,K,w^VYVpgWW.K2K+7V+JuGWfWwGu,gwww,u7pBJp,V..KYw+uKVJgGWK.wgWxgGKu,g+WBGg,Ww.+GuBYWJJ4l.Kg+wuVgg+gKBu.Bgf{WuuuYgJYpGWgwYKWGuupJJffK,0YBu+BWV.gYYf.VKJ8G+KYBgu+GGfgBH8+uuppWgWfY,+YVwWBGVKJwfuuJKf#,BOVugpWWG.K^6G+VuJpGKVw+uHp+J,f,.VKJ(f.,K.2YB+pgppWGGYKw9V+gufp,WaBV,pYfw.u p+JpfJ.Gf+wwBuVggfW,.MKBkpwpu.pYW+Gp,JYGwKu+puJgff.,Y+wBBpVWg,fp.+KV<JW+GBKVYGw.uJgB+wuGppJWf.wfVGJwfuG+,YafBJKGkf+,VUJVJuGW,,YY+BuVpJJGfKKBYuwJBfVKJ0fV.pYWJgB0VBgVWfGG,Kjw+uBupfJ,GO,uYpwWB.pUJ+fV.JKGwYBwVuggWG.+KR*B+pGW.,YJ+uuJYW+WBKpwJuKK+YpwVuWJ.W,.Pw+,upppWpGYKwW+GJ,gYfw,f,.uYfww.,YBw+BVVJY+YY+fVJRJB,u,g7WBYfBKpWJKGQ.u.KwgB,pJgWfW.,,.YBBBugJ:WfVagpWVGJ,Gg+J+Gg,+JGGp,:YBwpW:.GYw},BJVJp.WwGpggWgGf,,#-+BuppWJ.G),JYVwJBG.gKYwg+.V.JwBwVfgpWWG.+VpKWuGY,td2+u,VY,wfB,pEYVbgBgV&gKWYVpJ+WGGKKwuGJ.GK.bYV+Vu.p+gYfupBJffJ.GKKJVWVGWKpR+.wKf%p+Wu.,pYg+WBYpdJ.GgpVJfff.,Y)V.fWWfg,fu.+KVeJgJG,,VYW+B,,Y,+2uBppJWf.GYBwVwBJVGgKGBG+Kg&G+,VKgBWpGW,.ww++uppJJ.fK,BYu+gGVVKJwfB,?KW{.+YpupBWJG.,K0Y+uugpfJ,.+,BYgwWB,VYJufVKJYg)YB+VugJWf.gK3DWWYufp,JYGG,VYWwGBYpwJJK+.fK,wmB.VpgfW..Bw,ZV+JuGfWWwGV,gt.FGuEpuJpfY..KYw+VVVGg.WY.wKVxg+Ku,g4WgGp,fY.+&u+ppJJfG,JYwwVBgVfg,fc.BYJ1G+.Vwg+WpGJ,GYK+wV.pgJ,f,,(YBwpBWg.JWf+.JKJzK+KV,gufW.w,,6V+Bu,pWJ.fY,+B+wJBKVKJpfu.WKf+,uuVBgWWWGY,YUg+VpJgYJKGu,uYfwfBYp5JBGt.WKY:YBpVVgJWGGKYVOu+Wufp,W-Gg,pY,+,BYp+JV.f.GKYwwVupYgGfu.^KW6pBJu.JwfwGVKwYG+KuwpuJgfffgY wfBpp+g.fw.+KGJw+.VVgwGwGg,GY,+wuBpf.uf..YY+B+BJV.gKfVYYKg7f+,g+gBWgGWKKK,++u.pJWJfK,wYuBgupVKJgfB.,KWwV+YV+plWJ.B,KA++uugpfJ,WG,BYYwWu+VYJ+fV.JJ,>KBJVuJnWfGKKrDWf+ufpKJY.W,VYWwGu4pwJJK+.fK,w:ufVpgfW.GY..4V+fuGpYWwGu,g-JgfuopGJp,w..Yvw+BgVJgY,W.wKuIgV+u,gwWBGfwuY.wYu+W.JJf..K8Bn+BgV,g,fB.BKp Wu.VGgBWJGJ,KYK+.uugWWWf,,uYB+gBWV.gYf+G3KJwM+KVBguWgGf,,,f+BuWpWWwfY,uYVwJJ.VYJVfu.JKfwSB7VWKYWf.!,YBB+VuWpGJYGw,JB+wfB,pTGufp.fK.wBp,VVgJWGYuKwRV+gufJBW5GJ,pYfw.BYp+JGUW..YuwwBuVggGW,.+KBNpJ,u,pYW+Gg,JYGwKuwWIJgff.,YuwBBpVWg.Bu.+Kf>J+,uKg+WuGg+uYK+BuBppJWf..YQu:BBJVKgKfg.uKghfu,V.guWWGW,YYY+puVpJI,fK,uYuwJBfVKJmfgPwKW<.+YVVgVWWGG,KKK+uugpfJKG<,BYpwfB,VYJ+fV.KKGIKBwVVJVWfG,K>uWJYGg,},VwGugpGJYJw.WK,wB+KYrwdBBVpgWW.GYu4uV+Wp+pKWwGu+gpBJ^fG.+.fRKBWVKJ=WuWKKg8,BJuWgWJWfw,JY.+uuOY,+gu+pVJJKKuBVBgWpVJff,,+.uYW5W+.uY,JYK+fuOpKWBGB,YYBwfBWpgJYfW.KKKPYBVV.(.B.VwguWg2wu+gugQGV.,YwwGwVBGJfW..GKpGu.gKf},BzpVggWWG.,Y!++VuJpGfVGw,VYgwGB,peJB.pKVK.w-B+VpgJfwGKKwww+guGp,W+GB,JYW+Kuup+JgfJ.,KKwwBuVgJpW,.{KBEJ+Wu,pYfu.+,JYGwKuppuJgff.,YwwBBgVWg,WY.+KV+Jf+uYg+WuGJ,fYK+5VVp.JWfY.YYpwVBJVGgKfY.uKJ8fBTV6gVWp,WKYYY+BuVpWJGfY,wLpwYBfpMJ<fp.pKW:.+YprgVWWGGKwEw+uugpffJGQ,BYpwWB.p7J+fVGVKG(KBwVVggWfG,KQ&B+puWp.WwG+,VYJw.uVpwJufgBwV+JuWfGGKgw+.CKG?V+JuGG.0iYgBGugJ.Gp.JYWf,..KYw+ugupgGWY.wKVvg+fu,gefVGp,fY.+Qu+pgJJGGuWY+wVBgV.g,fv.BKpYp+.uYg+WpGJ,GYK++uupgJff,,wYBwpBWV,JGf+.VKJVJW,GVKW{BwYBqpBWVfY,Wl4.+,+YVwJBGgKJ+fu.gKfO,ByVBgpWYG.Kt&++VuJpGJKGwKKYgw.B,pwJBfp.WK.w.B+VpgJW,GKKuXu+Gu.p,W2GBKVYWw,BYp+WGfJ,wKKwBBuVggfW,fGKBn,+WVwpYW+GVKf6fwKuWpuJJff.,YrwBwPVWJ+WY.fKVXf+GVug+WuG,,f{.+9uuppJWf.,B+,wVBJVGJ,fw.VKgefuBVLgWWpG.,.YY++uVVBJGGV,wYuwgBfV,J{JK.pYw4.BuV+gVWJGGJ6Mw+fugg+J,Gw,BY.WVB,piJ+ff.JK.0KBBVugG,VG,K7XB+GuWp,JYG++gYJwGBKpBJufg.fK,Y,BBVpgWW,GYK+1V+JuGpKWwGu,gYfw,uqp,JpfW..KY+JBVVfgGWK.wKuSg+fpBgTWpGp,fY.wYu+pVfKfG,hYwwpBgV.g,fS,WKp?.+.Vwg+WVGJ,Gwu+wuJpgJ,f,,FYBwp+uV.Juf+.VKJ<G+KVwVYWg.d,,Aw+BuppWJ.KB,+YJwJuwVKJwfu.g+.bKBBVBgpWWG.,Y^+w+uJpGJKG+,uYgwfBYp JBfp.WYBCYB+VVgWfVGKKw&upKfYKwKBwJuJpYJVf+.gJpG+.GKKwwgf.5K.v+wBuJgJWYGwKwWB.u,JYGwKfW.WKJwp+.pugufu.zf,,wYVupgGJYuYJ+WuGg,fuYJVGB,+Y+FYB8ppgfW.fKY+w4BpuJgwW+VwgfWpGW,.ppJgGW.YY6w.ugYVwfBfV,J6ofBVu,H,BpV+gVWJO,uBpKWBGG.Ya(,u,BYpwWuKYpJ+fp.JYm2KBwVuggWYG,Kw4B+guWpKJY.+,JYJw.BKpgJufg.fYY+,BBVggWfwGYK+nV+JVKpKW+Gu,JYfwYuOJBW,fW.,KYwBBVVKgGfu.JKurJ+fVpgSWuGp,fY.+Bg,pVJJfG,gYwwVBgVKGJf2.BKpw,+.VIg+WVY.,.YY+wuVpgJff,,8WYwpBGV.gYf+.VKJ+GugVwgpWgG.,,Qw+BVJJBJ.GB,+YWwJBGVKJwGG.gK.Q,BuVBgJWW,.Y.:++guJp,JKGJ,uwgBpB,p+JBfJ.WKYMYV+g+gJW,GKKBFu+Wufp,gGGB,fYWw,BYp+JVfJp,KKwBBuVGgfWK.TKguw+Wu.pYGVGV,WYGB!+YpuJJff,+Y(wBBpVWJKWY.BKV#W+GVcgwGu.B,GYK+huuppJYf.,VpGwpBWVGfwfw.VKgSG+,VufKWpGW,.++++uppJJGY+,+YVwgBfV,J(fB.pWVA.BwV+gVWJGG,K+wB.ugp.J,G+,BYgwWuKgUJ+fW.JKYOKBwVuggGpG,K+<B+fuWpKJY,+K,YJw,BKpBJufK.f4,wpBBVJgWWKGYKVOVuJVfpKWBGu,WYfwYukpBgwfW,MKYwBBVVJgGWKpBKu5W+fVwgvWuGp,WKWwYu+pVJWfG.KYwwVBgVfg,f&.BKpUW+.Vpg+WVGJ,Gwu+wuVpgJff,,kYBw.WfV,Jwf+.VKJH.+KVBguWgwK,K;i+BugpWJ.fY,++wwJBGVKJwfu.gKf/,puVBggWWGK,Y3++VuJf,JYG+,uYgwfB,p^JBWB.WK.OYBBVVgJWGGYK+ku+gufp,W}GB,p9ew.BYp+JVGK.GKYwwBuVggfW,.zu+Rp+Gu.gHW+GV,JYG+VuwpgJgff.,YRwBBppKg.fw.+KV^J+GuKgwfGGg,GY,+SuBpgJWG<,pY+wVBJVGgKf+.uKgYg+,VUgBWgGW,.YY++uVpJJGfK,GYuwgBfVKJpfB.pKWgBWu.pKgY,++,Y/V+uugpfYGwVuGpfwfupVYJ+fVBwVKgfWu.iKpb,B+V+pJ+gggp.JYG+BKppWwWY.,K,#GKfuKJ+Wf.GKp w+,Vp+VuGg.JKoV+BYg+wV.pgJBfKY+Bfp+JpWp.p,KLBKwuWgYWfG+,BRgwGB,+V+kufpVJJfGwgVYJgfGGGKGvB+JKWxW+.uYg+WVGJ,GBK++u.pgJff,BppJJuW.,3KJwwBBKWB.+KVwguey+JVBpwJYfY.,f.wsuuV.J,fJ.BKYwJKg{,BKV^.gKVGWKBwK+WuVgFGgY,wuBVpBp,f7,+K.wpB,a.guff.V,,YKB+uppJVOuGgJW6GB,puVJGf+.BYwYG+KpOgffu.GgGfB.!KBxpW.fYKwYG+Vu.BKwKuwpuJg,W.,YwwBBpVWg.WY.+YfcJ+,uKg+WuGg,fY,BGuBpWJWf..YY+wVBJgggKfB.uKWHf+YVLWWfpGW,KYY+WuVpWJGGB,wYJV+BfV,J<ff.pKf%.BBJ,gVWJGGKp<w+VugpfK+GQ,VYpwWB.VYJ+fVm.K.wjBwVVggWfG,Y+NK+gu.p.WBG+,VYJ+,VVpwJJfg,3K,weBBVpJ.W..4K+iW+Ju.pKWw.W,gYGw,uLpBJpfW..Egw+BgVJg,WK.wKujg+,u,gBWBGp,WY.wYVupJJJfY.KYfwuBgVfg,,J.BKJkWB*uYguWV.fKIYK+uuupYJff,,5 V+GBWp9gYfJ.VKJqG+KpGguWJGfKwXM+uupgGWJfY,BYVwWBGVKJwfu,+KfeKBUVugpWGG.,YwJ+VufpGJKGw,uYg+.uupDJpfp.GK.:YB+VVgfWG.+KwNV+gufp,WX.p,pYKw.uup+JVfJ.Y+WwwBuVgGWW,.wKBZpBYu.ggW+GJ,JYGwKuwuYJgGB.,YgwBBpVWg..V.+K,OJ+,uKgBWu,,WDY,+JuBfVJWf,.YYWwVB.WpgKfw.u+pAf+KV0JVJuGWKuYY+VuVpJJGfKG.Yu+IBfpuJTfB.pKWB++YVfgVWfGGKm#w+f.DpGWVG}YWYpwfB.pTJ+fWjBKG!KBwgfggWGG,KuBK+puWp..KG+,pYJwGVupwJ.fg.KK,wNBBVppuW..JK+x.+JuGpKWw,f,gI+w,u+pBJJfW..-Vw+BKVJJkWK.wKu)gwVu,gfWBGK,WY.wYVuguJJGp.KYGwuBgVfg,gf.BKYXWBguYguWVGK,.YK+fuufpJffK,iYBwpB,WggYf+.V+gjG+YVwgfW.GGKpcQp+uppfJ.fY,+YWVBBGVKJwKB.gKGb,u+uwgpfBG.Kwj++VuJpGgWGw,YYg++B,p3JBfpuwK,wGB+pwgJWGGKKVBY+gufp,.,GB,gYWu+YVp+W+fJ&BKKw+BupwgffwYGKB>p+WJupYWBGV,.BpwKuwpu.uff.KY(wBu.VWJGWY.JKVdJ+GuKV.Wu.g,fYY+0uBppJWWg.YxBwVuVVGgKfw.u,+UfBYVUJwWpGW,.YY.uuVggJG.D,wYVwgu>,WJwf,.pwKE.B!V+ggWJGYwW^w+uugWYJ,Gw,BY.WVB,p+J+.n.JK.FKBBVugG,VG,KE7BuwuWp,JYG++gYJw,BKpBJufg.fK,Y,BBVpgWW,GYK+AV+WuGpKWwGu,gYfw,u*ppJpfW..KY+YBpVJgGWK.wKu>g+fWYg1WBGp,GY.wYu+pVgVfG.KYwwVBgVfg,f&.BKp W+.pWg+WVGJ,.^K+wuupg,+++B,VuJufJ.VKBYuBuVggYgKG+KpNGGGKG* +BupfYYVw,BpBGJwf,,wYVKg+YVBgWWuVugYWWG.,YVpW.f,,nY.Yfu+V,JWBKpuJBfp.WB.gGWB.KgWf+GKKwkugfGK,+ir+BBGV,w,uVp+JVfJwgVggYWWGJK.WK.gKBHp+Wf+,uYV+Wugp,Vwu+p,Jgff.,BBJ+fB.WKJluBpufp.+.VJgwWuGg+wp+WuWp.GYG++BJVVgfBWpBgKfw.uB,pYWWGY,pYY+,VVQA+fuVpJJGYKu;pgJ&fK.pKYww.gYVL.+YV+GgTgwYVgVgJWGB,WY{wWugpYwfu+VYJ+fVoGV,gBW+.J,.WG.uKr^B+pJ,,wF++pugpgWuBYpfJufg.fBfgwWf.uK+wcBuuppf+WuYpKWwGuw.pJW+f,puWwfW..KYVgWp.GKuU.+JBggGfBGW,VWuGY,WY.wYJV.,KWw,+YVuJJW...gKfp.BKp4WpYWVKuYp+VulYY+uuupgJfwGBVpfwguDV.gYf+/JVggWW.Gp,gkGGGKg(O+Bupf,YV++BVpuJpfW.BKuwJ.JYua,B1VB.J0K+fB+pgWgGK,uYwwp,gYgwfB,p<JBfp.WK.w4BpVVgJWGwVu+p,WGuGgVWDGB,pu+JfG+,pKpwp+KVBVVBuVggffYupKB9J+WuYpYW+GVYJcBwKuBpuJWffKwY5wBBgVWgYWY.+KVlJ+GpKg.WuGf,fc!+*VVppfWGw.YYVwVBGVGgYfwKuYVTfBdV%gpWp.u,.wYBDuVp.JGfK,wYYwgBfpgJCfp.pK.O.BBV+WVGwGGKw9w+guggWJ,G:KJYpw.B.p+J+fp.JY,Y.BwVJggffG,KN)BupVVp,WBG+,WYJ+.BKJwW2fJ.KK,wuBBV.gWW.WWK+cg+JuYpKWBGu,gwxw,uBpBJgfW..KYB+u,VWgKWK.uKuwu+fu,JpWBGG,WY.wYu+pVfJGg.YYpwuB.VfJYfrKBY+/fBwuYggWVGW,GYK!.uup,JffY,(YBwpBWgWJQfW.VKJ:G+YVwJuw+GGKux3BpuppWJ.fYf.YVwGBGpVJwfp.gKf+BB{VggpWWG.,Yn+uVVup.W+Gw,JYg+.B,JAJYfg.,K.wBB+VpgJGG,pK+2J+guKp,W+GBKJMJw.uVp+WwfJ.GKKww<KVggKW,.pKBzJ+WV+KJWBGW,JBKwKu+puJJff,w+GwBBpVWGYWY.BKVwfwWuKgVWu,w,fY,+IpBfWJWGq.YYpwVu.VGW>GV.uK.xfBWV=gBWpGWYwYY+JuVpJJGfK,wwu+wBfpBJTfW.pYG1.uYpugVWKGGKu^w+VugpffBGE,gYpwYB.pwJ+fV,wKGw+BwVpggWfG,K 8f+pu,p.WwG+,VYJ+,p,p+JWfg,wK,w?BBgpJBW..uK+Xf+JVYpKfB.K,gLSw,VJpBJpfW,KYfw+B.VJWBWK.wKuwWBtu,gJWB.K,WY.wYu+pYJJG;.KYWwuBWVfJ,G+.BKfPWBpuYggWVGJYwYK+VuupGJff,,CwB+KBfpmgYfp.VYwaGuSpkguW,GfYu&n+BuppWppfY,pYVwKBGpcJw.u,BKGwwB)VggpWKG.YYwf+pu.pGW+GwKWYgwfVBpHJWfp.KK.}YB+VVV+WG.+Kw9f+gu.p,WHpg,pY,w.u+p+JVfJKG:pw+BJVgg,W,.uKBHpGKu.gBW+Gg,JY.wKpwg&JJfK.,YBwBBKVWW.Gg.BKWnJ+YuKJfWuGgpYY,+uuBpJJWf,.YY++GBJVYgKfB.uKgOfu,pJguWfGWK{YYBZuVpJ+OfK,VYuwWBfVKJ-fB,.KWwe+YVVgVWJGGYKwW+VuGpfWwG3KWYpwW,wVYJpfV.fKGkYBwVupuWfG,K(su+puWp.WwG+,VYJwGuVpwJufg.,WwJw,GBVGKpJB+++ipBCuGpKWwRuupp,JpGu..YVwg.,YYw+BVVJ.BwB+KuVgVWWGp,uKV+VuJgjpYfB,gY.fK,g+uJwBpJuwguKJBKgi.+.uYg+XBw,V+Rw+gpKufpWBuugWWVpBfpBgYf+.VBKg2Ww.VKBUWK,Kf1{+BuppY}VG9,+YVwGBGVYJwfV.gKKuJB>VBgpW.G.KQX++WJBpGJKGwKnYgwGB,p-WWfp.fK.aYB+VVgJGG.fK+bV+guGp,WBGBKJ+Jw,uwp+J.fJ.GKKBwu+Vgg.W,.+KBeG+WVKJGW+GJ,JqwwKuwpuWW.p.,YuwBBgVWg.WY,uK.}JB9uKgVWuGg,fY,+.uBpJJWGw.YYuwVuJp+gKf+.uKW5f+YVjgBJBGW,.YY+BuVpJJGfY,wYuwgBfpdJ0fB.pKfwp+YV+gV,G+fV)ppggff,.Yp+kugYg+uB.VYJ+YwBguKpYW,fg,fj.+pVzgg+gVVp.JYG+++pggYGB.,KWYf+,VYgWfB.fWGW.GYK+QVuJu.pYWwGu,gYfw,uEgJJpfG..KYw+BVVJgGGV.wKgtg+Gu,gCWBGpY+Y.+wu+pgJJfY.KYV+YBgVfg,GK.BKgzW+.pVg+W.GJ,,YK+wuupggVf,,JYBw.BWV.gYGu,uKJwu+KVBguWgGf,,,f+Bu,pWWVfY,uYVwKGuVYJJfuKwKfdKBZVugpW,Yg,YE++Vp+pGJYGw,u7,wfuup>JVfp.WK.4Yw,VVJ^WG.uKwIu+gV.g.WZG.,pY.w.BYp+JVJ+.GYVwwB,Vgg.W,.pV.%gBMu.JWW+Gp,JY.wKuVWYJgff.,5fwBBgVWJ+fr.+KV?JuWuKg+WuGg,frwVGuBppJW.f.YYBwVBJgwgKfJ.uKW>f+,VvgBJwGWKuYY+JuVpJJG.eK5Yu+/BfVKJafB.pKWKp+YVWgVfwGGKt<w+f.zpGWuGEK,YpwfB.ptJ+fWoBKG?KBwpKggWGG,KuBK+puWp.f,G+,pYJwGVupwJGfg.,K,wOBBVppuW..gK+mp+JuGpKWwWY,gXBw,uppBJpfW..Www+B.VJJuWK.+Ku?,fpuKg+WBGG,WY,wYuupVJ.Kp.KYwwuB.VfgKf%.BBJsW+,uYguWVGJ,GYK8KuupgJffK,yYBwpBfV.gYf+.VK,*G+KVwgV.BGf,,doJ.Gu,YK,wGBGVWBJW.,5KJwWBuuYgGfugBWW.f,.VBgwuVpYffGV,wY.pfJKfY.WYw8,KWVwJgf+Gf,GDY+BuV+,+JVnp,WUGBuWp,JKfJ,HK.fW..KKwwBuGBg,W,.#KBAp+Wu.pY,+GJ,JYGwKuwpuJgWfO.7GwBBpVWg.n..BKp3J+GuKgwWuGgKKY,++uBpgJWf..YY+wWBJVKgKfw.uKgdf+,VGgBWJGW,KYY+uuVJKfVfK,BYuwKBfVKJ8fV.pK,ug+YV+gVWYGG,Y*w+uW.pfJYG1,BYpwWB.VY.pfp.fKG7YBwVuggf.KpKM7p+pufp.JYG+KgSYwGu+pwJJfg.fK,w?B.VpgfW..BK+)p+JuGgWWwGV,gY.w,u2pBWJ.p..Yww+BJVJgGWK.wYJ g+,u,gBWBGp,WY.BJu+pWJJfG.KYwwuBgggg,fV.BKfyW+.uYg+f+GJKwYK+wuupgJfGYKWYBw,BWpwgYf+.VKJYV+KVWguWgGf,,7;+BVppfWwfY,fYVwJBGVKWJfV.GKfd,B-VugpfG.G,YDg+VuGpGJKGw,u,wwfu;p4JJfp.GK.6YVgVpgfWG.#Kw g+guffwWCGu,pYGw.BYp+JVKf..KYwwBuVggfW,.?,%np+Wu.g%W+GV,JY.wKuwpuJg,B.,YOwBBgV,g.WY.+BWp,fB.+g+WWGg,fY,guf.,fYVww,PYJwVBJVGGYNY+GVBpYfSVwggWpGW,.uJJVGu,pJKfK,wYuwgBf,,,ppB.gYV8.+YV+..YW+uV+ugWBGWf,YVwWBYVfwfB.VYJ+fV.WYBcKBwVu,,xB+GuuVDWVfGW,W}Kd,VYJwGWw.pY0T.+,pwB%fgGK,KG.+XVggWWgGw.YUB+wYgpgJ.fu.Jfpw+BflYJpW,G,WG6+BBVBggJKG.KgSw,pBfVKJKGJ.fJWGW.KYwwugKGYYwK,B+ufpKWJW+GJygwWuJpB++uWpgJff,wWpwg.fJg,Jbfp.VKJFGfVG+,,DGG,,,%#+BuppWJ.fY,+YpwYBGVKJw8G+.VKguWV.wK.Wf.z,Y:++VGV..c+wW,V9rwfB,pjYsjgBsVfgJfp.f,.6eGYKW8u+gufG,YY+pBYp,JVfK,vJpG-.GKKwwgJ..K.YKBuu.gVWgu,gBW+GV,JpYgYGu.YJfff.,Y)wBBp,W,+,Y.BKK!J+GuKGuY.wJu.VKJBGg.GYGf,,uY+wVBJW,KBx,BBVKbf+YVPguW,GW,.YYpJfp,fYJKYB,pFwJufV,JRfBwWuKgfWBfhKub.+uuupfJgfJ,KYpwYuwYgwKB.VYJ+Kp+fVfJuWpVVgYWfG,KbuGWGGp.,Y,+wBKV.wKBKpwJufg.ff,g+gBVgJBW.GYK+VJW.f.K!FVwWuWuwW+fWpuJffW..KYgYfuG.K7WY.gKuLg+fW1GpeVwguppw+>uVpVJJfGB.VpJGBJV,g,f%.BVJpfW%VUgJWVGJ,GupJpfV,BYKwV,w^wwpBWV..VnGBBu.VwWg.BKg;GY,uVpWJYffpfW.fY,+YVpRGN.GK+w+BpVBgwJ+.+KV1,X.uyguWWuWg+JKGw,uufgYGwfBY+wJ+KKYmYB+VVgJWGGKwVuu+fufp,WHGB,pYW+agYpBJWfJ.GKKgVW,.fKKfJ.wKB8pBGV+pYWBGVKpYGwKuwpuWgff.KYCwuBpVGg.fY,.KV^W+GpggwWuGg,fwV+cuuppJWf..YY+BVupVGgYfw.VKg+p+,VXJYWpGG,.YY++uVpJfG.G,wYpwgB.V,JpfB,JYfi.BBV+WfWJGG,KtwBKugp.J,Gu,BYJwWuKu,J+fJ.JYKiKBwVuWgfpGKKBdB+WuWgJJYG+KgYJwKBKp+JufW.fYBJWBuVWgWfGGYKBAV+WuGg+..Gu,gYf+.u4puJpf,OgKYw+BVp+g.WY.wYpYV+fV:gcfwGp,WY.wYVupVJGfG.YYwwpBggfJWfw.pKpH.+.pJg+GGpK,Grw+wVWpgJGf,KJYBwfguV.gYf+,fKJ^.+KVwpwWgGf,,kw+BuppWWKW,,+YJwJuBVKJwfu.gY.q,BBVBggWWGK,Yq+BGuJpYJKG+,uYgwfpBBgJBff.WcgaYBBVVJYWG.+w.}u+gufJJW7Gu,pY,VgBYp+JV,f.GKYwwupuVgffw.vYp^p+Wu.JYWKGp,.YG++uwg}Jgff,YYMwgBpVfg.fw.+KGIW+GV+gwWfGJ,GY,+#uBpf.uf..YY+wGBWV.gKGBG+KgkK+,pBgBWpGWY.+.+BuWpJJYfK,,YuwgVpV,JufB.gKW-,+YpuW+WJGY,K)Y+uugpfJ,GJ,BYfwWB,VYJufVKJYY4KBVVugGWf,pKS+WBVuWg{JY,G,VYWwGVppwJJK+.fK,waV.VpgfW..Bw,rV+JuGWJWwGV,gYfzfu<pBJpff..KYw+ugupgGf+.wK.!g+fu,gPfVGp,,Y.+Eu+pgJJ,wJuYwwJBgJWg,fw.BY,-WBCJfg+WVGJ*fYK++uupG.Vf,,1YBBwBWV,gYfp68KJ)G+KVggVWJGfKwBG+BuppWfgfY,BYVw.gpVKJwfu.,KG#KB<VBJ.WW.j,Ynu+VuJpGJK.B,uYGwfBKp:JVfp.YpVw%BpVVfYWGGYKw/V+guKfJWZGB,pB;w.u{p+JWKB.GKKwwBfVJgGW,,+,wap+,u.J+W+GV,JwGWBu+pJJgfK.,Y.wBBpp.g.fB.+KpRJ+.uKJBWWGg,KY,+KuBppJWf.,wY+wWBJV.gKfB.uCgwW+,VugBWfGWYVYYuJuYpJJYfKwwYuwJBfgVJvfgxwKWy.+YW+gVWWGG,KKK+uugpfJKGN,BYpwYB,VYJVfV.KK.}YBwVuggWKYJK^XB+puYp,W=G+YVwHw.u+pwJgfgKKK,++u+VpgYW.,GK+#V+JuGuJWwGJ,gybw,u+pBf.VY..YBw+g,VJg.WK,JKu)GpVu,g*WBYK,WY,wYupf1JJfG.KYgwVBJVfW,GJ.uKfbW+YuYWpWV.fKfYK+guuJBJff,,UYBY!BWp&gYfJ.VKfHGuKV,gVWGGfKwN0upupggJJfY,YYVwKB.VYJwfJ.gKKuJBsVBgpWYG,KLb+uVp7p.W+Gw,gYg+-B,g+p7fp.YK.+GB+VVgJWG,VKwCJ+gVtp,W+GB,pwpw.uup+JJfJ.GKKBwBpVggYW,.VKBwG+Wp.gBW+GG,JmDwKugpuWW.g.,YJwBVGVWg.WY.+YJlJBwuKgWWuGW,f-Y+JuBp,JW.G.YY+wVVKpKgKfJ.uuw5f+KVTJKWpG,wgYY++uV.+JGfY,wYJV+BfV,JEug.pKfr.uwu8gVWYGGYwaw+uugJf.,GQ,fYp+ B.pGJ+fV.KKGwVBwVVggWGG,Ks2g+pV4p.W+G+,VYJBGVfpwJGfg,wK,+VBBgpgfW..gK+0.+JVwpKfBGf,g8uw,pVpBJpfW..YVw+B,VJJVWK.BKu+gGuu,gWWBG,,W+wwYp+pfJJGu.KYfwuuJVfW,GV.BY}&W+YuYg.WVGJKKYK+GuupWJffY,owB+YBWppgYf..VYWQG+KVpgufeGfKpO}+,upJWfwfY,GYV+wBGpKJwG+.BKfBuB ,ggpWfG.KJc++WJBpGJKGwVJYgwGB,p2WWfp,BK.wBB+VVgJGGYuK+SY+gu,p,WfGB,pjBw.ufp+JgfJ.,KK+Bu.VgJpW,K%KB{p+Wp.gVW+.w,JPgwKp+puWWGu.,Y,wBuBVWg.WY.+YGqJBWuKgpWuGg,fcYBJuBgVJW,V.YY+wVBJpggKfY.uKWEf+YVFJVWfGWKGYY+YuVpJJGfK,pYu+BBfp.JefV.pKWwg+YV,gVfBGGKf:wBpVGpfWWG/YBYpwWB.gYJKfV,uKGwfBwVgggf.,fKUw>+pVJp.JYG+YVYWwGuGpwWwfgK.K,++VpVpJgW..uK+aV+JuGJwWw.w,gY.w,u+pBWJGg..Y,w+u+VJgGWK,BKJDgBWu,g,WBGp,WY.Bgu+gwJJGf.KYBwuBgpBg,fG.BYwQWBJuYJuGwGJKgYKBKuupgJff,g+YB+9BWpJgYfB.VK.up+KVwguBwGf,KNXuBVKpfWpfY,VYV++BGVKGKfV,wKfhYBUVVgpfG,J,Yb,+VpJpGJKGwYuw+wfuJp;JKfpKfK.+wugVVJuWG.GKw:u+gufJfWs.m,pYKw.BYp+WgGw.GY.wwV,VggfW,.?k4xpBpu.gwW+Gg,J*,+Juwg+JgGg.,YCwBBpppg.ff.+YBQJ+,uKgwWKGgKuY,+fuBgwJWGKwVYB+=BJgGgKfw.u}gwG+,VGgBfwGW,YYYBuV,pJWgfKKaYuwgBfg,WufB,+KWwJ+YgugVff.f,KmK+uu.pfJ,G},BYYwWuJVYJufV.fKG+)upVuJuWf.fK<PB+pVGJgJY.E,V=VwGBKpwJuGV.fYJweuwVpgGW.GYY,6VB+uGgJWwGY,gkfWJuwpGJp.W..YWw+ugupgGfJ.wY,dg+fu,gpWuGpKBY.Vwu+ppJJfG.KYVuYBgVfg,,+.BKg8Wu.pggBWYGJ,KYKuVuugWWWf,,.YBB+BWV.gYf+WYKJwV+KV,guWWGfY,P.+uV6pWWpfYYVYVBKYKVKJGfu+wKf^KBjpNgpW,Yg,Y?++Vf+pGJYGw,JB+wfB,p8GVfp.fK.+w+*VVgYWG,,Kw&u+gg>+BWoGf,pKKw.uMp+WGfJ.Y+WwwBuVgpYW,.wKBwJwgu.gpW+.J,JYGwKpwfuJgGw.,YgwBu+VWg.fw.+K.AJ+.uKg+WuGgK+Y,+guBpWJWf..Yw++BBJp+gKfJ.uY.tfu,VWgBWKGWKBYY+JuVgffBfK,GYuB.BfV,JIfB,pKWwu+YV.gVWfGGYKJG+uV&pfWuG6YJYpBWV7VYJGfV,wKGwYBwguJGWf.gK36p+pVBp.JYG.,Vm+wGukpwJpfgKfYuw0B,VpJBW.,oK+*VBKuGggWwG,,g?uw,p!g3JpG+..YJw+uVVJJWYG.wLG(gKBu,gwWBGY,W*4Vfu+pVJJpu.KY+wuBGWVg,f9.BGWDW+,uYg+fGGJKVYK+VuupgJf.,MpYu+wBWV.gYf..VKJ+w+KV.guWWGf,Y;FBVpHpWWJfYY+YVwJBGgKJYfu,BKfwWB gugpfG.p,Y?Y+VVVpGJKGw,uM1wfuGpOJJfp.WK.+wB,VVJgWGKgKwTu+guf.wWA.w,pYGw.uwp+JVG,.GY.wwu+VggfW,,+YG7pBJu.g.W+GV,JYGBWuwghJgGW.,Y+wBBpgwg.ff.+Yz>JBguKJBffGgKpY,u3uBppJW..KpY++wBJpggKfu.uYW4K+,V,gBfVGW,.YYu+u.pJWJfK,KYuBWBfpYfBfB,uKW+;+YV+gVWJ.G,KyK+uuWpfJYGyKVXuwWufVYJYfV.JKG+jBgVuJpWf.fK5UB+puWggJYGK,VbgwGu;pwJu.u.fYJw BKVpJVW.,wYg5VBuuGJGWwGu,gYfGYudp,JpGV..Y;w+BWWBgGWK.w.K4g+Gu,WrfGGgKBY.wYu+pYJJfGWBYwwKBgV.g,f+.BYJw,+.Vfg+GVGJ,GYKuwpwpgWVf,,GYBBgBWpKW+f+,wKJwJ+KVwguWgG,,,H,+BuGpWJ.fYKu2GwJuWVKfffu.gKfR,ugVBJBWWGK,YPu+VuJpKJKGK,utuwfB,pUWVGu.WYf8YBYVVgJWGGKK,suB+ufgGWcGV,pYWKGBYp.JVG+.GYWwwupW,gGfJ.n?BUp+Wu.JYfBGVKBYG+WuwpgJgG.KVYFwYBppJg.WY.+^VwV+GVfgwfnGgY.Y,B+VcppWpf.KBY+wVBJVGJVfw,7KgI.+,V+gBfJ.J,.!.++V+pJJGfKKBYJwguJV,J,fB.pKW{.u.V+J-WJ.W,K#B+uugJpJ,Gf,B>mwWugVYW++{.WYB6KVwVuJwWf.Y.KrBB1uWJVJYG+,VYKw.BKpGJu,W.fKKw?BBVpg,,gGYK+AVVfuGpYWw,uKYYG+guNppJp.,..Lw+wBVpugGGf.wKumg+f+ggEW,GpKVY.+wu+JVWuf.,JYwwKBgg,g,.pwWKpwB+.uBg+WpGJKJYK+VgYpgJff,.uYBwgBWpIGff+.VKJG++KV+guWGYV,,k*+BgJpWJ,fYKuKBwJu+VKfcfu.gKfBB=gVBg,WWGV,YPB+VVYpGW+K.,uYgwfBpp=Jufp.,+g*YB+VVffWGGYKw)uB,ufguWlGW,pYWw.VYgKJVfY.GYVwwV+VgWffY.OKfLpB#u.WVW+.gYBYG+guwgKJgff.,YA+OBppBg.WY.+KWFJVGVggwWKGg,.Y,+GuBWpW+f.,WY+wpBJpugK,w,BKgwu+,VugBW,GW:.&Y++uYpJW,fKYWYuwgufV,JgfB,iKWe,+YVpgWWJGG,KBB+uuJpfWwKG,BYpwWu+psJBfV..+pXKBwVufWWfGKK6wVwuuWg2JY.V,VYJwGVKp,JVfG.fYwwABYVpgWwKGYKp7V+WuGpYWwGJw+Yfw,usp.Jpff..KYYYBVVJgGWY.wKu7g+Gu,gFWBGpK?Y.wYu+pJWgMGVYVqwBuY.KB,fw.GKp4W+.WYKw9J+wuYpgWoG+pfYpWGGJg+.YKp,pGYfB.JKJqG+KGY,WUKGGKu?X+BupGYYww+uppuJfpKpwJKwtV.uffK.YYVBpWf..,Y3++VW;K5YGw+u+ppJBfwG+Y+wVB,B.gCfu.WJuWGGKKw}f+Jufp,WaGK,pYfw.BYp+JWKB.GKKwwBYVggGW,.rYWIp+fu.pYW+GV,JwG+fu+pVJgfG.,YgwBuJJJg,fw.+KfEJ+GuKWwfGGg,.Y,++uBpfJWGKK+Y+wJBJV.gKfw.uYWwG+,VugBWWGW,.YYBuuGpJW8fK,gYuwgBfV,JwfB.JKWww+YVugVfJ.Y,KC++uuWpfJYG#,BKBwWB.VYJBfV.JKGzYBwVuggWf.VKj9B+pufgJJYG+,VuYg.fg,V.fwpB.B-gJW..+,,W,.uK+rV+Jfw.YY,+WB.YG+Bu)pBJpK.w+pwgBf+G,gKWK.wKu?g+f.,.G,BGgKwY.wYu+GJYJ!.uVVYpufp.,gKfV.BKpoWgW.uK.Yp+p,.?w+wuupgYJw+ugYu+uBWV.gYKJ+KVppYguGfKpkf+K+7pJJ.G+.,f+fY,+YVwJVwVKJwfu.gKfI,BvgBJKWfG.,YT++VV%pGfb.c,uYWwfuBp5JBfp.W.piYB+VVgfWG.8Kw2f+Jufp,W7.J,pYfw.BYp+JWKB.GKKwwuWVggGW,,+,wap+Wu.g+W+GV,JwG+fu+puJgff.,YgwBBppYg.fF.+KVbJ+GuKWwf.GJ,GY,+wuBpgJWGK,KY+wJBJpwgKfw.uKgKu+,VwgBWWGW,KYYu+V,pWJ.fK,+YuwJBfpYJYfB.WKWww+YV+gVWJWV,Kq++uufpfJYGdYBGVwWB,VYJBfV.fKG#KB+VuggWfGYK&AV+puWgpJYGB,VYWwGBKpwJuGV.fKYwEBBVpgWW.,wYB3V+GuGg+WwGu,gYf+uu/puJpf...Y/w+BVuVgGWK.wKV&g+fu,g WBGp,WY.+Bu+pVJJf.YWYwwuBg.BKGwp+uV+g+WcpY,B;gwYVCpGJpG+,Gff,0#wwBJffJg.fpKwK.:JBBfuG+KsN.wYY,pVWGGp.KKY+BBgVWuwB.pwJwfu.gVJgpW.VuJ+WWG.,YuGWBfK,f;qwKBVpGJBf..KJ,fW.WK.TYB+VVgJWGYKYg=u+gufp,GYGB,gYWw.BYp+JVfJ,uKKwBBuVJgfW,.vKBw.+WuYpYW+GV,JYGwKV+puJWff.YY8wVBpgYJJWY.uKV5Y+GuYgwWpGg,KBJ+2uBppWQf.,/Y+wVJ,VGJdfw.uKgrf+,V/GgWgGG,.l^++uVpJW,pw,wYgwgBGV,JXfB,JYfn.BBV+gWWJGG,K)wBVugpGJ,Gu,BYgwWB.gJJ+fp.JK,mKBwVuggWYG,K+6B+WuWp.JYG+KGYJwKBKpVJufg.fYYwYBBVfgWWYGYK+/V+JpwpKWpGu,.Yfw,u3pBgwfW,+KYw+BVVJgGWKKgKu?.+fuYgHWVGp,W+w+NuppVJ.fG,BYwwuwwVfgKf&.gKp1G+.uY.uWVGW,Gbv+wuupgJfWf,iYBwpBfV.gYf+.pKJtG+KVwgGWgGf,,5wVVuppWJ.wJu%pGgWfg.gKV.u+JV.gufV.S,GSgBlYY+VVppJ,YY,,wYGBpuwV,JJ.YwG+fZ.gVfg.B,GEY+gVIg+ugfYKVZPwJBWp,JwfBJGJpGn.GKKwwWBGp,,F.+KuppgW,uYpYW+GV,JYGwKuwfuJJf..,Y wBf..ug,.,.+KVRJWuG.KgYV+BuBpwuDfu,JYt+wB.VgJBf.gGfw,+KuVGgWu,ggG+G,,W8upVWgGB.GYYwguyp+BgWY,VY1LJ+WV,gwWBgGgpWKGG,K6wJBfp,gY.wuBJYg+wB.VYJ+UGB,VWgwfVG,KpoJKuK{#B+puWWGJYGB,VYJwGBKpwJuGJ.fKYwnBuVpgWW.GYYK{V+GuGpKWwGu,gYf+Vu9pVJpfG..Yww+VGpGgGfF.wKG7g+Gu,ggWBGfwuY.wYu+p.JJf..KYVuYBgVfg,fJ.BKgZW+.fug+WgGJ,GYK+wuupg.KfK,+YBwgBWV.gYGugJKJAK+KVpguWgGfKYwg+BufpWJYfY,+YVwJuWVKJ+fu.GKfiKBFVBJJWWG,,You+VuJpGJK.+,uYWwfuvpeJBfp.GBJwSBVVVgJWGGKKwUug1ufgwW:GB,pYWw.BYgpJVf,.GY+wwBuVggffY.hKW%p+Wu.pYW+GVYwYG+BuwpfJgff.,YIwYBpVfg.WY.+KgxJ+GVGgwWpGg,fY,+QuBppWYf.,+Y+wpBJVGgKGB,KKJ?K+,VwgBWpGWKKwB++ufpJJKfK,wYuwgVpV,J+fB.GKW6,+YV+JVWJG,,K6p+uugpfJ,.W,BYWwWB.VYJ+fV.JKYFKBVVug.WfG,K{tBuxuWgwJYG+,VYWwGuu.+JVf,.fKKwABuVpgfW.GY7KPV+JuGpKWwGu,gOfWJuwpJJpfG..YVw+BVgVg.fu.wKu?g+Gu,fNu+Gp,YY.+Vu+pWJJfG,KY+wJBgp(g,f!.BKpBY+.Vwg+WVGJ,,YK+wVfpgJ,f,,pYBwpBWV.fufB.gKJs,+KVuguWgfg,,#P+BugpWJ.fY,BYgwJBGVKJwfu.gKf}YB&VBgpWWxK,Yc++VufpGJKGw,uKuwfB,poJufp.WK.wyB+VVgJWGGKKw1u+gu,p,WRGB,pNYw.BYp+JVfJ.GKKwwGpVggfW,.wKB g+Wu.V.W+GV,JY.wKuwpuJgff.,YDwBBJVWg.WY.Bww&J+GuK,f?++,BGpWJWfgJpKfwKBppgJ+W,.WY+.wKgwJ+ffwGYWBG,YJNBwYufGB,,YJwIBpppBgWY,VYENJ+WV,gwWBgGgpWKGG,K(wW+G.,gKYwVuV3gwWB.VYJ+w+.WK.0KBwVuggWfG,KWtB+JuWp,JYG+,VYJBgBKpuJufg.fK,wEBBp,gWWKGYKukV+fuGWuWGGu,WYf+uuLpuJpfG..YBu,BVVJgGfV.wKVTg+ff+gCWVGp,WY.wYu+pV..f.,=YwwVBgVfg,G+,+Kpm.+.V>g+WVGJ,GfC+wuVpgJ,f,,wYBwpuYV.Jjf+.gKJSG+KVwJfWgG.,,xB+BuppWJKYG,BYJwJBGVKJwfu.g,Vi,BuVBgpWWG.,YS+YYuJp.JKGV,uYWwfB,G+JBfg.WKKHYB+VVgJJJGKKw5u+Jufp,WaGu,gYWw.BYp+JVfJ.GY=wwBuVggfKY.*KBLp+Gu.pYW+GV.VYGwKuwpVJgff.,YwwBBpVWg.WY.+KVbJ+KuKgwWuGgYTY,+cuBppJWf..YY+pgBJVGgKfB.uKg2f+,B,gBWpGW,,YY++uVpJJGfK,wYuwgBfV,JdfG.pKW(.+YKGgVWWGG,K=w+uugpfftGi,VYpwfB.VYJ+fV,uKGwwBwVuggWfG,K8>V+pu,p.JYG+,VYJwGuKpwJWfg.fK,wjBBVpgGW..VK+#g+JuGpKWwG,,gYGw,uppBJgfW..Yuw+BVVJg.WK.wKuzJ+fu,gnWBG,,WY.wYuBWwJJfG.KVfJ+f,GGKWUW+g&ppfWKGpKg}+w,uWg+uwpgWWff+wBYwBB,gJJBWY.fBJV.g,WgGY,GGgwYVVgPJJfW,,YwwBYGYJwJBGVKJwfu.gKfu,BwVWgpWWG.V+gpWgGw,WYVG+,YYgwfB,.KY+wfKWu,+YfJGpKuxu++K+B++gufp,YW+wu.VfJJfJ.pfVHWB,VVJpfwG.KJwwKO1pBJuW.M,KG+,.wg++BKpW,uYWwWB,VVJVff,+W.;uBfVVp,JK.+,pYJKn,G+G+UuBppY+wfuVVBJwfwGYWK5+BpuKgYWfGVKw<f,WYYBcu+GW,gfG,VwzwGBgp+fpKKwpBfufgfW+GgWVY,BBuKppJgGG.YYw,W,uYKwWB.VY.GwBBGVYpYWYGg,..pG,K:eB+pgJp.WwG+,VYJwGBKpwWJfg.,K,wwBBVpgWW..WK+nW+JuGpKWwGu,gYKw,uBpBJJfW.KKYBJu.VJgKWK.JKu%J+fVug;WgYw,WY.wYuWpVJWfG,++.wuBgVfJVf}.uKpOWJwuYgVWVGJ,GYK+wuufGJGGr,-YuwpBWV.WwVV.VK.0GBuVwguWg..KulN+JuppGJ.fY,+YVwGBGpLJwfW.gKGz,Bzp.gpWGG.,Ym++VuJpGWfGw,gYgw.B,p-JBfpGuK.wBB+VpgJWGGKKw+f+gu,p,W+GB,JYWu+YVp+JJfJ,KKKw+BuVfgffwYGKBtp+WVYpYWBGV,.BpwKuwpuWGff.KY5wBJGVWgYWY.+KVhJ+GuKGVWVGf,fYK+QuBppWGVY.YYpwVBWVGgKfw,phBUfB+V gVWpGW,.YYB.uVpfJGGB,wYVwgBfpuJ*fV.pK.E.+YV+gVW,GGKwZw+JugpfJ,G+wYYgw,B.VYJ+fV.JKGgVBwVWggWfG,K4}B+pVYp.WVG+,pYJwGBKpwW,fg..K,wpBBVWgWW..GK+dW+JuGpKWwGu,g^Gw,uVpBJGfW..KYw+uGVJJwWK.gKuog+fu,gpWBG,,WYYwYu+pVJJfK.KYgwuBWVfgYf=,VKf^WBBuYgpWVGJ,GYK+uuup.JfGu,:YVwpBWgfJ8fg.VK,RG+KVwJp,HGGKBQD+JuppWJ..wKfYVwYBGplJwfu.gKf+wBMVggpfNG.Kzs++VVfpGW+Gw,pYgwfB,p=JJfp.,K.wwB+VVgJWG.pKwmu+guGp,WxGB,JYfw.BYp+JVfJ.GKKwVBuVggfW,fGKBSJ+Wu.pYW+GV,JKpwKuupuJJff.,Y;wBg,VfgKWY.VKVZJ+GuKVKWuGg,fYK+*uBppJGf..YY+wVuWVGgKfw.VKG*f+,V5.wYg+puw{X+WuVpJJGYKB,VVWAWY.YYBfu.fKWn.+YfVKW{,+W,Yw++uugpfYTwwuVpJW+WG,BKGwB+YufpYfuGJ,Jo,+wKwEJ+puWp.YYwBBKpfJKBYpJJufg.fBhgYfw.u,KYYBBKBwB+JuGpKYJwWuGV,J.fK,wKGO.uoVJJwfB.Gg.fJ.wKu0gWJG.KpYJ++uJVYJJGp,KJWGV.KYwwugf.+Kp-.+g+gp,W/Gu,pWpGY,GYK+wWp.JYwYwBYVYJ+BfpJgYf+.VBJggJY.f,WcWwoBKp.WJfG,.J,.<,+YVwJJ,.BYwwjB!u,pKfuGJ,fK.BQuKguJpfY,3JYGG,uYgwfJJ.KY+?WBuVwgBJw.fK.W..pKwHu+gWe.KYGwJ+Wp,Wwf,pBWXfJ.GKKV,fBGf,G1Ww2uYpgf+GwKwWBGY,JYGwKJJ.WYGY,B+p+JWWYG.Kwfh.WKVmJ+GW+,f{gwJB.pWJVpYppJWf..YuKwVBJVGJufw.uKgw.BwVZguWp.p,.YY++VggBJGG},wYgwgBfV,W+Gg.pK.x.B,V+gVWJ.,K^-w+JugpKJ,Gh,BEJBuB.puJ+fY.JKG4KuBppggfXG,KJ<B+puWp.fgG+,VYJ+wBKp+JuGWGJK,wwBBVGgWW.GYYuJB+Ju,pKWJGu,gYfw,uwpBJWfW..KYw+BVgJJ.WK.uKucf+fV,g%fV.w,WnwwYuKpVJJfG.KYuwuBfVfJ+fq.VKp+WBBuYgVWVGG,G7W+wuugGJfGw,sYBwpBWV.WYff.VK. GB+VwgpWg,fuJAw+gupp,J.GK,+wV++BGp+JwfJ.gKG;,BcVYgpW.G.K+1++WuJJGWcGw,gYgw,B,pWJBfp,VK.wwB+VJgJWGGKKw8K+guGp,WbGB,WYW+2uwp+JVfJKVKKw+BuggW+WK.pKBeG+WV,pYW+uf,J5wwKuBpuJJff,Bp.wuBgVWWuWY.BKVRf+GV+f.WuGg,fwV+^uuppJW.+.YYBwVBJVGgKfwKuYY*G+KVEguWp.W,.wwBwuVpGJGGf,wYuwgBfBgJ<fu.pK.2.BwV+WVfuG.,Ycw+VuggVJ,G}KWYpwGB.VYJ+fV.JzGwfB+VpggW.G,K+SBupVVp,WwG+,gYJ+fBKJwW6fJ..K,w+BBVggWW.w<KB6p+Ju.pKWBGuYg%pwKuwpBJgfW,VKYB+u,VWg.WK.+Ku},+fVB,wWuGW,WY.wYuBpVJWfG.Kw,wuBgVfg,fF.BKp&W.KuYgBWVGG,GYY+wuuVuJff,,4YuwpBWV.gYfB.VKJjGBBVwguWgGGK+dn+Bup,,K,wwBKVfwWBYVKJwfu+,VBgGWuVug,WWG.,YupJfGG,Y3a+2u,YJ++B,pcJBK.+fVgguJV.WK,dWGYKV3u+gufGGYw+*BGkVw.BYp+WgWp.GKYwwBVVggfW,K^KY:g+fu.g?W+Gg,JYGBuuwppJgff.,YCwBVppVg,f+.+KVyJB;uKgwpKGg,GY,+BuBpJJWG+uJYBwpBJpBgKf+.uKJhfBwJGgBWpGWKuYY+BuVp..pfK,wYu++BfVKJ&,BgVKWR.+YVggVW.GGYKwW+VuJpfJ,Gm,pYpwW,wVYJBfV.fKG?YBwVupuWfG,K2ku+puWp.W^G+,VYJwGBKpwJufg.,K,wCBBVpJYW.GYK+}V+JuGpKWwCp,gYfw,u+pBJpfW..,.w+BVVJg.WK.wKu}g+fu,gDWBGp,WY.wYuppVJJfG.K9gwuBgVfg,f%.BKpaWB+Vag+WVGW,GYK+wuufWJGf,,^YBwpBWV.gYJY.VKJ-G+YVwguWgGf,,Zm+BuppKJ.fY,+YJwJBGVKJwfu.gKfn,BwVGgpWWG.uKpKJWGw,WY+wpu.YJ+BB,p=JBYuBJ+YgBgY.uKK5ABwK+;.+gufp,,.wuuWp,gwG+.gKWfW,+KKwwBuGK,Yww+guJguWYVYpYW+GV,JwwwKuBpuJgff.,YTwB+wVWgYWY.+KVDJ+GuKWgWuGW,fYY+FuVppfYp+.YYuwVuVVGgYfw.JKgXKpJVxgBWp.p,.l*++VgVpJGG&,wYWwgBfV,JFGV.pKG/.BhV+ggWJ,GKfS++pugp.J,GB,BY.W+B,pwJ+GO.JK.kKB+VugG,VG,KehBBwuWp,JYGpwZYJwGBKpKJufJ.fYYwYBBVJgWW,GYK+9V+JW,pKWBGu,WYfw,uCgVgufW.KKYwuBVVJgGWKf.Kubf+fu,gnWBGp,WKgwYuppVJWfG.KYwwupGVfgYf!.gKpTW+.uYGuWpGf,GYK+wuupgJfWf,bYBwpBfV.gYf+.gKJDG+KVwgGWgGf,,;w+VuppWJ.,YufYJwJBGVKJwfu.gKfu,BwJggpWWG.uJg)WGfW,gYgwVYuVJJ.fu,VYPIGBgp*+YVVJgWJ<Y+,bw+GppgwJ,GJKYBJpJJGfG.gKpwpYg/KgYW,.BGJG,+VVGgpJKfYKBYgwW^wY.+VuwpuJgO.B.VYgYWGGfKffA.VKVqJ+GG.,f1IGJKwY,+muBf1fWKGYg+(uIpwV.gKfw.uKgBG+,V;gBWpKJ,.2w++uVpJJGfK,wY.wgB,V,JwfB.pKWM.ufV+gWWJG.,Kiw+uuggGJ,GB,BYJwWBKVYfJG+.JKKHKBJVugJWf.wKRqgpwuWp.JYGW,VYWwGu+W.Jufg.fYGw^BuVpgWG+GYKVNV+WuGpKWwGu.+Yf+wucpuJpfW..KYBJBVVGgGfo.wKpPgV^8BgrWpGpKpY.+3u+pfJJfYvWYwwuBgpgg,fw.BKfuu+.uYg+fBGJ,.YK+wWWpgJ,f,,nYBwpBWV..BfB.JKJd.+KVwgufWG+,,ku+BuWpWJ.fYKuYfwJu?VKJBfu.gKf-,BVVBgJWW.w,Y}B+VuJgJJKGB,uYWwfB,p(JWfg.WK,&YuJVVgWWG.?KwUJp+ufp,W9.W,pYfw.uBW,JVfJ.GAJwwBVVggfKw.wKVFp+fu.pYW+GG,WYG+luwgKJgfG.,YcwBBfWug.WY.+YYDJ+.uKgV.YGg,fY,BGuBpgJWf.GfY+wgBJV.gKfw.uKg+y+,VBgBWWGW,.YY++VGpJJYfK,VYuwgBfVY..fu.GKWU.+YV+gVWJ.G,Kcg+uugpfJ,G{,BYfwWBYVYJJfV..KG!KuGVug.Wf.+Kl4B+puWgBJYGJ,VY.wGBKpwWpGp.fYuwcBWVpgWW.GYKJ7V+,uGgVWwGp,go1+uuLpVJp,t..Y%w+BVVJgY,W.wKuUgVwu,gwWBGfwuY.wYu+WBJJf..KYw+fBgp;g,fp.BKp:W+.,Bg+W.GJK9YK+wuugWf+f,,JYBwgBWV.gYGu.WKJwu+KVJguWgGf,,0.+Bu.pWWVfY,uYVwKB.VKJgfuYpKfNKBPVugpW,Yg,Y/++VggpGJYGw,uK+wfuBp8JJfp.WK.9YJuVVgKWG.}Kwnu+gufVfW=GB,pYfw.BYp+JgfW.GKKwwBuVggfW,.+KB:p+Wu.V.W+GV,JY.wKuwpuJgWg.,Y1wBBgVWg.WY.+KV8J+GuKgKWuGg,f68+=uBppJWf..YY+VVBWpBgKfw.u+JgJW>GJK+OJwKuF&qBAuVpJJGYwBWVVJWWG.eYulJBJ+fg}WBGg,WWW.u,KSw+uJf,+KK++BuVWJ,fw,wJBf,.JKGDKgf.+Kf*KwKuKppJGufguJYG+,VBfg.Gw.p,ulJB.pwwwuBVpgWW.w+uGg+W,Gg.YHVw,uppJpYfw.gKYwKBYY<u BVVJgGqg+YVfpJWpGp,uGBwguGpBWufY.fYpwYKKwuuVVg.KK..XKf+VBEu.ggGuYp+GuouKJ+Gp,Gffw+uJpBgGW.,XKu3pKKKWwG+KVwgu,Y+YufpwWwGV,+YbvwuwpuJ.JGGYYBwJ.JYBo,B0VB.BYf+Bu,pGWWG,.YYBG+s+YgwfB,.WYww.+fVJgJWpgV,Wb,+VVpgwJ.GJKwG6,pxgwWW;fKJ+f.KgY+9KBWg,.VK,ww+wVwpWJKp.,u}f+VB,VKW+fp.JGMf,.,YlwBBpVWB.wwo+Kpw{+GuKgwKu+pu,ppWuf.,VYgKG.YY+wVBJJfgKf+.uKgrf+,V/gBf.GW,KYY+BuVpJJGfK,BYuwfBfV,JTfB.pKW+W+YVugVWfGGK=QwufVppfJYGX,fYpwfB.puJ+fWrBKGTKBwVGggWGG,KuBK+puWp.WgG+,pYJwGWBpwJpfg.fK,wkBBVpG,W,.wK+Ap+JuGpKfBGY,JY,w,uGpBJpfW,K=Gw+BWVJg.WK.wKu}gB,u,gwWBGf,WY,wYu+g.JJf..KYwwuBgVfg,G:.BKJ-W+KuYg+WVGJKWYK+uuupgJff,,mSV+VBWp}gYfJ.VKJeG+K+GguWWGfKw}8+VupgGWGfY,VYV+yBGVKJwGp,pKfwwBPVugpWWG.,Yfu+VuWpGW+Gw,VYgwfVBpqJufp..K.sYB+gVJuW.GYKw^V+gVwp,Wq.W,pYGw.u+p+JVfJKGYfw+BpVgg.W,.uKBU.+fu.gwW+,A,JY.wKuwpuJGKV.,YEwBVwVWg,WY.p+;IJ+GuKWsWuGJ,fY,BpuBpJJWGM.YY+wVBJgwgKfu.uKf6f+,V:WBf+Gf,YYY+VuVpGJGfKYgYuwWBfVYJ*fV.pKW+++YVVgVW,GG,K:w+u.GpfWwGv,VYpwWB.gwWYfV.,KGwgBwVuggf.,wKicW+pVVp.JYG+,Vo{wGuwpwJffg..K,wpu,Vpg.W.KpK+;p+Ju.pKWVKY,gYfw,pgpBJgfW,x+fw+BVVJGgWK.+Ku+gBpuKguWBGp,WYKwYuJ,KJWfY.Kw.wuBJVfgKfE.g+wUW+.uYW,WVGW,G8+V.uupgJf,f,TYuwpBWfIJUfp.VKJ0G+KVwguKWGfKwPx+VuppWJ.fYKJYVw.BGpuJwfu.gKfYJB8VJgpWWG.,YN++VBBpGWuGw,pYgwfB,pSV,fp.,K.wVB+VggJfwGYKwZJ+ggKp,WwGB,pYW+rgfp+JVfJYYKKw+BuVGGVW,.5KBuh+Wu,pYG+.w,WYYwKuupuWuffK,Y.wuBGVWg.WY.YKVqJpWuKgVWuGG,fI++1pBg+JfGh.YYpwVu+VGJuug.uKG7fpWVIguWpGf,.rBV,uVpJJGKf,wYVwgBffwJwfg.pKf*.+YV+gVKfGGK+}w+pugpfJ,GLwgYgw,B.VYJ+fV.JKGpXBwVJggW.G,KR>B+pBpp.JYG+,pYJwGBKp+Jufg.fK,wuBBVpgWWYGYK+TV+JuGpKWwYu,J+Jw,u*pBKYwgu+VhgKWKG.WGYYBBuGg.WgG+,KHg,pY.+,BYGp,ufJ,+%,wJBuVY.=Y+oK+pVfg+WGG,W+YfB1uGpBJuGJ..KK,p,w+VwpBWV.KJw1BGuWggWgGVWuYJ+.uugVW7fG,g::.YYV+pBJfY.,fw.G:pww+,VJWYKGYf,.uVggWBfG,YYg+<u+wggYGV,FKJcWB,VwgBVGVpJsWGGKKwpfW.GJ,y%uw.uVpgBgBYp+JVfJBJKYw+BuVggfW,.sKBwf+WuKpYWBGV,JYGwKVwpuJfff.,Y>wBBpVWJKWY.uKVof+GVNgwGfG,,fYY+*ufppJff.,BY+wWgBVGgKfw.GKgXG+,Vl.JWpGG,.YY++uVpJJGY+,+YpwgBGV,J>fB,JW.a.B+V+ggWJGG,KwBBGugpKJ,Gw,BYpwWB.gBJ+fp.JKYoKB+VuggGpG,KwFB+JuWp.JYG+,WYJw,BKpuJufg.fKYV.BuVWgWW.GYK+<V+JWupKWVGu,gYfw,u)pBfBfW,wKYwpBVVJgGWK..KuI,+fu,gDWBGp,WYYwYugpVJKfG.KYwwuVuVfgKf*.BKpoG+.uYJwWVGf,GYK+wuupgJfGw,vYpwpBfV.gYf+,gYg3GB+VwggWgGf,,w+BuuppKJ.G*,+YVwJBGgWJwfp.gKYs,BwVBgpWGG.Kw)++VuJpGJKGwKJYgw.B,p+JBfp.WK.+VB+VVgJW.GKKwku+JuGp,W9GB,pYWw.BYppJVfJ.GKKY.BuVWgfW,.nKB3p+WBgpYWVGV,WYGwKuwpu.KfG.YYawpBpVWg.WYfYKV9J+GuYgwWuGg,.Y,+HuBppWuf..YY+wpB.VGgKfwBGuJgBfwVwg,WpGW,.upJgGWGGYL+TugV,gfWYVKJufB.pKWgfWu.fKWWW.K,KLw+uW,,BYY+uuJVgJVJV.,Y+wfB.BJpYWYGV,KYY+YKwxY+puWp.K+wguBV.ppfB,f.Ww,+YVGJuBup+gWW.GYBVg}WwGg,f,KwVufpKJ+G+,.JgGg..KYw+fJ..KfeK+0uYglWpGW.YYu+GuGV,+ruppVJJfGu+V+Jgf+VGJgfn.BKpgKWYGJK{Y.wguJp,WgfWpJWIf,,{YBpWfu.VKG{KBJKW&,+KVwguYpbwwq8n+BuppWwufY,BYVwJBGVKJwGp.WKfzKB4V.gpWWG.,Ywz+VuWpGJKGw,uYg+.u,p;Jufp,kK.aYB+pgJGWGGYKwmY+gufp,fRGg,pYfw.uVp+JVfJ,,,.wwBVVgJVW,.ZKB+pBVu,g7W+Gp,JjwwKugpVJgfG.,++wBBgVWg.WY.p+(aJ+GuKfBWuGJ,f7YzKuBpgJWGu.YY+wVVJpggYf+.uKJ^f+KV!gBfJGW,,YY+BuVpfJGGuufYVwJBfp,J2fu.pKfH.BBJ,gVWJGGKK<w+VugpK.JGx,BYpuGB.pFJ+GgGpKGDYBwVgggWfG,Y+Yw+puGp.WWG+,VYJwGGpp+Jgfg.,K,w3BBVfGuW.GYK+Bu+Ju.pKWg+,,JYYw,VgpBJgfW.,KYwpg;VJgGWK,JKuqJ+fVwfGWBGp,WwVwYuBpVJJKY.YYgwuBJVfg,fz,VWunWB+uYgGWVGJ,GYKBguup,Jff,,>YBwpVWwJgYfJ.VKKRGBMVwJpWYGfKVk#+guppWJ.fYKVYVwKBGppJwfp.g{fwpB&VWgpWYG.KuU++VpwpGWpGw,WYgwfB,piJVfp,+K.wBB+VVgJWG.VKwUK+gufp,WhGB,pw+w.ufp+JVfJ.GKKwwBpVgJ1W,.GKBmg+Wu.J+W+GG,JYGwKuwpuWWVJ.,YpwBBYVWg.WY.+.WXJBwuKgwWuGg,fw,BWuBp.JWG+.YYuwVufpggKfW.uKGzf+,VqgBf+GWK+YY+fuVpfJG.K,.Yuw,BfpBJ}fJ.pKW+F+YVfgVWJGG,KPw+uVWpfWpGb,gYpwWB.VYWwfV,+KGPKBwVuggWf,uK92K+puWp.JYG+,VYYwGuupwJYfg.GK,wpfYVggfW.,BK+xp+Ju,pKWVKY,gYfw,VupBJgfW,L+fw+BVVJJwWK.+Kurgwgu,g4WBGg,WY.wYuBpVJJfG.KY+wuBgVfgKfp.BKp!WWfGKKVQW+,uWhw+wuupgW.WG,0YBwpBfV.gYf+.Vpf8G+KVwgVWgGG,,;1wPuppWJ.Gr,+YVwJBGVKJwfu.gcJ1,B{VBgWWWG.,Ym++VuJgG.KGu,uYgwfB,pdJBWp=JK,wGB+VVgJKu+.VggBW+fY.OYV+Vu.VKJKuigBJVfJ.GVug+f+.f,W!P+YVUpJJf.C.KlV+wBWpKJpu+p,Jgff.,uuJ+WVf.KwwwBJufgf+.VugwWuGg+,pEWWGg.KKKf,,WY+wVBJf+KBwVwgu.g.fBGW,pYGGfKwYY++uVfGYgqYuJpgwfBfV,JcfB.pKWwupYVBJHWJGG,Ku,WBff.GYW>-BYVgW+fw,wJBf..JKG/KWJGWKGmw++uKgW+gV.p.JYG++JVGWuG+.WKWapN,V.g,WVGgK,YGw+uKppWGGBpYWWGu,gYfJJfW.YY+!fuwpwgBBppfgGWK.wBggKWWGY,uY+YWuJpWJwfB,WKgYKBfV+JgWYVGJJf).BKppYWV.+KpYuwGufpGJBfV,GJGGw,3YBwpgY.VY+wp.pY4#G+KVwGYUe+puWVgJufY,,J,.3,+YVwJWK.fK+wG+p+,g.W,GV,gb,wGB+pKJpGG,BJY.w,uYgwfJV,VY8rgBgVGgJWpfgKg^fB+BwpVWWGKpKfwGB,pYWpKfu,+Ywww+KuYJVWWGG.,ww+YVVpgW*GwgNWJGV,JYGgVfp.VYgwWBGYwwfBpVWg.Yw+gV+ggWYGBKuWVGK,fY,+8WB,+Kf+VBupuJJBWp,gKfw.u+YpGWGGu,YYGwJ+Vp,JGGW,wK.++BpVBpfWWVKJufB.pKWV+W7.VKWWW.M,KHw+uWfKwY.++BgYg+wB.VYJ+K,B,VJpYWY.BK/YKGKKuSB+puWG+Y0+ZuJYGwGBKpwJufg.fK,VcBuVfgWW.GYBVgwWg.++RWWGu,g;.qGuSpuJpGu..KYw+BVpfgGWY.wKVIg+.u,J3eKGg,fY.+.u+pVJJG,G.YwwVBgpVg,f!.BKpwG+.V?g+WpGJ,,YKuwV3pJJGf,,wYB+BBWp+Jdf+.pKJG.BpV+guWgGfKwBG+BuppWB,Gg,BYVwJVwVKJ+fu.gKfq,BDgWu,WWG,,YkK+VuWpGf.Gw,JB+wfB,p%JYfp.fK.wBp,VVgJWGYGKBSV+gV.VGWMGu,pLKw.BYp+fGVK.GKYwwGUVggGW,,7KBLfpuu.pYW+Bw,JY.wKVBgBJgfG.,YYwBBpVWg.W+.+Kg5J+.uKgwWu,gYBY,++uBpJJWGB.YNu+.BJVYgKGJ.uKgkf+,pBgBWJGWKXYY+uuVJJWwfK,BYuwWBfpgJEfBK)KWqY+YVugVWJGG,Ky++uuGpfJYGS,BYpBWJMVYJpfV..KG+wBwVuJ+Wf.+KC6V+puWp.fY.Q,VY,wGuBpwWYfg,.KKwPBWVpgGW.GYK+5V+,uGgVWwGV,gYfw,p%pGJpG*..Ypw+B.VJJ,GV.wK,AgBKu,g WBGpGBY.+pu+pKJJf,.KwwBGBgpwg,fg.BY.lWu.VBg+W.GJK+YK+puuJgWxf,,gYBw,BWgugY.+.JKJw++KVJguWfGf,,mK+BuYpWJ,fY,+YVwJufVKJGfu.WKfM,BLVBgJWW.g,YOV+VuJpGJKW.,uUBwfuwp)JBfp.Wup>YBYVVg,WGGKKw:uuwufgGW6GW,pYWw.BYpYJVfY.GY.wwBVVgJ.Gg.4KfRpBJu.pYW+GVYPYG+puwpVJgff.,w(+BBppwg.fg.+K.bJB,VWgwWKGgYwY,+kuBppWKf.,gY+wYBJV,gK.w,*Kgw++,VJgBf<GW,.4i++uKpJJ,fK,wYuwgu.V,JffB.JKW0.+Yg+W+WJ.V,KOG+uVfpfJ,.J,B6wwWBKVYJ+fVKJY,aKB.VuJ+Wf,JKDwVBVuWgJJY.Y,VYJwGBKJKJuGu.fKKw4BBVpWWfBGYKYqVBVuGgVWw.pKYYf+.uNggJpfW..KY+wBVpVgGf,.wKpCgufVJg-f)GpKpY.BVu+JVWGfG,GYw+wBgVYg,.#,GKpwp+.V.g+f,GJYGup++VwpgWgf,,BYBwpuKV.JKf+..KJIG+KVwJJWg.f,,=J+BuppWJ.GW,+tpwJuuVKJwfu.gK.S,u+VBJ WWG.,YN+BpuJgKJKG.,uYgwfB,p,JBGf.WYJ8YB+VVgJB,GKKK<uBGufpKW .VG+YW+WBYgwJVfJ.GKK+gBupVgfWK.yKBlpuWV.pYfOGVKpYG+VuwgpWJff,,YA+fBpVWg.WY.uKVwp+GVKgwWpGgYfyI+AVwppWgf.,WY+wVB,VGJ,fw.pKgqf+,V(JWWp.W,.}w++uVpJfGY+,w>uwgufV,WBfB.pLu^.uoV+ggWJGG,K+wB.uggGJ,.w,BwwwWuKgBJ+Gg.JYu)KBwVuggfWG,YBzB+guWp.JY,+KBYJ+KBKguJufK.fYY+pBBpGgWGcGYK+<V+J+VpKfuGuK.YfwYuRJBf,fW,YKY+VBVpKgGGK,GKuwf+fpzg8WJGpYWYKwYVVpVWGfGKpYwBuu+VfWof6,pKpl.+.uYJVWV.,,G9G+wuupgJfGB,:NWwpugV.gYf+.VKGDGuVVwJBWgGf,,%jeKupJwJ.GY,+YVwJBGGJJwG,.gYG(,B7VBgpf,G.YWo+BguJpGJKGwKWYg+,B,gfJBfg.WYK+gB+pJgJffGKKw&u+gVKp,fuGB,gYWw.BYJ+J,fJ,YKK+VBuVKgffY,wKBw.+WpBpYW+GV,JwjwKVVpuW,ff.YYOBBBfVWWCWY,pKVw++GuKJWWu..,fYY+buBppJWGu.YIJwVBfVGgKfwKuKfUfuBVPJWWp..,.YYB*uVgYJGG:,wYuwgVfgVJ{Gf.pz^D.ufV+JgfgGGYpxw+VugpfJ,GjD^YpB+B.pAJ+fV.JFGwGBwp,ggGBG,Kg-BBJVWp.ffG+KWYJwGBKpwWYfgKBK,+GBBVJgWG.,+K+wK+JpupKfgGuYg;ew,VWpBWYfW,wKYB+uWVJWuWK,fKuwY+fp,GJWu.Y,WwVwYuVpVJJGh.KT.wuufVfg,fl.BKg(WuJuYJpWVGJ,GYKB.uuJuJf.+,1YBwpBWgggY.x.VYKIG+KVwgufVGfY.?8BfuppWJ.fYK,YVBJBGgpJwfu.gKffYBEp.gpGWG.KIQ++WJBpGJKGwwwYWwGB,g+gwfp.fK.+uB+VVgJ.wguKwOV+gBpp,WwGB,KYW+/gfp+JVfJGgKKw+BupWJWW,.wKBwJ+Wu.pYW+fJ,JY,wKu+puJgffK,YWwBBJVWgKWY.WKVwfBYuKgVWu.K,fY,+CuBgYJWfK.YYpwVBfVGWKfY.uKWIf+YV<g,WpGWKwYY+VuVpfJGfK,wYuwYBfpwJ)fV.pKWL.uYWpgVW.GGK+xwBgugpff+G9,JYpwGB.VYJ+.VKBKGwBBwVWggGVG,Y+wG+puYp.WwG+,VYJwGu,pwJGfg.GK,waBBgpWuW..pK+&.+JV+pKfBG,,gtBw,VupBJpfW...Ww+B.VJJuWK.BKu+gVwu,ggWBG,,Ww+wYp+gpJJG+.KYJwuB.VfW,Gw.BK,6WBBuYJfWV,J,,YK+JuupKJfGl,TYB+WBWpVgYfB.VKJZG+KpGgufwGf,Yvr+BuppWfpfY,,YVwGBGVKJwfuG+KfwWBUVggpWWG.,YV.+VVVpGWBGw,uYgwfuwpxWwfp.YK.(YB+VVJ,WG.VKww++guGp,f+.8,plrw.Vwp+JVfJ.GY,wwB.VggGW,.qKB+pBKu.ggW+G,,JM+wKVBpWJgGu.,TgwBBpVWg.Gu.+K,rJBVuKgBWu,gY+Y,+JuBpKJWGp.YY+BaBJpugKfB.uKgif+,VpgBf&GW,KYY++uVJJWVfK,GYu+wBfg*JifBKeKWwg+YVugVWJGGYKw.+uV+pfWJG(KKYp+GuGVYJKfVKVKGRKBwVufuWf.fK#iu+puWp.fY.K,VCVwGuGpwJGfg,.^Vwhu+VpJ,W.GYK+FVuuuGgGWw.B,gY.w,p2pWJpGp..Y.w+uGVJWGGV.wYw<gBgu,gVWB,p,KY.+.u+g+JJ.B.KwwV.BJpgg,f,.BKWMW+.pug+fuGJK+YK+wuupgWpf,K4YBwKBWV.gYf+,GKJw.+KVfguWgGf,,wG+BVJpWWpfY,+YVwJu,VKWufu,+Kf?,B%VBJKWW,*,Y*K+VuJpGJKVB,uauwfVwp>Jufp,G.J:YBYVVJfWGGKKweuuBufgGWSGu,pYWw.VYpfJVGp.GY.wwBGVgJ.WY.bYBOpuTu.pYW+GVKfYG+.uwguJgf..,wc+uBppgg.f,.+KYoJ+GVKgwfBGg,.Y,+auBppWYf.,YY+wgBJVGgK.wcJKgwf+,p1gBfWGW,.{g++VppJJ,fK,wYuBguVV,WwfB,gKW+g+YpuJGWJ.,,KPf+uugpfJ,.,,B{WwWB,VYJ+fVKJY,:KuuVuJfWf.uK>wV+,uWJwJY.p,VYJwGBKBGJuGf.fn+w0BVVpWW.BGYYV?VBGuGJuWw,uK.YfBeuTgpJpfK..!Y+5BVpGgGGw.wY.ygufVYg6fpGpK.Y.++u+pVJWfGKBYw+wBgVfg,fh,.KpwY+.V,g+WVGJ,GE++wVGpgWWf,,6YBwp+uV.Wgf+,VKJ G+KVw.KWg,B,,ww+BuppWJ..w,+?YwJu,VKJwfu.ghBE,uBVBW}WWG,,YwuBYuJgKJK.B,uYgwfB,gVJBGf.WK,=YB+VVWJfpGKYV#uBGufguW4.VKWYWB+BYgWJVfJ.GKK+pBupGgfGB.IKVbpuWpWpYfpGVK.YG+JuwpuWgffK+Y>wVBpVWg.WY,,KVwK+GVngwWuGgYfwg+=VWppWYf.K+Y+wVuWVGWVfw.pKgmf+,gnJJWp,{,.wp++pHpJW,G,,w8.wgBGV,JcfB.pwp/.uJV+gpWJGG,K+wBKugJBJ,.W,BY,wWuKgwJ+.6.JYY&KBwVuggGwG,YWaBuwuWpKJY,+K-YJBuBKgfJuG,.f9,wfBBpYgWGVGYKgeVuJVwpKffGuYmYfBVuyJB.KffKVKY+GBVVGgGWK.BKu+++fp5gnWBGp,WwWwYVKpVW.fG.KYwwuuWVfWffs,JKplW+.uYJBWV,p,Gwu+wuupgJfGg,2w+wpVjV.gYf+.VlwDGuKVwJ.WgGf,,5O.VupJ+J..Y,+YpwJBYWWJwfu.g+g0YBwVBJJJgG.KM;+BfuJpGJK,gfGYgwGB,V}JBfg.Wbp1YBpW5gJWGGK,wdu+Jufgw.GGB,pYWgWuspBJVGf,fKKw+BupVgfW,.3KBYW+WuKpYWBGV,JYGBKVWpuJWff.YYswfBppGW+WY.pKVwY+GuKgwWuGW,fYY+rugppJGf.KYD:wVBfVGJ#fw.KKgZf+YV0gpWpGG,.YY++uVJuJGG+,wYpwgBfV,ftKg.pK,c.BBV+JJWJGGKfmw+Wugp.J,Ga,Bwp+BB.puJ+ff.JMpbKuBV.ggfMG,K+ B+puWp.ffG+,.YJw.BKpwJu.gKBK,wgBBV,gWfBGYYuwJ+JVupKfVGu,gYfw,wfpBJ,fW,VKYwuBVgJf+WK.JKu7K+fpBg6GB.B,WCBwYuWpVJ,fGKKvGwuBKVfJufL,GKp+WBJuYgWWVGY,Grw+wuuJwJfGp,(YuwpBWV.gYGp.VY+(GB2VwguWgGfYJ7X+Kupp.J.fY,+YV)BBGpfJwfJ.gKfy,Bcf,gpfpG.Kus++VuJpGf+GwK+Yg+&B,p(JBfp,wK.wpB+pBgJW.GKYBwJ+gVwp,WKGB,pYWw.VBp+J,fJ..KKwwBuggJWW,.JKB=K+WVBpYfu.f,JcVwKVJpuJgff.,}VwBBKVWJpWY.uKV+JB+uKgWWuGY,f{g+/uBpYJWGV.YYuwVBJVGgKf..uYwzf+YVsgBWp,WKGYY+.uVg+JG.w,wYu+BBfpJJxfV.pKWj.uYp,gVfBGGKW4wBYugg.W.Gi,YYpBpB.VYJ+fVYVKGwGBwVVggWfG,Ayww+pVpp.W.G+,.YJ+,uGpwWBfg,KK,whBBVpWwW...K+wu+Ju,pKGw.p,gdgw,u,pBW.fWK.k{w+u+VJJJWK.pKu+g+Yu,g,WB.B,WwuwYp+f,JWGJ.KYKwuBfVfg,fG.BYVhWBBuYg+WVGJYuYKBwuupYJff,,>YB+pBWp,gYfG.VKJvG+KpVgufWGfKg#!+BuppWWffYKVYV+BBGVKJwfu..Kf+wB-VYgpWWG.,Yfu+VVVpGf+Gw,VYg+.wWpUWzfp,gK.HYB+VVJWWG..Kw-V+gufp,Go.J,p)gw.u,p+J.fJ,,/JwwuuVgWwW,.(KB4pBpu.g,W+.V,JY,wKpwgfJgGJ.,YKwBuAVWg.GU.+Yu*J+,uKgwWuGgY1Y,B)uBpJJWf..Yw+VWBJpGgKGw.uYf5f+,V+gBfgGW,KYY++uVJJWgfKK+Yu+JBfgJJdGVK+KWwK+YVGgVWJGG,K?.+uVfpfJKGz,BYpBWupVYWVfV,GKGwVBwppWwWf,+K1wg+puWp.JYJ.,VhGwGVBpwJpfgKfwuw8upVpJ.W.,VK++VuuuGJwWw.g,gYYw,pHgWJpG...e+w+u,VJWGfK.wYg)gB,u,gBWBGpYuY.Buu+g+JJfG.KYw+(Bggxg,fK.BKpLW+.Vgg+f.GJKfYK+wuupggVf,KJYB+pBWV.gYf+wYKJ+u+Kp+guWgGf,,h++Bp5pWWKfY,+YVwJV+VKWufuKwKfcKBcpVJ{WW.Y,Yw6+VuJpGJK.U,ucGwfBKpOJBfpKWYgyYupVVJ.WG.VKwwpB,ufJBWR.f,pYWw.BYggJVG..G6uwwBpVgWfGB.OYgRpB,u.gWW+GV,WYGBBuwppJgff.,YlwWBppYg.fw.+KVeJuGVWgwffGgY Y,BBuBppWWf.KpY+wgBJVGgK.w.gKg+w+,pggBGwGWKKCK++V,pJJ.fK,wYuwgpgV,WWfB.gKWb.+Yg+J+WJ,u,Kwf+uuKpfWY..,BwwwWVhVYJ+fV.Jmw(KufVuW+WfGYK +BBKuWJVJY.G,VtKwGVKp.Ju.3.f}pwQBJVpWWf+GYYG!VuwuGJpWw,uwYYGBpu#g.Jpf...KY+tBVgBgGGw.wKu^g+fVGg2fYGpK,Y.wYu+pVWwfGKGYw+WBgVfg,f*,gKp+g+.pVg+WVGJ,Gkw+wpBpgfwf,,TYBwpuGV.WYf+,,KJ?G+KVwwpWg,B,,+X+BugpWWkKf,+YVwJgJpDJ+fu,W,J%,BwVBJGWWG.,Y+JY.uJp.JKw+,VYJwfVWpTJgKw.WK.QYWBVpgWWG.+w.Iu+gufBGWwGu,p6G+GBYpBJVf..GKKwwBuufgfWY.oKukp+Wu.JYWGGV,fYG+RuwpGJgG.,YY/wgBpg*g.WY.+KVwn+GVegwWJGg,.Y,u9uWppJGf.,wY+wYBJVGJBfw.gKgv.+,V5gBWpGK,.9B++ugpJJGfKYwBJwgBKV,JufB,WKWE.BGV+gfWJG,,K5w+upggVJ,GV,BYGwWVgVYWufg.JYwtKBBVuggWfG,KwaB+,uWp,JYG+,VwJBwBKpJJufK.fYuw0uVpKgWfVGYYpAV+JuGpKpGGu,KYf+pu%pVJp.WYBKYwWBVVYgGGu.wQuz,+fVugQWfGp,KY.BYVupVJYfG,VYw+.BggfWVfQ.fKpwy+.V+g+WV.j,G;g+wuVpgJff,,UYYwpuBV.Jwf+.VKJRGu+VwgYWgG,,,?5+BupVuJ.GG,+YWwJBGVKJwYK.gYgA,BVVBgpWWG.Y.&+BBuJgwJKGw,uYgB B,pgJBGu.WK,hYuupVgJf+GKKV{u+gufp,WgGB,KYWw,BYp+JV.J,wKKwWBuVYgffu.<YVwp+WVppYfWGV,JYGwKVppuJYff,gY&wVBpgWJGWY.fKVwb+GVJgwWu.f,fAp+-uVppJWf..YYYwVu+VGJTfw.uKg+fuuV1g,Wp.B,.w+++uVp.JGGW,wYpwgBfV,fDGB.pYuS.BfV+W/WJ.,K,8wB2ugJgJ,GA,BYpupB.p.J+fp.JKGRKVwpfggfgG,K,#B+,uWgKf.G+KuYJ+YBKpwJufg,DK,w,BBpVgWWKGY8+ww+JVJpKWKGuK,YfB,uWpBWBfW,WKYwgBVgJgKWK.KKuwu+fpVgMGBYK,f WwYuYpVJGfG.Kr.wuupVfJufS.BKp&Wu+uYJ+WV.3,GYK+wuupfJfGK,yY.wpBWV.gYGB.VYf)GBJVwguWgGfK+x>BpupguJ.fY,+YVBwBGg+JwGm.gKf4,B^YVgpfpG.YBj++puJg,pfGwKwYgwKB,pqJBfp,,K.w,B+VpgJWGGKrwep+gVJp,WKGB,,YW+KuJp+WVfJK+KKwwBuVgJpW,.KKBwp+WuKpYG+.g,JoWwKuYpuWwff.,PBwBuVVWgKWY.+KVHJuwuKJwWuGW,fY,+ pBffJWG..Y#+wVuGVGgKfB.uYJ:f+YVsgBWp,W,KYYBBuVgWJG.W,w=pwJBfpYJ(f..pKWb.+YpVgVfGGG,Yqw+uugJfWKG<KpYp+.B.ppJ+Gg,wKG+BBwpJggWfG,K-,,+pV.p.fuG+,gYJBGpVpwWgfg,,K,+pBBgpWVW.,+K+wJ+JV0pKGwG.,g/,w,VBpBWKfWK.Qfw+uJVJJKWK.uKuUgB5u,JVWB.B,WY.wYu+gWJJ.w.KYYwuBgVfg,fW.BY, WBGuYg+WVGJ.pYKBWuuggJff,,7YBgjBWgVgYGB.VKJeG+KVKguGwGfKY!y+BuppWWWfYKVYVB+BGVYJwGpKBKf+(BTVggpWWG.,YPG+VV.pGJYGw,uYgBfVHpPWgfp,,K.wpB+pggGWG,uKwwG+gufp,W*.J,pU,w.VVp+JgfJKG;+wwuJVgJKW,.fKB=pupu.JuW+Gg,JYGwKuwppJg.E.,Y+wBBpVWW.fW.+YGoJuwuKJuWuGgK,Y,BguBpJJWf..Yw+BxBJg+gKGJ.u2+8fBYVYgBfKGW,,YY++uVpJGJfKKfYuwJBfV,J/.B,2KW+V+YpGgVWYGGY=&++up+pffwG:,BYpwWuwVYWGfVKBKGwSBwguJVWf,pK3w.+pVYp.fY.Y,VwwwGVgpwJWfgKfY*wTu.VpW+W.,gK++Vg#u.JgWw.,,gY,w,uSJFJp.u..o+w+BVVJgGfK.wyq5gBKu,g}WBGpYwY.B.u+gfJJfG.KYwwVBggJg,Gp.BKp5W+.VJg+GuGJY+YK+wuupgJKf,Y(YB+KBWV.gYf+pgKJ+u+KgwguWJGfKwBG+BuppW.WGw,BYV+f+WVKJ+fu,.Kfx,BrgW+.WWG,,YBY+guWpGWuGw,JB+wfB,pb.vfJ.fK.+wuwVVgWWG.fKw!u+gufpjW<GV,pYfw.BYp+fV.{.GYewwBpVgJwW,,+Y,6p+,u.JpW+GV,JYGBJuwppJgfK.,Y+wBVpgBg.fw.+KgvJBVuKgwfgGg,,Y,++uBppJWf.,,Y+wWBJV,gKfw.u%guK+,VugBWfGWKYYY++uJpJWmfK,BYuwgBfg,JwfB.GKWww+Yp,gVff,+,Kng+uuWpfJ,Gc,BjpwWuBVYJBfV.JKG+KB.VugKWf.uK:lf+pVGJgJYGG,VT.wGBKpwJuJw.fYuwtB.VpgGW.,Y7WqV+YuGgVWw.f,gwfBfu>pfJpG0..Yuw+VVp.gGfV.wKGSgu+u,W<G:GpKSY.+pu+pJJJfGK+Yww,BgVGg,fd.BKp+++.VWg+WgGJ,GYK+wV+pgWVf,,BYBwpBWV.pff+,wKJ(Y+KVwguWgwu,,%,+BuGpWJ.fY,+YWwJuWVKJgfu.gKfH,B,VBg,WW.f,YqB+VVfg+JKGJ,uPBwfB,pZJBGJ.WYu<YBBVVgJWG,KYBcu+YufgVWSGf,p7G+BBYp.JVGY.GKKwwBup.gffV.TK,0p+Gu.JYfuGVKMYG+puwpKJgffKWY*w.BpVGg.WY.+KV+V+GVJgwWpGg,fY,u%V+ppWBf.,WY++JBJVGJGfw.YKg7.+,VqgBGp.g,.tf++VepJfpfKKB=BwgupV,W,fB.pKW>.V.V+J+WJG.,Ktw+upgpKJ,G,,B(BwWuBVYWufG.JYfcKuVVuggWfG,YV}BBBuWgGJYGu,VwJ+wBKpKJuGu.fNBwyVBpfgWfWGYKYoV+,uGJKW.GuKuYf+fubgGJp.WwuY^wYBVpVgGfw.wKu&K+fV.gdWfGp,WY.wYVVpVWJfG,pYwwuBgVfJwfs,uKpw++.uYg+WVGG,GwH+wuKpgJff,,aYuwpu.V.Jff+.VKJsGuBVwJJWg.p,,/S+Bup*GJ.G.,+%WwJB.VKWBJm.gYg},B.VBgpWWG.Ysq+BBuJp.JKGw,uwgwKB,pKJBGu.WYB YuuVfgJfGGKYJru+gufp,fWGBKuYW+.BYpuJV.J,wKKwYBupVgffg.vKBwp+WVGpYWuGV,JYGwKVgpuWgff.YYjwBBpgW.eWY,+KVwJ+GpwgwWu.f,f}K+RuVppJWf.KYYGwVuWVGJYfw,YKgw.BVV^JVWp.+,.YY++uVguJG.w,wYVwgBfV,f&GV.pY.&.u+V+g.WJ.,YcSwBWuggKJ,G<,BYpYBB.g+J+Gf.JK,tKVwgGggf,G,YBlBB.uWJ.WwG+KJYJ+KBKppJu.g,+K,+BBBpWgWGuGY-+mW+JVKpKfuGu,fYfw,VGpBWGfW,WKYw+BVVJgYWK,gKuwV+fu,gNWB,+,WwBwYVwpVJJfG.K,.wuuYVfJ,f:.BKp-WJpuYJGWV.W,GYK+wuuJBJf.g,drVwpBWV.gYGf.VYGCGuJVwgVWg..,K8OBpupgVJ.fY,+YV+gBGg+JwfV.gKfQ,VhVWgpf,G.YBU++.uJg,f+GwKfYgBwB,pdJBfp,KK.+BB+pGgJW,GKvwbK+gVKp,fuGBK2YWw.uup+WffJ.,KKwwBuVgJGW,,pKB*J+Wu.pYG+,X,JwwwKVgpuWfff.,vGwBu,VWgKWY.+KV+JBuuKJJWu.K,fwJ+NVVgVJW.u.YYBwVBJVGgK.K.ud>5f+KVUgBWp,WYBYYBGuVJwJGGV,wjpw.BfgJJ2Gg.pKWI.+YV.gVGwGGYWOw+pugJffgGyK.YpB+B.gVJ+.V.GKG+gBwp,ggWYG,MxFg+pp+p.fJG+K,YJBGJpp+W,fgKBK,wBBBVpWVW.,fK+wJ+JuGpKWwG,,gwpw,VupBJpfW..xww+V+VJW1WK.wKuag+.u,JKWB..,WY.wYu+p.JJ.f.K?JwuBgVfg,fJ.B>pQWuuuYg+WVGJg,YKBfuuJgJffK,)YB+.BWV,gYf+.VKJ/GVu+JguWJGfwKT++uupJ+J.GBk,YVwJBGWYJBfV.gKKuJB?VBgpuu.uKNF+BgBppGJYGwKWYgwfB,JpVffp.fK.VuBuVpgJfGGKKVBY+gufp,,VGV,gYW+:gfp+JVfJVVYww+BupWJWW,.wKBwV+Wu.pYW+fJ,JY,wKu+puJgffK,QvwBBJVWgKWY.WKVwfBwuKgVWu.K,fY,+cuBJ+JWfK.YYpwVBfVGWKfB.uKWzf+YV^g,WpGWYgYY+VuVpfJGfK,wYu++BfpwJjfV.pKW/.uYWpgVW.GGK+PwBgugpfWwGO,JYpwGB.VYJ+.V,.KGwBBwVWggGVG,Y+wp+puYp.WwG+,VYJwGu,pwJGfg.GK,wTBBgpgGW..pK+S.+JV+pKfBGV,gmBw,VupBJpfW...Ww+B.VJJuWK.BKu+gVwu,ggWBG,,Ww+wYp+gfJJG+.KYJwuB.VfW,fG.BK,HWBBuYJfWV,JKfYK+JuupKJfGj,ZYBwYBWpVgYfB.VKJqG+KVVgufwGf,Y#(+BuppWWgfY,,YVwGBGVKJwfuG+KfwWB5VggpWWG.,YV.+VVVpGWBGw,uYgwfVWpCWwfp.YK.qYB+VVgYWG.VKww++guGp,f+.G,pj3w.uKp+JVfJ.GXGwwB.VggGW,.7KB+p+,u.ggW+G,,Jb+wKVBg,JgGu.,)gwBBpVWg.Gu.+K,HJBVuKgBWu,gKwY,+JuBpKJWGp.YY+B+BJpugKfB.uKgyf+,VJgBf2GW,KYY++uVJJfpfK,GYu+wBfgtJxfB,GKWwg+YVugVWJGGYKw,+uV+pfWJG#KKYp+GuGVYJKfVKVKGdKBwVufuWf.fKL8u+puWp.fYGJ,VeVwGuGpwJGfg,.Y,w-u+VpJ,W.GYK+:V+WuGgGWw.B,gY.w,p5guJpGp..Y.w+uGVJWGfK.wYw/gBgu,gVWB,pKuY.+.u+g+JJ.B.KwwV.BJpgg,f,.BKW(W+.VKg+fuGJK+YK+wuupgf+f,KEYBwKBWV.gYf+,KKJw.+KVfguWgGf,,)++BVJpWWpfY,+YVwJuKVKWufu,+Kf7,BRVBgfWW,-,YPK+VuJpGJKVB,uquwfVwpaJufp,G.JzYBYVVJgWGGKKw#uBYufgGWSGu,pYWw.VYpGJVGp.GY.wwBGVgJ.GJ.{YB(pueu.pYW+GVY+YG+.uwguJgf..,wawKBppgg.f,.+KYNJ+GuYgwfBGg,.Y,+ouBppWYf.,YY+wgBJVGgK.waJKgwf+,pmgBfWGW,.if++VppJJ,fK,wYuBgVgV,WwfB,gKW+g+YpuWwWJ.,,Kzf+uugpfJ,G+,BTWwWB,VYJ+fVKJhlIKuuVuJfWf.uKkwVBpuWJwJY.p,VYJwGBKBGJuGf.fN+wOBVVpWW.BGYYV VBGuGJuWw,uKBYfB3u-gpJpfK.. Y+gBVpGgGGw.wY.}gufpVgafpGpK.Y.++u+pVJGfGKBYw+wBgVfg,f/,,KpwY+.V,g+WVGJ,GiJ+wVGpgWWf,,PYBwp+uV.Wgf+,VKJDG+KVw.KWg,B,,ww+BuppWJ.GW,+PYwJu,VKJwfu.gjpn,uBVBW-WWG,,YwuBGuJgKJK.C,uYgwfB,ggJBGf.WK,jYB+VVWJfBGKYV!uBGufguW1.VK+YWB+BYgWJVfJ.GKK+pBupGgfGB.TKVvpuWVgpYfpGVK.YG+JuwpuW,ffK+Y%wVBpVWg.WY.,KVwK+GVQgwWuGgYfwf+DVWppWYf.K+Y+wVuSVGWVfw.pKgSf+,gLJ.Wp,Q,.wp++p;pJW,G,,wO.wgBGV,J=fB.pwp:.uJV+gpWJGG,K+w+pugJBJ,.W,BY,wWuKpGJ+.F.JYY-KBwVuggfGG,YWDBuwuWpKJY,+KfYJBuBKgfJuG,.fz,+BBBpYgWGVGYKghVuJp+pKffGuY3YfBVuSJB.KffKVKY+GBVVGgGWK,+Ku+++fp0gRWBGp,WwJwYVKpVW.fG.KYwwuVxVfWff8,JKpqW+.uYgBWV,p,Gwu+wuupgJfGu,Sw+wpV&V.gYf+.VY,eGuKVwJ.WgGf,,&R.VupJ+J..Y,+YpwJu,BfJwG,.gYW(,B0VBgpWfG.YWU++puJpGJK,wKfYgBuB,gfJBf,.WYKwVB+gwgJG+GKKwTu+gVBp,ffGBY+YWwKBYJ+fwfJKVKK+GBupwgfW,.JKB+w+WuKpYW+GV,JwwwKV,puJWff.,Y%BBgfVWWJWY,KKVwG+GuKJ+Wu,u,fYY+huBppfWGw.Y^YwVVVVGWWfw,pYfOfuGVngVWpGW,.YYBKuVJgJGfY,wYuwgVfggJo.+.pxJd.BpV+JgGBGGYY*wBJugpfJ,G)f,YpBJB.JXJ+fg.JNGBVBwgBggGWG,YpZBupVGp.fKG+YuYJ+<BKJwfnfgKWK,+YBBpKgWG.,pK++u+JpfpKWuGu,gwBw,pwpBWYfW..KYw+ugVJW,WK,GKu(g+fu,gBWB,W,WwgwYu+pVJJWp.KwVwuVBVfg,fU.BuvoWVwuYJYWVGJ,GYK+puuJ,Jf.G,8YBwpBWVYgY.w.V0K1G+YVwJpfVGfY.2ZB+uppWJ.fY,VYVBJBGVYJwfu.gdfwwB gBgpGWG.Kp)+BgVfpGGEGwKGYgwfB,p&WJfpKWK.BwB+VggJGG.wKw+u+gpfp,WfGB,p:Kw.pqp+JgfJ.GKKwwuuVgW.W,.+KBIp+Wp.gYW+,g,Jw,wKVupuJgG,.,wBwBBJVWg.WYK+KfaJuKuKWuWu,+,fQY+YuBJfJW.W.YY+wVBJJJgK.p.uKJ)f+,VPWBfgGW-wYYuguVpYJG./,BYuBKBfgwJ-fB.pKW(K+YgggVGYGGKkNwuuuJpfG+GFYJYp+YB.gYWYfVK,KGBBBwVWggGf.JKO+J+ppKp.fgG+YVumw.pBpwfWfg.,K,wmufVpf:W.,KK+)V+JuGJ!Ww,.,gwfw,u;pBJp.+..wJw+VpVJgGWK.wYW;gVuu,W+WBGp,WY.+uu+WbJJ.K.KYwwuBgp.g,...B%fvW+.uYg+BgGJT!YKu,uupJJfGYf.YBBGBWpGgYf+.VKJww+KggguWJGf,,l7uBpBpWG+fYYJYVwYBGgoJ,fuKYKf+uBmVBgpWW.w,Y+J+VgvpGW{GwYuIGwfpBp{fWfp,BK.XYuVVVWYWG.qKwxu+gufJBWy,G,pYGw.BYp+fVK..GwpwwV.VgJ,W,.8K.-pV+u.gwW+GV,JwG+wuwJ,Jg,B.,:GwBuJVYg..W.+KKNJ+GuKgwWYGgIVY,+wuBppJW..KWY+unBJJpgKfJ.uYW+++,g,gBffGW,.YY++wYpJGpfKYKYuwWBfg,fgfBYwKWBg+YpJgVGJ.,,K+.+ug+pfW+G-YBYWwWpgVYf,fVKhKG+KBGVuf+WfKJKbTp+puWJwJY,Y,Vw,wGBKpwJuGy.fwGw-VWVpgWW.GYKu1VVguGWVWwGu,gYf0JuMWBJp,w..KYw+BVG+gG.Y.w/, g+fu,g!f,Gp^GY.uWu+pVJJfGKVYwBYBgJ.g,fw.BYJ+B+.gfg+fuGJ,GYK+wu.pgGpf,,wYBwpBWg.Juf+YwKJBg+KVJgufW.w,,+K+BV,pWJ.fY,+<fwJpgVKfYfu.WKf+,BJVBf+WWKJ,Y<.+VuJJwJK,K,uYWwfB,p5JB.+.WwfhYBuVVgJWG,KY!LuVVufWGWn.p,pYWBJBYWwJVff.GKKwwVuV,gf...bw+xpuuu.JwfwGVeJYGwYuwpuJgffYfYCuuBpVfg.WY.+-Vw++GgYgw.VGgKwY,B+uYppG.f.KBY+wVBJVGWgfwYVKgB,+,V+gBGp,p,.Bh++gppJfwfKYwYGwgpGV,GwfB.GKW+.BfV+fpWJK.,KwW+upgG+JKKw,B+gwWBYVYJ+GK.JwK5KV.VuggWfG,YV^BVfuWWJJYG+,VYJ+NBKWpJu,u.fK,w}BBV.gW,+GYw0kV+JuGpKfwGu}KYfu.uzpBJpfW,VKYufBVJJgGWK.wKufW+fgKgO.GGp,fY.BwwKpVGWfG,,YwwuBgVfJVftYVKpsf+.uYg+GVG.,GB^+wgppgWwf,K+{xwpp,V.Wpf+.VKJbGB+VwfpWgKK,,v++BpppGJ.Kw,++gwJuVVKJwGG.gw,r,B+VBgpWWG.YVM+VWuJp,JKGw,uwgVKB,WuJB,f.WYY#YB+VWgJ,>GKKBvu+gufJ,WVGBbGYWVwBYg,JVGfKJKKugBuVWgfW,.lKBwu+WJBpYWBGV,JYGBKuupuGKff3uYPwfBppGWyWYYGKVw.+GuKgwWuWw,fBu+9g.ppJGf.KYwWwVpYVGGVfw,fKg+fB+V6ffWpY0,.Ru++pVg,JGKV,w+GwgV+V,f9fY.p+?S.ppV+gJWJGGY+{wV,ugWGJ,G&,BYp+KB.WWJ+,g.JKGkKBwpBgg,VG,wBhB+puWp.gfG+wwYJuYBKpwJufg+uK,u,BBJGgWW.GYK+(.+JJWpK.gGu,gYfw,ufpBG,fW/fKYwBBVpfJfWKYJKuwp+fu,gMWB,w,WBuwYuBpVJJfGKK-+wupYVfGVfv.fKpwGuwuYf.WV.Y,GYK+wuug.JfKV,b+,wpBGV.WYGu.V+!!GppVwgKWgGfY+O=V.uppGJ.fY,+YV+,BGWJJwfp.gKft,V1p.gp,BG.wW1+BJuJpGWKGwrYYgw.B,pQJB.p,+K.ufB+W%gJGpGKYBwB+gJpp,f,GB,pYWw.p.p+.+fJ..KKwwBuggJBW,Y,KBuB+WVBpYfu.,,JBfwKVVpuJgff.,YKwBgBVWGGWY.uKV+JBwuKfKWuYu,fwB+>pBg,JWKW.Y+YwVB,VGWKGK.u+u{fpfVZJGWp,W+uUZVYuVfVJGGw,wYu+BBfW.Js,f.pKW/.+YVKgV,JGGwp9w+uugpffJG&wuYpV+B.VYJ+fV,WKGVaBwJKggWfG,K3wG+pJ.p..fG+,VYJwGugpw.Jfg4pK,wFBBVpwGW.Y.K+uW+Ju.pKfBW8,gBgw,uYpBJpfW..YWw+gBVJg.WK.wKu+gBJu,fKWBYu,W BwYVugBJJKG.KLJwuBgVfg,fw.B+uqWp.uYguWV,J,KYKVYuufVJfGg,6YB+VBWWGgYfu.VKJzG+Kpggu,gGf,Y#t+BupJW,5fYw+YVVJBGgwJwfu,fKfuKB VVgpWWG.YYww+VJWpG.YGwKYYg+.u,p0.Vfp,+K.TYB+VVJ+WGdwKw1V+gufp,Gx.u,pB.w.J+p+J.fJ,,>pwwgWVgJKW,.5KB pdBu.G+W+Yf,JY,wKpwJGJgK,.,BBwBu.VWW.f..++JXJpKuKgpWu,g,KY,pBuBfWJW.u.Yw+BwBJWKgKKu.uKf<f+,pJgB,GGWwWYY++uVpJWGfKwgYuVVBfV,JNfB.KKWVB+YWwgVWJGG,KK.+uJYpf.,G ,BYpwWWpVY.GfV9WKG!KBwVugKWfAgKTuV+puWp.JYGJ,VBGwGJJpwJVfg,.0JwHgpVpJJW.GYK+4VBKuGG+WwGV,gYfw,p4pKJpK,..BBw+B.VJJ,Gg.w+fxguwu,gCWBGpKKY.pBu+fGJJf,.Kww+wBgWKg,Ku.BY9bW+.pGg+,fGJ,,YK+wuupgJ,f,wpYBwJBWV.gY.+.,KJVw+KWgguffGf,,ww+BJ,pWJKfY,+YVBJVVVK.Jfu=KKf+JBSpVJVWW*u,Y>B+VuJpGJK,K,uu(wfBKpOJBfpKWYBHYgGVV.wWG.VKwwpB.ufGJW-.g,pYWw.BYgWJVYw.GBWwwBpVgWfWY.#+.Apg+u.JVW+,VKBYGpguwf,JgfY.,w0++Bpf+g.KJ.+Y,zJuGWpg+,,Gg+BY,+BuBppW+f.wfY+VJBJVGgKfw.WKgVp+,WugBWpGW,.ww++W+pJ,hfK,wYuwgVpV,.KfBm.KWt.+YV+JpWJNf,KuJ+uugpfJ,.V,BupwWJuVYJ+fV.JJ,zKgfVu.gWfGKK?cgpwuWp.JYV,,,YWwGVZuYJufJ.fn+w BBVpWYV+GYKBmVYfuYpYWwG.,gYKVJuvpBJpgG,mY-w+ugpggGWY.wYp#g+fu,gDJpGp,GY.+0u+pVJJ.G,.YwwpBgV.g,fg.BYJ>,+.VBg+f.GJ,GYK+wuVpgJ.f,,uYBwJBWg.WAf+.gKJ(,+KVGguWg,g,,eB+BuJpWJ.fY,+wDwJBYVKJBfu.gKf+,guVBgfWW.U,YwV+VuJgGJKGp,uYWwfB,pdfBG..WYwyYBgVVWBWG,4YVRu+,ufpYW9GB,pYW+uBYpWJVfW.GKKwwVupGgffu.xKf=pB5u.JwfwGVKwYGB+uwpuJgfffgYRwfBpp+g.fw.+?V+Y+GVVgwWGGgYhY,utuYppWLf.,pY+wfBJgGJpfw.GKgww+,pJgBGp,c,.xp++u.pJJKfK,wNWwguBV,JwfB.pKWS.uBV+gYWJG,,Khw+uuggRJ,GG,BYWwWB.VYJ+W;.JYg=KBVVuggWfG,BfrBBBuWgwJYG+,VYJ+pBKpYJuf,.fK,wEBBgwgWfBGYYR:V+WuGJSWKGu,KYf+Yu:pBJpfW.KKYwfBVVWgGWK.w=uwV+fVVg WGGpK0Y.BwuupVW+fGKVYwwuBgVfW+ft.GKpwB+.Vwg+GV.f,Grp+wu.pgWuf,,Cw#wpu+V.Jwf+.VKJ}GBuVwgKWgG.,,Tj+Bppg.J.GW,+YYwJuKVKJwGV.gYVo,B+VBgpWW,.Kfl+BjuJgpJK..,uHW+WB,p.JB.B.WK.#YB+J+gJfJGKK+<u+gufJ,f.GBKBYW+WBYpWJVGf,GKK+ZBupGgfW,.qKBZY+WVWpYfwGV,fYGBKVupuWuff,fYz+WBpgWW+WY.YKVwV+GVBgwGu.W,fif+AVippfwf.KYBfwpuVVGJGfw.gKg0f+KVUJ+Wp.C,.YY++uVgJJGGK,wY.wgBfV,JAfK.pYfZ.BJV+gVWJGGYg8wBpugguJ,G?,BYpBwB.g+J+GH.JKGIKBwpUggfKG,K.vB+puWp.BwG+K+YJ+YBKp+JuGWfpK,w,BBpJgWW.GYK+ww+JVWpKW+Gu,gYfB,VfpBWufW,fKYwWBVpfJuWK,wKuwK+fu,g WB.+,W6fwYV+pVJffGKKR,wuuVVfJGfO.,Kp7WuguYJwWVGf,GYK+wuug,JfG,,UYVwpBWV.WYKp.VYJAGBKVwJgWgGfYwT*BuuppGJ.fY,+wVBuBGpYJwGV.gbVc,u+VggpfGG.KJ2++VuJpGfWGwKgYgwGB,ptJB.pK+K.++B+pJgJf+GKYBwu+gVYp,fuGB,pYWw.wWp+WJfJKcKKwBBuggfwW,,BKBwW+Wp+pYG+.V,J>KwKVupuJ.ffK,YwwBuWVWJYWY,fKV+JBYuKJuWu.f,fo(+suBghJW.w.YYYwVBJVGgKfJ.uY,jfBGV!gBWpGWY+YYBWuVggJGfK,wYuy+BfgVJ^GB.pKW .+Yf.gVGwGGKYCw+uugpffWGTK,Yp+GB.VYJ+fV..KG+wBwpKggWGG,Y++2+pV.p.fwG+,VYJwGukpwWJfg.GK,w^BBgpJ,W.,BK+wW+JV+pKfB.f,gw^w,VgpBJpfW..Nuw+uWVJWwWK.BKu+gBfu,JuWB.f,WNpwYu+ggJJ.!.KYBwuBgVfg,fg.BY.}W+KuYg+WV,J,KYKBguug,Jf.F,(YBwgBWgBgYfu.VKJEGuKpVgufKGfYu83BKupgGWGfYKfYVwWBGVKJwfuYuKf+pBqVugpWWG.YYwg+VpwpGfgGw,GYg+.VVpNWKfp,,K.?YB+VVJ.WG,gKwwY+gu.p,G%.g,pw+w.VJp+WGfJKG/Vwwu,VgWBW,.VKB+pBGu.JJW+.K,JwBwKpwf.JJ.B.,SWwBBWVWg.fG.+ETlJBKuKgwWuGgKpY,B.uBgfJWf..YY++.BJgJgKGp.uKgMf+,VggBGuGWY+YY++uVpJJ,fKY}Yu+KBfV,J{fBK+KW+.+YpfgVWJGG,KfB+uplpff,Go,uYp+GwJVYWGfV,fKGoKBwVuWwWf,gKA%u+puWp.fYGu,Vw+wGVJpwJGfg,.sRw=uYVpWDW.GYK+EV+GuGJJWw,x,gY.w,p?g+Jp.B..7Ww+BYVJgGfM.wYYXg+.u,ghWBGpKYY.BGu+pgJJfG.KwwVJBggpg,G..BYWhW+.pfg+G+GJ,,YK+wuuJgWwf,K,YBBBBWgggYGu,fKJ+W+KVBguWgGf,,&g+BpVpWJ,fY,+YVBJBKVKf8fuKpKfwuB%pVgJWW,,,Ywp+VuJpGJKJG,uwpwfVKpNJVfpKWwBjYVwVVWgWG,uKw+uB.ufJ.W9,+,pYKw.VYpuJV.g.GL,wwu.VgWfGg.1m+:puJu.g+W+GV,,YGBYuwg,Jgff.,Yx+GBpgGg.GW.+KVyJ+GpggwGgGgYVY,+ uBppguf.YBY+BwBJVGgKfwwKKg+Y+,p,gBWpGW,.&W++pGpJfWfK,wYuwgVgV,WYfBK.KWP,+YpuJVWJ,f,KwB+uugpfJ,.+,BwpwWB,VYJ+fVKJ*w-KVwVuWgWf.uKQwVBVuWJKJY.W,VYJwGBKgpJu.g.fQYwTBVVpWWfpGYo+(VuJuGgJWwGuK,YfBKuRpVJpfW..KY+YBVgfgGf;.wKukgufp+gmGVGpYGY.B+u+pVWKfGYwYwwpBgVfg,.C,YKp+.+.g+g+GaGJK, ,+wpJpgfgf,,ZYBwpppV.fuf+.pKJ6G+KgwW<Wg,Y,,+V+Bu,pWWKGu,+w.wJuYVKJwfu.gYGr,VVVBW,WWGK,Y++uwuJWtJK,p,uQ,wfV,p,JB.G.WwwHYBgVVWJG+GK7pyuu.ufJVW;,BwKYfuwBYJgJVfG.GKKwuBugKgfG..7KBXp+WVfpYGfGVYJYGwKuwpuWWffYpYSBuBpVWg.WY,JKVB++GgagwWuGg,fz.+8pKppf.f..YY+wVuAVGfffwKJKgDf+,VXwVWp,K,.+G++uppJW,Jf,wwWwgu.V,J(fB.pYJ=.VVV+gpWJGG,K+wBgugWlJ,,p,BY,wWuKpGJ+.,.Jl+iKBwVuggf/G,3p;BuKuWpKJY,+,.YJuwBKJgJuGw.fK,+uBBg,gWWKGYK+AV+JpwpKGWGu,WYfw,u/JB.ffWYuKYBfBVpGgGWK,mKuB=+fuYgQWBGpYWY,wYpGpVGwfGKWYw+puwVffgfo..Kp1W+.uYJYWVKB,GYY+wuupgffG.,%wKwppuV.Jpf+,g*BnGVGVwJJWgGf,,2/Y,upWuJ.,.,+YgwJVGJVJw.Y.gwVs,upVBWpfwG.:f%+VAuJgRJK,wYwYguVB,JGJBGK.Wz.wKB+J)gJ.pGKKuDu+guKp,G,GBYGYWw.BYp+WVfJYWKKBgBuVggfW,.uKBBV+WgBpYW+GV,JKpwKgwpufYff.,YRwBW8VWf,WYKGKV=J+GuKgYWuKW,f+g+DuBppJW.J.Yw,wVpfVGgYfw,pY,(fVJV0JVWpGW,.YY+uuVWuJGfY,wYuwgVfpWJI.Y.pwVq.BpV+JgfGGGb.)wBGugpfJ,G?KJYpuVB.J,J+fg.JcGwfBwJ9gg.pG,KfRB+ppwp.G.G+,gYJwGBKpwJgfgYJK,w+BBVpgWG..KK+BB+JgWpKfuGu,gYYw,pYpBJJfW..KYB+BJVJffWKY<Ku+++fVYgYWBKp,WY,wYu+pVJJ,J.K++wuBJVfg,fdKBY%8WV,uYfBWVGY,GwZBJuuWfJf.w,nYBwpBWpGgY,B.VwGFGBPVwWuWfGfEKNDVuupgYJ..Y,VYVuWBGJYJwfW.g(f+fBaJugp.fG.Yg=+uVW5p.GYGwFVYgw,B,p%W.fpY.K.BfB+VVgJWG.YKwBJ+ggpp,W-GB,p:gw.gup+G+fJ.GKKwwuBVgGmW,KKKBTp+Wu.JwW+K.,J+fwKuwpuJgGw.,+JwBppVWg.WY.+JgUJV.uKfWWuGJ,f<YY.uBWgJWGK.YY+wVBJgggK,B.uKJ(f+,V1WBfuGWmKYYVuuVpYJG.M,gYuuGBfguJ*fB.pKWwJ+YJugV..GGKz3wuuV.pfGYGNZVYp+BB.VYWGfVYGKGwZBwVuggWf,BK=Bg+puGp.JYG+YVB.wGg+pwGJfg,,K,w1uKVpfKW..wK+QV+JpGgWWwKW,g+Yw,VGpBWJ.w..+Vw+BgVJgGWK.wYV*gpwu,gwWBGp,Ww.Bpu+W.JJK+.KYJwuuWpWg,,W.BYfzW+.uYg+pYGJw+YKVfuupWJf.,YgYBu,BWWBgYGJ.VNJ+p+KJJgu.KGfK+v0uBVYpW.BfY#WYVBABGgKWffuYKKfuuBqVpgpWW.J,YBG+VgWpGJKGw,uYKwfggp0GVfp.WK.0YuGVVGBWGYwKwZu+gufVJWXKY,p+,w.BYp+JV4+.G+GwwpWVggfW,.(Yw3ppgu.fVW+GV,JYG+GuwWGJgKJ.,YwwBuJVGg.,p.+Yg-J+GuKgwfuGgw+Y,+wuBppJW..,VY+u,BJWBgKfJ.uYW+b+,JfgBf,GW,.YY++VfpJ.BfKNGYuwWBfg,JKfBYKKWuu+YV.gVWJ.+,KBf+uuWpfJ,G ,BnBwWgpVYJufV.JKG+KBgVuGwWfYgKxwp+puWg.JYK,,VYfwGBKpwfu.+.f+Jw<pKVpWuW.,wYw7VpuuGJGWwGu,gYfufuyfMJpff..KYw+VVpfgG,G.w+wMgBwu,J+fJGpwJY.BBu+pVJJfGKpYwVwBgWWg,f+.Btpw++.J.g+,+GJYwYKuwVupg.gf,n,YBwGBWg.Wgf+ +KJuJ+KpWguGg:+,KB,+BJBpWJYfY,+w+wJgfVKGJfu.gKfe,u.VBGpWWYu,YT++VuJguJKY+,uB(wfB,pSJBGg.W+KMYp.VVgJWGGKKfnupfuffJWeGB,pYWw,BYfpJVKu.GKKwwBuYWgf,f.P+gmp+fu.JwpKGVwVYGBLuwpuJgffKBY-VwBpVfg.WY.+&V(G+GJ.gw,+GgKwY,B+u.pp.Wf.KpY+wVBJVGWVfw1+Kguf+,V+gBGp.Y,.B,++JBpJWVfK,w&gwggWV,J+fB.pKW2.uVV+GVWJG,,K(w+upgfKJ,YO,BBpwWuYVYJ+Gw.J+. KBBVuggWf,,Yu)BpguWf,JY.,,Vof+wBKfBJuG:.fK,w-BBg+gW,YGYKBHV+JuGJKfKGuwfYfp6u>pfJpGG.YKYVgBVp.gGWK.wKuKw+fWlgR,JGp,GY.BYpWpV.GfGwwYw+fBggfWJfCjpKpu.+.Vug+GV.G,Guw+wJgpgf+f,YMYuwpg.V..+f+.JKJiGugVwGWWgYg,,e2+BupgfJ.YV,+BBwJBGVKJwfg.gBw=,pYVBgpWWG..fe+p,uJfGJKGw,uYgguB,fWJBKg.WK.=YB+VpgJKVGK+Bmu+gufp,f7GBwWYWppBYpBJVGfKVKKVuBupWgfW,.SKBw++WWNpYWBGV,JYGBKVfpu.GffwwY-wfBppGJGWYkJKVwY+GuKgwWu..,fuw+bJWppJGf.KYYpwVg.VG.+fw.KKgLfBGVHGJWpGG,.YY++uVpYJGYu,wYpwgBfV,f9fW.p+Y6.gVV+JJWJGGYunwpGugp.J,GC,BwpwKB.fpJ+K..J{pZKuBpBggK+G,KwnB+puWp.G.G+wKYJw.BKpwJu.gKpK,VWBBWYgWfBGYYuwJ+JWppKfVGu,gYfw,uKpB.YfWwgKYwuBVgJWpWKqfKuV?+fpBgyGB.+,WuVwYJGpVJ,fGKKAowuJOVf.pf&,GKp+WguVeGGWVXw,G*w+wuugpJfYJ,qBpwpBWV.gYGG.VBu=Gg+VwguWgGfKgASg%upfKJ.fY,+YV+VBGf.JwKf.gKfe,BDVJgpKJG.+pr++VuJpGWxGw+uYgp+B,pnJBfppGK.VJB+fVgJW.GKKVBY+gufp,BGGG,gYW+K+,p+JpfJKzKKwwBug,VwW,.wKB,.+,u,pYf.GV,.BpwKuwpuV,fK.KY9wggwVWg.WY,,KGxW+GpCJmWuGJ,f1G+TuBppJWWY.YYuwVBWVGgKfwKu&Bef+YV4gVWp. ,.wwBcuVp.JG.V,wYuwgBfVKJ3fV.pK,&.BwV+WVWKGGK0dw+pugguJ,GAKfYpw.B.pwJ+fV.JKG+fBwVJggW.G,KIDBupJ,p.WBG+,WYJ+KBKpwJGfg.YK,w+BBVpgWG.,WK+{f+JVdpKf.GuKWwpw,uppBJJfW..KYw+B.VJJ+WK.+KuQg+fp,gBWBG,,W2BwYuWpVWfGg.KYfwuuGVfg,f .B.7PWBBuYgGWVGf,GwKuJuupKJfGu,#:WwpVWpWgYfW.VKYzGBBVwWuWJGfKu#/+fupJwJ..Y,JYVwYBGpVJwfg.gKf+VBTV.gpWfG.,YO++VVKpGWJGw,pYgwfB,piWJfp,uK.w+B+VVgJWGfWKww4+guKp,W1GB,pVBw.u.p+JffJ.GKKwwBWVgJJW,.pKBzp+Wu.g+W+G.,JUWwKu+puWWGJ.,YgwBuuVWg.WY.+KgtJBBuKg+WuGg,fw,+VuBpKJWGu.YYWwVufgigKfG.uYK2f+,V gBfGGWKuYY+.uVpfJG.K,gYuwYBfpVJ0f,.pKWwW+YVGgVWfGG,KFw+uuYpfWgG*,VYpwWB.gYWWfV,+KGwJBwpgggWf.+K%&K+puGp.JYG+YV=WwGuWpwJYfgKVK,++u+VpJVW.,.K+DV+JuGWGWw.w,gYGw,uEpBfpGg..Y.w+u+VJJ+WK,BKpIgBWu,JuWBGp,WY.+Gu+g+JJGf.KYBwuVggwg,f,.BYB6Wu+uYW+GLGJKJYK+Kuup.Jf.,,VYB+BBWpWgYGf.VEJVB+YVKgufuGfK7{7+BVGpWWGfY,WYVwJBGVKJJfu,gKfwVBcVBgpWW,V,YwB+VVwpGJKGw,uwuwfuYpLJ,fp.WK.*YuuVVJGWG.WKw6u+gufg.WO.g,pnVw.BYp+JVuf.GYGwwuJVggGW,,+GYopBpu.g,W+GV,JYGBwuwg+JgfG.,YkwBVppJg.f,.+YBTJB+uKJBfWGgKfY,BguBppJWf.,.Y++BBJpGgKfB.u)g+w+,VKgBfuGWKpYY++uGpJWffK,BYuwgBfV,WpfB,pKW(K+YV+gVGJYY,Kww+uVgpff?G ,BYgwWu,VYJufV.JKG+KuKVuJJWf.KK:wK+pVGp,JY.u,V9wwGBKpwJuff.fscw*BuVpgWW.,YYWsVBGuGJwWwGG,gQ.wKungJJpG,..KYw+BVB+gGGw.wYW7g+.u,WaGfGpK.Y.B+u+gGJJ.GK^Yw+gBgp,g,fV.B5paK+.p+g+fJGJYBYKuwugpgW,f,KBYBwWBWV.JYf+,fKJwJ+KVwguWg,},,wp+BVupWJ.fY,+cBwJV+VKWNfu.gKf>,wGVBJKWW..,Y5++VuJ.VJK.f,u7JwfB,peJBGJ.W{p:YuuVVgJWGGKKK>uBfufJgWsGu,p9GBgBYgVJVGp.GKKwwBupJgfGw.RKuPp+Wu.JYfVGVK.YGB+uwpGJgG.,KY%+WBpgag.WY.+KVw,+Gp+gwffGg,.Y,ucuGppW,f.KBY+wYBJVGJ.fw,WKg>.+,V;gBWp.g,.wV++ugpJJGfKYw8JwgVSV,WpfB,WKWT.BpV+J.WJG,,Kvw+upggfJ,.g,B%,wWVgVYWuGu.JrBHKB+VuggWfG,&,QBBYuWp,JYG+,VwJBwBKgfJu.X.fYuwjuVpYgWGgGYYpiV+JuGpKW+GuY7YfBJu0pVJp.WKWKY+GBVgwgGGu.wyuw.+fppgOf.Gp,KY.BYVVpVfwfGKgYw+.Bggf.Vfw,.Kp+++.V+g+WVGW,GwW+wVgpgJff,,=Y,wpVVV.WBf+.VKJPGuGVwWwWg.Y,,P^+BupJuJ..,,+NGwJBGVKJwGP.g5W ,ugVBgpWWG.KKt+uVuJJBJKGw,uYgG.B,gWJB.p.WK, YuuBwgJGuGKKYlu+gufp,WuGBYcYWw,BYp+JV.J,uKK+GBugwgffu.^YVX,+WpJpYfWGV,JYGwKuVpufwffKWY6wVBpgWJ?WY,.KV+++GVJgwWu,w,fwJ+buVppJWf..Y&JwVVuVGJ:fw.uKg+fgwVNJYWp,V,.w+++uVgfJG.G,wYpwgBfV,fcfg.p p>.u.V+W!WJ.,YpRwu+ugp.J,Gs,BYpwYB.gKJ+fp.JKGMKVwVGggGWG,YYoB+,uWgKf+G+YpYJ+YBKpwJufgfuK,+YBBgggWWKGYC++.+JpfpKGNGuK,YfB,uYpBfVfWKGKYwgBVgJJpWKKyKu+p+fpVg8GB.Y,WwGwYpwpVJGfG.KYWwuVJVfWpfj.BKp1WBpuYWuWV,+,GYK+wuupWJf,#,%(KwpBWV.gYJ,.Ve.kGufVwguWgGfBgPPuJupJpJ.fY,+YVw.BGJuJw.+.gKfU,BtVggpGJG.%V#++puJg,fgGwYBYg+JB,pyJBfp..K.+YB+VpgJWGGK2w+w+gpfp,G%GB,,YW+Kufp+fgfJK+KKwwBuVgJYW,KHKB+J+WuKpYG+.+,JwGwKpwpuWwff.,YwwBVgVWgKWY.+KVPJBwuKWBWuGW,fY,+(pBpGJW.K.YwuwVuGVGgKGK.udf3f+YVTgBWp,WYVYYuVuVJGJG.W,wqp+pBfJwJ-.S.pKW(.+YgYgVG,GG,Yjw+uugJfWuGcYJYpBKB.ppJ+Gg,+KGBVBwpJggWfG,K=wB+ppKp.GpG+,gYJBGuJpwfWfgKYK,+pBBgpJBW.KuK++f+JV)pKGwGg,gwYw,pVpBWKfWK.BgwBVfVJfdWK.uKuTg+.u,WgWB,V,WY.wYu+g,JJ,B.KwwwuBgVfg,Gp.B%Y9Wu,uYg+WVGJ,,YKuGuuJWJff,,7YBwfBWJggY.V.VKJ?G+KpKgu.BGf^wd{+BuppW+KfYYgYVuuBGVYJwGpfBKfB+BlpwgpWWG.,YwI+VpKpGJYGw,uYgBfVBpvfWfpKYK.wpB+pgJWWGKpKwwG+gufp,WqGK,pwYw.pgp+JgfJKG*uwwVfVgf&W,.fKBqpBpu.WpW+Gg,JYGwKuwgfJg,+.,Y+wBBpVWW.KB.+),jJVBuKJuWuGgKJY,uWuBpJJWf..Yw+wfBJJugK.f.uh+<fBYVugB.AGWKVYY++uVpJfwfKY.YuwJBfV,J9.B,gKWBg+Yg,gVWYGGY}wJ+ugupffwG{,BYpwWwpVYf,fVYVKGw4BwguWKWfKJK%+K+pVYp.fY.K,V+BwGpWpwJWfgKf*ww3VKVpfuW.,gK++V+YuGWWWw,Y,gY,w,uqpYJp,p..wuw+BVVJgGG+.ww+0gV*u,g*WBGpKBY.uKu+J.JJfG.KYwYYBgJfg,.J.BKpMW+.fWg+.pGJMuYK+wuupgf+f,t+YBuNBWV.gYf+,uKJBp+KJBguWJGfKYwG+BgwpWWffY,+YVwJu+VKf,fu.JKf ,B&gBJBWWKJ,Y+K+VuYpGf6.p,u+VwfVuphJBfp.W0wkYVKVVfpWG.AKw+uB+ufWWWP,Y,p%Bw.BYgWJV,V.GYZwwBuVggfGf.zwwkp+Gu.pYW+,V,WYGu.uwW+JgG,.,Y4+JBpJJg.fw.+KVRJuGppgw.BGg;WY,BGuBgJWJf.YYY+wpBJVGgKfwYwKgBG+,VwgBWpGWY.0.++gppJG.fK,JYu+WVBV,GBfB,fKW6.+YV+JwWJK.,KBu+uuWpff,.},B+gwWp,VYWJfVKJturKp+VufJWf.+KF+BBuuWW,JYKB,Vw*wGVKfWJV,J.fwKw4BpVpgWfBGYwVsVVBuGpKWwGuKKYfVwu-JYJpfW..KY+WBVJ,gG.G.wKuNg+fV,ge.WGp{gY.wYu+pVWgfGcVYwuBBgVfg,fZ,pKpuw+.gYg+WVGJ,GfX+wgVpg.+f,,wYB+JwVV.Gnf+,BKJXG+KVwJpWgK.,,6w+BuppWf.Gf,++gwJp,VKJJfu,WYVq,puVBJ,WWG.,Y3+B.uJW,JKKV,uYWwfV,gJJB,J.WwKrYB.VVgJGuGKwu u+Wufp,W>GBK.YWVcBYpuJVfJ.GRKVVBuJGgf,w.aYp8p+WpVpY.gGV,fYGwKuwJuWwffb+YbuJBpgug.Gw,,KVBK+GVFgwWuGg,fYK+;gfppJff..YY+BVB.VGGVfwYGKgww+,p+JpWpY+,.wB++uVpJJGJJ,w+GwggBV,J+fBKpwX1.ppV+f.WJ,w,K+w+WugfwJ,Kg,BYGwWV.pBJ+,..J++*KuWVuWgW.G,wg%BV,uWpYJYG+KGYJVuBKW+Jufg.fK,wuBBW(gW.KGYK+IV+JVwpK..Gu1fYfw,u6pBgwfW8JKYupBVVJgGWKwGKuuu+fJ+gMWBGp,W^uwYJnpVGKfG.KYwwuuGVfGufh6wKp!f+.pwJ+WVKY,Gr.+wuupgJfGu,8+GwpBfV.gYf+KVKY;GppVwf.Wg.w,,w+BYupfBJ..p,+YVwJBGgBJw,..g+u>,B+VBWpfYG.wgF+V,uJgVJKGwK;YgVBB,p+JBfp.WK.+VB+JYgJW,GKKwsuugp+p,.fGBw>YW+YBYp+W(fJ7pKKwBBuVggfG,,VKBuw+WJgpYf,GVKf:fwKg,pufuff.,Y/wBpBVWGWWY.BKVCJ+GpKg,WuYu,fBf+kufppWGG+.YBwwVu.VGgKfw.uK,^fpfVZG+WpGG,.wYB.uVfVJGKG,w#fwgVfggJkKM.p+pT.BuV+WVGwGGwG*wpwugJ+J,,UwGYgVpB.W.J+fJ.JKG+WBwWBgg,wG,K*-B+pVVp..YG+},YJwGBKpwWAfg GK,uWBBVpgWW..pK+ug+JJVpKWwGu,gwww,JBpB.wfW..KYw+V2VJGYWKY,Kusg+fu,w+WBYB,WubwYuBpVWfJg.K+KwuuVVfg,fP.BY.AWpfuYgBWVGJ,GwK++uufVJfKG,jYfwpuGpJgYK+.VYY!G+KVwgufwGfwGq0pBuppGJ..YKwYVVpBGW.JwfK.gKfwwBnW+gpWGG.,YR++VVKpG.KGw,pYgwfB,J0.gfp0WK.uYB+pJgJWG,pKwuV+gu.p,WaGBYpYKw.J5p+.pfJKpKK+BuVVgG.W,.WKB3p+Wu.JJW+YJ,JY.wKuwpufg.+.,BBwBgWVWJBWY,uK.XJg-uKJVWuGg,fY,YfuBfWJWYw.YYuwVVJJ+gKKu.u+fMfuBVaWBfJGWwYYYpVuVp,JG.K,VYuVfBff(JzGG.p4WwY+YWVgV,GGGKw=w+uVupf,+GewLYpwWB.VYWufVFKKGu.BwVuggWf.gK-uf+pJJp.JYG+,VKBwGJppw.ufg.fK,wXJ,Vp.+W.o8K+2V+JuGJWWwYK,gB.w,u<pBJpfK..B+w+gYVJg.WK,BYK;gp,u,gKWBGp,WY.+Ju+fWJJf..KYwwuVgV,g,Ku.B+fjWBBuYJuWGGJ+wYKBJuupgJff,KVYBVfBWf+gYfu.VDJwB+KWVgu,GGfKgvO+BVspW,wfY,uYVwJBGVKJYfuI,Kf>YB7VBgpGW.V,YuJ+VJKpGfwGw,uwwwfJup^JVfp.WK.+YBGVVGYWGiVKwwY+gV.g.WnYG,pYfw.BYp+JV,V.GBgwwBVVggfW,KkMq/pg+u.GJW+G.,JQ,+GuwfYJgGK.,YywBBpp+g.KJ.+B rJ+,uKWwWGGg+BY,pWuBg.JW..KpY+VKBJfugKfp.uhgwr+,WWgB,YGWYuYYu+J,pW,ufKwfYuwfBfV,WBfBwwKWuY+YV+gVWJ.p,Ku,+uJGpfJ,GX,BYWwWJWVY.gfV.JKGkKuVVu.VWfLBKv4B+puWgJJYXw,VBYwGBKpwJuGV.fB,w}gGVpgWW.GYJuRVgwuGGKWwGV,gYKVJu^pBJpVu,uYdw+ugupgGWY.wYWQg+fu,WpuWGp,fY.J+uWppJJ.g.KYVuYBgVfg,3B.fKg1WBKVKg+WpGJ,YYK+wuupgg,f,,+YBwgBWV.gY.+,GKJ3,+KVBguWKGfKYw,+BufpWfBfY,+YVwJu,VKJBfu.GKfEYBAgBJuWWGK,Y9u+VV+pGJK.,,uYfwfBYpOJBfp.WYwtYBpVVgfWGGKKw+upGufgwWbGg,pN.w.BYppJVf,.GYFwwBuVgWffw.)KJnp+Ku.JfW+.g,YYG+uuwppJgff.,Y{w.Bpp-g.fQ.+KV4JuGVggwWGGgKwY,+guBgJW,f.,JY++WBJVGgKfwWKKgww+,VWgBWJGWY.+p++u.pJW+fKKgYuBguYV,JgfB.,KWww+Yg+g,WJ.+,KyJ+uVYpff,.,,BY,wWuBVYJVfV.JYf2KBfVugJWfG,K8-BBuuWgpJYGu,VYJwGBKpKJuG+.fYAw/BBVpgWJgGYKKDV+.uGpKWwGuBwYf+fuapJJpfW..KY+fBVppgGfu.wKu)g+fVfg9WfGpKgY.+lu+ggW.fG,VYwwJBgVfg,f=.YKpww+.V3g+WVGJYGDw+wu.pgW+f,,gYB+JuBV.JWf+,.KJ G+KVwJWWg.+,,#f+BuJpWf.Gw,+Y,wJuBVKJGfu.gYw:,BWVBgJWWG.,Yy+BYuJgVJKGB,uYgwfV,g+JBGC.WYp6YuVVVgJfgGKK.su+Wufp,W(,B,WYW+gBYp,JV.B.G4Q+;BupBgfGf.}KBEp+WgWpYWYGV,WYGwKuwJuW.ff,fY4+nBppqg.Gw.BKVwg+Gp+gwWuGg,fTg+yVippWJf.,wY+BVu,VGJGfw,wKg+)+,gjJgWp.p,.M.++ufpJfG.w,wrwwgugV,WJfBKpBwH,B.V+J+WJGK,Kvw+fuggWJ,Gg,BYpwWB.g.J+GV.JYByKBwVuggGpG,YwmB+YuWp.JYG+,JYJ+,BKpGJufg.fK,+VBBpWgWfgGYK+8V+JVGpKfVGuKBYfw,u/pB+JfW,WKY+pBVVWgGG W,Kuwu+fVwgjWBGp,WagwYVxpVJWfG.KYwBuuJVfJGf5,wKpwD+.pwgJWV.J,GwV+wuupgJf.W,#QwwpuWV.Jwf+KVYwCGB.VwJ+Wg.u,,ezu?upgJJ.Gw,+YVwJBGguJwGu.gK.c,B:VBWp,,G.KYX+BVuJgKJKGw,KYg+GB,p+JBfp.W*.wVB+ppgJf.GKY.^uBWVVp,f+GB,YYWw.BYp+WJfJ,KKKw+BuVggfG,,+KBwW+WVYpYWWGVKfaGwKVppuWGff.,YOwBw{VWJYWY,gKVCf+GpKWJWu.f,fwA+3VWppfWGB.YSVwVuGVGJBfwKuYWifusVkJpWp,w,.wYB,uVgGJG.w,wYgwgBfpBJ?GJ.pYpx.+YV+gVfuGGYu(wB+ugpfJ,GEKfYpBZB.pKJ+fV.JKGYWBwp.ggffG,Ky1B+pfBp.fJG+KpYJwGBKpwWYfgKuK,++BBVpgWW..JK+wJ+JpVpKW+GuKWwBw,VBpBJffW..KYw+u,VJJYWK.+Ku4g+fp,JwWB.f,WwewYuWpVWf.J.KAgwuuKVfg,fI.BYGcWuQuYJJWVGf,GwK+YuugGJf.w,UY,wpBWp,gYGg.VKfCG+KVwguf.GfYB(3+VuppWJ..YKBYV+KBGguJwGg.gKf+WB*pfgpWGG.,Y6+uVuKpGfVGwKGYgBVB,g+W+fpKwK.w{B+VVgJWGKGKww,+guGp,W!GBYpYGw.VJp+WKfJ,+KK+BuYVgWVW,,uKBTp+Wu.gWW+.K,JwpwKuBpufgGp.,MWwBuYVWW+WYK+YGAJuuuKJfWuG.,fw,B.uBgYJW.V.Y*fwVVJfBgYGf.u{y8fBzVogBfWGWYgYYBVuVpJJGfKKpYuBBBfgwJMfB.pKWwq+YpYgVf,GG,K!w+uu.pffGGaKWYpwWB.VYWWfVKgKG+VBwVuggWf,rK5+B+ppwp.JYG+,VWfwGVgpwfufg.GK,++*YVpW+W..BK+CV+JuGgNWw.K,gYGw,uUpBfpGY..xWw+uYVJJ+WK,BYJ{gupu,JgWBGp,WY.BGu+gYJJ.g.KYBwuVgg+g,Gf.BUoiWBpuYg+fuGJYpYK+BuupgJff,KpYBB+BWVKgYf+.V:JuY+Kp,guGBGfY5v +BV.pWfWfY,uYVwJBGgKJ.fuKuKf+fB)pKgpfG.J,Y+ +VufpGJKGw,u!8wfV.pnJufp.WK.+YBgVVWgWG,,KwUG+gV.JpWo,u,pZ,w.BYp+JVJ+.Ge,wwVVVgg.W,KF^f0puJu.JKW+.G,JwG+,uwJBJg.W.,YVwBVpgwg.GK.+}uMJuBuKWwfWGgYWY,BYuBpWJWf.,GY+BpBJgugKfw.uKg#.+,g+gBG#GW,.YY++VKpJfKfKK.YuwgBfV,pGfBKfKW+J+YV+gVWJwV,K+p+upupfJ,Gc,BYYwWp+VYfSfV.JKG8KuwVuWpWfKBKsDu+pVGgWJY,w,VY.wGBKpwJuGV.f<,wxBuVpgWW.,YKWeVuJuGJKWwGG,gH.wYuOJVJp.=..KYw+BVp,gGGK.w;pRg+.u,WnWWGpYWY.BYu+pYJJfGKBYwBVBgV.g,f#.BKp(G+.gwg+WgGJ,GYKuwp(pgf.f,Y+YB+WBWV.J.f+KJKJ8,+KVwguGg,w,,+B+BpWpWfgfYKuIuwJVYVKWKfu.gKfo,V,VBWGWWG,,Y:++VpJJVJK,p,uw.wfuup2WVG,.WwBsYupVVgJWGGKYg(uu.ufWuW<GV,pwW+fBYJgJV.,.GbuwwVuVGgf.+.N5J<p+Ku.JYfJGVY,YGuBuwg.Jg.fwVYwBJBpgKg.f+.+KVwJ+GgVgwGBGg,fY,+UuuppGwf.KYY+wVBJVGJVfwK,Kg+G+,VEgBWp,u,.+W++pgpJJGfK,wYfwgpVV,fBfB.pKWt.BwV+fwWJ,Y,KFw+uugd.J,,V,B++wWB,VYWuJw.Jw=sKBVVuggWfG,Kw:Bu.uWp,JYG+,VwJB4BKJgJu.,.fYuwxuVVWgW.uGYYW*V+JuGpKf,GuY,YfuVuSpVJp.W,pKYBJBVgKgGfJ.wKuLY+fgugIWVGp,WY.wYVJpVG*fG,XYwwuBggf.wflKGKpBw+.p+g+WV.w,G+g+wuppgJff,YrYfwpp+V.fJf+K!KJw,uBVwWKWg.B,,X>+BupgYJ.,f,+YpwJBGVKfwf,.gwVr,VGVBg,WW.KYf%+V+uJgYJKGw,uYgYuB,JGJB,B.WKKrYV+g.gJ.pGKX.:uB,ufJ,WfGBzwYWugBYpgJV.J,JKKB.BuJ+gfGV.hhB+c+WggpYG,GV,GYGwKu,puGuffY+YtwBBpVWJoWYYjKV+K+GuKgwWu,w,f+.+ipfppJWf..Y,,wVpJVGfpfw.uKg4fJgV5fuWpK+,.YY++uVpfJGKZ,wwKwgBfV,JcfG.pwue.pwV+gpWJ.,KgLwuYugpKJ,GH,BYp++B.JGJ+fp.JKG-KVwVWgg.pG,!.!B+,uWgKfpG+ABYJB+BKpwJufg,YK,B.BBJugWWKGYF+cK+JggpKG,GuKwYfw,VTpBGBfW.KKYw+BVVJJBWKKYKumW+fu,gqGBG.,W+fwYgCpVWGfG.KYJwuppVfgYfo.BKp+WB+uYfwWVKg,GwW+wVpgpJf,,,:YuwpBWV.gY.Y.VwWvG+YVwguWg,fKY0sVuupWfJ.Gp,+Cgw.BGWwJwGJ.gKf0,B#pVgp.fG.w+z++guJJGWBGwTVYguGB,gpJB.p,wK.u1B+JpgJfZGKCwww+ggGp,.wGBKKYWB.JgpBGpfJY.KKwuBuVgg.W,YBKBBw+Wu.pYW+,+,J+YwKp,puJgff.,YVwBpGVWfWWY.+KVeJBwuKfgWuKV,fY,+AuBgGJWKB.Y+wwVBJVGgKf..uwYzfV,VagBWpGWgKYYVBuVfEJGfY,w/pYBBfJKJ0fg.pKW*.+YVpgV.fGG,Y0w+uugJffpGe6VYpuGB.ppJ+Gg,YKGu+BwpGggWfG,K5m,+pgGp..BG+,gYJBGuJpwGpfgY.K,wfBBVpW1W.Y+K+Ig+JuGpKWw.f,g+Kw,u+pBJpfWK.BBw+pWVJfYWK,uKu4gBgu,fVWBGJ,WY.wYp+g.JJKL.K+pwuV+VfJYGg.Bw.=W+KuYg+WVGJKGYKVJuupJJff,,=wBBBBWWBgY,W.VKYqGuCVJgu,:GfYwj*+BuppWppfYiWYVVwBGp?Jw.uKKKfuuBcJfgpfYG.YYwK+VgYpG.VGw,WYgBfu,pAGffpQ/K.+gB+gVJJWGYVKwBG+gu,p,W5Gp,pB+w.gPp+JVfJ.GYGwwpKVgf.W,.yKB3pBpu.ffW+KJ,JYGwKuwuYJgKp.,+uwBBpVWg.YW.+++LJp0uKgwWuGgYBY,VKuBW.JWf..YY++GBJW+gK,Y.uKJlfBYVugB.,GWK2YY++uVpJf2fKAWYuwJBfV,J9.B..KWuu+YJfgVWYGGY(wV+uJwpffuGi,BYpwWVwVYGffV&+KGwdBwgugfWfYVK#BG+pVBp.JYGV,VBwwGu*pwJufg.fYKwXp,VpgGW.GYK++VuRuGfJWwKK,g=,w,u&ggJpKu..Yww+BVVJWGfB.wwYAgpVu,JGWB.JKJY.VGu+J+JJfG.KYwuwBgWgg,fw.BKprWu.ppg+,+GJwJYK+JuugWfVf,TYYB+fBWV.gYf+,YKJuJ+KW guWWGfY,yK+BJBpW.WfYKJYVBJuWVKGKfuzuKfw+BEgBgJWWYW,YBY+Vp8pGfKYW,VBuwfgfp?Jpfp.WYgbYgwVVfYWGGKKwxu+fuff,WbKG,pYWw.BYpgJVKW.G+gwwBuVggfWK.y+V5ppBu.pYW+GVK.YGpwuwWYJgff.,YI+JBpW,g.,G.+KV*J+GYvgw,wGgwKY,+wuBgJpVf.m.Y+wWBJVGgKfw,+KguJ+,VwgBWpGWY.Uw++JBpJ.WfK,JYu+WV(V,.IfB,,KW(.+YV+gKWJYW,Kuw+uuWpff,GV,BBuwWgfVYJ.fV.JYBtKg1VugWWfG,K*!BB.uWf.JYGu,VYJwGVKfVJuKg.f+,wTupVpgWGwGY+BLV+fuGpKWw,u,fYfVKuhfuJp.u..-wwgBVWfgGfg.wKuMg+fpqgD,pGp,fY.wYu+JVW.fGwwYwVgBgpwg,G+,pKpuK+.pBg+WVGJ,G,J+wJgpg.Yf,,+YBBpp1V..+f+mJKJ+w+KgwgGWgY,,,uB+BuGpWf..G,+BJwJgKVKWWfuKgcBN,gBVBGWWWGY,Y3+BKuJGxJKKK,uYgwfB,gpJBK..W+fZYB+VVgJGJGK+J%uppufp,W#GB.wYWpuBYf+JVfJ.GKKpGBufhgf,K.oKB%p+WVYpY,.GVwfYGwKuwpuJWffwvY1V,BpVfg.Gw,VKVuG+GV+gwWuGg,fNW+&JgppJff..YY+BVufVG.+fw3JKgww+,p+J.WpYY,.wp++uVpJJG.B,wBJwgJRV,J+fBKpYGi.gBV+GWWJ.V,K:w+JugfYJ,G+,BYpwWB.p2J+KG.JK,kKBwVuWgfWG,+p(Bp.uWgYJYG+,fYJp+BKpBJufg.f;,+BBBW,gWKBGYY,RVBfVfpK,WGu,JYfw,u8pBGBfWwVKYwBBVVJgGGK.GKuVE+fWpg=WfGpKG{VwYJ,pVW.fG.KYwwuuGVf.pf(*KKpCG+.pYgYWVyw,Gug+wVfpgff.B,/B.wpJ+V.Juf+KVYYrGggVwG,Wg,+,,+ApGugG+J.YJ,+YJwJBGgVJwKY.g+,9,BeVBgpfaG.+G5+pWuJpGJKGwKGYgpgB,fVJBfp.WK.+gB+fBgJKwGKKw-u+gVYp,,YGBw,YWw.BYp+WgfJwGKKVWBuVggfW,p+KBuY+WW.pYWBGV,.BpwKuwpuB+G+.KY2+V+uVWg,WY,gKVFJ+GguuJWuGJ,fpu+guuppJYf.,B+,wVBJVGKVfJ.VKgIKpJV:gBWppuKuoR++VgggJGfY,w?&wgBfV,J%Wp.pKGl.BxV+gVWJ,GKVRw+pugp.J,Gg,BtJ++B.pBJ+G..JKGLKBwV,ggW.G,Ku^B+JuWJ.fuG+,gYJw,BKpGJufg,KK,wBBBVJgWW.GYK+wY+JuYpKWBGu,gYfB,JupBJffW,SKY+VBVVJJJWK.pKubW+fu,giGB.w,W>wwYugpVfBfGK{/pwuB,VfgYf-.BKp6WBVuYgWWVGW,GYK+wpugpJfGu,nYfwpuOV.WwGf.VYwPGu+VwguWgGfGgH)+fupg+J.Gw,+wVBYBGpVJwfG.g4A*,VqVpgpfqG.Kp7++fuJJGfwGw,GYg+wB,gJJB.p,JK.wpB+V.gJWKGKKw p+gVBp,WwGB,pYWw.V+p+JYfJ.,KKwwBuVgWgW,.GKBZW+Wu.pYW+fj,J1gwKuVpuJgff.,ufwBuBVWJwWY.+KVoJBBuKgYWuG,,fY,+SuBgBJWGB.Y!4wVBWVGW9fu.uKKLfBWVTgBWpGWYWYY+fuVpWJGfK,wwu+yBfpVJ1fG.pYin.uwVfgVf+GGYV0w+uugpff+G?,GYp+BB.pwJ+.V,<KGwpBwV.ggfuG,Kvw.+pV+p.WwG+,VYJwGV+pwJKfg..K,weBBgpWpW..WK+3Y+JVKpKWw.w,geVw,u+pBJpfWK.YYw+uTVJJpWK,.KuwWBWu,g.WB,B,WY.wYu+W+JJGJ.KY+wuBgVfW,GW.BYB6WBWuYgWWV.fKVYKBbuugGJff,,CYB+KBWpWgYGw.VKf}GuKVWgufuGfKf}?BWupJWWBfY,YYV+VBGpBJw.u,WKfwfB9pxgpGwG.YYuf+pVVpGWGGw,gYgwfuYpyW+fp,sK.6YB+VVJBWG.KKwH.+gufp,W6.K,pafw.uJp+JVfJ.GcfwwupVgJuW,.;KBhp+Ku.J+W+.e,JYGwKuwgpJgGK.,Y.wBBpVWg.uw.+Y+!JBYuKg+Wu.WGpY,+,uBg+JWf..YY++GBJpWgKf+.uKg?fu,ppgBfuGWKfYY+WuVgfWIfKKwYu+KBfV,J#fB,.KWwf+Yp+gVWfGGYKwV+uVVpfWGGa,,YpwWuwVYWwfV.fKGOKBwVuJ,Wf.,KzbV+puWp.fYYp,V3JwGuKpwWgfg.fYuw{uuVpgGW.GYK++VBwuGgYWw.V,gwVw,V+pYJpGG..YJw+BVVJgGfG.wYg#g+Gu,g^WB,pKgY.B+u+gJJJG+.K BwWBgpYg,Gu.BKp3W+.+Wg+fJGJY(YK+BuuJgGwf,KBYB+WBWg+gY.+,WKJwK+KpuguW.GfY,wV+BVWpWWYfYKfYVBJVVVKWufu,fKfwqBtVBW+WW,w,YDY+VuJpGJK.w,uP,wfuGp!JBfp.W=BsYuWVVJgWGGKKw uw+ufJVWt.B,pYWw.BYG.JV.w.GYYwwBuVggfGp.jY,*pBGu.pYW+GV,YYGBwuwgKJgfG.,>++.Bpp.g.fG.+KVAJ+GuYgwfJGg,GY,+suBJpfpf.KBY++WBJp+gKGB.KKg+Z+,pggBWpGW,.wu++VWpJfwfK,BYuBguWV,WufB,fKWwp+YV+gWWJ,a,K;B+uugpfJ,.W,B6.wWBKVYJ+fVKJYY0KugVuJ,Wf,dKm;B+fuWJBJYGu,VYJwGVKgVJuGK.feuw4uKVpJGfGGYYf9V+WuGpKWwGuIuYfBpuEpuJpfW..XY+pBVgwgGGg.wKGigB.pWgQfKGpK,Y.wYu+pVW+fGKgYw+YBgV.g,.Q..Kp+++.pJg+fGGJYGwV+wV,pgfBf,,VYBBpBGV.WJf+,KKJ+B+KgwG.WJ,B,,wW+BuWpWJ..f,+wawJuKVKJwfu.gYp2,u.VBJfWWG.,Y^+B,uJJJJK.p,uYgwfB,p+JB.u.W>+qYB+VVgJW.GK%nPuBKufp,WdGBKbYWB.BYgfJVfJ.GKKGBBug!gfG,.sKuSpBG+JpYfGGVKuYGwKuwpuWpffKgYEwuBpVWg.GY,KKV+++GpJgwWGGgK.Df+MVYppf5f..YY+wVuuVGWJfwKcKgL.+,g<J.Wp,B,.wW++uYpJJGGg,wZYwgB.V,J fB.pYY!.uGV+ggWJGG,K+wpJugJpJ,..,BcWwWB.gfJ+.+.JK,rKBwVuWgWYG,Y,1BuBuWJgJY.uKGYJBWBKpBJufg.fK,wfBBgVgWW,GYK+OVuJV+pKGbGuYpYf+uuygVJKfWK,KY+pBVVJgGWKWGKu+p+fpKgxWVGpYW+BwYpwpVfgfGKuYwBuuuVfW.fAK+Kp%K+.pYJgWV,g,Gw,+wV.pgffGp,!w+wpVJV.J+f+.V)I}GuYVwJ,WgGf,,}cBpupJGJ..W,+YVwJBGgJJw.g.gUVP,BOVBgpJuG.OBC+uwuJpGJKGw+KYgBYB,g,JBfp.WK.wGB+gGgJGWGKKw}u+gVGp,fYGBY.YWw,BYguJGfJKfKKw,BuVggfW,.KKB+p+Wu,pYW+GVYJC+wKpwpufgff,uYA+VuYVWWKWY,WKVOJ+GuKJpWu,g,fwY+HuVppfWGW.Yw+wVVJVGJJfw.uYKIfuKV(gVWpGW,.YY+BuVJfJGGv,wYuwgVfgwJh.V.pZGT.u+V+gVfVGG/wzw+pugpfJ,,h,YYpB.B.J+J+.x.JY,w,BwgJggGgG,K^8B+pgpp.GuG+,pYJwGBKJwWWfgKYK,BVBBV,gWfK.,K++.+JVYpKWwGu,gwBw,pVpBf,fW.KKYB+uKVJfoWKKpKuw,+fp,gVWB,G,W+wwYugpVfJG,.KwpwuV.VfWVf1KB+KafVwuYWgWVGG,GYK+JuuJKJf..,>YBwpBWgWgY.f.V%J;G+KVwguWWGfHp/>uuuppWJ.fYKwYVu+BGJMJwfu.gKf+WB)gKgpG.G.,YC++VuGpGGfGwYJYgwfB,p-+VfpKKK.BGB+VpgJf,WfKw+W+gVpp,W0GB,pY.w.pVp+JpfJ.GKKBwVwVgfvW,KpKB8,+WVKg.W+,,,Jw+wKuwpuJgfK.,wpwBVKVWgKWYK+YJhJVwuKWgWu.w,fY,+YuBJ,JWfK.YY+wVBJgwgK.W.uKW-f+,VCWB,fGWIuYYufuVgGJGfKKgYuuRBfVYJ<fB.p*W+J+YgGgV.wGGYWvwBpu.pfGgG;,.YpwWB.VYWYfVYBKGzYBwVuggGf,pK7+K+pgup.WpG+KgYGwGpGpwWJfg.fK,wo1,VpfuW.K.K+rg+JpGWVWw,Y,g+Vw,VppBfpf,..wfw+pFVJJUWKKwKgDgVVu,WGWB.K,Ww.Bfu+WvJJ,p.KYuwuBggBg,.,.BsGIW+.uYg+ffGJtWYKuguupgJff,,.YBuVBWJBgYf+.VKJYp+KJwguGYGf,,!7+BfMpWG,fYYGYVwJBGVKWGfuYWKfBgB3VBgpWW.f,Y+,+VgfpGJYGwKp?GwfpJpZJYfp.WK./YBBVVfuWGGYKw u+gpfgJWN,Y,p+Vw.upp+WgGg.Gw.wwuGVggfW,.nYJZpVVu.W,W+Gg,JwG+KuwW6Jg,p.,YfwBBppKg....+KgXJ+GuKgwfBGg3JY,++uBppJW..,BY+uBBJJWgKGu.uKgwK+,gYgBWJGW,.YYu+VnpJGffKCoYuB+BfpYJYfBYpKWA,+YV+gVWJKJ,KB++uuJpfJ,GjYB9>wWp,VYGBfV.YKG+:uGVuffWf,wKb-B+puWpKJYKB,V+GwGuzpwfu.B.fwKw%puVpJYW.,YY^8VVWuGWYWwGW,gwfBVudWuJp,f..4gw+VVfEg..Y.wwVXg+,u,g*W.Gp>.Y.ufu+pVJJfGKgYwuJBgJpg,fO.BKp+p+.Jug+.+GJ,GYK+wuppg.!f,YKYBwpBWV.JKf+Y.KJBf+KVwguWg.p,,BJ+BgppWJ.fY,+WgwJp.VKGWfu.JKfwY:.VBfgWW.J,YE++VuJpKJKKB,uYJwfB,p!fBf,.WwKhYpuVVgYWG,5YWbuVGufJuWjGB,pYW+,BYWuJV,..GY>wwVuVGgf.Y.QwV9pBBu.pYW.GVzGYG+8uwpuJgffKBYeugBpVGg.WY.+(Vu.+GJ+gw.JGgK,Y,+cu,ppGKf.,wY+wVBJgGJGfwYWKgBY+,pGgBfJ,!,.BV++ugpJJGfK,wYJwggwV,JwfB.pKW+.B+V+f.WJY+,K3J+uVWgpJ,KW,BvfwWB.VYJ+gY.J++lKpfVugWWf,,&gNBV,uWfBJY.J,VwJ+JBKWJJu,K.fY+w-VBVJgW,BGYwWNVu<uGJKWGGu}KYfVuuCppJpfW,fKYuGBVJWgGWK.wKuwf+fJggX.VGp,WY.wYVfpV.BfGSwYwwuBgVfpJf<YYKpB,+.uYg+WVw+,GBG+wgWpgJff,,;YVwpggV.GVf+.VKJiGufVwfGWgYJ,,!w+BVJguJ.Kp,+UwwJBGVKJwGK.g++C,BwVBgpWW,.Y+M+V,uJfBJKGJ,u^W+YB,WfJBG,.WK.}YB+pfgJ,BGKwG;u+WufJ,WKGB4KYWVuBYp.JVfJ,,KKufBuVWgfW,.IKBwp+WJppYWuGV,JYGBKV,pu.wffXgYR+pBpVWJgWYY,KVbf+GuKgwGu.w,fBJ+ygKppfuf.KwnwwVguVGWGfw.uKgAfVfV<GRWpGf,.YY++pVJBJGKG,wBwwguwV,W+GY.p+JC.uBV+gVWJGG,Y?wpwugfWJ,G+,Bwp+uB.W.J+K+.JDwEKVwpGgg,gG,w,XB+GuWJ.WBG+w+YJVJBKgWJu.gw+KKu,BBWBgWWYGYK+^J+JJfpK.JGu,gYfw,VGpB.pfW2uKYw+BVVJWuWK7+Kuu^+fu,g&WBGW,WBKwYg.pVJJfG.KbJwugfVfGJfc.BKp?WBVuYGpWVYu,GYK+wuuAWJfKf, BgwpBfV.WwgK.V+VEGBfVwguWgGfK,{FpwuppfJ.fY,+wV+JBGW.JwK+.gYwD,u+VYgp,WG.YpR++VuJpGf+Gww+YgVfB,p+JB.p.KK.u,B+WBgJfVGKKw7g+gJWp,W+GB,pYWw.VVp+.VfJ.,KKwwBuggGKW,D=KBup+WVYpYW+.K,JB.wKuBpuJgffK,4GwBggVWG,WY,,KVwfupuKGBWu.a,fY,+MuBg+JWKY.YYBwVBJVGWKff.u+f7fgiVQgfWp.GKTYYpguVg.JGfK,wYuYwBffIJlKJ.pKG?.uYgWgV,GGG+wrwBfugJffJG>wpYpV.B.puJ+.VKwKGVwBwWgggG+G,yzwW+pJ.p.,+G+,JYJwGVupw.Wfg^gK,w5BBVpg.W.!VK+uB+JuGpKWwGJ,guww,gYpBJpfW..,fw+g,VJGGWK.wKuAgJuu,GWWBYg,WY.wYu+ppJJYV.KBBwuBgVfg,G..B+WFWgpuYgBWV.fY YKpuuugBJff,,7YB+pBWfLgYfB.VKJXGuKp.gu,GGf+w&2+fupgGWwfYwJYV+YBGVKJwfu,.KfVwBRWWgpWGG.YY>p+VJ.pG,+Gw,KYgwfupph.Jfp.GK.(YB+VVg.WG2uKwEp+gufp,GcGK,pBYw.JVp+WJfJ.GY.wwgGVgg.W,.4KB+pBJu.GpW+Y.,JwpwKVBgBJgY+.,YwwBBpVWg....++K*J+.uKgwWu,gKwY,pWuBfYJWGB.YPu+KBJfpgKGV.uKg9f+,pJgB,YGW+gYY+uuVJJWufKwfYup<BfgBJA.B.,KWVV+YWGgVW,GGYK(Y+uWZpf,pGkKGYpBWJupk.GfVwwKGwwBwVugWWfqJKAup+puWp.JY.u,VuuwGJ+pwJufg.fKYwPJNVpGKW.GYK+%VBGuGG.WwYf,gYfw,u7gqJpYJ..Bpw+BVVJgGGG.wBuIgg+u,g-WBGpgGY.pJu+GVJJf..KYw+fBgVGg,fB.BKp)WBKgYg+WgGJKpYK+wuupgJKf,,+YBwgBWVKgY.+,KKJU,+KVBgufJGf,,wG+BugpWJKfY,BYVw.uwVKJwfu.fKfSKB!VBpBWWG.,YTB+VuJpGJYGw,uYgwfuVpXJBfp..K.#YB+VVgJWGwgfw5V+Kufp,W?wfBGp,JKfu,UYGfGYK+wuupgJff,gyYYKuMf+Wu.pYiWwpuwpYwYuJpuJgffBuVVJgW,GKKfwV.BKgkJ+GuK,/,GGJ,KY,+*uB,fKfwYBfYBwGBJVGgKKBBpu.pGfwGJJfWpGW,.wwwauVpWJGGB,wYuwgBfpYJ/fu.pKfD.BwV+JVwBG.,Y8w+.ugpfJ,.+.wYpwfB.puJ+fV.JKG+6BwVVggWGG,K+(BupVVp,W<G+,pYJ+BBKpgY,fJ.GK,wWBBVggWW,GYKpu?+JuGpKWfGu,JYf+wgGpBJpfWK+KYwBBVpfpWWK.+Ku)K+fu,gbGB.+,fY,wYuBpVJ.fGK1oswuBWVfJMf(.BKp9WV+uYgBWVGf,Gje+wufpJJffK,A*WwpBfV.gYf+.W+BmG+KVwJfWgGG,,w+wwuppfJ.Gw,+YVwJBGgWJ+fV.gKG8,B+VBWpf.G.K3E++puJgwJK,wKVYgwGB,pwJBfK.WYK+WB+VJgJW.GKKw1u+gVGp,WwGB,WYWw,BYppWYfJ.GKKwuBuVJgfW,f,KBLp+Wu,pYW+GV,WYGwKuwpuJfff.,Y6wpBpVWg.WY.+KV9JpGuYgWWuGg,fpBWVGw.WY,wVBKp4wpppVGgKfw+,VVJOJKG.,.Yf,WB,gwJWGf,VY>w.uVwuBfpGg,Yuw+KpwcuGVpg+W,YKB^u.puWJG),WYG,mBJpKJWfw.+Ypdf+.wuw,BwVuggWfK.KObu+puWp.JYG+,V^GwGu0pwJVfg.fK,wPB,Vpg.W.GYK+}V+JuGgJWwGp,gY.w,u+pBf.fY..Yww+B.VJg.WK.BKu{GpVu,g5WBG,,WY,wYupfAJJfG.KYWwuBJVfg,YV.BKJCW+.uYg+WVGJwYYY+BuupJJff,,!0V+VBWVYgYfV.VKJNGu4p+guWGGf,Kn3+BuppWfVfY,BYVw.BGVYJwfu,YKfSKB>VBgpWWG.,YwW+VuWpGWnGw,uYgwfuYpyJBfp.fK.^YB+VpgJWGGKKwqJ+gufp,WwGf,pYWw.J+,wYBwpB6VwJVBVVGgfW,.IBfpgW+.Mg/WWGV,JYGpwfW.VYVwwB+VuwuuZVWg.WYjpuKgGJKG,,YE+w.B,gw+.uBppJWf.KVY+wVBJVGgKfw.uAgwp+KVRgBWpGW,YYYu+VwpWJ.fK,wYuwJBfg,J.fu.JKWR.+YVugVWJfp,Kju+uuJpfJ,GU,BKwwWuFVYJBfV.JKG*Kw.Vug.WfG,KvSB+puGGJWdGJ,VYJwGBKpwJuJw.fYwwOBWVpgGW.,YKKyp+.uGg+WwGJ,gYfp.u:pVJpfG..KYw+BVuVgGWK.wKV(g+fu,gaWuGp,WY.wYu+pVJJf..KYwwuBgugg,f(.BKg5W+.uYg+WVGJ,GYK+BuupgJffK,uYBwpBWfJYumBBfKWwB+KVwguYpw ++V+gpJYGJ,fGp,+YVwJu,u.Jwfu.gK.8,B}VBW.g!G.,Y(++WuJp.JKG+,uYGVVB,pvJBff.WK,iYB+ffgJWGGKKwPu+gufp,,uGu,pYWw,BYp+JVfJw,KKwwBuVWgfW,.cKBYB+Wu.pYWBGV,JYGwKuwpuJgff.KYswBBpVfJ+WY.+KVVGWpGg,,oj+f,KY,+^uBgJggf.,iY+wpBJVGgKfw,fKgD.+,VFgBWpGW,.0,+BuppJJ,fK,wYuwg+gV,JyfB.gKWl.+YVBgVWJGG,K?w+uugpfJKGt,BYpwW+WVYJ+fV.WKGEKBwVVggWfG,KOZ,+puWp.W0Gp,VYJwGG+.+Ygw+.GYuwSBBVp.g*G BVuguWYGWpYWJGu,gYfJufV,gK,&KBfpVwBB,VJgGWKBuVGgsWgf.,+Yu+J,f^NwYu+pVYpwAuppVwVBGVfg,fxBfugg+fXVeggWVGJ,Gg+J+fp,BKYGH,}YBwpBWV.gYW+ZuKG6G+KVwguWgGf,,u4+uuGpWJ.fYBWVfJ.f+.wfJfu.gKfwYVgVugpWW.w,Y:++VVfgWJKG+,uywwfB,pPJBfG.WKKqYBBVVgJWGGKKVau+JufpYWOGV,pY,BJBYp+JV...GKYwwBup,gff+.sKBFp+Wu.pYg,GV,KYG++uwpuJgffYBYzwJBpVGg.fw.+(GGK+GVBgwGJGg,GY,+guBpf.uf..YY+BWBJV.gKfw,fKg9Y+,VwgBWpGW,.Kf++uGpJJYfK,wYu+WuWV,JgfB.fKWP.+YV+uYWJ.z,KoJ+uuWpfWBGw,BYGwWpIVYJBfV.JKGw+p.VuggWfKwKLou+pVGVfJYGg,VYWwGBKpwfuGB.GY+w!BJVpgYW.GYYutV+,uGpYWwGp,gIiWpuwpJJpGY..Y^w+BpVJgY,W.wKu3guPu,gwWBGfwuY.wYu+JWJJf..KOBA+BgVYg,fB.BKpcW+.pwg+WfGJ,.YK+BuuJgWpfK,VYBwGBWVKgYfJBKKWwP+Kp,guWJGf,KQ1+gJwpWJ.fYKKYVwWBGp+G.fu.gKfw,B7VugpWW,+,YOg+VufpGJKGw,u,KwfuBpeJgfp.WK.+wugVVgYWG.+KwXu+gufJgWoGG,pYWw.uwp+GVff.GYpwwB.VgJBW,YlKf pBwu.gJW+GK,JYG+fuwpWJgG+.,YwwBBfV.g.WY.+YVTJ+.uKggwZGJ,fY,+VuBpgJWfK.YYpV5BJVGgKfp.uKJPf+,B,gBWpGW,,YY++uVpJJGfK,wYuw,BfV,Jvfu,+KWn.+Y.V,fU.+GVDg9WuG,.GYW+VBJYg+.B.VYJ+Y++WpBpwWf.wK.jpwKVup.WVGgGKY8wpBKp,JKBYpgJufg.fVGJVf9GJ,KHK.zqKEV+JuG,gYY+fBJppJpfuJBKgwGBBpugYWf.pKYGKKuwV+gWKG.WPGfYV)tw.ugGq,fYV ,BBpBBuW.,+K,DV+pVfpKWNgJgVWVGJ,GYK+wuupg.ffKKeYBwpBWfYKJ^YBfVup.f+GfKB9Va.BKpuJ.GG,.fpfY,+YVwJpfVKJBfu.gKfN,BHVBgJWWGY,YvB+VuJpGJKGY,uYGwfB,pCJBfp.WYp0YBVVVgfWG.kKw+fuBufgLW?Gf,pYfw.u+p+JWKB.GKKwwBGVggGW,.uwK5p+Wu.ggW+Gp,JYGgBuwpgJgff.,Y8wBBpW,g,f+.+Kp:J+GuKJBGWGg,KY,+uuBppJWGKKWY+wfBJp)gKfw.uKgaY+,V+gBWGGW,,YYBuVupJJ,fK,+YuwgBfV,JJfB.WKWOK+YV+gVWJ.+,K>V+uuWpfJ,GbKVY,wWuwVYJJfV.JKGxKw.Vug,WfG,KlnB+puW-KJYGV,VYKwGBYpwJffJ.fKKwZu.VpgfW.GYK+:WpBuGpKWw.,,gYGw,u5uKJpf...Yww+BVVJgGGu.wKJFg+.u,g)WB.JKJY.+uu+pgJJfG.KYwYYBgp2g,fw.BKp6W+.Ywg+WJGJKwYK++uupgggf,,0YBwgBWV.gYfu.VKJ}G+KVuguWgGf,K:Y+BuppW,.+wuwp,JwfJ.gYVw,wgV.g.W,.BKfWf.f,Y#++VWw,WYK+puJBYJWfW.u.V/GBlVVg,BBpwgJWGGK+fg+WgGYKw,J++u+V,pwf,.pJ.fJ.GKKwwVJVggfW,.5KB(p+WVKg+W+Gp,JY.wKuwpuJgG+.,Y1wBBJVWgKWYK+YW!J+.uKgwWuGW,fw,BWuBpJJWf..YYVwVBJpWgKf+.uKfHf+,V7gBWfGW,.YY+BuVpJJGfK,wYuwgBfpuJ-fB.pKfwg+YV+gV0p+fV++wJVpgKSKKw.B.Vfw.B.VYJ+fV.JKG4KgwVVfBWfG,Kzp.WuGY.,YGwGBWwJg.GF.JYWwu+YVGJuVBgWfGG.BBVw+VuYJfWVGw,.ufpKJYfW,wK,.WBwpgJ+WfGGKY0B+V-,DJVJu,g3WBwYugg+JtfK.KK..G+YpBgGf..gK+sKBg{p+.VKpYKpau,Jk+B,uJpuJYYfwYBYpBgGfG,CYJ.++fp?gGWBGuKJY.wKUp&w+WuppWJ.++uppgJwfW.VJ+,+.gKf=,WW.wK.Yf+JuJppuVfW,,YV+puwV.JJGwJ;fp,gKWprgKV+g.Gg.+,KLWu,WVG,KwYw+wBWVKB.fu,fYV=,+Kp+gpWJJ8gGfV.yKBepg+GfK+LpwpupVKJBg+puJgff.,V,wuBJVWg.WY.+KVlJB?uKguWuGJ,fY,+#uBgpJWGZ.YY+wVBJVGgKfp.uKf%f+YV9gVWp,YKfYY+VuVpYJGfY,wYGwgBKWJJPfB.pY-2.B{V+gVK,GGKwMw+uugpfJ,G0wgYgw.B.p)J+fV.JY,.wBwVJggfrG,KR<BBJVCp.WuG+,gYJwGBKpwWffg..K,wVBBVggWW..,K+Sg+JuGpKWwGu,g0gw,uBpBJJfW..KYw++QVJgYWK.+Ku;g+fu,WpWBGW,WYKwYuupVfKJ+.KYuwuuWVfgKfv.JKp5,pguYg+WV.f,GYY+wuuG.JfGU,:YBwpBWV.gYKp.pKG!G+YVwguWg..W9Cn+gupp.J.fY,+&g+fBGpBJwfp.gKf>,BqpVgpWGG.Kun++puJpGfgGw,pYgw,B,pnJBfpKpK.w+B+VWgJWGGKKBVD+JuKp,WwGB,pYWw.fpp+JffJ.GKKwwBuVgWuW,.pKB}g+Wu.pYW+Gg,JY,wKugpuJfff.,YpwBBfVWg.WY.+KV9JuOuKgpWuG.,fY,+PuBgfJWG+.YYJwVBJVGgKG..uKK^fB%VbgBWpGWKKYY+JuVpfJGGZ,w)p+pBfpuJ&fu.pKW%.+YpVgVW,GGKV0w+pugpffGGw,JYpwKB.VYJ+Gg,gKGwuBwVJggWfG,Y+w++pV&p.WwG+,VYJwGKCpwJJfg,wK,wwBBVpJYW..BK+D.+JuGpKWgwV,JYYw,uqpBJgfW.KKYw+pwVJgGWK.wKuTg+fu,W.WBGp,WY,wYu+pVJJp..KYVwuBWVfJ+ft.WVYNfBHuYfwWVGW,GYY+wuJf+Jff,,-++wpBfV.JB,,.VKJAGVKVwgVWgGf+YbN+JuppGJ.fY,+YV2VBGVKJwfV.gKf0,B+VVgpWWG.,Y*++VuJgnJKGw,uYgBoB,p:JBfp.WK.LYB+pGgJW.GKK+Hu+gufp,KwGu,pYWw.BYpBJVfJw,KKwwBuVWgfW,.vKBYB+Wu.pYWBGV,JYGwKuwpuJgff.,YLwBBpV,g.WY.+KVYB+GVFgwWuGg,fY,+(+KppJ.f.,qY+wVBJVG.Vf+.pKg5,+,VlgBWpfp,.YY++uppJJGfK,BYuwgBfV,JBfB.pKWC,BLV+gVWJwBKw?w+uugpfJ,Gl,BYpwfB,VYJ+fV+wY.MKBwVuggYBG,K+tB+puWp.JYG+,WYJwKBKp+Jufg.fK,+.BBVJgWWKGYKu?V+JVgpKWuGu,WYfw,uzpBWwfW,0KYwVBVVJgGfu,gKu/.+fVVgSWuGp,WY.+Bg,pVJJfG,pYwwVBggfJWfw.JKpmG+.V<g+WGpM,G=u+wuYpgJGf,,wYBwfguV.gYf+,!KJo.+KgwJ?WJ.=,,I++BuWpWWKGK,+Y.wJB,VKJwfu.guY^,BJVBggWWG.,Y{+BpuJguJKGV,uYgwfuYgpJBG .WKKbYB+VVgJGVGKKu-uBwufpKWyGBKGYWw.BYpBJVfJ.GYtwwBuVggffp.DKBip+fV+pYW+GVuGpYW6ff,+KKfGYWY/wBBp.+KfwV+BVwgwJYpK,+0pwKuYpfJVGw,ffW.Ybww+JWfggGfVK>KG1gB+f1.uKVYY+guBwYJgG,,JY8wwuVVWgGpBVKfKfB.pKWgVW,.J,pvu+uu++wJVGW,wC+w,BJpuJ,V.J+GB.VB.Vf+KVJWBWKGfKV+WgwWWG,.,Y,wVBfwJJUGp,wKWhfBKV+guV.VgJwW.GYK+uKWpGKK+Y+++BfVYwKpZpBJpfW+*VggGfJgJKGwDBDVup.W..wKWGBwYu.w.JIfK,gK,S.B+pfBufB.WK-PG+Juf+f+YuYg+WVGJ,GYK+wuupJWwf,,(YBgJfJ.GKGzg+pVp5G+YgKguWgGfuppKWWfg,VYVwBY+VpJff+,BKKhWBVVK+,VBJpWpO,+GYY+WpupYJGGpwBuBppJpf+.wYw.p+KpugYWgGJK.T&++HfpJ+gufp,Wd+c,gY.w.BYp+JVfJ.GYGwwBJVggGW,.TKB0p+fu.guW+GV,JYGwKuwguJgfK.,Y+wBBJVWf+GG.+KW8JB+uKg+WuGG,f8wVGuBppJWGB.YYBwVBJG{gKfV.uKg0f+,VSgB,fGfK1YY+BuVpJJG.0,JYuw.BfpNJ)fB.pKW+w+YVVgVW,GG,YSw+uVGpfW)G2,BYpwWB.VYW,fV..KGwaBwVuggWf.+Ki7J+pufp.JYG+,VYWwGu+pwJpfg..K,BpBpVpg,W.,2K+xp+Ju.pKWVKY,gYfw,VwpBJgfW..uuw+BWVJgGWK.wKu/gpKuKguWBGg,WY.wYVup.JJGs.KYBwuBgVfg,fJ.BKWHWBwuYgBWVGJK+YK+uuupgJff,,sYBw,BWp3gYfu.VKJbG+KVWguW.Gf,Y?M+BuppWWVfY,pYVwfBGpNJw.f,WKfwwB*pKgpWfG.Kpm++WJBpGJKGwKYYgwGB,po,Jfp.,K.nYB+VVgJWG/+K+0J+guGp,WtGBKJTJw.uup+JKfJ.GKKww,pVgg,W,.VKBrg+Wu.JVW+GJ,JYKwKuwpuJg.I.,YuwBBfVWg.WY.uBw:WBDuKgwWuGg,fY, GuBp.JWf..YY+wVBJupgKfJ.uKJTf+,VDgBgKGW,YYY+WuVp.JGfKKgYuw.BfV,JefB.pKWYg+YVJgVWGGG,K?w+uB+pfWuGr,gYpwWB.gwWwfV,UKGwuBwVuggWfVYK3:J+pVwp.WsG+,VvKwGuBpwJWfg.fK,w!JuVggKW..uK+yV+JVwKgW+GW,g+Jw,uwpBJgfW,U+fw+BVVJfWWK.+Ku3GpVu,g{WBKY,WY,wYuJ,KJWf,.K++wuBJVfgKfX.g+w5W+.uYfBWVGW,GM+V.uupgJfKp,rYuwpBWg+gYfg.VKJjG+KVwgu.gGGKB#q+JuppWJ.fY,JYVwKBGpuJwfu.gKfwGBLVWgpWYG.KQv++VVJpGWuGw,fYgwfB,g+Jffp,)K.wuB+VVgJf,,gKw).+gV)p,W)GB,p3Ww.uup+J,fJ..KKwgBVVgg.W,wpKBLg+Wu.pYWpY5,JYGwKWgpuJJff.,pJwuBGVWJwWY.+KV^Jg.uYgpWuGg,fYK+(uB,KJfG+.YYJwVBJVGgKGg.uKK)fBBV;gBWpGW.gYY+fuVp.JGfK,wYfgJBGppJqfu.pKfd.BuV+gVY.G.,Kiw+GugpfJ,GyYYYpwWB.puJ+fV.JKGBfBwVuggWfG,KX?B+pgVp.JYG+,pYJwGBKpwKJfJ.fK,wJBBVpgWW.,JKBP.+JVupKWBGu,gwww,uppBJ,fW..KYw+BWVJJ+WK.JKu3g+fu,JGWBGK,WRwwYu+pVJJ.i.KYJwuBYVfg,fj.WKW:WBBuY.hWVGW,GYY+wuJf+Jff,,)uwwpBfV.JB,,.VKJ7GgKVwgVWgGfKG(w+fuppfJ.GV,+YWVBBGVKJwYJ.gKG%,BspWgpfwG.Ku4++VuJpGfGG+,,YgwfB,pwJBfp,gK,wJB+VpgJfwGKKww++JV+p,WzGB,YYWw.JWpBJffJ.GKKwwBuVGGVW,.2KBpW+Wu,pYW++,,WNawKuppuJgff.,zpwBB.VWJwWY.+KVCJg.uYgpWuG,,fY,+yuWpgJWGw.YVVwVBWVGgKfw.J++9f+,Vk,pWpGf,.YYWfuppKJGGu,wYuwgBffKJwfW.pKK(.BXV+gGWWGGKuQwJgugpGJ,GN,BYfVuB.VYJ+iJ.JK.#KBwpfggfwG,KWIB+puWp.gfG+,,YJ+wBKpwJufgVYK,wgBBVJgWW,GY^+gg+JVRpKW+Gu,YYfw,+,pBJpfW.,KYw+BVVGg,WK.wKu;g+fu,gDWgGp,WY.wY+,pVJffG.KYwwuBgVfpJfr.pKpFf+.uYg+WVYY,.I:+wugpgJff,,eKOwpBWV.J-f+.VKJO,+KVwguWg.0,,<^+Bugp,J.fY,+uBp,JgffJufu.gKfh,BnVBgpWWG,Yu!++VuJJGYg+uYupBJWfE.GKJ>fYVm.g+fg.gKf;-+.VVBKuguGgUWQGB,ppgJVfGpBJWfJ.GKKpVW.G.WfWK.,KBFp+Wp.,Yju+uuJpiW(GV,,fgwWBBw^+,BpVWg.WY,JKVHJ+GuKgwWuGg,fwB+?uuppJff..YY+wVVKVGgKfw.pKgx.+,gpufWpGW,.dV++uppJJYfK,V+YwgBfV,JpfB.gKWwapfV+gVWJ.u,Ks++uVWgWJ,Gw,BYgwWB.VYJJu,.JKG/KBfVugJWfGKKM*gpwuWp.JYGG,VYWwGBKggJufJ.fKYw^BBVpgWfY.UKu!V+GuGpKWwGu,KYf+eu(puJpfW..KY+KBVVWgGf(.wKgXg+fVYg9WuGp,,Y.wYu+ggfwfG,sYwwWBgVfg,f4.WKpc.+.V+g+WVGJK,2g+wuJpgW<f,,^YBwpVpV.Juf+.VKJ;G+KVwJYWg.5,,&++BuppWJ.GB,+YfwJB,VKJBfu,WYWS,BpVBgWWWG.,YQ+WJuWg+JKGw,uYgwfB,ppJBfJ.WKKqYBWVVJfGpGKKuHu+Wufp,WdGBKuYWw,BYpVJVfW.GKKwpBuVggfWK.hKBqp+Wu.pYW+GV,JYGwKuwpgJgff.,YbVgBgVWg.f<.+KV9J+Ge+gwWuGg,fY,+CuBppgpf..YY+wpBJVGgKfw.uKgFf+,V+gBWpGW,,nB++uVpJ,gw,uTpJwJuwV,JNfB+,uKJ-WpGgKBMKGY,Knw+uVWVJJ,Gw,BYJwWB.VYJ+Gg.JK.NKB+VugWWf.,VG/u+guWp,JYG+,VYJ3JBKpwJufJ.fK,wCBuVpgWW.GYKg&V+JuGgwWwGu,gYfw,uEVB.Vf...KYw+BVVJgGGf:wKgeg+fu,gnWBGp,WB.+?u.pVJJfGBgVVgWfV.KKpwuB.SpBw+,V.g+WVGJ+Kg;JuWW,VYB+BBVpVJWWKfVKBGW.VKJcG+KpgguWgGf,,iP+BuppWf+fY,BYVwWBGVKJwfpwBKGNYBaVBgpWWG.,YwJ+VuGpGWLGw,uYg+.u.phJgfp.KK.mYB+VVpyWGGKKwHJ+guGp,Wp+.,gYWw.uJp+JpfJ..KKwVpYVggfW,.WKB^g+WV-ffW+GV,JCgwKu+puWWGW.,Y+wBBJVWg.WY.JVKTW+,uKJpWuGJ,fYK+mugfwJWf..YMgwVBWVGgKGg.uKWSfB}VsgBWpGWuG52+VuVp.JGfK,wYuBBBfpwJPfu.pKWx.uwVKgVW,GGK+;w+uugpffpGH,pYpwKB.pwJ+.VKuKGwwBwVgggW,G,Y+^Y+pu,p.WzG+,VYJ+,VfpwJWfg.GK,w8BBVpJpW..wK+zf+Ju,pKWw9p,gY.w,u+pBJpfW..,.w+BVVJg.WK.wKuMg+Gu,gXWBGp,WY.wYuppVJJfG.K,.wuBWVfg,fs.BKpeWwguYgVWVGW,GYK+wuufKJGfY,%YpwpBWV.gYJY.VKJQG+YVwguWgG.,,3?+Bupp,J.fY,+YpwKBGVKJww+B.VgpYWV.VgWWWG.,Yq++VuJpG.KG+8VYgwfB,.WYww.+fVJgJWpgV,WL,+VVpgwJ.GJKwGj,pygwWW8fKJ+f.KgY+2KBWffGJKprp+u0Bg+JK.+,uYK,VB,gBJKfp.gYGjYBwwWwup+VWg.WY+GVBgKJ.Gf,fYJ,gBGpYJgGJ,BKKwfuBw+BJpWgGY+w1KuoKuWVugOWGOu+KuWpwJgGgJJYv+puwVWgffK.+Ku..,KKWO.+YV+K+WWG.,K>w+uugpfJ,GB,BYJwWB,VYJ+fV.JK.)KBuVuggWfG,K-LBBBuWpKJYGu,VYfwGpugVJufW.fYuw7BuVpgfW..Bw,HV+JuGgVWwGV,gYfg+uypVJpfW..KYw+BVW.g.fe.wKV5g+fu,J+upGp,.Y.+Bu+pVJJG,KVYwwJBgV.g,f5.BKp-K+.V6g+WWGJ,.YK+wu,pgJGf,,+YBwpBWV.WVf+.gKJOK+KVwguWWUp,KMB+BuppWJ.fY,+YBwJBYVKJwfu.gKf;,uwVBggWW.X,Y}u+VuJgWJKGB,uYgwfB,p?JBfW.WKYyYBBVVgJWG,UYB^u+GufgaWlGB,p<Gw,BYpgJVff.GKKwwBuppgfWY.vKJ^p+fu.pYfYGp,fYGwKuwpuJgffwYY4wVBpVGg.WY.+KVYV+GuKgwWVGg,fY,+wuuppJWf..YY+wVBJV,gKfw.uKgV.+,V6gBWJGW,.YY++B+pJJGfK,+YuwgBfVKJ7fB.pKW+f+YV+gVWW.w,KFw+uJf,.Y+wwugVGwfugVYJ+fVr,u.JwWf.+,KK,BwVWpYJGufgJJYG+,VBfJff+,f,fk.BpV.gBW..fY+WYGYK+%V+JuGpKfwYu,JiBw,u<pB,BFfBBV,gGfW.,,YEB.+KfDg+fu,,KP+wWuVpVJYuVpVJJfG.KYwwuBgVfgKG{.BKpvWgu.u,YYp+pufpgJVWp,pYW+w+tVuJJf,V,J+f+.VKJVffB.VgVWGGf,,8lgBG+.f<VGSKwYVwJBGfBK+wgBRVJguguG.KJYKwYVBpGWuGpp.WgGw,uYgV,fV.wYVLg+.p3gufuVpgKWGGKKwugp,G..KY,wJ,gLww.BYp+,GA,BgV,guW,.GYBWK.uKB/p+WfB,tYG+W,W2BwKuwpu,rwJuRpugufuG.KwfF.KKVSJ+Gf+KJYWw.uJVMJVGV,.Y+(YBuYBwWBJVGgKKpB+V.gg+KVfgBWpGW+BpuWpWJ.,Y,+uBfVgg.B,V,J9fB.pKW5.WJW+gpWKGG,K;wgRGC,JY+wwuVYg+)B.VYJ+YG+,uKJ+f%.pffWG.pKh%B+pJ.,GY.++uwV,JYfB.VJVGx.fK,wtJg.,,Kkw+,+GgBJKGfpYWWGu,gYfp,fY,pKYw,BVVKJeBgVJg.fw.wKuhgWJG+KgWuGJ,WY.wYfwf.Jff..YYJwuBgVf.w7VBpVfgGWG.JGGWVGJ,GPu++uupJJfGw,iYuwpBWV.JB,,.VKJ GB+VwgVWg...G %+pupJVJ.fY,++V.gBGpwJwff.gkgT,BpVugpWGG.Yu3++puJpGJKGVIYYgwfB,gVJBfg.WYKY,B+VJgJfGGKKw<uugVppKWBGB,WYWBgBYguWufJ.YKKwuBuVggfW,,pKBxG+Wu.pYW+GVYJ4gwYuppuJ.ff,WY!BBu+VfJwWY.gKVw2+GuKuGWuGf,fE++ uVppJWWg.YYuwVBGVGgKfw,pwp=GB{V!JWWpGW,.wY+,uVpGJGGw,w%Ywgu.VKJsfg.pYyS.+YV+JgGLGGKB8w+GugpfJ,.+K+YpwYB.ppJ+fV.JKG+fBwVgggf-G,K+rBBpVBp.WwG+KBYJwKBKpwWffg.,K,w/BBVpgWG.,+K+XJ+JuKpKW,GuKWcuw,uupBWKfW..KYB+BfVJgYWK.VKu+++fp,JVWBGG,WYYwYufpVfJ.w.KYpwuB.VfWpfc.BY,SWBwuYg+WVG,,GwK+guup.JfG+,{YJwpVWpggYfg.VK,#Gu+VwJpfKGfKBSkBVuppWJ..Y,fYVwKBGpuJwfp.gDfwWBwVWgpWYG.YuS+BgG>pGWVGwKpYgwfB,JPfAfp,1K.wpB+pmgJGG,wKwOG+gVwp,WWGB,pwdw.uBp+J.fJ.,KKwwuGVggYW,.wKB^p+Wp.JwW+Gf,J2kwKVupuWW.+.,YgwBugVWg.WY.+Y.dJBxuKgJWuGW,fw,BfuBpGJWGw.YYBwVVJV,gKfJ.uKfafBVVzgBJwGWKuYY+puVpJJGfKKKYV+nBfV,JUfu.pYGYf+YV.gVfVGG,K&wuuVBpGWgGa,,YpBuB.gwgHfV,BKG+uBwVuggGfbfKw*K+pVup.ffG+Kg{wwGufpwJGfg.fK,++uVVpJpW..BK+5V+JV,guWw.+,gNww,ucpBJpGf..Yfw+uBVJg,WK.wGJqgBVu,gLWB.w,WY.uVu+pYJJf,.KYBwuug,VgKfW.BYB?WBpuYg+pYGJKqYK+fuupWJf.,KJYuw.BWpwgYf..VKJf(+KVgguWWGf,KbtuBV+pfW+fY,gYV+YBGgKWWfV.,KfwBBcp+gpWWVw,YiJ+VufpGJYGw,fg:wGBKpr.ufp.fK.w8B+VWGBWGGKKwuV+guGp,WuKK,pYWw.J+p+JpfJ,,,.wwBfVgWpW,.hKBBp,Ju.gVW+GG,JwVwKug,,JJf..,BpwBBgVWg,WY.p+%6J+GuKGgWuGJ,flwVGuBppJWYu.YYBwVVJgBgYfg.uKWzfuGV)gB+GGWK+YY+uuVpWJGfKGKYuwgBfVKJ#fB.pK.T.+YV+gVWKGG,Khw+gKw2B+puWp.JY,+gGp1JpfV.JKGJ+W+.gK+WG.wKtcB+p.9.,YJ+p,pjBwGBKpw,gw++YV+J+WJGfWWKuwu+uXp+YuGpKWwtpB.p!JYfV,pKKff.KKYw+BVff.Wff.wKu2gB.BGgEWBGp,YY.wYu+pV<ffG.KYwwVBgVGg,G+GwKpAW+.Vwg+WVGJYGhf++uupgJff,,BYB+JuJV.J;f+.pKJHG+KVwFWWgGf,,y++BugpWJ..V,+YVwJBGVKJwfuKg=+7KB VBgpWW.w,Y8+BGuJp,JKG+,uYgwfuYpYJBfW.WYvoYB+VVgJB,GKKwvu+fufpKWRGB.BYWw.BYpBJVfJ.GKKwwBuVggffp.LKBTp+fu,pYW+GVBwY.+uuwpuJgwJu+V,gVWG.Gg,fp.+KVeJJ,G,KU4ew.BGpG+wuuppJWf.+gYVwVBJVGgKfw.uuVufBtV5gBWpGW,.YYJ8OVpGJGfK,wYuwgBfu,GYfuY,KWI.+YGGKB^Kw.ufpfJJpg.GYYwguJpBgKff,Bf+.JYWCGJ+f9guWK,WKuIr+Gp+fG,GYKwKBfVWJWpfJwY+w.BguYgVfVWuWWEwBgV+pfJGGY,BYV,,,fYfw,u>pBJpfW..KYugBVVJgGWK,gKuMf+fu,grWBGp,WKgwYuppVJJfG.KYwwuV,VfJZfE.VKp7G+.gVuWWVGG,GXu+wuVpgJ,f,,u+KwpBWV.JVf+.pKJ!YpWVwguWg.g,,Dw+Bu.K+J,fY,+YKwJB.VKJ+fu.G+V5,BvVBgYWWG,,Yhpp#uJpGJKG,,uYJwfuYpYJBfW.WYwSYB+VVgKuBGKKw:uBuufpKW Gp,pY,VgBYp+JVGV.GKYwwupppgfW,.AKWNp+Wu.pYfJGV,GYGwYuwpuJgffKBYrwgBpVWg.WY.+KVYB+GVBgwWuGg,fY,+2pWppJ,f.,wY+wgBJJwVVfw.JKgwK+,VwgBWJGWKoBf++uVpJWYfK,+YuwgJYV,JufB.pKW:.+YV+GWWWGY,Kd++uugpfWYGY,BYGwWuuVYJ+fV.JJ,!KBuVug.WfGKKPrBB.uWpYJYGu,VYJwGBKggJufG.fYnw4BBVpgW.+GYKV=V+fuGgIWw.pKpYf+wuMpfJpfW..KY+JBVV,gGf+.wKuLg+fpBg/WWGp,KY.wYu+JVYKf.,VYwwuBgVYg,fAwwKgQY+.Vpg+WVGJ,GBu+wuWpgJff,,+YB+JuJV.JVf+..KJIG+KVVJwWgGK,,Bu+BugpWJ..V,+Y,wJuwVKJwfu.gy(6,BWVBg,WWG.,YcJ.,uJgVJK,J,uYJwfBKpTJgKw.WK.^YVWVVgWWG,KK,mVBwufg5W/Gg,pYY.uBYp,JV,+.GKYwwBpVggK,J.&KBtpVBu.g#W+,VKuY.+WuwpgJgfG.,YKKuBpp+g....+KpLJ+GuKgV.YGg,fY,u,uBpgJWf.+uY++wBJVGgKfw.uKguK+KV.gBWgGW,.YY++VGpJWJfK,WYuwgBfV,++fB.KKWwW+YVBgVWJ,w,K%W+uV2pfJ,Gm,Bz.wWuVVYJ.fV.JKGqK.pVugYWfGYKo:u+pu,GWJYGp,VwfwGBYpwJuWu.fK,wbBuVpgWW..+K+mV+JuGg.WwGu,gYG+Vu7pBJp,,YK+VuWpVJKf.,B.+K.hg+fu,fw..KJC,+,VVguWWJWGB.KYwwupJJYfK,FYuwYB,VYV{gfWVGJ,G+YVWgWWY.BK6xp+BwguwV.gYf+Yp+(u+VYJwf,,RK,,KkJ+BuppWG,KpeG+fVnpKW+GpfV.YKf%,B)W.KuF.B&uOgEJJf,p.WuGw,uYgpfWK,+KJwuB,K,wgB+VVgJ..YgwuBuVgg,fp.gGu,fYWw.BYGUKpwVBiKYwGBuVggf>u+wV%pGWWf,K+;VwfuGY.+WuwpuJgY,uwp+g.fu.T,+R5+KVfp,+.VpgwWuGgTGBpVBggWpGW,YjwYBwJBJVGgKiY+WVKuG+,VZgBfJJG,.YY++u.pJJGfKYwbWwgBfV,JRfB,uKWwKB.V+gpWJ.g,K7w+uugggJ,G%,BYJwWBKVYWuf,.JK.MKBJVuggWf,,Kf/B+guWp,JY.C,V}f+,BKpBJuGB.fK,w=BBVggWW,GYKuzV+fuGJMfwGu,WYf+uu pBJp.W,JKYwuBVVfgGf..wYpwp+fVhg>WYGp,WY.wYWVppJffG,^YwwpBgp.Wff9.pKpw +.uYg+GV.K,Gtw+wugpgWJf,K+)WwpB,V.JGf+.VKJPGBpVwggWgG.,,F++BVJg+J.GB,+Y.wJBGVKfwG%.gKKQ,BuVBJuWW.KYWt++fuJggJKGw,uYg++B,puJBfJ.WKKTYuupGgJfaGKKJsu+gufJ,W.Gu,GYW+wBYgtJVGf,fKKwgBupBgfW,.7KB+.+WVwpYWuGV,fYGB)+YpuJ,ff,uYHwBBpgWJJf5.JKVFK+GV.gwfp.p,f)u+=uYppJWf..YwJwVBKVGJXfw.pKgw.wGVsgfWp.0,.YY++pVguJ.GV,wYGwguJV,W+G+.pYw7.BGV+gVWJGG/u6w+Gugp.J,G+,B+pp+B,VYJ+fY.JKYZKpwVGggWGG,KfDB+YuWW.W,G+,gYJ+VBKpuJu,gKVK,wBBBpqgWf+GYw+wY+JuYpKWGGu,.Yfu,uKpBJGfW,pKYwuBVJJJuWK.gKuww+fVfgT.BpV,W<BwYu.pVJWfG.KYVwuBYVfg,fE.BKp+Wu2uYgfWV.!,GzW+wVugKJff,,5YGwpuwV.gYGW.VYhmG+KVwguWg,fYgZ4+GupgwJ.Gf,+AVwGBGVYJwf..gY+2,B#gkgpfwG.,Yx++VuJJGWfG+,.Yg++B,pGJBGpuuK,wwB+V,gJfBGKKwEJ+gV+p,WTGB,pYWB.upp+J,fJ,BKKw.BupgJuW,.BKB%K+WVupYW+,+,J1BwKuwpuJgffK,^pwBBKVWJuWY.,KVwJuVuKgVWuGY,fSV+cuBpJJWGu.YY+wVBJVGWKf,.VKYQfBVV5gKWp.WVg5(+guVg JGGp,wYu+,BfpVJ6fB.pKW2.uYVKgpfEGGKp<w+YuggfqJGw,WYp+wB.pgJ+fV,KKGwpBwVuggWfG,hNPY+gVwp.WgG+K-YJ+GGWp+JGfg,+K,wJBBVpppW.GYK+hp+JuGpKWwGu,gYfw,uQpBJpfW.KKYw+BVVJ+YWK.wKu^g+fu,g^WBfB,WY.wYuBpVJJfG.YYwwuBgVfJhfA.BKp<fBuuYg+WVwKV%p.JuGJ,yYWwG,w+wwpBWV.KJwABGuWggWgGVWuYJ+.uugVWbfG,g??.YYV+pBJfY.,fw.Gspww+,VJGWKGHgwYVBpGWuGpJGYB+WuuV.g,Gw.VKg.Y..K.*YB+VVgJWGGK+wwf+gufp,WFK+,pYfw.BYp+JVfJ.Gv+wwBpVggGW,.-KBLpuBu.g+W+GV,JYGwKuwgwJgf..,Y+wBBJVWf+GW.+Kg1JB+uKg+WuGJ,f<wVGuBppJWGB.YYBwVB.WpgKfw.uKYZf+KVOgBKGGW,KYY++uVpJJGfKwVYVwWBfVKJ6fB.pYGGY+YVVgVWfGG,KywBpV+pfWwGv,pYpwWB.VYJufV.WKGw+BwVVggWf.KKr7u+puGp.JYG+,VY,wGuRpwJgfg.fK,w+gYVgg.W.GYK+?V+JuGWuW+GJ,gYfw,uipBJpf...Yuw+BWVJgGWK.wYWMgBUu,grWBGp,WY.+,u+pfJJGw.KYwwuBgV,g,fw.BKp3W+KuYg+fKGJ,.YK+BuupgJff,K,YBwpBWV,gYf+.VKW1.+KVwguWgGf,,kE+guppWJ.fYG,YVwfBGVKJwfu.gKfYJB VpgpWfG.,Ym++VJYp.WCGw,gYgwfB,p*gmfp.WK.wbB+VVgJW,GKKwlu+gu,p,WzGB,g+uw.BYp+KKwpuwuYg,W,GGWfYKB+ufgGWpGw,,Mp,VYG+.BKGV,Bfg,w*.wgBBVK.,,,4w+Kuf+JWP.pKwYWwfuKp+Jup.pWJWf..YY+wVBJVGGKf+.WKg{f+,.u,uYJ+Vuww+++uVpJJGwG,+YVwgBfV,J)fB.pYg;.BwV+gpWJGG,K=wBVugp,J,Ga,BYpwWB.g+J+fg.JK,&KBBVuW,GiG,K+ZB+,uWp,JYGV,VY.VpBKpwJufK.fKKw6BBfGgWWKGYK+oV+JuGpK,VGV,WYfwKu^pBJpGGgYKYwVBVVWgGWK.wYpwV+fVwgZWVGp,WY.wYVKpVJWfG,+YwwVBgVfJwf?.uKp{G+.uYg+WV,t,G0i+wugpgJff,,+BYwgB.V.gYf+.VKJ9GpBV+gJWgGf,,O-+BuppKJ.Ga,+YWwJB,VKJw.w.gK.>,BwVBgpWWG.YG*++guJp,JKGw,uYg+pB,p8JBfg.WK.sYBBVpgJWGGKKw5u+gufpYWiGB,pYWpKBYp+JVff.GKKwwBuuugfW,.8Ku)p+Wu.g-W+GV,JYG++uwpuJgfG,CYdwBBpgK,,.f.VKV2J+GuKgwWuKWwfYK+JuBppJWw+uup#gJf..uK,)Y.gKgcf+,V?gBWpGW,.wu++uVpJJG.u,wYVwgBfV,JXfB.p,u=.BwV+gVWJGG,KkwufugpGJ,G+,BYJwWp+wVJ+fp.JY+&KB+VugfWf.wwGFB+puWgBJYGB,Vcf+fBKp+Juff.fK,w!BBfJgWW,GYKuXV+JuGpKfgGu,JYfwKu2pBJpGGwKY9wuBVV.gGWK.wKuwG+fVOgiWBGp,WY.wYuVpVJWfG,wYwwVBgVfJ+fl.uKp8G+.uYg+WVGW,GHa+wugpgJff,,yiVwpBfV.Jwf+.gKJ;GBwVwgpWgGK,,:=+BupJuJ.G+,+YpwJBGVKWBGK.gKKI,BwVBgpWW.KYgk++fuJp,JKGw,uYgYuB,p+JBfG.WKKLYB+fggJW,GKKB6u+gufp,g,GB,pYWw,BYp+JVfW.GKKwwBuVggfW,.(Kpip+Wu.pY,pGp,JYGwKuwpuJgffJwYPwBBpVWg.WY.+KVYV+GuKgwWVGg,fY,+QuBppJWf.,+Y+wVBJV.f.fw.uKggBWG.p,uD+++u/wYJBGg.Y4/wGBpp+JGVfJkGw.BBfVJ+.VpWwW.GJKBuugpW+ff,KYpwYuwwpgKGu.YKgPJB.Vhg+VfVVgYWfG,KjpWWGGg.Y4BwGuuppwKBKpwJufg.fK,w?gBpggWW.GYK+Bu+Ju.pKWwGu,gYfw,uGpBJJfW.,KYw+BVVJJfWK.uKuOg+fu,g8WBGK,WYKwYuupVJffGYuYgwuBWVfJufQ.uKpjG+.VBf,WVGJ,G>V+wuVpgJKKJ,XYBwpuwV.J{f+.VB,HGB?VwguWgGf,,6;pgugpGJ.G),+YVwJu,p,Jwfg.gKGC,B-VBJJfJG.KBb++JuJpGJKGwgpYgwGB,puJBfg.WK.YfB+VpgJWGGKKw*u+,fGpKW+GB,pYWw,BYpBJVfJYgKKwwBuVJgfW,.9KBVJ+WuKpYWuGV,JYGwK+KpuJgff.KYHwBBpVfg,WY.+KVCJ+GuKgwWWGg,fY,+NVWppJff..YY+wVBJVG+gfw.pKg%f+,VqgBWpwu,,ri++uVpJJGfK,wBpwJBGV,JbfB.pKWa.w.V+gVWJG.,KEw+uugpfJ,Gb,BYpwWB.VYJVfV.JKG;KuKVVgJWfG,KLjB+puWGKJYGB,VYfwGBKpwJuWu.fK,w4BuVpgWW..qK+TV+JuGpKWwGu,gY,w,unpBJpK,.,KYw+BVVJgGWK.wBp)g+fu,g+WBGp,WY.v.u+pVJJf..KYwwuBgVfg,fo.BYVaW+.uYgBfVGJ,GYKpWGW,uKGwGBYV.gfJG.GKKwpwVuWg,f+V+gWWgGf,,g}JufY,GYYGr,fYVwJBGGuKpwoBpu,gpfu..ggfTG.,YE+gGf,.KE++&up+fwGupp8JBfpy.VugcfuGp,GcY+BVBbp+gu.pKWwGG,pYWw.Jw.BYJM,wGuYJBfJVJJwW,.HKBVpWVf,KJYg+guGY.+wuwpuJgwJB+pgwuuwVWg.WYzKVupGJ.Gf.w<vwJVBp+W+uupWJWf..YBGJJgWV.J.fw.uKgVwW+.uGgYG+.BYpuW<fW.WYW++uuYgwgBfV,JifB.pKW*.BFV.gVWJGG+wp+W+Jf,WYWw.B.VfgKV,VYJ+fV,ffByKBwVugWWfG,KTFB+fuWp,JYG+,VYJwGVKp,JufJ.fKKweB.VpWWWKGYKB/V+WuGgWWw,uKJYfwKu#puJpfK..XY+uBVVWgGWY.wYwtg+fVugnWuGp,GY.wYu+pVJGfG.KYwwuBgV.g,fu.VKpLW+.p,g+WpGJYGwp++uWpgJKf,,.YB+JuJV.Jpf+.,KJRG+KVwuKWgGY,,{g+BuJpWW+Gl,+YfwJVWVKJ+fu.gKfwwpGVBgpWW,f,Y&B+VpJggJYGp,uYGwfu.pUfWV..WYwOYVAVVgWWG.VKwMJp+ufp,W!,w,pYfw.pYwwJVf..GY,wwBfVggfGB.DKJyp+Wu.pYW+,VKuY.+BuwpWJgGB.,wlwYBgVKg.fu.+Y1FJuGVfg+WWGg,YY,+VuBJpWVf,,uY+wfBJV.gKGBYBKJwe+,VugBWpGWY.ww++uGpJWwfK,GYu+WuVV,JgfB,uKWL.+YpuggWJ.B,KEY+uugpfWYGu,BYYwWufVYJ+fV.JYK&KBgVuJOWfGYK1wBBJuWgwJYGV,VYKwGuu,,JVfg.fYpw}BuVpgGW..Bw,eV+JuGggWwGV,gYfxfu?pBJpff..KYw+BVVJgGWK.wKgCg+fu,gBWBGp,WY.wYu+pV.Jf.,pYwwuBg.CY+SK+pVfg+WGG,gB.BGJ,GYKJfG+,,KGwWBWVgBpWf.KKpwgB+u,gWf+gwWg.J,fVwpYuBp,fJGB.YYfVGJ,fW.wYVa,BpVJ+,WV.GKpYKwYVBpgJWgwJwJKGw,uYgJgBKpwJBfp.WK.ZYB+VJgJW,GKK+Pu+gufp,W,GB,WYWw.BYp+JVfJ,VKKwBBuVWgfWY.7#W+B+WuKpYWWGV,WYG+%uwpJ.+ff.,Y/wfBpVfg.WYwgKV{f+GuKgwWuGg,fuw+wuVppJff..YY++gKGVGJwfw.gKgTf+,p+ggWpG,,.E&++uVpJJGGw,wYVwgBKV,JwfB.pY+=.BbV+ggWJGG,K^wBpugp.J,GB,BYpwWBKfGJBfJ.JKGiKBwVuggJVG,KuRB+puWp.JYG+KGYJ+lBKpVJufg.fK,YGBBV.gWW.GYK+cV+JWWpYWpGu,,Yfw,u<pBG.fW.,KYw+BVVfgGWK,YKVEW+fuKg WBGp,WuKwYuupVJffG.KYwwu+uVfg,f0.uKpoW+.VmgBWVGJ,GYK+wuupgJKf,,}YBwp+uV.Jwf+.VKJZG+KVwVYWgG,,,bw+BuppWJ.Yp,BYgwJBKVKJwfu.g,gC,BdVBggWWG.,YOu+VuJpGJKGu,uYgwfBKpJJBfp.WV+JufUGJK.7u+,uY)VVVufp,W{w.uupYg,fG.GKW.J+.pdgJfW.u,Y4GBurB+WVfp.KBUw,VYYBfuVpwJ.K,wYBGVBJgWY.JKfGY+gV,gJWhGwKVYWwGRByN+ZuBppJWf..YY+VVVfVGgKfw.uwp7f+KVXgBWpGW,.YY+JuVpfJGfY,wYuwgBfgVJ>fp.pKW9.+YV+gVG+GGKkZw+pugp.J,,p,WYpwGB.ppJ+fp.JK.CKBVJYggWfG,Kg8B+guWgz.fG+,VYJ+BBKp+JufgwYK,w+BBVpgWW.GYK+uW+Wu,pKW+Gu,gYf+YwppBJWfW.KKYw+BVpfgYWK.VKu?f+fu,gyWB.J,WY,wYuppVJWfG.KYGwuBJVfg,fS.BKpaWBJuYguWVGf,GYK+wuupYJfGn,8YpwpBWV.JwKK.pK.iGBkVwguWgGfK+x8+JuppWJ.fY,+YV+.BGpuJwfJ.gKfH,B:p.gpf<G.,YX++VuJpGfpGw,fYg+wB,p1JBfp,KK.wwB+VVgJW,GKKgwg+gu.p,fJGB,gYWw,BYpp.TfJ.GKK+WBuVJgffwYGKBQp+WpgpYWBGV,KV.wYuupuJJff.KYewuBpVWfJWY.+KVhW+GuKgwWu?W,f5E+luVppJWf..YhJwVBGVGJBfw.uKgwaJKVwggWpGW,.8^++ugpJJG,f,wYuwgBGV,J<fB.pu,U,+YV+gGWJGG,KqwVJugp,J,Gu,BYpwWB.fwJBfJ.JKG1KBwVuggJgG,KSbB+guWp.JYGB,JYJwGBKpwJufg.fYVwqBBVpgWG+GYKBcV+WuGpKWwGuK,YfwYuDpBJpfW..KYGGBVVGgGWK.wKukg+f.wg:WVGp,WY.wYu+pVGKfG.YYwwuBgV.g,fAggKp4f+.uYg+WVGJ,YBW+wuupgJff,,wYBwp+pV.gYf+.pKJjG+KVwguWgGf,,18+BuppWWwfY,+YVwJVwVKJ+fu.gKf5,B8VBwYWWGK,YC++VuJpGJKq.,VYJwfB,p JBfp.W+Kw#BBVVgJWGGKKwSuwuufp,W(Gu,pYWw.BYp+JVfJ.GKKwwBuVggKW,.TKBvpwuu.gwW+GV,JYGwKuwuYJgf,.,YwwBBpVWg.Kp.BKgcJ+KuKgwWuGg.gY,+kuBpgJWf..YYuwVBJVGgKfJ.uKgkfB<paKJGVBWG u,W+JVpWJKfK,wYuJVWY,uJwfG.pKWh.gY.wKJzw+YuggkW+uJgwJ,G!,Bu.gKWY,BYwwgYGK.wKBwVuggK+B+u,puWuGJ,VYByuuupgJYJK.+YpwG.,gwf.+fVV.f,puV++7JGKgwwBBwuYJ.W.,,u.pBJpfW,+Y<w+BVVJJpWK.+KuOg+fVwfGWBGp,W/gwYuBpVJJ.w.KY+wuBgVfg,fhKBY+bf+,uYgBWVG,,GwiVRuVpWJfGw,IYBwpVWp.gYfu.VKfiGBQVwJpW,GfK4ar+WuppWJ..wKJYVw.BGVYJwfu.gY.wJBrVJgpfZG.,Y:++VV^pGW1Gw,WYgw.B,g*Wgfp.fK.w+B+VggJWGfGKwsu+guGp,WUGB,gYWw.BYp+JJfJ.GKKw+BYVggfW,wBuJg+JKfYKBYgwW+VpfJou+pGJgff.,VggJff.2Kw*,BJKp7.+GuKgwK+wJugp++VuBppJWGKJfY+wpBJV,gKfw.uKgwW+,VwgBWgGW,KYYu+uKpJJ,fK,wYuwfBfp,WBfB.gKWZ,+YVugVWJ,>,K;w+uuJpfJ,Ga,uYpwWB.VYJufV.JKGMYBVVuggWfBuuwp.Wfufg0JYG+,Vp.g.Gw..Wwfg.fK,+++wVpgWW..wK+kV+JpGgfW+Gu,gYfw,uwpBJpGG..KYw+BpVJg,WK.gV,{J+fu,gpWBGg,WY,wYupf;JJfG.KYgwuBJVfJw,G.BKpeWBJuYgBWVGJYwYK+wuupgJff,,9YWggBfV,gYf+.VKWzGBCVwguYGGG,,Ub+uuppWJ.fYBpYpwJBGpaJwfu.gKff+B:VBgpWGG.Ke>++WJBpGJKGw,uYgwGB,pyg>fp.WK.w%B+VVgJWGGYKweu+guYp,WsGB,W.pKJaG+KVwgu.g+,w+BJVggfW,BguupYW,u,gWW+GV,JppJgf,,HKJwYBYVwp+fpVfJoWY.+KVg.J..w,.WVG,,fY,+*Wf.GKfw.BKp}+BBJVGgKGBG+KgHf+,VBgBWpGWK+gJ+BuVpJJYfK,+YuwJBfpwGGfB.pKWwM+YVBgVW.Yp,KUw+uVupfJKG#,Bt.wWB.VYJ+fV.JKG^KugVugJWfGKKhTB+pVGVfJYGu,VY,wGBKpwJuYJ.GKKwrBuVpgGW.GYJgUV+JuGgmWwGV,g&.+YunpBJpf,..KYw+VVpug.WK.wKutg+.u,J+f+Gp,fY.+0u+pVJJfGpBYwwuBgV.g,fw.BKpYp+.uYg+WpGJ,GYK+wuupgJff,,IYBwpBWVKgYf+.VKJGY+KVwguWgGf,,D4+BBBpWJ.fY,BYVwJBGVYJwfu.gKfUKBEVBgpWf.+,Y ++VWY,PKY+wuBpVw.B,p4JBGJggK.7YB+VpgJWGGKKwYw+gufp,WwGB,pYWw,BYp+JVfJ.GKKwwBuVWgfW,.XKBYB+Wu.pYWBGV,JYGwK+KpuJgff.KYrwBBpVWg.WY.+KV*.+GuKgwWVGG,fY,+^Gg.gY.wg,AYWwVBJVGKV0pBJuKpYWG.pguWYGW,.YYpBGf,.Yf8wuwp%JvfKVKJufB.pKWJBW1GGKWfJGG,KcwBpBVpfJ,Gm,uYpwWB.gYJKfp.JKGDKBwVJggWf.YKnTB+pufp.WwG+,GYWwGBKpwWBfg.GK,w^BBVfGuW.GYK+wu+Ju.pKfBf+,gYfw,u+pBJpfW..7ww+BVVJg.WK.BKu+gBpuKg)WBGp,WYYwYuJppJJfG.KYwwuBJVfg,f%.g+wAW+.uYg+WVGW,GYKBguupgJff,,RYBwpBYG,JbfB.VKJTG+YVwgVWgGfuwHw+BuppfJ.fY,+YVf,BGVKJwfp.gKGq,BuJKgpWWG.,Y/++puJpGgGGw,uYgwGB,pMJBfp.fK.UYB+VYgJWGGKK+?Y+gufp,,.++BWVfJJJY.KKp+wBbp}wuBuVggfW,.2pG.WpWu,gVW+GV,JuBJ,f,.JK.w..KYVwBBpVW,+Ab+KVfp,+.VVgwWuGg+fpWJwG..GYGwY,lYGwVBJVG.K1,+Vp*pYWYWgKJYYGfKgYY++uVGuYfwwB+pIpfW,.YKWwBBfKfwp+YV+gV,Y+-V+VuJWGWKrYpwBBJYg+BB.VYJ+KfucuKgBfu.gGKZY+pVBvuBpuWp.JYwuuup,Jgf+.pYpbpB,V,g.W..f,Jww+JKY/V+JuGpKGKGu,gYfw,uLpBJp.W,,KYw+BVVJgGfp.wYpwp+fuYg{WJGp,WY.wYuGpVJJfG,rYwwpBggfJLf^.BKpzW+.Veg+GVG,,GYK+wuupgW%f,YnD.wpBWV.gYf+.KKJ+GlKVwguWgGf,,Cf+BppgVJ.fY,+YVwJBKVKfwGJ.gKfh,BDVBg,WW,.YB)++VuJpGJKGV,u+g++B,pjJBff.WKKDYB+pJgJWGGKK+3u+gufp,W GB,pYWBgBYp+JVfW,uKKwwBufGYw9++VVwuYWgG+,KWBGG,JYGwKGp,+YgzGB&VGwuB.VWg.WYyVVgp,J..+,pWVGY,fY,+rWB,VY.wVuBVGJufpV.Jwfw.uKggJW+.gguW,GW,.YYgJff.GYYw,uB+gwJBKV,JEfBw,ufgVfBVBJVWJGG,KuWWWGu.GYGwYB.VfpGfG.KYpYV+WV,J+B+pVggWfG,VggVWVGg,BfYwJuupfJJWY,Vfuw.B,V+guBuVKgWW.GY+GgBWGGY.YYYwgB.YG+Ju*pBJpYVBGV+gBfwfJKgYYBfuWgW+GV+gHWBGpu,V,JwfK.fJWGg.KYwwuf:.JK,wVBgFpg+WYpYKkYK+u,.(g+wuupg.,w.B,pBJ+WK,1Ku5p.pKY%G+KVw.uHBwGVppVWVGWpfWpfY,+YVVYf{,+,uOWBWp>gpWBGJgWWWG.,Y:++VJJYf.KG+,JYgwfB,G3KYMgu+K,wBB+VVgJKk+.Vpgw+JVip,W&GBwWBYJKf .YKffW,pKKwwBuW.,Gwa+WVwp,g..HKJYKwf,W#uwKuwpu.fw++Kp+guWW.,Kwww.BYw2J+GuK.V}Gw.BYpGgBfJ,JYYwVB+VgwpuwVGgKfwBwuJgwWGGWKg%Gw,uwD+++uVpJJGfK,wYuwgBGpwJvfB.pB,gVW.GggpWKGG,KjwgQG%,JY+wwuVu.wWB.VYJ+GG.JKKCKBwVuggWf,,YJ0u+WuWpYJY.+,V6f+fBKppJuGp.fK,w*BBB^gWWYGYKgtV+fuGJKW,GV,fYf+euqpKJp.W,JY&wVBVVGgGGu.wKffY+fVwgiWKGp,fY.wYu+pW.BfG.KYwwYBgVGg,fF,WKpI,+.V2g+WVGJK,#,+wuWpgWgf,,!YBwpVYV.JBf+.gKJX,+KVgw.WgGY,,5K+BugpWJ,fY,pB>wJBGVKJYfu.JKfwYBYVBgGWW.,,Yb++VuKwBJKGg,u6,wfBKpLJVfp.,+gnYB+VVJKWGGYKwwpwVufgBWr.g,pYWw.VYfYJpfK.GYuwwBWVgJ.fJ.9Kfjpu+u.pYW+.gY+YG+puwg,Jgff.,X+wpBpp+g.GJ.+KV>J+GuYgwWfGgKBY,++uBppNwf,,pY+w,BJVGgKfw,fKgwB+,V+gBWpGW,.Kf++uYpJJYfK,wYuwgpRV,JWfB.JKWyK+YgJu.WJ.u,KwK+uuJpfWWGD,gBwwWB.VYWYfV.WKGw+p.VuggWfKWK/du+pVGVfJYGG,VYKwGBKpwfu.g.fYpw/B.VpgKW.,wKJiVB+uGgIWwGu,gYfBBu=pKJpf,..KYw+BVpugGfJ.wKY6g+fu,gjfGGpK+Y.wYu+pgJJfG,WYwwGBgpBg,fU.BYJwY+.VJg+fWGJ,GYKuwuppgWBf,,WYBwGBWpKJ,f+.YKJ6,+KVwguWg.Y,,4G+BufpWJ.fY,+uBwWuVVKJ.fu.gKf0,ppVBgYWWG.,Y^u+VuJVpJKGW,u!4wfB,p}JgKw.WK.7YpgVVgWWGGKYg9uB7ufpYWOGB,pYWEgBYp.JVf..GKKwwBug,gffp.-KVxp+Gu.WVpWGVKwYGVBuwpVJgGu.,YuuKBpVWg.,u.+KpyJ+GpugwW,Gg,GY,+kuBgJWJf.,WY+wKBJVGgKfwYJKgwB+,VfgBWpGW,.uw+BuKpJJGfK,wYuBgupVKJWfB.WKWwu+Yg+JwWW.u,K(f+uuGpfWBVJ,B:HwWgpVYJBfV.YKGw+p.VuggWfYgK6ku+ppWgJWQG.,VY.wGu+pwJuKV.fYpwXB.VpJBW.,YKKHpBwuGggWw..,gYfGGuDp.JpG+..Yuw+ug&pgGfg.wYKyg+fu,gifWGpK+Y.wYu+pVJJ.G,fY+w,BgpBg,Gg.BNp+w+,VJg+WKGJ,KYKuwVypJWVf,,BYBwKBWpKp,f+,wKJ(.+KVwguGg.p,K .+BV+pWWwfYKuKBwJuJVKWGfu.gKfwYwKVBJuWW.Y,YA++VpJggJYGY,u}VwfV+p fBG+.fYfTYubVVWBWGGKGGnuBBufgGWvGV,pYWBWuipYJVfJ.GKYwwBfYYgffG.&B)Lp+fu.ggW+GWwBYGwKuwGwJgfG.,wxwYBgpgg.fB.+YWZJ+Gw,gwf+GgKJY,+puBgpquf,,.Y++WBJpWgKfwWKKgwB+,V,gBWJGWY.wg+BuYpJWufKKBYuwg.YV,JffB.JKW<,+Yg+JwWW.V,K<f+uVVpff,.J,uF<wWupVYJWfV.JJM}KBGVugWWfGKKTtBwBuWp.JYGB,VYJwGuwpwJufg.fYpwlBBVpgffgGYK+SVguGf,wY++v+gppgKGW.JYJff,BKYw+BVfJKgYYBfuWgWW,uYgwWuGK,WY.wYJp.KYGb.BqV,gWWGVGW+f<.BKpu.WJGJ,g=B+.BfuVJ,GB.WKGwW+YpJJff+.JKJwpBKKWwV+KVwgu,KwYVwVBJJGJ,YYVw+BgYp+VBGVKJwYuBBuGJpWV.V.WY.+KuJg+WWGGp.fWGw,uYgg,fW.WKJwuB,uGgpWK.u,fY.+fuZpJJ.Gp,+vuwJBVp.gYGw.GYVw...YGwwBuVg.,#f+wuYg+JJWY,+juwKuJpYWwVupuJgff.,w,wBBpVWg.WY.+KV+JBpuKgwWuGg,fPB+(VVg+JWfK.YYuwVBJVGgKfJ.uKg:f+YVxgVWp,WYwYY++uVpJJGfY,wwuB+BfV,JNfB.pY=v.uYpWgVWJGG,KPw+,ugJfWWGw,BYpwWB.puJ+,VggKGxKBwVJggW,G,KdBn+puWp.JYG+,VYJBGVppwJufg.fK,wpBBpJWpW..wK+}g+JuGpKWw.g,gYfw,u+pBJJfWK.Yfw+BVVJgGWK.+Ku+g+Ku,ghWBGp,W>BwYp+gWJJfG.KYwwuuQVfW,f..uKp=W+.uYgfWVKJJfYK+wuupGJfGk,DYB^BBWV.gYfB.VKJTG+KVwguWgGfYw>R+Buppf.QfY,+YVJwfW,uK+wABzuK+,Ww.V,,7K+Wuug0WWpJJK.k,wuJppBfpuWYff.pYw+Jg,fg.+,fQxB8m,+uW,GW,pYuYwYpVKWufY.gKJw.BAV+BfBVVfgfW,.5VwpYWVuYpYW+GV,JYGwKuwfuJfff.,Y6wBBpwWKK,Y.VKVsJ+GuKgwWuGg,fYKuKuBppJWwVB,pJgpfu.uK+.w+VVWgwf+G,,J;u+,Y.++VBpV,.Yf.KYJBBBKVfJV.WwwBWV,p,W,GV,fGJ+LVpgwJWff,KY+wuY.YWfBJV.GG,+gB,WGp+B+p}ggWfG,+Jg+W+f,G7su+uBpp.Juf,.YJVfY.fK,wsJB.VK.9VBBuGguWpu.guWwGu,gufgKG+.JYuw,.,YJw+BVVJ.JYY+JV+g*WK.+,uYJGg(KY.wYu+.KYp+w+YV,g,WGgf,Kw++fVGgpWwG,KpGV,G!.wKWVGBJgGwK.YgwBBKJW.KKKwf+KVVguf+.f.u6W+WufgRWgpp.KCuwYBgVJJ.f7.+fffg.gKfH,B2VBgpgWYGKSww+VuJpG,K+BuBpYJBff.WYgwYwWVKgKWY.VK.W.,BKwnu+gWg.KzJYuBWp,JVGV.BYWwwBfV.VVW,.fKKYK+KuppG+fV.pYW+GV+4gzJGf+,+YpwBBwu+J+fV.,..s1BuVWFWBWuKgwWuYfu+VKW+fu.WY,wwuwBBgWW..=K+f+.,Kg8f+,WB,GYg+GB,p+Wpff,fJ.Gp,wYuwgJB.GYBwg+gVgpYWuVBgGWJGG,KpYWWGu..Y++++fYpwWB.VYKYfp.fKG7KBwVuggWf.GK tp+pufp.JYG+,VwwwGu+pwJufg.fK,w uVVpg.W..wK+lg+JgwJyWwGg,g)ww,uwpBWWfW,9+fw+BVVJJ+WK.+Ku-ggYu,gBWBGp,WY.wYu+fWJWfK.KY+wuBgVfJYfG.uKfCWB+uYg+WV.fYBYK+puupfJff,,?YBwfBWVKgYfg.VKWZG+KpBguWWGf,,rF+BuppWWVfY,VYVwfBGVKJwfu.JKfwwBzVBgpWWG.Ywwg+Vu,pGW.Gw,uYgwfwgpHJpfp.KK.wwB+pg+GWG.+Kww(+gufp,f+.D,pYKw.u+p+JVfJ.G0JwwBpVggYW,.wKBUpuVu.gwW+GV,JYGwKuwJwJgf,.,YBwBBpVWg.Jf.+KWHJ+.uKgwWuGga&Y,+BuBpJJWfK.YwJK.BJVKgK.5.uKJ/fuwVygg,wGW,.YYuwuVpWJGfKKgYuwfBfp?J2fB.pKWYg+YVpgVWWGG,K:w+up,pfWZGP,VYpwGB.JVVWfV.GKG+,BwVVggW.G,KuBK+puWp.fKG+,pYJwGWBpwJgfg.fK,whBBVpG,W,.+K+lp+JuGpKfB.B,gYKw,uwpBJpfW,KYKw+BfVJgKWK.wKutg..u,g+WBGG,WY,wYp+gwJWf,.KYwwuuwVfJBwW.uKJiWVBuYgBWVGW,G9+V.uupgJf,u,CYuwpB,WggYf+.VBK(G+YVwguf,GfKR*Z+guppWJ..Y,KYpwGBGpwJwGp.gYPJpBwVpgp.JG.Ko}++puJpY.WGw,uYguWB,pwJBfp,YK.w+B+VfgJWGGKKwwf+guKp,WuGB,pYWB.uGpBJWfJ.YKK++BuVgfdW,.BKB;J+WuKpYWJGp,JYKwKWgpuJJff.,YlwggwVWg.WYwJKV!W+GuKJgWuGG,fNB+%uBppJWWg.YYgwVBGVGgKfw,pYpTfBBVvJBWpGW,.wwBwuVpYJGG+,wYuwgBfBgJHfg.pYsO.BwV+gGWWGGK+^wgfugpGJ,Gt,BYfVuB.VYJ+YG.JK.8KVwptgJWYG,Ku3B+YuWJ.,KGB,GYJw,BKpfJu.g,,K,wgBBVpgWfuGYR+wK+JVBpKWwGuKpYfu,VgpBJpfW,uKYwgBVVJWwWK.fKu&.+fVBgeGB.y,W9VwYuGpVWBfG,umBwuuvVf.Vf;.uKpww+.VBf,WVGJ,Gup+wuVpgJf.B,cY.wpuiV.gYf+.V}+ GBJVwguWgGf,,89+gupg+J.Gw,+YpwJBGgGJwf,.gY+-,B1VBgpW,G.KW6++VuJpGJKGwK.Yg+BB,p+JBfg.WY}wuB+VVgJKYGKK+^uVgYWp,W(GBKVYW+BBYp+wVfJ,uKKwfBuVggfW,.BKBw:+WuYpYW+GV,J;uwKu.puJ,ff.,YswBBKVWJVWY.,KVrW+GuKJGWu.q,fqg+NuBppWGGf.YY.wVuVVGgKfw.fuJ>GBJVZgBWpGf,.Q+++uV..J.fK,wYGwgBfV,J>.Y.pKWP.+YV+gVWJGGu+S++uugg+J,Gm,BYpGGB.pJJ+Gv.JK.-Kuw.YgJWfG,KYvB+KuWg.2fGB,VYJ+BBKpJJufgGgK,w^BBVggWW.GYKu*p+JuGpKWwGu,gYf+uuHpBJpfWuBKYw+BVVJgGWK.wKuw++fuKgjWuGp,WY.wYVKpVJJfG,xYwwVBgVfWBfR.BKp*G+.uYg+WV.Y,GYY+wuVpgJff,,TYVwpBWV.Jwf+.pKJjGBpVwguWgGG,,QQ+BuppWJ.fY,+UfwJBGVKJ+fJ.gKfZ,gKGuKBYKG,Kgd++VuJGBzBwKBVpVJWfp.uJufG.WK.cYgY.u,.6T+fK+QY+gufp,KBwJu+VKgYGB.gKWYVBfV;wuBuVggfW,.3KB;p+Wu,gBW+GV,JuJJ,fB,gJJG?.,YQwBgKGK,,dGBpu,#WBGuKgwWuYYuYpfJwGw,VY+wj+wpwJuf.fG,YwBBJKJa,+,VxgB,Y+.w,X?+WuVpJJGwVBppJgKWY.GYpfu,+KW0.+YfW,pSw+Y+ug4WpJf,+Ypw.BgYg+gB.VYJ+K.+,VYV+Wp.g,fYY+GuupuWuG,,YW8.*,VYJwGJV.pYJKWBWp+gKWgGYKgoBXwVwg,+WVupKWwGuuuVGJufK..YfwKBDVuwBBWVJgGWK+KuVgGW+uKgfWBGp,WuBJuGpGJK,w,uuVfggW.VGJGf=.BKpuYWVG,,p,G+wu,gwWVJg.YYBwWBuYuwGBWV.gYw++pVwg,fwV+g.WgGf,,VdW+GW,+A*wJuwpBwWuuVKJwfuwKVWgYWG.pKpYfwYuulB+WuJpGJKwWuWVKgYgVpRJBfp,GpWwqB+VVJgWGGKKw+uBGufp,W&GB,pSKw.BYpWJVfW.GKYwwBuVggffJ.yKVlp+Wu.pYW+,VKgYG+zuwppJgGV.,{+wgBpV,g.fg.+KVvJ+GpGgwWpGg,KY,++uBgJYWf.,+Y++gBJVGgKfw.YKgbK+,VwgBWpGWY.wV++uWpJJYfKKwYu+WBYV,JpfB,fKW;.+YV+JVWJGY,K%g+uuWpff,Gw,BYfwWu9VYJJfVKJ8J:KBVVugGWf.WKmyBBguWgOJYGg,VYJwGBKguJuff.fK,w9BJVpg,fgGYK+FVV.uGpYWw,uKYYG+VuMpfJpG+..Qw+wBVp+gGfw.wKu*g+f+ggFWGGpKBY.+wu+pGrwf.,pYw+GBgVGg,fw.BKfuu+.uYg+f.GJ,.YK+VgYpgJff,EuYBwgBWg.WgfB.,KJw++Kp+gufW.W,,9f+BuJpWJ.fY,+.YwJuBVKJGfu.WKfwBBwVBgKWWYb,Y*B+VuJpGW+K.,uYgwfgwpDJufpKWXuwvBfVVgYWG.YKwwpBpufggW7GV,pYWw.BYB.JVGR.GYJwwBpVgWffW.wKG;pBwu.gpW+.B,uYG+BuwWJJgfG.,YJwBBfWug.WY.+wWqJ+.uKWwf8GJK+Y,+guBpgJWGKG,Y+wKBJpVgKfw.uKgw.+,VWgBWgGW,KYYu+VwpWWufK,fYuwGBfpBJVfu.KKWuZ+YVBgVfwGGK+B.+uugpf.wG8,uYpwWV+VYJffV.JKG8KBwguswWf.VK)FG+pVwp.fYGW,Vi5wGuppwWgfgKfYgwaB.VpJ!W...K+7VuMuGggWwGp,gY.w,peppJpG+..YJw+uJVJgGWY.wK.AgB+u,gWWB,pKgY.+gu+p,JJGW.KYgg+BJp+g,,u.BKg^W+.uYgp,UGJ,GYKVVuupJJff,GGYBwgBWpBgYf+.VKJYp+KVwguWYGf,,kI+W.+pfJYfYKBYVwWBGp1JwfJj+Kft,BmpugpWfG.,YVu+VuWpGW?Gw,uYgwf+fp7JBfp.fK.<YB+VVgJWGGKKw1V+gufp,WwGW,pYWw.JY.BYg&,BWp+++BuVggfW,K!KuLp+Wu.pYW+GV,JwJwKu+puJgff.,YXwBuGVWgKWY.BKVZJ+GuKgJWuGJ,fYY+9upppJ,fY.YY+wVuVVGgYfwKuYB(GBBVsgJWpGf,.YYBJuVpYJGGO,wYuwgubp+JwfW.pYp0.BjV+g.WJGYwW*w+uugggJ,Gw,BYp+YB.pVJ+fJ.JKG=KBwBYggfwG,KZIB+puWp.gfG+,,YJ+)BKpwJufgp.K,wpBBVKgWW,GYKJJw+Wu.pKWpGu,JYfwYu?pg.wfW..KYwgBVVWgGWKwBKu2g+fuYgNWBGp,WKWwYu+pVJWfG.KYwwuBgVfg,fM,wKp:W+.V#ggWVGJ,GuGW}fJ..YpfK,fYBwpBWfBKuwpwJu,g,fuGf,gY.GGKp)<+Bup.<YG+wB,pJJJW..wKpfg.gKf*,B>VBgpWWG.KyvV+VuJpG,g+uwVYJwKB,p1JBYu+fVWguBBpBgJWGGK+gp,WVfKGBYW+VuWp,VYfg.GYwx...YpwwBuVg.+w++,uuguWJGV,BWBGG,JYGwKff,+Yf(YBYpuwuuuVWg.WY/Wufg.pYGBKuYgw.uJpwJwGw,fY.f,,uY+wVBJ.G,YEfBpVfTGBwVXgBWp5puGpwWVuppKJGfK,wB.g.WG.WYu:G.gKK}.+YV+KWYWw,ufpppwugpfJ,G=Y6YgwWB.VYJ+fV.JKG.+BwVuggWfG,KaUBBJGWp.JYG+K YJwGBKpwJpfg.GK,wwBBVpgWG.,BK+Ap+Ju.pKWBGuKWwuw,uBpBJWfW..KYw+BGVJg.WK.uKurW+fp,gwWBGg,WY,wYuKpVfJfK.KY+wuBJVfJgfS.BKGZW+,uYguWVGJ,GYKBfuupgJff,,FYVwpB,ppgYf+.V++ G+YVwWufYGGK+4l+guppKJ..wKwYVwYBGVYJwfu.gKfKgBdVJgpf)G.Kw)++G.wp.WBGwKpYgwGB,pwJBffCuK.)YB+pggJW.GKKVBY+gufp,.fGB,gYWB.VgpBJffJ.YKKwJBupWJWW,.gKBNK+Wu.pYW+JY,Jt>wKuJpuJWff,BpWwuBGVWWuWY.BKVcW+GV+f.WuGg,fwV+auuppJ,Kg.YY+wVg+VGgYfwKuYY1GB+V;ggWp.{,.wwBwuVpYJGGp,wYuwgBfBgJ4fJ.pY2r.BwV+WVfuG.KB2w+WugggJ,GKBeYpw,B.gKJ+fp.JYZ4KBVJYggWfG,YY/B+guWg*.fG+,VYJVVBKp+Jufg-KKKwVBBVggWW.GYYuGB+JVLpKWfGu,gYf+Y+KpBJGfW,gKYw+BVVJWwWK.gKucg+fu,g=WBgg,WdwwYuupVJYfG,++.wuBgVff.f%.uKp+WBJVlg.WV.w,Gku+wpugBJGGJ,DYgwpBYV.JVfg.pY+vGVJVwgVWg.V,,<uVKuppWJ.,W,+YpwJBYWWJwfu.gwg8,BwVBg..fG.KJU+V+uJp.JKGV,uYGVVB,p;JB,B.WK,SYBpW/gJWGGKw)cu+Jufp,,uGuK%YWw.BYp+JVGfgWKKwGBup:gfW,.QKWJ++fVwpYGgGV,WYG+^uwpJ.+ff.,YdBJBpVfg.GwGIKV5,+GVggwWuGgKHgp+wuJppGKf.,9Y+wpBJVYGWfw.uKgBY+,VwgBWfYu,.YY++gYpJJ.fKKBK+wgBYV,JKfB.pKW+.BGVBgfWJ.m,KSf+uugJnJ,Gp,BYpwWB.VYJ+Wa.JY+0KBVVuggWfG,J+QB+GuWgBJYGB,VYKWgBYpwJuGB.fKKwnBVVpg,,gGYK+:VBuuGpYWwGu.uYfw,ulpuJpfW..KYw+BVVJgGfw.wKudg+GgWg WBGpu+pfWVfB,wYwvYKKV+JpWK.YKfbVBwVf+WuYJCW+7W+gYG+Vp?pGJgG++DuupVgYfg.BWY2gB,VJg&Ww.V,WYGKB,KPp+BuppWYY+BuuVKJpf+pwJwfu.gKf3,BOVBGpfWG.,Yi++VGVp.JYGw,uYgwfB,psWGfp.GK.wkB+VVgJWG,+Kwhg+gufp,W)GB,pb.w.uwp+JgfJ.,KKBgVwVgg.W,.gKB7g+WuKpYWpYl,JYGwKuJpuJJff.,uVwBBJVWg.WY.+KV-JpYuYgBWuGJ,fY,+^VVgBJffY.YYBwVBJVGWMGW.uKGSfB(VAgBWpGWYWYY+BuVp.JGfY,wYu+pBfVKJrfV.pKW3.+YpBgVWfGG,K<w+uugpfJKGZ,uYpwGB.VYJ+fV..KG5YBwVuggWfG,K1w,+puWp.WcG+,VYJw.BKpwJufg,TK,w=BBVJgWW,.WK+;V+JW,KBYYzgB.p.WBfW.pKGff,pKYw+BVWYKkw+wuuWgWfaGp,BYJGgKKY.wYu+GJK,wY2wVVppW..JKwCVBVuYggWBWuKRYpwfugpBJVuVg+Jff,,hufgKf+,1KuYV+JVfg5WBGYgVWKGf,,}bJffG,,YBwuu7pGBgBGVKJwGpVKKf4KBNVWgpWWG.,YDY+VuWpGJYGw,pYg+fVgp1Jufp.KK.=YB+pggfWGGYKw f+gufp,WQGp,pYfw.uip+JgfJKGXWwwBVVggGW,.VKB%.uuu.g*W+GK,JY.wKu+puJGKV.,YEwBBYVWg,WY.p+OPJ+GuKJ+WuGJ,fY,BpuBpgJWf..YY+wVVJgBgYf+.uKJ5fB8VEJVfVGW,YYY+uuVpJJGfKfGYuwJBfp2JefV.pMW+uBRVBgVWWGGK+hw+uJGpGW<GL,BYpwWB.VY+ufV.WKGwwBwVVggWKYJK55B+ppgp.WPG+KgKpwGBYpwJffg.fK,wxuVVpgfW..EK+Cg+JpGgfW+GV,gYGw,uVpBf.JP..Y#w+u.VJg.WK.+KuiGpVu,g5WB.,,WY,wYupf JJfG.KlYwuBJVfg,Gp.BKg3W+.uYg+WV,JYBYY++uupJJfG4,rcV+VBWVYgYfu.VKJ3G+K+GguWJGfKDhL+VupJWfuGv,BYVwWBGp+Jwfu-GKGwRB9VugpWWG.,Yfu+VuWpGWwGw,VYgwf+fpbJBfp.fK.eYB+VpgJWGGKKwPJ+gufp,WBGB,pYWw.BYp+JVKJ..+3wwBuVgKBMGBpuug+W+GCJYYB+gBYgDJGfp,+YG.fY%+wBBff.JW..p^w3.+JVBWfKpYV,gu<g+JKfp,fY+wGB,w+gfG%.GKBnuBJu.pKVpVwgGWpGW,.pVWgGB.GYYwgu6p+wJpJV,J^fB+YVgJ+W;GK,KY.,GBYgBJGG.,gY+wKugwpB.p,gYYpwuKJw+u,VJguWYi<B+uKppWfG+,GY,,+BfgoJGfB.uYJE.+Kwp+.BBVpgWW.KKK+Lp+JuGpKWwGu,g)ww,u+pBJgfW..KYw+u.VJgKWK.wKu5g+fu,JbWBGJ,WYKwYuupVfKG-.KYBwuBKVfgKf&.pKpX,pguYg+WVGY,GYY+wuJf+Jff,,*YGwpBfV.gYYg.VKf G+KVwguWgGf+wxw+VuppfJ.fY,+eg.GBGpwJwfJ.gKfy,u+VpgpW,G.KHn++VuJpGW+Gw,VYgwKB,pwJBfp.,K.w<B+VggJWGGKKw+h+gu.p,WBGB,pYWwKJGpBJJfJ.GKKwwBuVg.BW,.uKB9p+Wu.pYW+.U,JyOwKuVpuJgff.,QWwBB.VWg.WY.+KVyJBGuKgpWuG,,fY,+RuBgKJWf,.YY+wVBfVGgKfJ.uKW f+,V7gBWpGWKBYY+VuVpWJGfK,wvp+pBfpwJ<fV.pKW:.uwpBgVW,GG,Y=w+uugpfW,Gs,VYpwKB.paJ+fV,uKGwQBwVuggWfG,KSwf+puGp.WwG+,VYJwGu,pwJufg.GK,w0BBVggfW.GYK+PV+JuGpKWVGu,gYfw,+GpBJJfW..KYw+BVVJppWK.uKuHJ+fu,g6WBY,,fYKwYuVpVJJfG.K,KwuBgVfgKf9.BKptG+.uYg+WVGJ,GYK+wu.pgJff,,pYuwpBWV.J+f+.pKJ>G+KVVfYWgGf,,0B+BugpWW!Kf,+YVwJu+VKJ+fu.g&c*,BBVBgpWWG.,Y?+wruJpYJKG+,uYgwfB,uGJBfG.WKK0YB+VVgJB,GKKu9u+.ufpKWEGB.BYWw.BYpBJVfJ.GYwwwBuVggff).MKB!p+.u.pYW+GV,JYGwKuwpVJJff.,YNpGBgVfg.WY.+BK+B+GuKgwWuw1,fxa+5uBppJWf..YhYwVB.VGgYfw.uKgQfu)VMgpWpGG,.1w++uVJuJGG+,wYpwgBfV,JXG,.pKK2.B+V+gVWJ.wYwMw+fugg+J,Gw,BYgwWuHWfJ+fV.JYBHKB+VuWgfpGKKp*B+WuWpKJYGJg,YJ++BKp.JufJ.fKYwxBgWwgWW.GYK,yV+WuGJKW,GV,KYf+0udppJpGG,GKYwfBVVWgGWK.wKuB++GVpgkWuGp,WY.wYuppVW+fG,+YwwuBgp.WffI.KKpMf+.uYg+WV.u,Gn++wuYpgJGf,,7YKwpB,V.Juf+.VKJ8G+YVwgWWgGf,,cy+Bu..fJ,GV,+YVwJB.VKJgfu.guK<KB(VBgJWWG.,Yc+JWuWpGJKGu,uYgwfB,J.JBfp.WK,RYB+VVgJ.gGKKwSu+fufp,WNGB#+YWw.BYpuJVfJ.GKKgVBVVggffw. KBrp+WKKpYWpGV,KYGwYuwpuguff.,YlwuBpVWg.f+.BKV0J+GVwgwWuGg,GYK+)uBppKwfY.YY+wVBJVGgKfw.uKJ?G+,V6gBKY.,,.YY++uVgKJGfK,wYuwgBfV,JhGW.pKfM.B8V+gVWJGGYuzw+pugp.J,Ge,BY.wfB.pwJ+fG.JK.qKBwVugG,VG,KF8B+.uWp,JYGpw%YJwGBKpWJufJ.fK,+pBBVJgWWYGYK+lVuJVgpYWBGu,WYfwKu)pBW.fW.YKYwpBVVJgGfu.+Kuvf+fVWgEWuGp,WY.+Bg,pVJJfG,fYwwVBgVKGJfe.BKpwg+.Vhg+WV.K,G<w+wugpgJff,YiYYwgB.V.J+f+.JKJw,B,VwgJWgG.,,:#+Bup.KJ.Gu,+YVwJBGVKJwfV.gYo},BVVBgpWW.KYp{++.uJp,JKGw,uYgBgB,pSJBf,.WK,tYB+pfgJWGGKK+vu+gufp,W0GB,pYWw.BYp+JVff.GKKwwBuuugfW,.ZKuHp+Wu.pYgYGV,JYGwYuwpuJgff.,YNwBBppug.WY.+Kpwf+GuKgwK8+.BGVtJYGJ,JK.www+pwJBf.G.KgrY+WVWHGuGVrgBWp++uYgwWwfg,uYf+puuVgJWfB.,Yu.B+YV.+.W,.wKWGJ+ou.p+JpGB.YYw,K,u hwWB.VY.VwuBfV!pwWu.pK:ifBwKwDG+puWp.,J+)uJp.g.f..uKWfJ,uK,w2BBfW,.8K+JV+gWpY.A,gYVGg,gYfw,uopBJpfWo.Y^uNBVVJgGog+YVfpJWpGp,uGBwguGpBWufY.fYpwYKKwuuVVg.KK..1Kf+VB2u.ggGG{B+GuYVYJYfg..ffw+uJpBgGW.,RKutpKKKGvG+KVwguWgGfKVu6+uVgpWJ.fYBWVfJ.fB.gKV>J+.VJg,f+.+KpYK+KVBgG+pJ<pGJKGwB,pVWqWK..K.TfKWu,JwWW.fKV1n+.VV+uufgGJ,Zu++Yp+4VGppJ+f,YuuAuYpufB..K./j+V+pgVWg.>,hYG+BB,p,BKfp,.YgAYBEpugJWfJ+gYWY.+KV0J+GuKgwWuKB,fY,+NuB,BJff,.YY+wVBJVGgKfK.uKWSf+KV4gBWpGWK.YY+VuVpJJGfK,wYuwKBfVYJ-fV.pKGT.VVVggVWfGGKVOw+VugpKJ,GueKYpwWB.ppJ+fp.JKGpBBwVpggWfG,K%}B+pJ,p,WwG+,pYJwGBKgBJYfJ.,K,wgBBVpgWfK.gK+}W+JVwpKWwGu,gE6w,uwpBJffW.,KYw+BKVJg.WK.wKuqg+fu,JVWBGJ,WYKwYu+pVJJGV.KYuwuBgVfg,fj,VYJ6WB;uYgBWVGJ,GYKYGuupWJfGw,)YVwpuGpGgYfV.VY+{G+KVwJpfpGfKwx/+WuppWJ.fYguYVwWBGp+JwfV.gKf+BB/VugpWWG.,Y?+BgBppGWHGw,,YgwfB,g+W+fp..K.wwB+VVgJf,.,KwvJ+gV+p,WcGB,pWGw.u4p+JWfJ..KKwwufVggGW,.+KB0p+Wu.VfW+Gg,JYGwKuwpuWWGW.,YBwBBWVWg.WY.+GYnJ+.uKguWuGW,f<BWWuupgJW.G.YYBwVBWVGJ+,..uKg)fu.VvguWpG,wgYY++uVJWJGfY,wYuVGBGVKJHfu.pKWO.+YfugVWWGGK2yw+uugg.gGG=,uYp++B.VYJ+fVGBKGw9BwVuggWfG,Y+w++pu.p.WuG+,VYJwGwJpwJVfg.,K,w+BBVppBW..wK+Op+JuGpKGgJG,gY.w,pWpBJgfW,gKYwpgHVJgGWKKfKucJ+fu,.VWBGJ,WY.wYu+pVJJKY.YYBwuBJVfg,f&.BBJxW+KuYguWVGJ,GYKFKuupgJffK,8YBwpBfV.gYf+.VYV<G+KVwgVfBGf,,P{JfGJ,Jxww,BpVuJGfgGYYuM..JYud,B6VBG.v++KuuVVJfGfKwYB+B,VYKwfB,pk,VXGBpVGJBWg.JgWfuGKKwtugGGW..KBwJuJpYJwGwpBWpfJ.GKKpBWW.gKp;p+BuugfJKG2.+Zp+uufV.JVfppVWwff.,YEVfWG.,.YmuBuVGgwJKGBguWuGg,fY,+IYGY+.Wf,,BY+wVBJ.J,YwV+.KJwB+,V!gB,W+wB,gwJBfJ,.Y(+4,+YJwgBfV,KJwJ+,uKT,BgV+gVWJ*BVBpKJVGV,WYpwu,uPpwWB.VY.fwfBVu.g.f8G,,GK.+.uYgggpff,K5BGBKpYJwGBKfWKVwV+KVWgVW+WYKglVBBuGppW.G=.,Kuh,,JYfw,usW;Jpff..KYw+BVVJWGfp.wKV1g+Gu,gpWB.J,.Y.++u+pfJJfG.KYww.BgVGg,fB.BKJnWu.pWg+WpGJ,.YK+uuuJgJGf,,wYBwgBWp8gY.+,EKJm.+KV+gufuGfY,wJ+uugpWJ,fY,uYVwJ+pVKJufu.gKf(,BeVB.gWW.S,YNB+VuJpGJKGW,uY.wfBKpAJBfpKWYJ?YBgVVg,WG.gKw0uBKufgBWdGu,pYWw.VYgYJVfK.GYuwwB,VgWffg.-KW)p+Yu.gGW+GVKgYG+VuwpVJgff.,woBwBpp/g.fp.+KKEJuGV4gwWGGgKwY,+GuBgJJYf.,gY+w.BJVGgKGB,VKgwB+,VwgBWpGW,.wg++uppJWufK,+YuwgpgV,JwfB.pKWq.+Yg+gJWJG.,K-++uu,pfWY.f,BYWwWuwVYJ+fV.JKK2KB+VugfWfGYKP+B+GuWp,JYGB,VYGwGVKp,JufJ.fKKwOBgVpWWfJGYKBSV+WuGgGWw,uKYYGwKu5puJpfG..KYY,BVVGgGWK.wKu0g+fWKg%WgGp,fY.wYu+pVf+fG,BYwwVBgVfg,.h.pKpQK+.Vug+WKGJ,GYY+wufpgJGf,,EYBBpVwV.JVf+.GKJwu+KgwJVWg.&,,4p+BV+pWJ..W,+Y.wJB.VKJwfuKgYphKBgVBg,WW.V,Y++fJuJg+JKGJ,uZ+wfuYguJBfK.WYu^YB+VVWJGJGKKW=u+YufggWL.V,,YW+VBYpBJVfJ.GKK+wBuVJgffp.yKuAp+WVBpYWBGV,JYGwKuwJuf+ff.KYkwuBpVYg.Gw{JKV2G+GVBgwWuGg,fru+auuppJ.f.,wY+BVuKVGgYfw.VKgT,+,gLgpWpGf,.Nj++uWpJfG.p,wYVwgBGV,J,fBKp=mx.BoV+gpWJG,,Krw+fugp,J,G8,BYpwWB.G;J+fW.JK.*KBwVuggGwG,KVHB+guWp.JY,+,pYJ+=BKppJuGx.fK,++BBV.gWW,GYK+(VuJpBpKWgGu,,Yf+puvJBJYfW,+KYwJBVpugGWK,BKuaK+fuKglWBGpYWwfwYuWpVJYfG,gYwBuupVfJufr.fKpwu+.pwJ>WV.>,G1V+wuupgW..+,tY.wpBfV.gYf+.VY5cG+YVwg,WgGG,,okVbuppfJ.fY,+YVwJVGp,JwfV.gKG*,BpVBJJfGG.K+<++fuJpGJKGwKJYgwGB,pBJBfJ.W .+gB+VpgJW.GKKuxuugVKp,WwGB,gYW+tBYJ+fwfJ..KKw+BupugfG,,JKu9g+Wu,pYWuGV,JKpwKuupuJgff.,YTwBJgVWJdWY.BKVRJ+GuKgBWuG.,fYK+QuBppfWGf.YYgwVB,VGJgfw.uY16fBBVPguWpGW,.wY+puVpKJGGu,wY,wgVfpYJ}fW.pKYe.BGV+gVWKGGKVCw+VugpfJ,,*,YYg+kB.ppJ+fK.J?GWwBwVGggfwG,KG)BBJuYp.WgG+,,YJwGBKJwJ.fg,+K,wJBBp)gWfK,VK+*K+Ju.pKWwGu,gPgw,uwpBJYfW.,KYw+u+VJg.WK.wKu&g+fp,J.WBGg,WY,wYuJpVWfYw.KYuwuB.Vfg,f0.BYKvW+,uYgVWVGf,GwK+WuupJJffK,PYpwpVWpggYfB.VKWPGB+VwWuWKGf,KTy+uupgpJ..Y,uYVwWBGVYJwfp.gKfwJBQVpgpWWG.,Yt++VWWpGW+Gw,VYgwfB,p6W+fp.KK.w(B+VVgJGG.uKwhW+guYp,WWGB,peJw.uVp+JpfJ.GKKBwVwVgJ;W,.pKBUY+Wp.JuW+GG,JcwwKu,puJgG+.,YgwBBgVWg.WYK+MB-JB+uKgJWu.U,fw,++uBp,JWGB.YY,wVufgugKfW.uKK{f+,V*JVfGGWKVYY+BuVpJJGfKKJYuwJBfppJifu.pKWBW+YVBgVWJGG,K5wuuVcpfJKG2,uYpwYB.gwJYfV.GKGwBBwVuggWf,pK=Uu+pu.p.WwG+YVtwwGBYpwJVfg.,K,B7uWVpgfW..UK+nW+JpGJGWwGV,gYGw,u,pBfp.w.,YHw+BpVJg,WK.w.Y0g+,u,gvWBGp,WY.gyu+pWJJf..KYwwuBgpgg,fV.BKgxW+.uYW+GwGJK/YK+puugLJff,,gYBw.BWV,gYf+.V<Jw,+KVgguW,GfKp/juBp pWW+fY,JYV+uBGVKJpfu.KKf(KB VBgpGW.JK?FW+VuYpGWgGwYugfwfuup Jffp,uK.+wBfVVJNWG.pKwxu+gpfgBW}GG,p0ww.uWp+WgGB.GYgwwBVVggfW,.:KKdp+fu.gJW+Gp,JYG+VuwpVJgff.,Y;wBVppVg.fX.+KpLJBwuKJB,fGg,,Y,+VuBppJWf.,pY+wpBJVKgKfB.u#gwg+,VwgBWgGW,YYYu+VGpJJ.fK,+YuwGBfg,JWfB.gKW0,+YVYgVGJGK,KU++uuJpfJYGN,B;fwWBYVYJ+fV.JKG1KJ+VugGWfGKKzCB+puWJJJYGg,VYWwGBKpwfuGX.fY+woBJVpJ+W.GYKYjV+KuGpYWwGu,gwf+gu%pWJpfY..YJw+VVVGgGfu.wKf%gBpu,gqWuGpKLY.+9u+pVJJ.GK.YwwGBgpwg,fW.B#pw,+.Vpg+W.GJKpYKBBVupgW+f,,gYBwpBWpKWwf+.KKJN.+KVwguWg.B,,Sw+BuYpWJ,fY,+++wJB.VKJwfu.gKf+,B.VBggWWG,,Y}J+VVfgWJKGu,uY.wfB,pvJBGf.WK,5YBVVVgfWG,KKYZu+JufpKWnGp,pwW++BYpBJVfW.GY+wwVug+gfWK.=Ku(pBpu.JYffGp,WYGwYuwppJgffGJY)wpBpVWg.WY.+KVVW+GV+gwWVGg,fY,+iuVppJKf.,TY+wVBJgGWufw.WKgQY+,VWgBWp.u,.kV++uppJJGfKYw2YwguMV,JpfB.YKW+.ugV+gGWJ.w,KA,+uugg.J,Gg,BYgwWB.VYf+Gw.WY+mKBJVuJ/Wf,,pB3B+,uWgBJYG,,VofBuBKpWJufY.fK,w)VBVfgWfuGYKflVB+uGJAfgGuK8YfwKuspBJpfW,pKYwBBVpwgGWY.wKuTW+fuKgsWBGp,WY.BYVGpVJWfG.YYwwfBgp..Bfi.pKp#K+.uYg+WV..,GYY+wugpgJ.f,YydBwpBfV.J*f+.JKJ+GBVVwgVWgGG,,3u+BpppGJ.GD,+YpwJuJVKfwfJ.gKGz,BwVBgJWWG.Yg&++JuJpGJKGw,uYgpGB,puJBfg.WK.eYB+pVgJf=GKK+zu+gufJ,fGGB,GYW+wBYpGJVfJ,fKKwgBuVJgfW,.5-B+q+WV+pYWJGVKwYGBKu,puJ,ff,BYtwYBpVWJwWY.WKV8W+GuKgwGu,V,ftu+yufppW+f.KY;gwVBYVGJVfw.YKgw.BVVogGWp.4,.YY++VgJuJGGg,wYVwgBfV,J9ff.pKfM.BJV+gpWJGG%G6w+VugpfJ,GX,Bwp+JB.p*J+fp.JYwxKuBpYggW,G,KVlB+puWp.WVG+,pYJwKBKpBJu.g,BK,wwBBVggWWYGYk+wV+Ju.pKW+Gu,GYfB,uppBJgfW.,KYwYBVgJWBWY.+Ku!J+fuYgqWBfw,WYYwYu+pVJJfG.Ku+wuBGVfgKf7.BKpSW+YuYggWVGW,GYK+wpuJ}JfG+,DYJwpu+V.gYGw.VKK{G+YVwguWg,fKGSv+WuppYJ.GJ,+wV+BBGpuJwff.gYpZ,BCVugpf#G.KEH++VuJJGWfG+,GYg+wB,pWJB.pu.K.wpB+V.gJfpGKYBwu+gV+p,WJGB,pYWB.u+p+J,fJ,BKKwGBupWJBW,.WKBmg+Wu.pYW+G,,JY.wKufpuJJff.,YVwBBgVWg.WY.+KV+J+KuKg+WuGJ,f:B+cVVf.JWfY.YYgwVBJVGgKfW.uKJXfB4VUgVWp,WKKYY+BuVpWJGGw,wwu+wBfVKJ>fu.pK,8.uYV,gVWWGG,YUwBwugJffVG5,uYpwfB.pwJ+fV,+KGwwBwVuggWfG,KqVu+pu,p.W&G+,VYJwGuVpwJWfg.GK,wTBBgpJJW..uK+Of+JVupKWw.B,g&cw,uwpBJpfWK.!Bw+BGVJJwWK.fKu+guBu,gpWBG.,W;JwYu+g,JJG+.KY+wuBgVfW,GK.BK,OWBBuYgGWV,JK.YK+JuupKJfGJ,}6VwWBWpugYfW.VKJtGu;V+gufiGf,KkL+BuppWW,fY,BYV+wBGVYJwfuYuKfiKBLVBgpWWG.YYwK+VuWpGJYGw,fYg+.uGp/Jpfp.KK.dYB+VVJYWGGYKwOg+gu.p,G9..,pYfw.uZp+JJfJKGYJwwBVVggGW,.uKB+pu8u.gsW+Gp,J8JwKpwg.JJfG.,YwwBBJVWg.Jf.+KJjJ+GuKgwWuGg+GY,+uuBpgJWf..YY+wgBJptgKf+.uKghfu,pggBWGGWKwYY+GuVpJWYfK,gYuwJBfV,J?.B.fKWw++YVJgVfwGGYKwK+uu,pfWBGa,YYpwWu,VYJWfV.WKGSKBwguJBWG.uKS1f+pV+p.fYBV,VYYwGuVpwJYfg,.E7w7BGVpJwW.GYK++VBxuGgpWwG.,g=uw,V+gJJpG+..Y1w+BVVJgGfJ.wKV#gBBu,gwWBGpKBY.+Mu+pVJJfG.Kww+uBgVGg,fw.BK.cWBKWVg+WJGJKHYK+wuupgWGf,,wYBwWBWVKgY.+,,KJR.+KV+guWfGfY,oY+BugpWJ,fY,pYVBJuwVKJ+fu.JKfwfB gBgJWWG,,YqB+VufpGJKGf,uYfwfB,pbJBfp.WB,RYBpVVgWWGGKKwhuBwufg+WxGu,pYWw.VYgGJVf,.GYBwwB,VggffY.sKWyp+fu.pYW+,VKWYG+uuwpfJgGB.,wOwpBpVYg.fV.+Yw1J+GpJgwWGGg,GY,+8uBJpfgf.,pY+w.BJpugK.w.JKgww+,VggBfwGWKKwG++u,pJW+fK,wYu+WufV,JWfB.gKWc.+YV+JuWJG.,Kyf+uuJpfJ,,,,BYgwWB.VYJ+fVKJYuZKB+VugJWf.BK7wVBBuWpYJYGg,VYJwGBKg.JufJ.fYOwCBVVpWWfgGYKB/V+WuGgwWw,u,KYfwKuPpuJpf,..EY+WBVVWgGWY.wYwPgufpVgwWuGp,fY.+wu+pVgBfG,wYwwuBgVfg,f<wuKp^,+.Vqg+WVGJ,Gwf+wuWpgJGf,,EYBBpu=V.Juf+.fKJwu+KVwJMWg.%,,vw+BuppWf.Gp,+YGwJuwVKJffuKg)V!,BpVBg.WW.J,Y5+BuuJg+JKG+,uYgwfV,p.Juf,.WYBSYBGVVWJwKGKKJ5u+KufgJW9.VKKYW+uBYpfJVfJ.G8KwgBuVYgffV.&K,(pBGVppYWGGV,WYGwKuwpuWwff.KYmw.BpVfg.WY,,KV:W+GuKgwWuGgYfdJ+nuuppJff.,VY++ggKVGJwfw.WKgRf+,VmJYWpGf,.;+++ugpJfG.?,wYVwgBGV,JBfBKper#.BxV+gpWJGY,K+w+pugpGJ,Gw,B1BwWV.ppJ+fp.JK.HKBBVuggfWG,KB1B+puWp.JYG++pYJwYBKp+Jufg.fK,wVBBVGgWW,GYK+1VuJuYpKWpGu,.Yf+puCpBJJfW,+KYwBBVVJgGGK.uKu2,+fVBgvW.GpYWlGwYuJpVJKfG,fYwwuBGVfJuf1.uKpmW+.pYWAWVGY,GOV+wu,pgfffK,/YfwpuNV.Jff+,gYpkGBpVwgGWgGf,,w+BVupg+J.G2,+YVwJBGpfJwfV.gYB!,BwVBgp.pG.K8I++VuJpGJK,w,KYgwGB,pwJBf..WYKwWB+VJgJf;GKKw!u+gu,p,WwGB,WYWwKBYJ+WVfJ..KKw+BuVfgfG,.+KB-g+Wu,pYWpGVYJwgwKu+puJJff,fYzBBuKVfg,WY.BKVHf+GuKV.WuGf,fY,+euBppJWY,.YYpwVBWVGgKfw.uYu8fB+VEguWpGW,.wY+GuVp,JGGB,wY,wgBfppJdfW.pKfr.+YV+WVfJGGKu?w+fuggBJ,,C,.YpwYB.pVJ+Gw.JKG+VBwVGggWGG,KO-BupWgp.WpG+,.YJ+uBKJwWgfg,wK,wgBBpwgWfK..K+1,+JVBpKWwGuYgY.w,uJpBJKfW,pKY+uuKVJJuWK.+Ku/g+fu,JgWBGg,WeVwYuBpVJJfK.KYwwuBJVfg,f4.uKpDW+.uYgGWVGJ,Gvw+wuupgJff,,7YBVpBfp+gYf+.VVGgYf?GfK+YKGGOJ&0+Bup,+Yf+VBBpwJwWYgKK+wp+KVYgfWV.wKfGW,Yw+++WWGgJGGVYsYGwgu+GB.wKYwG+K^.guff.V,,YKB+uppJVSuGWWW%GB,pp+JfGV.BYwww+YeKg+fpGKKY>f+VVwgfuWpYfwG++WugwGuVJ;JGfg,+u2puJVWY.gKBGY+gV,gJWZGwKVYWwG>BYK+BuBppJWwfBJVKwpuDVGgKfwe,VVg,fwGwKwYWwK,,if++uVpJYWw,uVwugJVf,BKwmY+Yu,=,V,V+gVWJ+uu.ggJVGB,BYw,PBupJJPGw..KgwBB.5GBwp+guKG4W,,jgu+u,pWWu,J+!uJp.g.f..uKW.g+YpVJ7WJGWK,Xw+B%G}pVpuGpKWww,uVg7gKf...Kf.W+,pwgWff.VK;9.BV?u+fV.p,Kub+,plyBGupp+J,YJw,B,pwgWfW.KYp.5+JVKgWWwG+KpYfw.zuBW+wuupgJf,.,kYpwpBWV.gYf+.VvVTGB+VwgVWgGf,,C9+,uppKJ.fY,+YVwJBGVYJwfJ.gK.o,B+VBW.fuG.KB^++.uJp.JKGg,uYGVVB,pZJBf,.WK,*YBpW#gJWGGKKWvu+Jufp,KVGB,fYWw.BYp+JVfJAYKYwVBuVJgfW,.>YVGW+WVwpYWfGV,JYGBSVWpuJ,ff.KY^wBBpVWJfWY.VKV)K+GuYgwWu..,fOA+EuBppJWf..YUKwVB.VGJlfw.uKgyfwJV6gJWpGf,.YY++uVJKJGG+,wYpwgB.V,fpgf.pK,=.u+V+gpWJG,,K}VVYugpfJ,.B,BYgwWB.GuJ+fW.JKG4KBwVugg,KGKKu:B+guWp.JY.uJJYJ+)BKpVJufg.fYYwuBBV.gWW,GYK+dV+JpVpKWuGu,,YfwKuopBWwfW.YKYw+BVVJgGWK,pKuCG+fuYgbWBGp,WKgwYugpVJffG.KYwwuV,VfJwf5.VKp-G+.gV+JWVG.,Gw.+wuVpgJYf,,u+KwpBWV.W,f+.pKJeGJBVwgJWgGf,,m4+Bupf,J,GB,+YpwJBGVKWBVg.gKY-,BBVBgpWW.KKp<++GuJp.JKGw,uYg+YB,pBJBf..WK,)YB+ppgJWKGKKuIu+gufp,W+GB,fYW+6BYp+JVffwgKYwpBuVJgfW,.iKBp,+WV+pYW+GV,JYGwKVfpuJKff.KY!wBBpVWJKWY.VKVxY+GV+gwWu.Y,fl++ruBppJWf..YYYwVBKVGJBfw.uKgzfufVcgfWpGY,.YY++uVgGJGGp,wYJwgBfV,J}fu.pY*D.BwV+ggWJ.,Kg!w+.uggwJ,GL,BYpwYB.pVJ+f,.JK,7KBwg+gJf3G,KpdB+puWgKWKG+,.YJ+uBKpwJuGW,WK,wJBBVggWW.GYK+fg+JVApKWWGu,JYfw,VppBJGfW,BKYw+BVVK,.WY.gKu/g+fuKg5WpGp,W+JwYu+pVJJfG.KYwwupBVfg,fj.uKp#W+.uYWKWVGJ,GaS+wuupgJfpK,oYJwpBGV.JVf+.VBf GBBVwgpWgGf,,P4wQuppWJ.Gd,+YVwJBKp%Jwfu.gKfX,BNVBgGWWG.,YS+BGuJpGJKGw,uYgwfB,gpJBfg.WK,;YB+VVgJGwGKKBqu+Wufp,W;GBKuYfw.BYpBJVff.GKKYKBuVggfWK.zKBEp+Wu.pYW+GV,JYGwKuwpJJgff.,YSYKBpVGg.WY.+KV*J+GBWgwWgGg,GY,+FuBpp,Qf,,wY+wJBJVGgKfwGwKgnf+,VwgBWpGW,KYY++uVpJJGfK,wYuwfBfV,JxfB,.KW4.+YV+gVWJGG,KVB+uugpfJYGX,BYpwW+WVYJ+fV.WKGUKBwVuggWfG,K^+,+puWp.W8Gp,VYJwGf+.fYgwG.GY9wbBBVpKGY,+BKV4V+JuGpKWwGu-GBfwKuJpBJpfWwPpuJuWp..KuD,+YKV^.+fu,gFKgwYu,pJJuuBp.JJfG.KuugWfGW,K.w++JKgT,+.uYg+KWw,VBg++uuupgJff,,cgBp.YWV,Jgf+.VKJVBfBGK,VCV+Wuppu+uufpWJ.fYBYpug.f7VYJpfu.gKfuKW+.+K.YKG,KJ{++VuJfKYpw+upVJg,Gw.VYVfg,BK.4YB+fJK.Y.B7VVpWWWWwK+YWGu,fYWw.BY.YKpw.BBKYwJBuVggftu+VVgp,JKGfKVWB.V,JYGwKJW,WYu#GBGVYg.WffGKG7KBpBVpWW,.+guWuGg,fY,+HuBpf.Wf,,+Y+wVBJ.WKBwJ.VK.<f+,V4G.:uwYuG+r+BVBpJJGfKwJVWJGJg..KueJB++.V+fwGBK+Y,G.Kftw+uug.GX++uu+V.gffK..KYwu+fVKwwBwVuggWfG,KE#B+pu.p.JYG+,VYJ,GflfwJVfJ.fK,wefWVJgWW,.VK+sV+JJKGu2BwVuuVYwKuppBJpfWwuVugBfw..KBWY.WKuhg+fW,,YapwYu,pVJKGrppWwfG.KYwJwWJ.wKGxWBgVGp,WwVDgJWVGJ,GBYJYfG,BKY+),wYYwpBWV.,p5B+KV.VwW,.BGgYY+BuWpu+uufpWJ.fYupVpJGfpVYJVfu.gKfVpWB.+KuWf.x,Yv++VGY..Yg+V,uYJuJB,pcJBYW+KVJguWV.WWJ=Y+pup+uJJGYKwYYwWBgpGJWVY.YYu6.B<^Kgff+ggKKNV+VcBpfWGGG,YYp+uuYpWBKf+.pYp+sB+Yw+wBpVWg.KV+GVBp.gwGgKBrg+Gw,pVJWfY.fJff..YY+wVBWp+gKfw.uu,gBWGGu.qLVwG,,>Y++uVpJ,KwBBYVJpVfW,wKW(W+Yu.p,fBGGKu3pGK,Krw+uugpfo,}pwBYgwKB.VYJ+Kg+,Vgg,fJpVgJWfG,Y+Yw+puWp.fYG+,VYJBGufp+Jufg.fK,B+BBVpJGW.GYK+Zp+Ju,pKWg+,,JYfw,uppBJgfW.,KYwpg}VJgGWK.gKuqJ+fVwfGWBGp,W=.+auBpVWfWW.KYwwuupVfg,fs.BYJ4W+.uYgBWVGf,GwK+,uVpgJff,,A(JwpBYV,gYf+.VKJLG+YVwguWgGKwJ}?+BuppWJ.GL,+YV+KBGVKJwfu.gKf5,V2VYggWWG.,Yi++KuJpGfuGw,VYgwfB,pPJB.pKwK,wCB+VpgJGfGKYBwB+gu,p,f7GB,pYWw.wWp+JpfJ.KKKwBBupWpJW,.+KBwV+Wu.pYW+.g,JY,wKu+puJWffK,Y.wuBJVWgKWY,gKV+KKwuKgBWu.K,fYK+5V.ppJ,Kg.YY+wVuYVGgYfw.u,uif+,VmguWpGW,.www;uVpfJG,V,wYuwgBfpYJ5fV.pKfH.BwV+gVfKGGKw5w+VugpfJ,,pJWYpw.B.W1J+fp.J^K7KBVJYggWfG,wwRB+guWgKg,G+,JYJBGBKpwJu.g,pKKwBBBVWgWGKGYK+wg+JuKpKW+Gu,WYf+BuwpBJWfW,JYjwBBVVJgGf+Y.Ku g+fVWgwWuGpKGKfwYuVpVfJfG.KYwBuf.VGJ9f?.pKp+G+.uYgBWVGG,GYY+wuVpgW..w,rYpwpuJV.gYf+.VYKrGBwVwgVWgG.,,+i+.upp.J.G+,+PfwJpwp.Jwfg.gwu2,BwVBJYWW.Uwf2++VuJWVJKG+,uYghgB,p<JBfg.WK.9YuuuBgJWKGKTJHu+gufp,f+GB,WYWw,BYpuJV.Kf+KKwuBugBgfWK.F5pIp+,JgpYW+GVYuYGwYuwpJ.+ff.,YNwYBgVfg.fBY,KVkJ+GpfgwWVGg,KBJ+xuBppWVf,,4Y+wVuKVGJwfw.pKgqf+,VZJVWpG.,.i#++ugpJWw+g,+Ygwgg4V,JwfB.gKWwlpfV+gVWJYw,Kk++uuGfVJ,Gd,Bd+wfB,VYWuWB.JKKIKVwVuggWf,,s,ju+WuWpYJY,u,VYJBVBKpuJufJ.fKKw}uVVJgWWYGYYwFV+JuGpKf,Gu,fYfwKu)pVJp.W,KKYwVBVVGgGGB.w{f=Y+fV g ,+Gp,fY.BJu+pW.BfG.KYwVBBgVGg,fuYKKpAW+.JYg+WpGJ,GKG+wuupgJGf,,FYBw.G+V,Jwf+3JKJ#.+KV+guWGYV,,R=+BJWpWJ,fY,pBLwJBGVKJ,fV.JKf+,uJVugWWWGK,Y+g+VVfgfJKGp,u0EwfB,p>JBJi.WKYvYBgVVgfWGKuGJiu+fufgWWwGu,pw.w.uBW,JVfJ.GYfw+BVVgWfGV.wKp#p+Gu.WuW+.gKgYG+Buwp,Jgff.,Y>K,BpV.g.fu.+Kg JuGVfg+WgGg,,Y,BGuBguJVf.KVY++wBWV.gKfu.uKGuV+,V4gBf+Gf,,YYu+V,pWJKfK,BYuBpBfpYV,fB.GKWwV+YV+gVWJ,V,K<u+uu.pfJYGk,BqYwWuhVYJVfV.JKG+KBgVugGWf.wK%tY+ppWJWJYGg,VY.wGV,pwWpGp.fYuw?uBVpgWW.GYKW%V+,uGgVWwGp,gS.BVu=pWJpGB..KYw+VGpfgGfu.wBKFg+Gu,gGWBGfwuY.wYu+GYJJf..KYVuYBgVfg,up.BKg;WBKB,g+WGGJYGYK+wuuJg.ff,,pYBw.BWgKgYf+.,KJww+KV+guWJGf,,wW+Bu.pWJYfY,+YVBJB.VKJgfu.,KfwWB^gBJWWW.B,YeJ+VpgpGfCG.,uMkwfu,pMJBfp.WEu7YBWVVJwWG.!Kw+uGwufgVW!GW,p4Ww.VYg.JVGR.GYpwwVoVgWffV.&K.xp+Gu.JBW+GV,,YG+guwppJgf..,w5+9Bpp+g.fJ.+7wxJ+GV+gwW.GgK+Y,+WuBJpW,f.,gY+w,BJgJgKfY+wKg:,+,G.gBWgGWKuYY+pJDpJJGfKB,YuwJBfpwGGfB.pKWWw+YVBgVWJ,w,K%f+uuGpfJ,G:YB+.wfupVYJufV,.KGLKBpVuJwWfGYK=NV+pVGgpJYG,,Vw+wGBKpwfuGB.fYJw-BKVpJGW.,wY,vVBuuGJuWwGu,gYf+JudgqJpfK..KYw+ugVKgGf..wKV=g+fu,g WYGpKpY.+wu+pgJJG,,;Yw++Bgg1g,fN.BKp%,+.Vfg+fBGJ,,YK+wuYpgWuf,,fYB+wBWpKWVf+,IKJ+V+KVwguGg.,,,CG+BVwpWfffYKu:VwJugVKJYfu.gKf+,uuVBJ+WW.J,Ytu+VVfJKJKGK,uYYwfB,pQJB.w.WYJ*YBuVVgfWG,sKfyuBuufJBWtGB,pZG+gBYg4JVGK.GKKwwBupWgffJ.;Yw(p+Gu.pYfWGVK+YG+JuwpYJgG.,WYAwKBpgAg.WY.+KVff+GVggwWYGg,GY,+ugKppJWf.pfY+wpBJgGWpf+.,KgI.+,pugBWpYp,,RJ++ugpJJ,fKKBYYwguuV,WffB.pKW+.upV+gYWJ.V,KwB+uVWp.J,GG,BS.wWB.VYJ+G,.JYgxKBpVuggWf.YKw BBBuWp,JYG+,VYJBpBKp,JufW.fKYwyuVVYgWfWGYYJ8V+JuGpKWfGuKwYf+fu-pVJpfW,WKYwGBVpwgGfJ.wYpu,+GVggPf,Gp,WY.BYu.pVW+fG,JYwB+Bgp.JKf-.KKpwg+.uYg+GV..,G4W+wuYpgJ.f,K+&pwpuVV.Jgf+.VKJFGBYVwgYWgG.,,}++BVJgYJ.GG,+5GwJBGVKWBGU.gYgy,upVBgpWWG.Y6F++YuJgJJKGB,uYg+wB,pWJBfY.WYpPYu+,mgWf+GKYG9uBeufgYgKGB,YYWBwBYp+JVfKuuKYwfBuYpgfWK.TKu?p+,JgpYW+GVggYGwYuwpJ.+ff.,YmuuBpVfg.GY,fKpww+GV!gwGWGgK.x.+ruKppW+f..YY+wVw+VGJgfw.YKgS.+,g*gYWg.+,.HJ++pXpJGwgw,wY,wgWuV,JwfB,.KWwUpfV+gVWJwV,Ks++uuGfVJ,GU,B+gwWB,VYWuWB.JYwaKBGVuggWfKBGgAB+.uWwpJYGB,V++wGu+W.Jufg.fWgwNBuVpg,,gGYK+LV+BuGpYWw.p.VYf+BuvJBJpfW..(YV+BVVKgGfu.wvpag+fpwgvWWGp,fY.+5u+pVJ.fG,uYwwgBgVfg,.?,KKpsY+.VVg+fwGJYGww+wuGpgW8f,KYYB+JBfV.JJf+,VKJqG+KVwJ.Wg.w,,=W+BuJpWf.BW,+Y,wJuwVKWwfuKg}i5,BJVBgKWW,J,Y++BpuJguJKGB,utGwfB,gVJBfY.WKKcYBuVVWJfYGKKfduB8ufJWWAGB,fYW+uBYpfJVGw.GOKw+BuVYgffV.Q!C>pBgfWpYWVGVWuYGwYuwp.JgfK;JYEwBBpwVg.f8.+KWuB+GuKgwpGGg,GY,+6VWppW+f.,BY+wVBJp,p.fw.KKg+++,VPgBGpKY,,PW++uYpJWYfK,we.wguuV,J+fB.JKWwKBJV+JPWJ,V,Kcw+upgg.J,GG,B1wwWuKVYWuGu.JYgqKugVuggWfG,YWDBBBuWgwJYG+,V!f+)BKpYJufJ.fK,w7BBffgWfWGYKuZV+fuGpKfBGuKuYf+fuMpBJpGGKpKY+nBVpKgGWK.wKuwf+fVJgofwGp,GY.wYVWpVW+fG,JYwwYBgp.JBf2.KKp+B+.uYg+GV.,,G&W+wuYpgfJf,K+ .wpuVV.J,f+.VKJ+GBuVwJxWg.p,,H++BVJJ.J.G.,+wKwJBGVKJwfp.gYpd,B+VBgJWW.KKV<+B+uJJwJKGw,uyWBiB,pKJBG..WK.0YB+pfgJfpGKKYqu+Wufp,WBGBK8YW+pBYp,JVGf,pKKw.BupKgfW,.ZKBfJ+WVVpYW,GV,WYG++g.puJgffG.Y9wuBppGpfWY.GKV+E+GuKgwGuK,,Gzp+#u.ppW,f..Y:YwVuwVGJSfw.pKgw.upV^g,Wp,B,.YY++pVJuJGGJ,wYKwgu.V,W+G+.pYuP.uVV+gVWJGGY;jwBUugpYJ,Gt,B>J+KB.p.J+fp.JKGLKBwfJggfpG,K+AB+JuWp.W.G+KwYJ+gBKpwJuGWK+K,w,BBp.gWW.GYK+wW+JVVpKWKGu,WYfw,uupBJYfW,VKYw.BVpfWgWK.GKu+w+fu,gEGB.B,W1pwYu.pVfpfGK;)+wuu+VfJGf1.BKp+WBpuYg,WV.B,GUZ+wVpgpJfGW,9w.wpBWV.gY.J.VYB GB7VwgpWg..K.O%+YupgYJ.fY,+Dg+gBGpGJwGf.gKfz,B<+,gpfBG.K.O++guJpGV,Gw,,Yg+BB,pfJBGpuuK,wpB+pYgJfuGKYBY++gVBp,fVGB,pYW++GJpBJKfJGKKKw+BuVJgffwYGKBip+WBYpYWBGV,.BpwKuwpuGJff.KY{BBuKVfJVWY.uKV+,+GpTJRWu.+,fkp+RuBppJWJp.YYGwVuBVGJrfwKuYBNGBpV5g.Wp,u,.+VgJuVgwJGfJ,wYVwgVZV,Ju,K.pKWX.+WV+gpWJGYwW3w+uugwuJ,Gw,BYfVuB.VYJ+,p.JK.UKuBu+ggfEG,KfeB+puWW+ppG+,GYJwfBKp+Ju.f.fYwuGBBVpgWWGGYKBZV+.JppKWwGu!JYfwKuhpBW.fW,+KYwJBVVJgGGK,,Ku?,+fVBgtf1GpYWswwYuJpVJKfG,uYw+pBYVfJVf6KGKpqW+.uYJwWV.w,GYK+wuJpgGfGJ,EY.wpBKV.W+f+YVsuxGBgVwgGWg,K,,B/+Wupg+J.,b,+wGwJpGpGJwf,.gKK-,uwVBgpfVG.KVq++KuJp.JKGV,VYgwfB,WwJBfg.WYyufB+VVgJfgGYK+2u+GJVp,W?GBhgYWw,BYgugBfJ.KKKBwBuVggfG,..KujW+WuYpYGuGV,Jg,wKuupuJJff.KYnwggwVWg.WY.+KV5W+GuKVKWuGg,fYK+xuBppJWf..YY+wVBKVGgKfw.VKJ f+,V)f,WWGW,.YY++uVpJWBKK,+j!wgBfV,fVwfYw+BpgVuGpWfzGwJ)W+V+gugpfJ,GF,BYpSWgGpUJffV.JKGVgWY.gKGYG+GuBpJ+guYp.JYG+uJVGJ,fg,wYJ.J.fK,w<BBp.gWW.GYK+}V+JuGpKfgGu,JYfwKu2pBJpfY+,YdwuBVVJgGWY.wKpDg+fGwgwWBGp,GY.wYu+pVK.f..KYwwVBgVfg,G+,+Kp!.+.Vwg+WVGJ,GKp+wuupgJ,f,,wYBwpuYV.Jwf+.gKJUG+KVwVYWgG,,,}w+BuppWWKGK,+YWwJuwVKJwfu.g.u(,B+VBgfWWGK,YzJWKuWp,JKGY,uYJwfBKp0JgKw.WK.>Yu7VVgWWG.+w.xu+gufJwWjGu,pYWB+BYpVJVfG.GKKwwBuu+gffw.iKVUp+Wu.pYGJGV,GYG+EuwppJg,0JBY%wpBpp,g.fr.+Kf*J+YJWgwWuGgKKY,+wuBpf.uf..YY+BuBJV.gKfw,fKgi,+,VugBWpGW,.wV++uWpJWZfK,wYuwgu.V,JufB.gKW>K+YpuJuWJ.!,Kxu+uugpfJ,Jf,BYWwWuwVYJufV.J!wHKBVVug,WfG,K?dBwwuWgwJYGV,VYJwGV*gNJuf,.fKKw=BBVpgWgpGYKp-V+KuGgIWw,uKBYG+wu)pgJpf,..KYpuBVV.gGf).wKuHg+fWYghWVGp,GY.wYu+pVgVfG.KYwwVBgVfg,fy.uKpbW+.Vwg+WVGJ,.Eu+wuupgY,w5u+V.Jpf,VYgYf+.VKJ4G+KVwguWYGf,,n*+BfppWJ.fY,+YVwJBGVKJ.fu.JKfQKB0VBgpfG.K,YUu+VufpGJKGw,uYWwfBKp=JVfp.GK.+wBBVVgfWGGYKwzu+gufJfWFGB,pYGw.BYp+JVGf.GKKwwBuVggfW,.=YKap+Wu.g4W+GV,JYGwKuwpuJgf..,YZwBBgpVg.WY.+upg,WYG,,gYV+WugpfJYfV,WJfGB.YY+wVWY.cY+cJ+WVVJ*BwVcgBWp.G.fYY+BuVpfJGfK,wYu+WBfVKJ%fu.pKGh.BY.,gpWWGG,Y6w+uugpfgfG2,BYpwfB.VYJ+fp.JKG9KBwVuggWfG,YBoB+puWp.fVG+,gYJwGBKpwJufgwGKKw+BBVJgWW.GYKJgK+Wu,pKWpGu,JYfwKulpg.wfW..KYwgBVVWgGf+Y.KuUg+fVYg!WuGp,Wu,+vuVpVJffG.YYwwfGCVGJ*fM..KpLf+.V%g+WWYB,GYK+wu,pgJGf,,u+KwpBWV.Wwf+.pKJbGuuVwgJWgGG,,qH+BupVuJ.Gu,+YJwJBGVKJwpV.gKKT,B+VBg.WW.-wf{++VuJgGJKG+,uYgB?B,pWJBfJ.WK.5YB+u}gJfVGKKW:u+gufp,+VGB,YYWwKBYpBJVfKugKYwVBupugfWK.kKV=p+,JgpYW+GVKVYGwYuwpuguff.,YUwuBpVWg.fw.+KV/J+GV,gwWuGg,G-w+muBppYpm,uBVfwpuwVGgKfwwGVpg.WJ.BKBYgw.uwM{+puVpJJGwpupVGg.BGp+JnfB.pBpgGWBGgKwWW.G,K7w+uJY,YYfwwuwpVJ+fcGwYwwuB.BGpYfB.JgJfVG,K2#Bp,fKKt,+wfBKpugYGS.pY+fJ,BK,w<BBWWKwY,BwuBpJW.GlK8W+GJ,gYfw,JK.uYBqK.,Ygw+BVVJKWEBBJu.gpW..*,VWu.j,WY.wYJW.fY.YKBBpBJffLG,K+fw,fKpAW+.W+KgUJ+.ufpGJfGK.JYKwpBYpwBpW,G,YB&BKVV.guW.GJgVfVGf,,}0pWfY,gYEYVBGpgJGfYfwKW3,BBuKiKBWVBgpWW+WutpWWBGw,Y5BwVBWYJwYB,p*JBwp+fVVJwfVVpJcWGGKKwVuWpG,,p!uw.uVpgVgBYp+JVGfY,KKwwBuVJgfW,.N}BwJ+Wu.pYW+GV,GYGwKuBpuJJff.KY<wBBppGJGWY.uKVwp+GuKgwWuG,,fle+/uBppJWf.KY9,wVBGVGJwfw.KKgw.BfVZgJWpGG,.YY++uVg.JGGw,wYWwgB.V,f2GV.pK.8.B+V+gGWJGGK+Zw+gugpKJ,Gd,BYpwoB.pwJ+fV.JKY:KBVJYggWfG,wgEB+guWJ.WGGB,.YJ+wBKpWJu.,fwK,wgBBppgWW,GYKp<V+.JppKWwGuKgYfwKu?pg.wfW..KYuWBVVWgGGK,WKVRK+fVBgvWYGpKGLGwYuGpVWwfG.KYwwuwwVfJuf>..KpqG+.VVKGWpGY,Gwu+wuVpgJGf,,u+KwpBWV.WVf+.pKJzYpWVwguWgYw,,Zw+BppJwJ,Gp,+YGwJugVKWBGB.gYBO,BGVBgpWWG.GWM++.uJguJKGB,uY,WBBKpgJB.+.WK,mYBBVVg.,pGKKwcuuBufpKW}GgwwYWw.BYWWJVfW.GrK+WBVVKgffB.:KY3pBGBwpYWGGVKBYGwKuwpuJ.ff,uY/w.BpVGg.GY,.KV*Y+GVVgwfoGgK.wf+xu.ppJKf..YY+wVuKVGJVfw.,Kge.+,VpJGWp.},.+u++uppJJ.fK,V+YwgBfV,fVfB.gKWwdpfV+gVWJY+,K4++uugJqJ,Gg,BYgwWB.VYf+Yf.WY+#KBJVugKWf,,KKDB+,uWgBJYGg,VwJB+BKpJJufK.fY.wvVBV,gWfuGYKJ8VBuuGJHf.GuKwYf+Ju^pBJpfW.,KYwfBVp+gGfU.wLukG+fVVgEWGGpKVY.BwuBpVW+fG,BYwwuBgVfWVfH.GKpwB+.Vwg+GV.J,GEp+wu.pgWWf,,(Bwwpu(V.Jpf+.,KJ+GBfV+gGWg.w,,P,+Bu.wKJ.Gp,++fwJB.VKJwfu.G+VI,BhVBfGWWG,,YNppmuJpGJKKJ,uYJwfB,uGJBfg.WY+xYB+VVgJJpGKKw^u+Kufp,W%GWV+YfwKBYpKJVfW.GY=wwBJW+gfW,.qKYFp+fu.pYKuGV,WYG+TuwpuJgffGfYxwBBpVfg.WY.+KV?J+GuKgwW,Gg,fY,+wugppJWf.uBVBJJfBV.JVfw.uKggwW+.u,fYG+gV+7+++uVpJVGBpWuYu,WBGpwJ&fB.pB.J)WrGYgpWYGG,KawggGG.GYfwWuwVgw.pYW+GV,JYGwKKwgnVVgGWfG,K1gfJgG+KOW:GW,VYJwGfV.pYJwW+YVGJpBuVJgWW.GYuwu.uIuGpKWw.p.VYfwKu:pVJpfW..KY+uBVVWgGWY.wKp<gBf.JgwWuGp,,Y.wYu+gggpfG.YYwwpBgVfg,f#,VKp/f+.VSg+WgGJYGMf++uVpgJGf,,uYBw.G+V,Jcf+.KKJH.+KV+guWGYV,,;4+BuYpWJ,fY,pBCwJBGVKWJfu.JKfwYwKVBggWWG,,Y)++VpJggJYG+,uYJwfuup*WVGV.WKKtYBJVVgJWGGK*gCu+JufpYWcGV,pYYWVuqpBJVGJ.GKYwwBVVggK,J.^KBopBWu.gIW+GWwBYGwKuwgGJgfG.,5+vwBpVfg.fg.+KV&J+GpWg+WVGg,GY,++uBJpfVf.,EY+wpBJpugK.w,wKgRG+,VwgBWGGWKKwg++uJpJJKfK,wYuwgBKV,JwfB.WKWS,+YVpgGWJGG,Kvu+uuJpfJ,W,,BYpwWB,VYJ+fV.WKG9KBwVuggWfG,Kv/G+puWp.JY.J,VYJwGBKpwJufg,1uKwwBuVpgWW..LK+%W+JuG,+W+Gu,gYGw,u!pBJpR,.,KYw+BgVJgGWK.wuJmJ+fu,gBWBGp,WY.JBuBpVJJfY.KYwwuBgKYg,f:.BKJ9W+,uYg+J+GJ,GYK++uupgJff,,wYBwpBWfVgYf+.VKW9Y+KVwguK++.uGp.+uufpWJ.fYu%VpJVf1VYJffu.gKfJwWJ.JKBYG+fuUpGWwuWpKJKGw,uu.J.fWpwJ,fp.WK.VGfw.uK.YfdwuWpWWfGKpKWgGB,pYWp.fG.BYK3,B,pww+BfVggfW,+pu.pGWVGkK+WBGJ,JYGwKGu,,YVfG,gY{wBBpfAKwwBwVufgffwGg,uYWGJK+Y,+duBfKY,+ABYu+JufG.YgYf..uKg2fguGVKg,W+wuVpGJpGg.,YWfY,GYuwgBffg,BY+wu+KgfW+.w,WY,G.K+*w+uug,K%p+MBJYg+VB.VYJ+0JBgVWJ+Wp.+KG.gBwVWgBJGufgwJYG+,VpKg.ff,pKWfJ..K,w*BBgpYVW,.GK+PV+JGG,BYBwgBpVYWVfV.pYGw,BwY9wJBVVJgGwwBVVpgsWJGugwfVGp,WY.JJGV.uYGwuuqVWJWfW.K,.6B+YVVg.fw.w,gWpG.,GYK+wGJ.JY,wJ,wYJwpBWV.YB;GBWVugQ+YVgguWgGfB+gBJJGJG+YHGkKZYVwJBGfVKpwJlGuYJ7WBGJKuY,w,u,gpWJuWgwJKGw,uBGgYWY,+KJmG.fYcoYB+VVKfnu+wuW0V+Kufp,WDQpBYpGJuGu,uYWfW.YKKwwBufV,GTf+VKuPG+Wu.pY,p+gugpGWwu+g6Jgff.,BWJwf..JKg!uwVufgffwGBKBWVGG,fY,+tJY,VYJ+L,;YKwVBJVGKpwVBJVgpWWYGVKu6GwKuYgB+BVRpJJGfKuuVWgffY.YKVx+B+VJp,WBVBgWWJGG,KVwgBWfGKJKGf,BYpwWJpG+,wYB#.Vogwf=GJ,.W,G,K^-B+puWp.gYYw,pYYwGBKpwKG>.BKVugVfw..gffuGYK+dVg,GK,BSB++BJpgJ+uwpKJpfW..BfpuJBfu,fKfw +VuGpYWwgwWWGp,WY.JufY.gK,3YuwY+wYBgVfg,K.B+uWpfWJWY,KYpBwu/gL++u,pgJff,+gp+JJfu.YKY>B+Ju,2.uBVwguWgc,uJpVJJGJ.KY0.YwfpfgfgVgK.+wWBGVWgWWY.+KfWf.g,Y/++VWGGf,.Y+BBuBpWgKfu.JKf.fY.yYB+VVGWYY++u>VJWpfWGpYK+WBGpgWbfK,uYKfW,uKKwwBuffYBFG+wVBgWJKp..gWB.-,JYGwKJW,JYGwf+eVVJVf..+,Yku.BKWTJ+GuKKJYV+duKYKBQuBppJWv,BYp+JwfwGK,YwV+,VpgJV.GfKp9V+g,,LB++uVpJ,Kw,BYVVwJuJV,J7fB*.V+gfWBWJ,K:f+KV+uuJ.Gi,pYwGw,WYpwWB..VYwwgBVu.J+B+V.ggWfG,uWgaJgGn,wKu+uuwYfw.BYpJJufg.fBVJufg.p.bawBBKBLG+JuGpK,KwWuGp+J.fupuJGfW..KYgVfu.uKfwm.+KY>g+fu,,uYJ+WB.pKJJG+,WYwwfB.Y+wWBgVfg,KuBVVVgWppV/gKWVGJ,GuKWBGB,GYW0PB,VuJWfw.wYwfB.gKJZG+K.,Y>WJGK,,S3+Bff.fxrw^,VYVwJBG,KYgBK+B+G%KB+VBgpWWBJYYeB+,uJpGJK5uBWpVJKfp.KKJw+.fu.^YB+VVK45YB+VwggpwgWW.HuwGuGppgKf,.BKKwuBKw.JBfBGWKpk.BJwwpWWJGWWKOJKpRgg{Wwfp,pYf,W+KppguffGfKK,KBgVJp,W,Wg,VTgYuYYpwupGp.YbBww<.+Bu,pJ,BfY,WYu#,gFW..+KNYg+,wWuYWNf.JKYu+wwuV,JWW,,+K.<uBJ+pJFfw.g,fWW.w,KEw+uGS,JYWwWuwVGwfu.VYJ+fVY+wVpgfR.WWgEuB+VBggupG/,G-B,.YYYW++BKpwJuwW+YVKJVWJ.WK,W,.pK+FV+JWB,BY+wJB.p.WFuwpgJpfW..BwJwWW,wg.fw.wKuLgWYGY,.Wu.+,WY.wYWW.pYwwYwupCJpgf.+Kpv.+gKgwV+.uYg+KB+guYwKpVfW,GKYw2uuVJgfYwV.gYf+,g,p<G+KVwJJWgGf,,+(+YugpWJ.fY,++uwJBGgaJwfu.gKGM,B+VBg.w+G,,Y}++GuJp.JKG+,uYGVVB,pEJBf..WK,jYBpWzgJWGGKWJ(u+JufgYgKGB,pYWu5BYp+JVfJ,,KKwwBuVJgfWY.1:Bw++fu.pYW+GVYpYGuuwJpuJgff,WY1wuBpJKg.fBY,KVhJ+GVfgwWVGg,KBJ+HuBppJWf.,DY+wVuKVGgKfw.uKg!f+,gaKJWpGW,.YY++uKpJW,.#,wYpwgpBV,JafB.pYBb.+YV+ggWJG,,K+wBGugpfJ,GH,BhKwWV.pBJ+fV.JKG9KuJVuggfJG,KXFB+JuWpKJYG+,gYJw.BKp+Jufg.fK,+WBBVJgWW.GYK+<V+JVYpKW+Gu,WYf+yuRpgW fW..KY.pBVVWgGGK.,KVN,+fV+g-fKGpYYG+wYuJpVB.fG.YYwwWBgVKGJf5.BKpG,+.V*g+GV,P,.Fu+wuWpgG.f,K+F+wpuwV.WGf+.VKJtGNJVwgfWg.+,,o++Bu.K+J,GV,+wVwJB.VKJ+fu.G+Vn,BFVBWpWWG,,Y%ppvuJpGJKpV,uYJwfV,gJJuf..WYwFYgfVVJfIuGYKWmuVBufp,WUGB,fYW++BYpfJVff.GKK++BuVKgfWK.kKB;puWVgpYWfGV,,YGBfuwJuf+ff,VY=wGBppug.WY,VKVwo+GVggwWuGg,f^V+3ufppJWf.,JY+wWVuVGgKfwgpKgDG+,gzJGWg.V,.UV++p+pJfGGf,+t+wguVV,WGfB.pJG3.BGV+JBWJG.,KwBw+uggpJ,Yg,BYpwWu+pjJ+Gw.JW,UKB+VuggWf.wwG4B+puWwKJYGB,VYJBwBKp,Jufg.fK,w*VBKJgWfJGYKK)VVKuGJxWBGuKVYf+YuepBJp.WKpKY+*BVppgG,w.wYp+++fV.gq,uGp,WY.wYVBpVWJfG.KYwwuBggfWBf!,BKpwW+.VVg+GV.+,G K+wVupgG+f,Y1YJwpuWV.JYf+,GKJPGp,V+J+Wg.f,,SC+Bupg.J.GG,+YVwJB,VKJwGV.gYg#,B(VBgpWW,.KW/+B+uJgJJKGf,u{WwGB,pYJB,u.WK.OYB+VggJfJGKY9qu+WufJ,WpGBKBYW+WBYJuJVfJ+uKY+mBupBgfW,.>KBwW+WVWpYfwGV,fYGBKuppuWuff,fYUV9BpgWWBWY.KKVwV+GgwgwGu.J,fEf+7uYppG,f.Kw1YwVupVGWwfw.uKgwluWVtJwWp6w,.bq++uppJJYKW,wYuwgJ+V,JwfB.f+un.+YV+.wWJG.,KwBBBuggJJ,.f,BYpwWu+p?J+GB.JBgzKB+VuggWf.wwGMB+puWGJJYGB,VY.VpBKpwJuwp.fKKw<uVuugWffGYYB1V+JuGguW+GuKVYfpYumpuJpfW..YBu,BVVJgGYA.wKVhgB.V.g^fwGpwuY.wYu+pGjwf.,.YwJBBgVGg,fw.BKfuu+.uYg+:uGJ,.YKBBB+pgWJf,,JYBwpBWp+Jhf+,BKJpu+KV+guWgGfKwBG+BuppWKVfY,BYV+fufVKJYfuYuKfF,B5VWggWW.f,YVG+VuWpGJKGw,JB+wfB,p9,.fp.fK.wBp,VVgJWG+,Kw&V+gV.VGWP.w,pwWw.BYp+JG+w..Y.wwWwVggGW,.wKBFfpuu.pYW+w+,JY.wKuVWYJgff.,VZwBBgVWJKfK.+YB{JpGuKgwWuG,VBYK+KuB,VJWf,.YYBwVB.WpgKfw.uVp8f+KV5JVJuGWKfYYuJuVpJJGGuufYV+VBf.wJ9fu.pKfz.BBJ,gVWJGGu+Nw+VugpK.JG{,BYpJ4B.p-J+Gg,gKGw.BwVVggWfG,Kpg.+gVgp.YKG+,pYJw.BKpVGYfg.fK,gYBBVggWfKf,K+wB+JgppKWwGu,,gBwKuKpBYwfW.,KYwBBVV.GpWK.wKug++fuKg}WgYw,WY.wYGOpVJWfGK{DbwuuVVffKft.BKp<YfVVPJ6WV+g,GYY+wuVpgJKKJ,-YBwpfJV.J}f+,gYg7GB.VwG,WgGf,,T-uXuggJJ.fY,+YpwJBG.+JwGu.gKGZ,BPVBgpGBG.Y)-++VuJgwJKKwK1Yg+GB,gVJB,*.Ww.+VB+ppgJ,uGK+uEuVgVWp,fwGBKBYWBVBYp+JKfJ,,KKwBBuVggffY.GKBwW+WJfpYW+GV,J+wwKVBpuJWff.YYA+BGwVfJ,WYYfKVwf+GuKJKWV.W,fYY+RuBppJW.W,^oVwVBJVGJwfwYuWpdfuAVigVWpYB,.wwBwuVg.JGK,,wYuwgVfpWJwGJ.pYux.ufV+JgfgGGYulwBuugpfJ,G7YJYg+,B.gBJ+GG.JYGJWB+pgggfWG,YuxBVpYJp.f+G+wgYJV&BKpwfwfJ,KK,wbBBVWgW..pKK+wW+Ju,pKGpGuKWyWw,VVpB.+fW..KYw+uGVJWwWK.uKucg+fp,g.Wu..,Ww+wYV,pVWfGf.KaJwugBVfg,f}.BbG8fuwuYJgWV.Y,GHKW.uVgGJfG.,CCJwppWMGgYGp.V+fOGpBVwgufJGGKYbkBguppfJ.GYu,Yp+WBGpVJwGp.gKf+fBwpVgpWWG.KbE+BV/VpGf-GwwGYg+gB,g3J,fp,fK.w+B+pggJWG.YK+wu+gVGp,WwGBKpguw,uKp+f.fJ,GKKwwBgVgJfW,.2KB;p+Wp.JVW+.V,JnGwKufpuWWG,.,{+wBpuVWg.WY.+YKbJBGuKJBWuGW,fw,+KuBgpJWG..YYKwVBJg+gKGB.uYp-f+,VegBWgGWK.YYBuuVpfJGfKKKYV+JBfV,J}fu.pwWGG+YpBgVfpGGdKawBpBVpfWYG?Y+YpwWB.pVYGfp,fKGGpBwVVggWGG,KuBK+puWp.BgG+,pYJ+,+.pwWpfgDKK,w%BBV.gfW.,wK+fg+Ju.pKWwGu,GBVw,u?pB+JfW.,KYwpgNVJgGWKpWKuQJ+fVYVKWB.J,WQpwYu+pVJKf..KjBwu,,VfgKfy.BKp<,pguYg+WVVK,GYY+wuJf+Jff,,QWGwpBfV.WwW}.VYfhGBpVwguWg,fKW%wBVupgGJ.YB,+<g.pBGg^JwKJ.gKfy,B)g2ggfGG.,Yo++WuJg,g.GwKgYgpwB,p!JBGpJpK.+wB+VWgJfKGKYwPp+gV.p,,pGBKpYWu.KKp+WgfJc+KKB+BupgYVWK,+KBuG+WV,pYfufB,J4KwKJVpuJgff.,,GwBufVWJKWY.+KVsJ./uKJuWuGW,fYK+;uWK+JfGB.YwGwVBWVGJdfw.J++:f+,VRW.WpGf,.?VWKuppWJG.V,wYVwgB.V,Ju,K.pKWU.upV+gpWJGYwW(w+uugpfJ,Gw,BYplpB.VYJ+fp.JKG:KBwVuggWfG,K.5B+puWp,WgG+,VYJJwGB.YKgwGBBV.gKBuVfgWW.GYV>pff(GYpYWJGu,gYfJYfV,uYGw+BKVuwVBVVJgGWK.wKuNgpfuKWKWBGp,WpVJ,GJ.pYuwuB+wwgVfW.wY+/,+JVug,u.g+fBGV+.ufwKuJJBJKff,VwWpwJWf,G,K,<V+ftJgFfp.w,WYf+Ku+puu.uggBJ.fY,+VKJGfg.wK,wBBfVYgYWVVug.WWG.,YgVJJGf,uYK+V,V#BwfB,pF,9wV+,pwgGWgfJ,GC,+gVwgJ+fufp,WZGB,pYWw.BYpBJ,fJ.GKKVff+.fKKYK+KuppG+fgKpYW+GVuwpWWuf+,<YZAKK,VwJVW,.KKWsuB=VW+JuKgYWw4J+pYf+uVYpfJpGwYWBKVpJffu.H,wruBpVigffwgM,JvK+Wuwp+Wpff..GufY,gYuwgBf.uKVwgBJuKgBg.V+gVWJGG{,Ew+VugpfJ,G9,BYp+KB.pwJ+fp.JKGsKBwVWggW,G,KMyB+puWp.ffG+,gYJw,BKpBJu.,,gK,w+BBV,gWW,GYK.>V+.JppKWwGu,KYfwKu5pg.wfW..KYwfBVVWgGWKwpKu3W+fu,g(WBGp,Wu*+)uupVJWfG.KYw+pu+VGJvf8.JKpoW+.pwJ,WVG.,Gj++wuupgJf.f,PYuwpB,V.J<f+.VKYEG+YVwguWgGf,,EtB8uppGJ.Gw,+YVwJBGpsJwfg.gKfz,BhVBJJfGG.KB=++,uJpGJKGwfKYgw.B,puJBfJ.WYKwKB+VJgJfpGKKwvuBWVWp,WuGB,fYWw.BYp++gfJ..KKwVBuVJgffYfKKBZg+WVJpYW+GV,J!,wKu+puJJff.YYZwBVBVfgKWY.+KV%J+GuKVGWuGf,fYK+=uBppfYJB.YYVwVVBVGgYfw.,KgyKpJVbgBWp,u,./a++uWfBJGfK,wwBwgBGV,W+Ww.pK./.B+V+gVWJGG.W-w+JugpfJ,G},BYpu,B.p+J+fW.JKGNKBwWpgJW,G,KZ4B+puWgKg,G+,JYJw,BKpwJufgGVK,wuBBVggWW.GYK+g,+WVSpKWpGu,gYf+wgGpBJpfWwVKYwBBVVJWwWK.WKu=f+fu,g5WBfw,W(VwYuWpVJJfG.KwgwuBYVfgYfl.VKp+YyBuYgfWVKw,GYY+wuVpgJKKJ,DYBwpp+V.J&f+.W+B1G+KVwG,WgGG,,w+wwupgwJ.GV,+YVwJBGuWJwf,.gYwo,B!VBgpGYG.Kgl++guJp,JKGg,VYg++B,fWJBfg.WK.yYBpW%gJWGGK+f9u+Jufp,fpGB,KYW+&BYp+JVfJ+fKYwfBuVKgfW,.1KB-K+WVupYWuGV,fYGwKVfpuW(ff,+YkwBBpVWgKWY..KVwa+GuKgwfp.G,fcJ+2ufppJWf..YYJwVuwVGJWfw.pKgw1BGVDg.WpYw,.;s++uppJJYKW,wYuwgg+V,JwfB.f+u}.+YV+GKWJG.,KEgVVuggBJ,KG,BYgwWB.VYJpKC.JKG3Kp.VugJWf.wwG%B+puWGVJYGB,V/f8WBKpGJufW.fK,wRBBuwgWfgGYKfRV+JuGpKkWGVKBYf+WuRpBJpf,HgKYw+BVWYgGWY.wtfG,+fVfg3,VGp,fY.+pu+pW.BfG.KYwVpBgVGg,fuYKKp:W+.Wpg+WpGJ,Gwu+wVBpgWSf,,OYBwp+uV.JYf+.gKJ7G+KVwVYWg.G,,<,+BuppWJ.Wf,+tgwJuWVKJwfu.gJ.1,BYVBJJWWG,,YtJfwuWgVJKY1,uYJwfBYp=JgKw.WK.1YgwVVgWWG.uV,*V+fufWvWMGu,pYGw.uBW,JVfJ.GwwwwBVVggfKY.lKV/p+Gu.pYW+GV.VYGwKuwpVJgff.,YwwBBpVWg.fw.+KV4J+.VVgwWuGgwGg+WuG+GBKKwy,kYWwVBJVGKV}pBJuKpYWG.pggWpGW,.wwwMuVpWJGGd,wYuwgBfpYJsfu.pKfr.BwV+JVwBG.,Y:w+VugpfJ,GQ.5YpwWB.phJ+fV.JK.ZKBwVuggWfG,KUOB+WuWp.JYG+KGYJwGBKpwJufg.fK,p+BBVpgWWKGYK+jV+JBJpKWwGu,JYfw,uDpBJpfW..KYwBBVVJgGWY.WKuig+ffJWVYg,Gu.VWufpppKJJfG.KYw+fBgVfg,fc.BKp!W+.pVg+WpGJ,.YK+wuupgfTf,,+YBwJBWV.gYf+,gKJ#,+KV+guWWGfKYZY+BuWpWJ,fY,+YVwJuGVYJ+fu.fKf&,BhVB,wWfG.,YN++VuJpGJKYB,VYgwfB,pQJBfp.W,W=YB+VVgWWGGKKw2u+gufp,W}Gg,pYWw.ubpBJVfJ.GupwuBuVggfW,.bKBop+Wu,gCW+GV,JVu+wuwpuJgff.,YykBgVpfg.WY.+KVpw+GVsgwWuGg,fY,+dVVppJ.f.,sY+wVBJVGJufw.pKgA.+,V+gBWp.+,.h+++ugpJJGfK,wxfwgBKV,JBfB.pKWw+BgV+gfWJ.B,K9++uugpfWwKG,BYpwWuuVYJBfVKJYgTYBpVugWWfGKK7?W.KuWg+JYG,,VYWwGBYpwJJK+.fK,wOBKVpgfW.,YKKUp+KuGghWwGg,g!.+.ukpfJpf,..KYw+BVG,gGfp.wKVeg+fu,gaWVGpK+Y.+Bu+pVJJG,,JYwwKBgV.g,fT.BKpwV+.V+g+WYGJ,.YK+wVBpgJff,,wYBwpBWVKgYf+.VKJwd+KVwguWfGf,,qO+BuppWJ.KY,B+gwJBGVKKfw+B,uGgWWWGgWpYf+KupggW+f,,WR+,wYg+JBfGw.YfB.,HJwB+YVff+KgYYBBu,pWgff,,YYW+BufwWJwGg,+Kf1GBYVBgVV,VJJpW,.=KBVBWJGRKuYKwf+GVKW9ff,uYGfGYGY5wBBp.+KfwV+BVwgwJYpK,+2pwKuYpfJVGw,ffW.YX3w+JWfggGfVK:KGhgB+gpGKKpkfwfufp+JgpV.,<BwKBpVgJGWY.wfWfu.KKWd.+YWGKB}G+YBYpYJgf.gKJ,G?,BYpJpB,pQJ+fV.JKG8KBwp+ggW.G,Kw%B+puWp.WGG+,JYJwGBKpwJufgKVK,w+BBVJgWWKGYeJwW+Ju,pKWJGu,JYf++uXpg.wfW..KYwWBVVWgGWKwpKuPW+fu,geWBGp,Wu<+PuupVJWfG.KYw+pu+VGJjfS.gKpoW+.pwgVWVG.,GYY+wuupgJf.4,?YuwpB,V.Jxf+.VY.4G+YVwguWgGf,,?=BguppGJ.Gw,+YVwJBGp,Jwfg.gKfM,BdVBJJW.G.KB&++JuJpGJKGwfKYgw.B,puJBfJ.WYKwKB+VJgJW,GKKw(uBWVWp,WuGB,gYWw.BYp++gfJ..KKwVBuVJgfW,f,KBip+Wu,pYW+GV,WYGwKuwpuJfff.,Y4wuBgVWg.WYwfKpQW+GuKgwK,Gf,fY,+muBppJWf..YXBwVBJVGgKYf.uKWLf+,VygBWpGWKwYY+VuVpWJGfK,wYuwWBfVYJ1fV.pKG&.+YVJgVWGGGK<jw+uugpfWfGD,gYpw.B.VYJ+fG.,KGwBBwV.ggWGG,K3rB+fJup.JYG+,,YJw.BKJwWxfJ.YK,w+BBVggWf+pgK+cG+JVppKW+Gu,JYf+wgGpBJpfW,gKYwBBVgJJgWY.gKu/W+fuYg2fV.V,W-BwYuVpVJJfG.KVpwuBYVfg,f{.BKp#WB+uYgGWVG.,GYK+wVpJBJfGg,=YpwpBWV.gYfY.VKGmGBJVwgVWgGfKG/D+BuppfJ.fY,+YgwJBGVKJwfp.gKfd,BwVfgpWWG.+,gwpWGf,fFVwY,VYKwfB,poKfOGB,VBguf7.Gg.WGGKKwwpwVufpKWHGV,pYWw.BYguJVfW.GKYwwBpVgJfwJ.wKuHp+fu.pYW+GV.VYGwKuwpVJgff.,YwwBBpVWg.WY.+KV>JBSuKgwWuGgg,Y,+wuBppJWf..YY++.BJV,gKf+.uKg{f+,VwgBWWGW,.YY++uVpJWufK,+YuwfBfVKJMfBKwKWN.+YVBgVWJGG,Yow+uugpfWWG*,BYpwfpfVYJ+fVBwVWJuW+.HK?YK,,uwgVJ,GK,WYu+IuWwJBKpYJwYJwpKfwuuYVfgpfwKV+,VVgWJWGW,wYp,uB.g+J,fV.pYfTKBCwJwBB,VJgGWK:fV+gfWKfK,KYpwG,fQgwYu+pVKgCfBGVpJJWJ.K,Kt++YuGC.+.uYg+WVGJ,GYKpwuVgKJff,,zuggKWKg.K.2gBWuWgYJYGBKCY.,fupgBuBG+,JKYwfBgVWwWupVKJwfuBVVWJwVmGuWp}Yw,uGpGJWuWWgJKGw,up{JJGB.wKYxY+,S.gZfuG.K,)J+BuYgJugp,WYGz+guVwWuBgKJWfV,;BKp+JBW,.VKwG,+VVGgpJKfYKBYgwW;wY.+JuwpuJgRW+.VKgJf,.+KfXB+gV,zWB+uKgwWuwpBWppJKfg.GNwf,,WY+wVBJGf,,wVBBVfgKWYGWKwY,GfXfYY++uV,wYW+uB+pnJjWKg,KwwV+,VKgWWu.ZKWGJ,KwX+wWJGpJfGuKYYfwpuwf.,wYwwV+,V,J+ffgu,.w++,uVppWffK,LGJGB,GYJwGBK,uYJwWBBVGggJqVpgWW.GYuYkp+fuGpKWwGu,gYfwKueppJpff..KYw+BVpYgGf+.wKucg+fu,gzWVGp,.Y.+wu+pgJJ,wK+YwwgBgpwg,fw.BKJ^WB=Jfg+WVGJK+YK++uupg,Yf,,BYBwpBWV.gYf+qWKWSK+KV+guWgGfKYGB+BufpWJ,fY,+YV+fVvVKJpfu.GKfO,BrVBJJWWGK,Y5g+VuWpGJK.p,uYWwfB,p{JBfp.WYG9YBVVVgfWGGKKw3uw+ufgwWMGu,pYWw.BYJJJVfG.GYIwwBpVgf6gu.3KpvpBGu.gUW+.w,JYYVWuwpuJgG..,YwwBBpfKg.f+.+KVDJ+GuKgw,JGJ,,Y,+wuBppJWGKJ+Y+wWBJp+gKfw.uYWwB+,VVgBWfGW,.YY++VYpJJ,fK,pYuwJBfV,JJfB.JKW^Y+YV+gVWJ.+,K2u+uuGpfJ,G(,Vu+wfusVYJ+fV.JKGlKWJVug.WfG,K%kB+puWgVJYGJ,VYWwGBKpwJuG..fKYw#BWVpg.W.GYYp2V+.uGpKWwGu,gYf+WuXpJJpfK..KYw+BVppgGfu.wKfQg+fu,gIWfGpKrY.++u+pVJJfG,KYwwfBgV.g,f+.BYJ+u+.Vpg+WGGJ,GYK+wVBpgJYf,,gYBwJBWV.W,fB.fKJwM+KVwgufW.W,,Up+BVwpWJ.fYKu0uwJu+VKJVfu.gKf*,,+VBgfWW.B,Y/B+VuKKuJYGB,u+wwfBKpXJufp.,+g?YB+VVf+WGGYKwLJp+ufp,WmK+,pYfw.BYgJJVf..GY+wwBuVggfJJ.dKJFp+Wu.pYW+GV.BYG+uuwpVJgff.,YmugBpV,g.fV.+KVPJ+GWSg+WJGg,fY,+NuBppWYf.,BY+w.BJVGgKfwBKKg!Y+,VwgBWpGW,.LK++uWpJJ,fK,BYuwgVSV,JVfB.KKWr.+YV+gpWJ.w,KAV+uugpfJ,GW,BYGwWBKVYJufV.Ku.ZYBgVugWWfGKKbaV+puW,IWnG+,VHwwGBKpwJucG.GK,wzBWVpgWW..YV,Rp+,uGgpWwGf,gTUgKuwpWJpff..YSw+uwVJgGc+.+Ku<gBuu,gsWBGpB,Y,wYu+gyJJfG.KYwgJBJVfg,f..BKpIW+.gGg+WVGJ,GYK+wuupgGpf,,iYBwgBWV.gYf++WKWoG+KVKguWgGf,,pu+uuppWWBfY,+YVwJWYVYJwfu.YKf?,B&VB,fWfG.,Y2G+VuJpGJKwV,VYgwfuBpsJBfp.WV?wiB+VVJpWGGKKw*uJGuGp,WC.+,pYWw.uY,,Jpf,.GYgwwBfVgJ9YK.wKWLp+.u.grW+Gp,JYGufuwpuJgfG.,YEwBup,ug,fu.+KY2JBwuKfwuBGg,YY,+BuBpGJWf.+wY+wWBJV,gKfw.uKgYg+,VjgBWgGW,.YY+uuWpJJGfK,wYuwgBfpwJ}fB.pKWYg+YVugVWJGG,KUw+uB+pfWdGe,uYpwWB.VY.Wfp.fKGwwBwVuggWfffKRmB+pufp.JYG+,gYJwGBKpwJWfg.fK,wBBBVpgWW.GYK+iV+Ju.gGWwGu,gB.JpfK.gKgjGBJVuVgfGG,KWw+.+wc6g+fu,W>Y.+WYWpfJKGpJVKW.GuuV+J&f:GKW,4,+JVBpGWw.wW+FuwKYGuwWpGg,GYWwf+BVpJJf+..YBYV+KuYgWJYG,gVWGGf,,dRgffg,+izGv,WYVwJBGfwYmw+BVuYg=fugJgpWWG.,YwY+pufpGJKGw,uYgwfVBpDJpfp.WK.6YB+pgJgWG.+KwFp+gufp,Wh,W,pY.w.uwp+JgfJ,wuYw+BJVggfW,.wKBww+Wu.,BWBGV,JY.wKuwpuJg,p.,YOwBBWVWg.WY.+uW}W+GuKgBWuGg,fY,JuuuppJWfY.YY+wVBJGYgYfw.uKGof+,V&gBYfGf,.YY+guVpJJGfKBVYVwgBfpBJdfB.pKWg2BEV+gVWYGG,Kaw+ufGpGJ,GT,GYpwWB.VYKpfp.JKGwgBwVuggWf+wKwmB+pVBp.JYG+KVgBw.u0pwJWfg.KK,wpWuVgg,W..2K+2p+JVwpKWwwJ,JYfw,u+pBJpfW..VBwBBVVJgKWK.wKu%gJKuKg0WBGf,WY.wYu+.WJWfG.KYpwuBgVfg,...BKpmW+YuYg+WVGJBYYY+wuug+Jff,,b<BWwBfVKgYfp.VK.cG+Kf+gVWGGf,Y<k+uuppY(VG5,pYVBVBGVYJwfV.gKKuJB)VBgpGpG.K5:++WJBpGJKGwY+YgwGB,p8,Vfp.,K.wwB+VVgJWG,uKwAW+gV+p,W)GB,pKuw.uVp+JpfJ.GKK+BuBVgJwW,.BKB2p+Wu.WuWBGG,J{wwKuJpuWWGW.,YgwBBgVWg.WY.+JgiJBPuKgJWuGJ,fY,r,uBppJWf,.YY+wVBfV,gKfw.uK,}f+,VagufwGW,.YYJwfu,VY3++B+pJgJW..WKVfu,,KWH.+Yfp,,Y,,GuGppWJfJ,KKKw+BYVGBWfV,+f+wwBguKgWWpGJgJWYG,K%{BpGGY,wY,+p,pYYwGBKpwKBspBBVGguWJ.KgffpGYK+DVJgff,.Yp+GuPpJJwfV,GJgGB..KYw+WuGgKYe,BuVJgWWBGG,g.,Gp,WY.wYVYpVJffG.KYwwuBgVfJWfh.pKpmf+.uYg+GV.r,GLw+wugpgJ,f,,v gwpB,V.Jmf+.VKJZGBBVwgpWgGK,,Nw+BupgpJ.Gw,+YgwJBGVKJwGV.gK,Z,BBVBgpWWG.Y2?++guJp,JKGu,uY,+/B,p+JB.b.WK,NYB+VVg.,pGKKwauuwufpKW#GBK.YWwYBYppJVfJ.GKKp+BVVfgfWY.)KpUp+Y.VgEWVGVKgYGwYuwpVJgfKIJY&wBBppJg.fR.+KWuB+GuKgwfJGg,GY,+-VWppJ,f.,uY+wVBJVGpWfw.WKg},+,VXgBWp.Y,.vV++uppJJGfK,wWpwgBKV,JpfB.gKWw(pfV+gVWJ,K,Ke++uugJEJ,Gu,BYfwWB.VYJ+.+.WYSAKB+VuggWfG,YplB+.uWp,JYG+,VYJ+.BYppJuf,.fKKw{BBpugfWKGYKpIV+,uGg+..Gu,gYfuSu%puJpfWK+KYwVBVVfgGWK.wKugJ+fVwgOWpGp,WY.wYVwpVJ,fG.KYwwVBgVfJ,fo.WKp=,+.uYg+WV.u,GHV+wuVpgJff,,oUYwpuwV.J}f+.VKJ9GBgVwgGWg.+,,ew+BupggJ,Gu,+YGwJu+VKJwG+.JK,I,BuVBgGWWG.YVA++JuJgwJKGw,uYgWuB,puJBfg.WK.}YB+VggJWKGKKBmu+Wufp,WgGB,fYW+BBYp+JVfJ, KKwpBuVfgfW,.RKBw,+WV7pYWuGV,fYG+uf+pVJ.ff.YY6wuBpVGg.WY+pKpAJ+GVpgwWuGg,fpw+wuBppW+f..YY++VGBV.J+fw.WKgUY+,Vp,uWgGK,.:d++uppJWwfK,wVJwJBfV,J+fB.pKWC.WBVBgVWJGK,KMw+uug.KJKGF,BYfwWB.VYJ+SW.WKGRKBGVuggWfG,uuiu+puWp,JYG+,VYJgYBYpwJufY.fK,w2uB,wgffvGYKpEV+,uGg},,GV,.Yfw,u*pBJpGWugY4wpBVVKgGfB.wwuGp+fVwgPWuGp,GY.wYWupVJGfG,xYwwuBgVfpffH.BKpXf+.uYg+WgGG,GYK+wuVpgJff,,wY,wpBWV..+wwBBVpg*Ww.V,,jp+JKkH?+BupgGWGfY,+YVwWBGVKJwfuwWKfM,B9VVgpWWG.,YKY+VuJpGJYGw,uYgwfB,p^JBfp..K.#YB+VpfJWGGKKw+uW?G,J,YK++ufwWg,VY,JKpwuBuV+BwfwG.KgYY+VVV+pWJG+JY,V+fuGpYJ,fKGgKfw.BppRJggW.JKf9,+guJg.WuG,,YWV.w,fY,+IJg.YY.eYBKpkJBW,GKY+fu.uKg1f+,VXgBWpGWYEYY++uVpJfJfY,BYuwgBfV,J-fW+gKfUY+YV+gVWWGGKBow+ufGpGJ,G:,BYpwWB.VYKpfp.JKG^YBwVuggWf+wKwjB+puGp.JYG+,VV.w.BKpwJgfg.fK,w-WgVggWW..BK+?V+JVGKWW+Gp,gY.w,uBpBJpYf.,Y+w+BgVJg.WK.gV,CJ+,u,g.WBGg,WY,wYupfAJJfG.KY,wuBJVfJw,G.BKp%WBWuYgBWVGJ+,YK+uuupWJff,,(YB+.BWp*gYfg.VKJDG+KB.guW.Gf,K}m+BupgGWGfY,JYVwWBGVKJwfuK.KGw+BiVJgpWYG.Ywww+VuKpGWwGw,uYgwf,YpzJgfp.YK.woB+VVpVWGGKKwcV+gufp,W+Gu,pYWw.BYp+JVfJKwKKwwBuVgWHW,.wKB:p+Wu.pYW+.G,JY,wKu+puJgff.,uwwuBgVWg,WY.uKVHK+.uKg+Wu.J,fYK+=uBppJ,Kg.YY+wVuWVGgYfw.uY,Nf+YV^gVWpGW,.YYgBuppfJGfY,wYpwgu!VKJ{fV.pYp*.BhV+gVWJGYwWDw+uugggJ,Gw,BYp+YB.p+J+fJ.JKG=KBwpfggWKG,KuvB+puWp.+uG+,JYJw,BKp+JufG6VK,wUBBpGgWW,GYK+wG+JuKpKWBGu,gYfw,V,puJffW..KYw+BVVJJWWY.+Ku4f+fVwgnWgYw,WY.wYVgpVJWfG.K{gwuBWVfg,fI.BKp;Wu+uYgVWVGW,GYK+wuuJuJGGw,?YBwpBWV.gYG .pKf1GBwVwgJWgGf.fT;+BuppfJ.fY,+YpwJBGVKJwfp.gKf6,BBVBgpWWG.,Y-++VuJp.fuGw,uYgBff-.wYwwuBJpo+YWuGfWJY.BwVup,JKGJ,+Yu,BufpJ+VBYp+JVfJKwKKwBBuVggfW,.5KBw.+WuYpYWBGV,JYGwK+.puJGff.KY<wBBpVWf+WY.VKV{f+GV%gwfp.p,fjw+*uVppJWf..YwgwpBGVGJwfw.JKgw.B.V}ggWpGf,.YY++uV>fJGGc,wYJwgBGV,JkW .pKWO.B<V+gVWJG,,K-w+uugpGJ,Gc,BYgwKB.VYJ+KfBKV1g.fVggggWfG,K#wW+pufp.JYG+,VYJwGVupwJpfg.GK,wnBBVp.fW,.%K+7p+Ju,pKWg+,,JYGw,uppBJgfW.,KYwpg)VJgGWK.gKu1J+fVwfGWBGp,WwwwYuBpVJJ.w.KYBwuBWVfg,fd.BBg)f+KuYgBWVGf,Gku++uupWJfG.,AYuwpBWV.JB,,.VKJFGB,VwgVWgGfYB>6+pupp.J.fY,+YV-BBGp+Jwfp.gKfF,B}pWgpWKG.KB*++VuJpGBZGw,gYgwYB,pwJBff&uK.zYB+gBgJW.GKKwwf+gu,p,W+GB,pYWw.V.pBJWfJ..KKwwBuVgWMW,.VKB4f+Wu.pYW+.p,WYYwKuppuJJff.,YKwuBgVWgYWY.pKV7.ppuKgwWu,V,fYK+yuBg.JWfK.YY+wVBJVGgKw+.uKfSf+KV9gBWpGWK.YY+puVpJJGfY,wYu+JBfp+J2fV.pKWA.+YVggVWKGG,YIw+uugpffnG%,fYpw,B.VYJ+fV,.KGwuBwVGggWGG,K8ww+gu,p.WuG+,GYJwGu.p+Jpfg.,K,wuBBVpJYW..wK+Sf+JuGpKWw.f,gY,w,uupBJpfWK.YGwBBJVJgKWK.+KuRgGYu,g+WBGJ,WY,wYu+V+JJfG.KY+wuBgVfgKf4.BKpXW+KuYg+WVGG,GYK+wuupgJff,,6Yu+.BWV.gY.++JuWgWW..^KJGgw.u++bJuGW,.YVwpu4Vfg.VG,+YSf,.gKf5,BUpWgpW.G.,YA++VuJpGfuGw,JYgwGB,pjJBfpGuK.wuB+VpgJWGGKKw+f+guKp,W+GB,JYW+KuKp+JffJ.,KKwwBuVgWYWK.uKB<f+WVwpYfu.u,J=IwKu+puJgff.,W+wBBWVWJwWY.BKVZJwJuKgwWuGJ,fY,+7upppJWf..YYuwVBJVGgYfJ.uKgZfJjGW,f5uwfuJwY+Bu.pJJGfKwuV.gJfJ.uKV2g..KWd.+YpuJuWJG.,K=++uugpfJ,.p,BYJwWB.VYJ+fV,fYfdKBuVugWWfG,KPEBuGufp,JYGB,VYGwGBKGBJufJ.fKYwNBBVpgWJWGYK+;V+WuGpKWwGV,gYfw,uXpuJpfW..YhwVBVVJgGwBBBV)*W+fu,gEfVpu,WY.wYuBpVJJfG.K,KwuBgVfgKfd.BKpDf+.uYg+WVG,,GYK+wuVpfJff,,/+,uVpJV,fGf+.VKJguW..g,V>B+Buw+/JuGJ,8lww.BgpBJ.VGJwG+.uBGVW+,VgW+W,GWKuV+gpWgGw,WYV,wBWpYJff+.BYgMG+,wVw+B+VVgJWGGKKw?upguGWpWSGB,pp+JfGV.BYwww+YOKg+fpGKKYEf+VVwgfuWpYf>G++WugwGuVJCJGfg,+u+p+gYVpGKYujY+guJg.WUG+WfWVG,,fY,+;Gp,fYGwVB,VWBnBJVGgKfwBwKJ%G+,VRgBWpGW,.3.++ugpJJ.fK,wYuwguWV,JBfB.pKWF.+YV+JWWJG,,KeB+uuWpfGBGY,BYJwWuBVYJBfV.,KGw+p.VuggWf.uKyzu+puW.wJYGu,VYJwGBKpwJuKG.GKYwIBuVpgWW.,wK,jp+GuGgMWwGu,g6.+Gu:pgJpf...KYw+BVp.gGWY.wKJ%g+Gu,gCWfGp,fY.wYu+pVJJfG,pYwwpBgV.g,f%.BKp+B+.V+g+WVGJ,GYKBBu.pgJKf,,wYBwpBWV.VWf+.gKJ(Y+KVBgufW.W,,AB+BufpWJ.fYKuouwJBYVKJufu.gKf?,,+VBggWW.?,YhB+VuJJJJYG+,uYgwfB,pOJBG..WKK2YBVVVgJWGGKYgzu+fufgwWhGB,pYWXgBYppJVfJ.GKKwwBupggGWY.hKg=p+Wu.pYfWGp,WYGwKuwpVJgffwYYSwuBpVGg.WY.+KVYV+GuKgwWVGg,fY,+wuBppJWf.,pY+wVBJVKgKfw.uKg&f,,,VGBWg.w,.YY++WV,gYKwguVV,JpfJpbJEfB.pKWC..YYpBVWW.+,K*w+uW,.YY4+uu+pJu.B,pYJ+fV.JBBJBWKGVKVcW+puuVVWVGJKb,YwBugp.w.uwpwJufgBJV+JgBpVpgWW.GYK+.,.wJGgfWwGu,gNmwKuHpBJpGu..YLw+BVVJgY,W.wKukgBVu,gwWBGpKYY.+)u+pVJJfG.Kww+OBJVGg,fw.BKGSWBKgKgBWgGJ,YYK+wuuJgWWf,,+YBwJBWp+gYGuK%KJ=K+KVJguWgGfKY-G+BufpWJ,fY,+YV+fugVKJpfu.fKfN,B7VBJ.WWGK,Y2g+VufpGWK.G,uYJwfBYp2JVfp.W,W%YB+VVgWWGGKKwlV+gufp,W8GB,pYWw.uGp+JVfJ.G+fwwBpVggfW,.iKBQpuCu.g+W+Gp,JYGwKuwguJgfK.,YwwBBpVWg.fB.+KfdJ+GuKgwWuG,KuY,+wuBpKJWf,.YY+wVB.WpgKfw.uKYTf+KV{gWBKGWK+YY+GuVpWJGfY,wYJV+BfV,JUf..pKf{.+YWpgpWKGG,KTw+uugpffBGh,fYpwGB.VYJ+fVpfKGwDBwVGggWGG,KkY{+puWp.WSG+,VYJw,BKpwJufg.,K,wcBBVggYW.GYK+VJJ,G,KuYp+p,Jv<w,u/pB.WwVBVVuJ9fWVWJwWK.wKuVfWK.+,uY.+VKKY.wYu+pVWKfG.KYwwuBgVfg,fq,WKp1f+.VMg+WVGJ,G+u+wuupgJ.f,,+YBw.BfV.gYf+.KKJT.+KVwguWGYV,,?I+BuYpWJ,fYKu(uwJBGVKJBfu.gKfwBBwVBgpWW.V,YmB+VuJpGW+K.,uYgwfuppqJufp.,+gUYB+VVJGWGGYKw!uB,ufp,WxGV,pYWw.BYgJJVfW.GKYwwBuVggf.B.CKBmp+Gu.gwW+GG,WYGwKuwgpJgfG.,Y!wBBfWug.WY.+Yg)J+.uKJBfBGg,fY,+wuBppJWG+,>Y+wVBJp,gKf+.uKg?fBwJGgBWpGWKKYY+BuVp..pfK,wYu+fBfVKJvGV,VKW>.+YVVgVWJGG,KVB+uugpfJYGC,BYpwW+WVYJ+fV.WKG4KBwVuggWfG,KxwG+puWp.Ws.o,VYJwGJu.fY+1GwTVpJ+fp.fG.<u+JuKpW+WVWpKWwGuwKVYWwJu.JYWo.BwV,gpWp.pKYww.+K,dg+fu,.gN++JuupYJYfB.JK,f.,BYwwuBgWGKJ6VB,ugofBuuYg+WVA6V6pGJ+G+,pYBww,wYGwpBWV..YwwBJVwgYWg.TK+WJGK,,<:+BGB.f%Cwg,BYfwJBGVK.VwBB.VgpKBwpBgpWWG.+gggW+fW,WY,wfBJuWJWf.,u,BEgBGpxwcBGVVgJWG+Gu+pGWVGBKw!VwgBGYfwYBYp+JVYwBK+Yw+BWVggfW,>,V+pfJKGJg#WgGV,JYGJKf+.,YWw,.KYuwBBpVW.f)e+Yuf&WB+uKgwWuQWBYpGJgG+,wYKf,,VY+wVBJfYKBXY+Gu.gJ+KVpgBWpGWwKpKWVGJ.,YKGw,wYuwgBfV,JOfB.pKfw*+YV+gVKV+fuQgu+VVBpfJ,G6+fVgJ+GZfVYwwgcGVBggW,GJgJWKG,KkMBJKGK,BYuGB,YYJwGBKfJKWwGw,V+J+fWGY,.2w.-KJyV+JuGGpYpwVuBpKJVuwgwJpfW..BpggfWWfKfwB+YuJg)WJGuG+(++Kw,Y.wYu+ggAVf..KYwwGBgVfg,.9.gKp3W+.uYg+ffGJ,Ga.+wuVpgJGf,,AYBwpuGV.Jwf+.VKJaG+KgwggWgG.,,;++BVfpWWKGV,+YWwJuuVKJwfu.gY,^,B+VBgfWWGK,YwuwBuJpKJKGK,uYgwfB,D.JBff.WK,oYB+VVWJGwGKKViu+GufJBWN.VKpYW++BYpVJVfJ.GKK+KBuVGgffB. KVHpuWpgpYWpGV,.YGBwuwJuWhff,wY6wgBppfg.GY,XKV%.+GV+gwWpGg,fuG+wugppJKf..YY+wV+YVGJwfw.uKgQY+,VufKWpGW,.BY++uppJfG.p,+Y.wguwV,JGfB,JYJ=.BWV+JwWJGG,K1wYKugg+J,Gf,BYJwWu+pOJ+f,.J+GzKB+VuggWf.wwGrB+puWf.JYGB,VwJBBBYpWJufK.fKKw uVpVgWfpGYKgmV+JuGpKpGGu,YYf+gu8pVJpfY.,KYwfBVWJgGWY.wKuCg+KJJglWBGpwWY.+!u+JVf(f.,pYwwGBgVGg,G+,+KpwB+.Vug+WVGJ,G,J+wu.pgWuf,,+YBBpuVV,Jgf+.,KJ+++KVYgkWg..,,uI+BugpWWufY,pBLwJBGVK.wfu.JKf+,B.VugKWW.B,Yw6+VpK+wJKGW,uw,wfBKp&Jgfp.,+g*YB+VVWKWGGYKwRJp+ufp,WUKu,pYfw.VYpKJpGQ.GYVwwu+VgfRVB.#KG>pVBu.gSW+.u,JYYVWuwpuJg,u.,YwwBBfWug.WY.+wpoJ+.uKWwfvGJK+Y,+guBguJW,+JVY+w,BJJWgKf+.uKYZfBwJGgBWpGW/fYY+BuVp..pfK,wYuuJBfVKJ:.B,+Kfwu+YVWgVfpGGDuGg+uuYpf.zG6,uYp+WB.pBG,fV.JKGuwBwVVggWffJK! u+pV&p.JYG+,VufwGBYpwJpfg.fK,w6uWVpJwW.GYK+%V+JpGYJWwG.,g-+w,uWpBfpfG..Ygw+B,VJJwWKKwYVzgBBu,ggWB.K,WY.BVu+pKJJf,.KYBwuVgV,g,fW.BKYtWB+uYg+WGGJKBYK+WuugiJf.,KJYBwKBWpugYf..VKK.h+KVWgu,VGf,KU*+Bupp,.gfY,+YVVpBGVYJwfJb+Kf<,BrWBgpWfG.,YK,+VuWpGWVGw,uYgwf+JpnJBfp,wK.RYB+VGYuW..wKwwp+guGp,W+GB,fBuw.BYp+WgfJ..KKwwJpVggGW,.+KBTp+Wu.V.W+GV,JY.wKuwpuJgff.,YywBBKVWg.WY.BY+tJ+GuK.wl wJVBp+W+Wp.WYGwVBYppJJBWpJgKfw.uBfggJKG.,YYVx.BYgwJGGV,.YKfY,.YuwgBffWKY7p+gVVV.WGGBKKY,+,,YDJ+uugpf,,w.BupYgKfK,+JBf,.JKG?KgVG,KfYGwYu.pJJfufguJYG+,VBYg.fG.pYuwB+GppwwB,VpgWW.w+VggBJgJY.YYKwVBKVYwKufpBJpfWwBVuJpJJG,K,wu+fugp.BVu,g<WBGpFpY.+&u+pVJJfG.KwwwGBgVGg,fw.BKKdWBKpug+WJGJ,YYK+wuupgWGf,,wYBwWBWVKgY.+,MKJS.+KV+guWfGfY,cY+BugpWJ,fY,BYVBJuVVKJ+fu.JKf?YBUgBJ+WfG,,YIB+VuKpGfKG,,VYJwfBKp%Jffp,Wpgw0BBVVg,WGGKKw1uwuufp,W0Gu,pYWw.u9p+JVfJ.GwgwwBuVggGfB.sKBoppfGf,pYKwfuGY.+guwpuJgK,BVVwJVWgG.YtvuBuKp3Y+GuKgwKgw.uKuyJYGV.GJfGj.YY+wVfVG.Y+iW.VwVof+,Vs.pYG+Vuwp+WppV,.YBwBYwVVJ.fK..KpQuBJVp+.W..w,WY,,GugpYuuGG,+Y+,vBgpJJJf..BYww.BpeGpYWB.BK,YYGKK)!B+puWp,WBG+,VYJgYfg,uYJfJ,gK,wSBBW.,fXK+.+BgwWuJ,,,Eu+gB.p,wKuVpBJpfW3,VwJwfGG,g,WK.+KG{g+fu,,gYJ+fu!pwJ,GJppJ,fG.KYwVpW..pK.wg.uKKbW+.uYGf{f+VB.p.WLf,.GJGGV,}YBwpg,,wYwRBBWVwgfW.V+gJWgGf,,VuJJGK,,J,GB,+YVwJG+GYKfwJ.JKYC,BmVB.fA+BAuGpg+puKpGJKGww.V.gGfW,uKGfg,wK.RYB+fVKgRK+gVVp,WpGJgyW4GB,pYWw.BYpp.VfW,gKKwwBufK,G>pBu+WgVWGJY,gYG+wB.Y.+uuwpuJgK,wBp+gufBGKg,f,.+KV^Jg+GBKVKw+pBKp+J.Jpf.YGe,B.VgwpB.VGgKfwBJuJg,WJVBgBWpGW,.YYf+WG+JJKfK,wYuwgBfV,JMfB.gY+L.+YV+K+YW++u.pfWJG..KY+Gw,JYpwWB.fJYUXGBgc.OYBWVuggWf+BuWgwJfJG,G ++V,pY.wGBKpwYwwp+KV+wwBgVpgWW.kJuVguWpu.gKWwGu,gu,J+fK.g,uwJuiVJgJWKGG,.w++fVBgV+GV,giWBGp+wgwJ.fB,BYgwuB+uBJBfp.K.,{wBVVf^.+.uYg+WVGJ,GB+pwuVgVJff,,{BWgYfg.7.VIGBgVGgYgwGW,,;BwKK7c#+BuppWJ.+Y+JBVwGBGVKJwfu.gffpYgsVBggW.G.,YD+WBf,K+JYGG,uYgwfWT,uKuwJB,VwJwgW.fKwW..wKwPu+gG..KYuG.,gYWw.VwpJJVfW.GYWwwBuVggfGw.IKu)p+fu.gwW+.VKpYGwYuwp.Jgff.,YLwGBpVfg.WY.+KVFJuGpwgwWVGg,GY,+,uBppWYf.,wY+wVBJVGgK.w.,Kg=.+,V+gBfGGWKK;f++uWpJf.fK,wYuwgBYV,J+fB.fKWtK+YpupBWJGK,KwW+uugpff,G.,uYWwWBYVYW+fV.JY,7KBuVugJWfGYK} WWYufpYJY.w,VYWwGBYpwJJK+.fK,wQu+VpgfW..Bw,:V+JuGgpW+GV,g{.OGuoppJpGu..KYw+BVpfgGfw.wKVzg+.u,W-WYGg,.Y.++u+p,JJ,wJuYwwgBgpYg,fw.BY#dWBXJfg+WVGJYkYK++uupgggf,,&YBwgBWV.gYGuGBKJCK+KpKguWgGf,,w++BuWpWJ,fY,uYVBKYwVKJufuYgKf!KBIgWgpW,Yg,Y<++VgJpGJYGwKpKVwfuwpUWGfp.WK.+YBKVpg.WG.+Kwwu+gufgYW6Gg,pYfw.uwp+JG+w..Y+wwVBVggGW,.wKBXfpuu.pYW+,u,JY.wKuVWYJgff.,YuwuBgVWJKJ,.+KW1JuBuKgwWu,gmgYK+uuBpfJWG..YY+BwBJVYgKf+.uKJOfBYpggBWfGWKgYY++uVpJJ,fK,VYuwJBfVYJy.B,KKWw0+YVpgVf;GG)u(J+uuGpfGVG<,uYp+BB.pBG,fV.JKGBpBwVVggWKYJK9hB+pg+p.W1G+,VKVwGBKpwJVfg.fK,+++wVpg,W.,.K+7V+JuGJ0WwGJ,gYGw,u+pBf.J%..YBw+uKVJg.WKKgKumGpVu,g9WB.Y,WY,wYupfDJJfG.KYVwVBJVfJw,G.BKpmWuVuYgBWVG.wpYK+wuupGJGfK,-YB+.BWp2gYfB.VKJ3G+KpBguWGGf,Kvd+VuppY)VGj,pYVu,BGVYJwfV.gKKuJB!VBgp.KG.Kq)++WJBpGJKGw,JYJwGB,g+gwfp.,K.+gB+VVgJGGBBK+4J+guKp,f}GB,pEfw.uBp+JpfJ..KK+BB.VggKW,.GKB6p+Wu.JmW+GW,JY.wKuBpufgGp.,YuwBBfVWJuWYKJYW*J+YuKfYWuGJ,fOg+{ugfwJWf..YB^wVBWVGgKJK.uKg}f+KVPgBWpGYVVbO+VuVfWJGfY,wYVwgBKWJJ#fB.p+f%.B1V+gW,BGG,KZw+JuJpGJ,,eKGYgw,B.p+J+.J.JY,w,BwVfggfgG,K&#B+p+Bp.WBG+,GYJw,BKJgVGfg.KK,wuBuVggW.+GYKpuh+JuGpKWVGV,JYfB,VJpuJffW.YKYBVBVpfJfWK.gKuwu+fu,gvWBWa,W4owYuJpVJffGKKY,wVBGVfJwfS,VKpwgJWuYJ.WV:V,GYY+wuJpgJKKJ,2YBwpJpV.Jof+.W+BcG+KVwgJWJGG,,+?BGugp,J.G+,+ofwJu,p,Jwff.gYgC,B;VBgpgBG.KB*++GuJp,JKGwKfYgwYB,p+JBfp.Wl.wGBBVfgJf(GKKB#uugp+pKWpGB,GYWBwBYguWufJ,BKKB+BuVggfW,WfKBX.+WVupYWuGVKfKWwKuJpufVff.,Y8BWK.VWJBWYpVKViW+GVggwWJY+,fY,+OKpppJff.KwKcwVBYVGWpfw.uKg+fp,V?gfWp.*,.QY++uVJRJGGV,wYVwgBGV,J8Gp.pYDh.BwV+gVWJ,GYr8w+GuggwJ,G+,Bwp+uB.pgJ+f..J:iOKuBV.ggfuG,XwPB+puWp.fuG+,,YJ+VBKpBJu.gVuK,wWBBV,gWG,GYv+-f+JVupKWfGuKfYfB,uupBW/fW.YKY+WBVVJJ.WK.GKu{W+fuYgUGB.u,WXpwYu.pVWGfG.KYJwuucVfJpfe.,Kp+WuduYgGWV.w,GwW+wV+pBJf.Y,MgVwpBfV.JJf+.W+BLG+KVwYpWgGG,,3IBWupgBJ.G+,+YVwJVGWuJ+fY.gK,t,ugVBgpWfG.Kf?++guJp,JK.BKWYg+pB,gpJBfp.WR.wZB+pwgJfgGKNJ^uBWVYp,W,GBY0YWw.BYp+WWfJ,WKKwVBuVggffY.BKBwV+WVBpYW+GV,JFgwKuYpuJWff.YYr+VugVWJGWY,.KV&J+GuKgJWu.B,fq.+)uVppJWGu.YY,wVuBVGJffw,pbB>fBWVtJWWpGW,.wYBpuVguJGGf,wYVwgu.g+JFGj.pK,Q.+YV+WVWfGGKGmwBwugWBJ,.+YpYp+gB.gJJ+fV.JKGwfBwpwggW.G,K+tBBJVVp.W,G+KYYJwGBKgBJJfg,WK,+fBBVpgWW.,uK+ww+JVfpKWBGu,gCuw,uGpBWwfW,JKY+uuKVJJgWKKpKung+fu,w+WB.3,W*JwYuBpVJ.Kp.KYwwu.YVfgKfyKBYKMfBpuYgVWV.Y,GYKVKuVgwJffY,-YVwpuGpwgYf,.VYK0G+KVwWufGGfKJLP+KupW?J..w,gYV+uBGgJJwfu.gKf+gB#p5gpW,G.,Y6+BgV+pGW.Gw,GYgwfB,p7JVfp,pK.wwB+VggJf,GYKww++gpup,WmGB,pYYw.ufp+WBfJ.,KKwwuwVgJuW,.fKBww+WVKGVWB.A,JwwwKuwpufgGK.,YGwBuwVWg,WY,uYWhJBguKgVWuGg,fw,BVuBg+JWGJ.YwGwVufV,gKfK.uI&Xf+,V<gBGwGWKJYY+uuVpfJG.y,VYu+uBfggJ5fB.pYG+V+YpZgVG+GG,K4w+uV+pfWJG6KwYpwGB.VYWKfV,+KGwJBwVYggffBJKw!G+pVYp.WWG+KgKpwGuJpwJ.fg.fK,wpBuVpJBW.KYK+rp+JuGpKWVKY,gYfw,gPpBJgfWK.2gwBBYVJgKWKKuKuwWBWu,g.WB.B,WY.wYu+BYJJGV.KY,wuBWVfW,f..uYl8WBpuYJuWV,KBwYK+Guu=WJffK,)^,wpB,WggYf+.VJfXG+YVwgJ,+Gf,,DmgGuppfJ.GB ,YVwJBGJKJwfV.gY.YGB}VfgpGgG.,Y +uGwYpGWVGwgGYgwGB,p.JBff2uK.DYB+Y.gJW.GKKVBY+gufp,JuGB,gYW+K+,p+J.fJKBKKwwBuggGfW,.gKB3,+WV.pYW+.K,Ji+wKu+puJJff.,^GwBB,VWgKWY.+KV+JBguKgJWuGK,fYY+spBpgJWGu.YYWwVu,VGW(G,.uYw^fuKV:gBWpGWYuYY+fuVg+JGG;,wwufwBfppJ>ff.pZfI.uYV,gVfwGGKg!wBgugJffpGy,,Ypw.B.gpJ+fV.WKGwJBwVpggW.G,;i9Y+pVBp.WWG+KJYJwGufpwJ,fg,BK,wfBBgpWDW..JK+7K+JpppKWYww,gw.w,YWpBJgfW,VKYwpg)VJgGWKgfKu0J+fVwfGWBGp,W.YwYuBpVJJ.w.KYGwuBfVfg,fIKBw.EfBguYgVWV.Y,GYK+Wuug+JffY,&YVwpuGg+gYfK.VYKoG+KVwWufYGfKWlz+YupW^J..wKBYV+VBGgJJwfu.gKf+VB1pwgpW,G.,Y=+BgpwpGW,Gw,GYgwfB,pO,gfp,gK.wwB+VggJWG,pKww++gVJp,W}GBKJwpw.uKp+WYfJ.GKKwwBgVgJpW,.YKBXJ+Wu.gWW+.#,JHpwKu,puWW.w.,Y.wBu.VWg.WYK+1ndJBguKg,WuGJ,f%YBwuBgBJWG#.YY+wVVJgVgKfK.uYubfVpVHJVGWGWKfYYupuVpJJGfK,uYu+uBfVYJ4fV.pYG+V+YpsgVG+GG,KEwBpuJpfW.GdK,YpwWB.VYJVfV,uKGw,BwVpggWf.wK6OK+pVup.WGG+KgCBwGufpwfWfg.fK,wc,VVpJBW..GK+hp+JuYfWWwGu,gKuw,uwpBfp.w.,YWw+BJVJW+WK.wfWxgBuu,g+WBGJ,W&KBuu+geJJ.w.KYwwuVgV.g,fG.BYw2WVBuYJufgGJKgYKBGuupgJff,KVYB+BBWp6gYf+.VYfwK+KVYguWKGf,,Ln+Bu.pWWWfY,uYVwfBGVKWWfu,uKfwfBUVBgpfG,4,YwE+Vp+pGJKGw,u JwfuJp>Wwfp.GK.8YvwVVJ+WG.JKw^Y+gV.GBWwGK,p-Yw.BYp+fVGw.GYWwwBYVggGW,,+Yp(pBVu.gBW+GV,JwG+wuwgSJgGp.,wWwBuJpVg.f..+:W&J+GuKgwfVGgKpY,++uBpJJWGKKVY+++BJgVgKfw.uYWwK+,VKgBG(GW,.YY++uGpJWpfK,YYuwWBfV,J,fB,)KWwp+YV,gVfJBp,YrW+uV,pfWgGbKVKuwWupVYJffV.JKGwuB+VuJwWfK,KbEu+puWp.WBK,,VYJwGpKpwJVfgKfqVwwB,Vpg.W.K+K+wgBguGgfWw.w,gYfw,udB,JpGB..YGw+BgVJWGff.+KK>gBuu,J+WB,.W.Y.+Wu+e.JJf..K/GwuBGWVg,f4.BJ,AW+,uYgp,OGJ,GYKVwuupJJfGYGKYBw,BWgfgYf+.VeK.w+KVJgu.gGf,K6TuWupp,.gfY,+YVuJBGVYJwfu,,KfwuB}VJgpWWG.YYwK+VuYpGWVGwY.YgBfVwpTJffp,mK.w+B+pggYWG.gKw+u+gufp,W GV,p/Bw.BYp+JWfJYGYfwwBKVgJGW,,.KBBpBwu.gWW+.u,JMQwKgwppJgGu.,nYwBB.VWf.f+.+KYZJBWuKJVWuGg,,Y,+guBg>JWf,.YYpwpBJVGgK,w.uKJ#fBwJGgBWpGWKNQk+BuVp..pfK,wYuugBfVKJ#GVGuKWw?+YpfgVWJGGYKH,+VuGpfWwGEKBYpwWGKVYJpfV.WKGOYBwVJG+WfG,KF!.+pufp.JYWY,VYJwGBYpwJufg.GK,wDBBVpgGW.GYK+Sp+YuGpKWwwGB.pKJufV,wY.ff,VKYw+BVWWYbw+B7BgggWpGpKuWgGp,WY.BwBHpVJWfG.YYwwuBgVfJYf}.uKpXf+.Vwg+fVBB,.YY+wuppgJff,,#KhwpBWV.JLf+.VKJo.+KVwguWgG.,,Xz+Bugg>J.fY,+V.g,fY.VKpw+B,KGwgB8VBgpUu+VuGpKJpG,,,KY&1uuYGwfB,p8WVWu.WK,?YBBVVgJWGGKYB u+JufpKW^GV,pIWWguopBJVff.GKKwwBuuugfW,.DKuEp+Wu.g}W+GV,JYG+BuwpuJgfG,gY*wBBpfsKwwBwVufgffwGg,uYWGJKuY,+3uBGJYKwf++VgJgfK.uKw4p.VKKDf+,VTGp^V+gufpuJVGWpWWGfK,wYup.f,.+Y+K.BuVWJwfBfV,fkfBwugpuJWuJggJ,G-,BuJgKff.BKgwgwGVYgBfw.u,.YK,VK2}B+puWJ+JYG+,VYJwGBKpwfuGY.GK,wiBBVpgfW.,wYw(V+fuGg+WwGu,gYfYgu&pBJpfG..Yww+BVpKgGWY.wKuTg+fu,WzfGGg,fY.+zu+ppJJG,,,YwwgBgV.g,fC.BKpKB+.V2g+WJGJ,,YK+wG.pJJ.f,,gYBwpBWg.JGfB.,KJ6.+KVpguGg,+,KsJ+BuKpWJYfY,JVpwWuVVKJwfu.JKfwgB&VB,fWfG.,YiB+VuJpGJKwV,VYgwfB,p/JBfp.WwJQYB+VVgJWGGKKwbuVBufp,W-GV,pYWw.BYJKJVfJ.GYwwwBuVggf.W.^KB=p+,u.pYW+GV6uYGwKuwpWJgff.,YrBYBpVWg.fp.+KVTJ+GgfgwWuGgK7Y,+ uBppK,f,.YY+wgBJVGgKfwppKgw++,VfgBWgGW,.K.++uVpJJ.fK,wYuwgBGV,J&fBKGKWH.+YVBg,WJGG,KVgJWGB,WYlwWugpYwfuBVYJ+fVwKVUgwfV.BKW.,GKKwDB+puWGeWFGB,VYJwGWwp+Wufg.fK,VJfJ.B,fXf+KuGpWgfGf,,kVRuBJp.WwuBY,wYu+pVJJfGKKWgg.fu.wKu{gpGGG,gYYwGu.Y,+pu+pVJJYGBfV+J,W...Y/fw.uKphW+.fpgBWpGJ,GYKgWugpgJff,,<YBYpWWw.JRfY.VKJbGgw.pKprWwYuGguppfg,pYw+wBBYpwKBGVKJwKgP,V.pKW,GJggfuG.,YL+gwGg.KKYw,+upBgGGp.VYVfg,+K.cYB+f.KgL,+WVuguJJf,,+WwGg,pYWw.GB.BYJwB..YwwwBuVgK.YK+uKu5f+Wu.pY,g+Bu,pJwYu+puJgff+pYwwgBpVWg.wp+BuKg.+.uYgwWuGgBuYK+VuBppJWw.B7VGJgfGV.J.fw.uKgVwW+.uGKYGB+uYuYWuff,GYKwBBVYVwKBfV,JoKK+Gp+uYWKGp,fWGGG,KDw+uugKf,Bgy,pYpwWB.VYJ+fV.JKGSYBfVuggWf buJpuWJff.Y%BwgugYW+VBKpwJuYBBWV.gGJWGG,.w=+KVucp+WuGpKWwYV,JYKw,u7pBYB(fu VgwVBVVJgGWK.wpuV,pfuYgwWpGp,WY.wYu+KV.KKG.YYuwuBgVfKG{VBfKJ6W+YuYg+WVGJ,GgKgg=upfJff,,4YBwpwWG.GYKg.pKJ*G+KpgguWgGf,,TZ+BuppYIVG!,+YVw.BGVYJwfV.gKKuJB}VBgpW,G.KZ8++VBVpGJKGw,VYgwfB,g+gwfp.WK.wYB+VVgJGGgVKw#u+gufp,fuGBKJYYw.ujp+JGfJ.GKKwwB,VggfW,.+KBmg+Wu.JwW+GV,JY.wKuwpufgG+.,Y#wBBpVWJuWYK+Sw>J+GuKgwWu.V,fw,BVuBppJWf..Y?,wVVJgngKfw.uKgNfB+VRgBG+GW,,YY+BuVpJJG.K,fYuwJBfVKJ0G+.p}WwJBbVBgVWWGGKfOwuu.VpGJYGF,uYp+pB.gYW,fV.fKGwlBwgTggf..SKUCp+pVYp.JYG+,VYfwGu+pwJpfg.fK,BRupVpg,W..BK+w.+JuGgYWwGJ,gYYw,u<pBJp.w..Y+w+BVVJJLWK.VYWdg+fu,fWWBGg,Ww.+GuBp,JJG+.KaWwuuWuJg,fW.BYJRW+.uYW+fwGWKuYK+fuugYJf.,,.YuwYBWpVgYfG.VKKwN+YVWguGgGf,K*#+.upp,.gfY,+YVBJBGVYJwfuPGKGwVBzVugpWWG.,YGp+VVzpGWwGw,uYgBfuWpwJGfp,:K.+gB+pgppWG.gKwwp+gufp,G5GY,gN+w.uJp+W,fJKGYfw+B,VgJBW,,,KBM.Vfu.ggW+,.,JY.wKufpuJGKV.,Y:wBV,VWg,WY.p+=yJ+GuKWfWuGJ,fY,puuupKJWf,.YY+wVBJQYgKfW.uKGcf+,VcWBf+GfKuYY+WuVJjJG.nGYYu+6BfpYJ<fB.pZWwJBsVGgVfwGGYp}wuuVBpGWpGv,.Ypw,B.pVJgfp,2KGBYBwVVggfBG,KuBK+puWp..8G+,pYJwGJ+p+J.fg.GK,wxBBVp+,W..gK+:f+JuGpKGw.A,J:+w,ugpBWKfW,K,,w+BKVJJ,WK.wKu+gBpuKgWWBGY,WwuwYp+gwJWGu.KYfwuBfVfJBfV.uKKNWpVuYgBWV.w,G9+V.uupgJfKp,HYuwpBWfqJiff.VKW=G+KVwguuGGfKVUq+WuppWJ.GVuKYpwGBGgpJwfV.gK.9,BuJKgpWWG.YgZ++puJpGfuGw,gYgw,B,p>JB..fsK.w+B+WugJW.GK)w}u+GJVp,WhGBwVYWw,BYpp.AfJ.GKKVWBuVJgfW,,pKBbW+WVwpYW+GVYK,+wKuupu.fff.KY4BBBpV,GgWY.+KVuG+GuYgwWJY+,fY,+hJGppJff..YBpwpBGVGgKfw.uKg6fKwVXgpWp.q,.YY++uVKiJ.Gw,wYJwgBfV,JcVg.pK,).BuV+gVWJGGW+xw+gugp,J,G ,BYp+YB.p+J+fW.JKGUKVg+GggW,G,+.UB+guWJ.JYGpwoYJwGBKf,JufJ.fYwuGBBVpgWYwGYKB V+JpwpKWuGu,,Yfw,u JWV,fW.YKYp+BVVWgGGK.wKJu++fu,gmKBGp,fY.+Bg,pVJJfG+BYwwVBgVf.wfw.pKp!W+.uYg+WVp.,G1w+wu.pgJff,,)pGwgB.V.JBf+.VKJkGK+VwgJWg.4,,iO+Bupw,J.G+,+YWwJBGVKJwGf.gK,*,BgVBgpWWK+WV9++JuJ.uJKG+,uwfwfuwWGJBfp.WuVjYBBVVg.,pGKKwnu1.ufpKWsGBK.YWwYBYpVJVfJ.GwuKJBuVfgfYf.TKu puWu.gB.,GV,JYGgGuwpVJgfK7JYvwBBpYJg.fN.+KVwK+GVwgwW.Gg,fY,upwfppJ.f.GuY+wpBJgKgKfVYYKghf+,BVgBWgGW,.wV++uJpJJYfK,wYuB,YZV,JBfBuVKWO,+Yg+gVW.Yp,Khw+u.ppfJKGOYB#+wfBYVYJBfV,VKG+tVWVVgGWf.fKs-B+ppWgKJYGp,VY.wGuVpwWpGp.fY+w=u,VpgWW.,wYf V+KuGJ.WwGu,gwf+guSpWJpfY..}Xw+uggBgGfV.w>V*g+fu,g6WJGp,YY.+wu+pgJJG,,,YwwGBggug,f*.BKpuQ+.VBg+W.GJ,,YK+wVGpgJ,f,,BYBwfBWg.JVf+.JKJxK+Kp,gufW.g,,zu+BuJpWJ.fYY+)BwJBYVKJVfuKWKf+,uGVBgGWWGY,Y^.+VuJg+JKGg,uyIwfB,p-JBgV.WYw&YBgVVgKWG,K+pzV+,ufp,WTGu,pwW+YBYpJJVfK.G*wwwVup.gffu. KpbpBKu.pYWgGVK8YG+guwpuJgffKfYOwfBppCg.fg.+KV+B+GV+gwWGGg,.Y,BauJppJWf.,{Y+wWBJVGYpf+.JKgmY+,VEgBWpp,,.#u++uWpJJGfK,wfJwgBKV,JBfB.pKWw4pfV+gVWJf!,Kx++uugJCJ,GB,BY.wWB.VYfJg..JKK*KGuVugJWf,,KUvgpwuWp.JYBV,VYWwGu+W.Jufg.f,+w^BuVpWWfJ.6KVQV+WuGgGWw.pYYYG+wubg8JpfW..AY+.BVV.gGf+.wKG1gB.pwgzWJGpYBY.wYu+ggJWfG,uYwB+BgVfg,.E,fKp{Y+.VVg+fpGJK,aK+wuGpgfBf,,%YBwpVuV.JVf+.gKJX,+KpBJBWg.w,,wf+BuppWJ.Kp,+YWwJu+VKJBfu.gK,8,BBVBgWWW.=,Y+++,uJpKJKGu,uwBwfuYp+JBff.WKK(YB+VVWJf,GKKV u+GufJYW-,BK.YW+wBYpVJVG+.GKK+uBuV,gffp.HKBTp+WwGpYWgGV,,YG+uuwJu..fG,BYzwBBpVfg.GY,.KV;K+GVugwfgGgYfHf+;ufppJ.f.KuY+wVuWVGJpfw.,KgAf+,VvgKWp.O,.hp++u,pJJGG+,wYJwguwV,J+fB,pF+E.+YV+gpWJGY,K4wW.uJpKJ,GV,BYpwWB.wBJ+ff.JYwaKBwVugguKG,Ku1B+WuWp.JYGpwEYJwGBKupJufJ.fK,+pBBVWgWfwGYK+1VuK++pKWuGugfYfwKulJBJpf,3gKYw+BVYGgGWY.wKJu++fu,gEgJGp,fY.wYVJpVJGfG,pYwwuBgJ-BBf^.pKpG7+.Vrg+GJGJ,YBW+wuupgBwf,,wYBwfguV.gYf+ffKJi.+KVwJfWgG,,,nu+BuppWG+Jp,+YJwJKpVKJ+fuKgKfwwpGVBgpWWpg,YPB+Vu.fpJKGw,uGKwfBKpXfBG+.fKY/YBBVVJVWG,&iW#V+GufgfWcGB,pwWBJBYppJVf..GYVwwupp,gff+.)Y,hp+Wu.JwffGV,KYGB.uwpuJg.fKwY0wWBpVYg.G3.+Ygw%+GVVgwGWGg,fY,+TV+ppJYf.,wY+wgBJp,J,fw.GKg+u+,VEgBWpY^,.?B++u.pJJ,fK,w7,wgB,V,JBfB.fKW+.uBV+gJWJGK,Kw,+uVWgJJ,Gu,BYJwWB.VYf+.+.JKYMKBVVuWWWf,,Yp!B+GuWpYJYG.,VYJwYBKpgJuG .fK,w)BB+VgWfwGYKg0V+KuGJK,pGV,,Yfw,u!puJp.W,fKYwJBVVKgGGw.wtu7W+fVugHWpGpKKY.wYVfpVW%fG,gYwwuBgVfWffU.fKpw +.Vgg+WVG,,G(++wuGpgJ.f,KvYgwpBWV.Jef+.WKJ^GfpV+gJWgGY,,qb+Bupw,J.Gu,+YWwJBGVKJwVJ.gKK;,BVVBgpWW.Hwf!++VuJV5JKG+,uYgBXB,pBJBf..WK.6YVJiGgJWKGK.p2u+JufJ,W0GgwwYWw.BYugJVfW.GnKw,BVVfgfWK.oY^LpBGgugMWpGVKVYGwKuwJuJGff,wY9wgBppZg.Gw,GKVc,+GpJgwWuGgK.wB+nuWppfgf..YY+BVuiVGJufw.fKgwG+,p+J,Wp.F,.Pf++uVpJJG.w,wYfwgB.V,J+fB,JYJ#.BpV+JYWJGG,KFwVGugpKJ,Gg,BYJwWB.puJ+fJ.JKKCKBVVuWgGwG,KBSB+WuWJJJY.uKKYJwYBKpBJufg.fq,w+BBVfgWf-GY=uEVuJpJpKWpGu,fYf+guDpBfBfW,+KYwGBVVJgGWKW*Ku1.+fV+gaWWGpYWuw+4uJpVJJfG.YYwBuVwVfJBf%.WKpw.+.pYg.WVGY,G9w+wVWpgJfG.,xYGwpu+V.gYf+.VKfAGBVVwgGWg.+,,5{BGupp,J.Gp,+YgwJuGpBJwfu.gKGF,BuVBgpwwG,KB:++fuJpGJKGwJJYgwYB,ppJBfp.WK..BB+VWgJf!GKKw%u+gp-p,WBGB,WYWw.BYJJBGfJ.KKK)VBuVJgfG,.yKguw+Wu.pYJpGV,WYGB/+YpuJfff.YY=wBBpgWJJfe.VKV1G+Gg?gwGu.B,GOw+PuVppWBf..Y=JwVB,VGJgfw.uKg4fY.V ggWpG,,.3u++pVf,J.GB,wYuwgBGV,fQGf.pKKI.BuV+JJWJ,GKicw+fugp.J,.V,BYpBBB.ppJ+fK.JKGLKBwppggfvG,KpOB+,uWp.fuG+,JYJ+wBKpBJuGgKBK,wiBBVggWWYGYK+wG+JuKpKWpGu,gYfuBwgpBJWfW.uKYwBBVgJgGf+Y.Kubg+fuVgUWuGp,,BgwYu+pVJKf..YYw+p+VVfJ>f0.VKphW+.pYgKWpGG,G?w+wpppgffGW,wYgwpBGV.JWf+.VYKzGBBVwg,WgGf,,s Y+upp,J.GB,+YfwJBGJfJ+fJ.gKKF,BeVBWpfVG,Ku(++VuJp.JK,wK)YJwYB,pVJBGW.W&.wGBBVGgJW,GKYp>u+gVKpKWgGB,YYWw.BYp+WJfJ,wKKwgBuVKgfW,,wKB3.+WV+pYW+GV,J0+wKuupuJ,ff.YYh+BBgVWg.WY.BKVFG+GuKJgWuGf,fqw+EuBppfYp+.YYVwVVWV.gYfwKuKg%KpJVygBWp,f,,Nq++pVguJ.Gw,wYVwgugV,W+.G.gK,d.B.V+gVWJ,GKtPw+JugpKJ,Gg,BXJw,B.puJ+GY.JKGiKuBVVggfvG,YKzB+puWJ.WYG+,GYJ+wBKg+JuGWKwK,wgBBgVgWW.GYK+wg+JVwpKWBGu,WYf+YuYpBJ,fWKpKYw+BVVJG+WK.VKuoK+fuYgAWB,B,WYYwYuVpVJ.fGKKYBwuBfVfJbfN,YKpwGuuuYgpWVGf,GYK+wpugBJfGw,-YgwpVGV.WYfB.VK,=GBwVwgKWgGfYB*j+Wupg+J.fY,+YVKgBGpBJwfW.gYxy,VLWJggWYG.,Yl++puJJGWwGw,fYg+}B,gBJB.p.,K.wpB+VJgJGeGKKwwu+gV+p,WWGB,pYWw.Vpp+J.fJ,+KKwWBuVgJiW,.uKBZ,+WuKpYf+Gp,JYGwKu+puJGff.,HpwBBWVWJ+WY.+KV+Kr+uKguWu,.,GYK+cpBppJ,Kg.YY+wVV,V.gYfw.J++kf+,V&GcWgGf,.wY+KuppGJGfY,w!wwgu.JVJwfg.pYpS.+YV+WVfKGGK+hw+JuggwJ,.+,VYpwKB.gWJ+fV.JY,+fBwVfggGJG,Ko=Bupu,p.WVG+,GYJ+.BKgBWVfg,wK,BuBBVpgWW..wK+;G+Ju,pKWBGuKWOWw,ugpBf&fW..KYw+p.VJgYWK.JKuZW+fu,JwWBGW,WYYwYuppVfJG,.KYuwuBfVfWWf%,VYgyWB(uYguWVGJ,GwKBfuupGJfGw,HwVwpVWgwgYfg.VKGtGBJVwguGBGfKBco+.uppWJ.fYfwYVw,BGpBJwff.grfV+BwVWgpWWG.Kqn+uVu.pGWuGw,fYg+,B,JsJ,fp,%K.w+B+pfgJWG.YKwk.+gVBp,WyGB,pwuw.upp+J.fJ,BKKwwufVggKW,.gKB<J+WV.JJW+GV,JY.wKuVpuJg++.KYBwBBKVWg.WY.+WW/JBBuKggWuGg,fY,,uuBp,JWGw.YY+wVBJ;YgKfg.uKG6f+,VIgBufGWKwYY+VuVpJJGfKJVYuwGBfpuJ;fB.pKW.R+YVVgVf)GG,K8w+uBupfJ,GP,uYpwWB.VYJ+fV.JKG+BBwVuggWG.+K=}B+pGW.,YJ+uuJYGwGBKpwJufg.fK,w&BuVfgWW.GYufgfJYGvpYWYGu,gYfpufV,g.fSKBYV+ggfBG.,. .BVVg}JBBu,g?WBH,uJpKJfGV,VKWPKBBY+++BgVfg,Kp+.Vup,g+GJKu&J+.wKppJfG3.GJGGJ,5YBwpJ..wKGLg+JV.g2W+WKKBYWGGKgja+BupG Yw+B+VVfJfGw.gKuiW.JKK),BEVBKBYfBDugRB+,uJpGJKbwuBpfJBGw.WY+wu.fKYaYB+VV.wnKYYK+wu+gufp,,J+JuBVfJffK.GKWYfBfV,JVJuGJK.ww.wKY-p+Wu..pYBwKu.uwJ,GBfgKYwBBWVuwuBGVWg.WY}YVup.W0Gfg+W.Gg,fY,pJGJ,BKfwfBKVGgWBWpugKfw.uVupGWuGK,.(f+Kuepu+BuWpJJGfKwKpBgWf,VKJgfB.pKWgBWu.p,.Y,+WVu>++JugpfJ,YKBupBgKB,pVJ+fV.JBBgBW+.5KGl+GKKK!B+puWGBYu+pwgpgWhf..VK,wVBw+YgYfGWHgWW.GYYuJ++WuGpKWfGu,gYfB,uGpBJpfW..KYwVBVVJJfWK.+Ku=J+fu,gPWB,B,WYKwYu+pVJJfGKKqpwuBWVfgYfI,HKpwG+YuYgpWV.u,GYK+wuuJwJffY,tYgwpBGV.Www+.VKGNG+YVwguWgGfYun{+guppfJ.fY,+wV+BBGp+JwfJ.gY+?,u+VfgpWYG.Kub++VuJpGWuGw,JYg+4B,p+JB.p,VK.wBB+VWgJf.GKlwSf+guKp,WuGB,fYWw.VJp+JWfJ,TKKwwBuVgJwW,.BKBDp+WVwpYWp,w,JYGwKggpuJJffK,jJwuBKVWJBWY.,KVwfBfuKgGWu.V,fY,+5uBuoJWGu.YY.wVBfVGJuwf.VKYbfuuVxguWpGf,.3BV,uVpJJG.V,wYVwgBKWJJtfB.pwY9.B0V+WVGMG.Kp^w+GuggvJ,.+K+Yp+BB.pKJ+fV.JKGKJBwV.ggfuG,K+-B+.ufp.WgG+:GYJw.BKpwJufG(VK,w)BBJ.gWW,GY?+w,+WVBpKWJGu,,Yf+YuYpBWCfW,GKYw+BVVJVVWK.WKuww+fuYgTGB.+,fmuwYufpVW.fG,.uKwuBWVff5fd.uKpww+.VBf,WVGJ,G+w+wuVpgJKKJ,}YBwppYV.Jnf+KVYu&.BpVwgGWg.,,,w+wwupg+J..w,+YVwJBGg Jwf,.gKGm,B+VBWpfVG,KJN++KuJg+JKGg,WYJ++B,WpJBfg.WYVQYBpW)gJWGGKwg^u+Jufp,fpGB,KYWw.BYp+JV.JVVKKwWBuVYgffW.rZBw,+WVupYWfGVK+YGBKV+puWsff,uY&+JBpVWJYWY.GKVrf+GVTgwGuGJ,f}p+iu.ppWBf..YY,wVu&VGJpfw.,Kg+fuJVzgGWp.w,.1Y++uGw,JGGp,w+JwgBGV,JIfB.f+u*.+YV+fWWJG.,KnVVYugpfJ,Kp,BYgwWB.ufJ+fp.JY+hKBwVuggJVG,KL>B+KuWp.JYGJVwYWwKBKg+JufJ.fKYw{BgWwgWW.GYYBLV+WuGpKKBGu,JYfwYuspBJpfWGWKYw+BVVWgGWK.wKuLg+fu,g9WBGp,WY.uBu+pVJJfGWuYwwJBgVfg,f3.BKpwg+.Vug+WpGJ,GYK+wV.pgWIf,,;YBwpBWV.Jgf+.WKJww+KVBguW,.V,,tu+Bu,pWJ,fY,+YVw.gpVKJwfu.KKf(KBSVBpBWWG.,YcB+VuJpGWu+f,VYfwfugpDJufp.fK.wBp,VVgJWG.JKwTV+guKfJWXGB,prfw.u:p+JVGK.GY+wwBuVggfW,.HYW?p+Ku.gIW+GV,JYGrWuwpfJgf,.,YAwBBpBBg.fB.+KGsJ+,uKgg=,GJ,KY,BwuBpgJWf,.YYpVQBJVGgKG+.uKJMf+,B,gBWpGW,,YY++uVpJfwfK,VYuwWBfV,J6fW.gKW3Y+YpfgVWWGG,K&w+JJ+pfJ,G1KGYpwfB.VYWJfV.,KG YBwVuggWfRKKwnJ+puKp.W+G+,Ggww.uBpwW,fg.GK,wwBBVfGuW.GYK+wK+Ju.pKWw.f,gYYw,uwpBJpfW..,fw+BGVJgGWK.wKuT,+Gu,g+WB,V,WY,wYu+pVJ.Kp.KYwwuVpVfgKf/.BY.}WBBuYgVWVGJ,GTuWfuVpKJf.,,rYuwpBfV.JB,,.VKJ2GuKVwgVWgG.+WDw+fuppWJ.fY,+YV&BBGppJwfV.gKf(,B;fwggfCG.Kgl++VuJpGVVGw,JYgwfB,pwJBfpGpK.=YB+VpgJWGGKKVeV+gufp,W=GB,pYWwKBYp+JVfJw,KKwwBuVWgfW,.aKBYB+Wu.pYWBGV,JYGwYuwpuJgff.KYzwBBpVfJ{WY.+KVp.Wu.wKVWpGg,fY,B+YwppJWf.,=Y+wVBJVGpGfw.uKgPG+,V2gBWgGW,.YY++uYpJJGfK,+Y.wgBfV,.+^uBWuKV.Wk.uKWWW.W,Kow+uJK.YRwYuBJpWg.fw.,Kp8pBpVYJwB+VpggWfG,BYuf+gV+p.JYG+wJpng.G<.+KgwG+YVYwwBJVpgWW.+YuBpKWfGKpYWJGu,gYfp,f..uYYEKBKp+wBBYVJgGWKruuVgVp,G.,.YYwYB,pw+ruVpVJJfGwgpuVVBJpVg,f(.BB+gJJYG9,KKV+uB.ggJpGppJW<f,,8YBJufJGYKGNGBV&gXG+KVwJpJVGf,,&O+puppWJ..Y,KYpwJBGVKJwfK.gY8!KBzVBgpGgG.KZA++VuJpY.WGw,uYgBJB,pwJBGJGgK.HYB+VfgJWGGKKwwf+guGp,WDGB,pYWB.uGpBJpfJ..KKwgBuggJpWK.wKBOg+WVVpYG+.w,WY.wKu+puJGffK,oJwuBgVWg,WY.uKVMJgWuYg+WuGW,fY,+muBV,JWf..YY+wVBfVGJ+,..uKg7fuWVqguWp,WYu#v+guVp.JGGp,w?p+pBfpuJIfu.pKWA.+Y+.gVW,GGKV1w+pugg3JKGD,JYpBVB.pZJ+fV.JKYuWBwVuggGpG,KwdBupVVp,WuG+,WYJ++BKgBg+fg,SK,wBBBVpgWG..GKB/G+JVwpKWGGu,gwJwKuppBJ.fW..KYwJppVJJ*WK,,Ku8J+fVBg}WgYw,WY.wYVKpVJWfGK3,YwuB.VfJqfP.BKp+WBJVXggWVG,,G8J+wuuJVJGG+,hYJwpBWV.JYw,.pK.mGBVVwgWWg.jVWvw+BupgpJ.GD,+YgwJBYWWJwfu.gYgF,BwVBgpJpG.,Y{++puJpGJKGw,uYgwfB,puJBfp.WK,wUB+VVgJYB.wKw*u+gufp,WMGB,pYfw,BYp+JV^w.KKKwwBuVggfW,G!+++w+Wu.pYW+4K,JYKwKuwpuJgff.,YWwBBfVWg,WY.+KVXJBGuKguWuGW,fYY+yuBgVJWGP.YYuwVBJVGgKfG.uK.cfBeV9gBWpGYKZYY+JuVg?JGfY,wYVwgBKWJJ>fB.pYwQ.BnV+WVfuG.Ku?w+gugpGJ,GpgGYp+=B.pfJ+fp.JK,^KBVJYggWfG,KGEB+guWJ.WGGB,.YJwKBKpuJuGW,WK,wJBBVfgWW.GYK+BM+WVupKW+Gu,gYfw,VGpBWTfW,5KYw+BVpfJGWK..KuqW+fu,g^WB.f,W;=wYu,pVJWfG.KRgwuBGVfJ+f7.BKpaWuJuYggWVGJ,GYK+wuf.JJGGB,#YBwpBfV.JVf+.Vu.3.+KVwgpWgGf,,7OJgugpWJ.G+,+YVwJBGJfJwfu.gKG?,B<VBgp.VG.,YO++JuJpGJKGw*?YgwfB,p+JBfp.WK.gBBBVVgJWYGKKwtu+gK.p,WuGB,.YWw,BYp+g+fJ.GKKw+BuVggff{.wKBap+WVZpYW+GV,WY.wKuwpuK fG.KYbwBBpGwgYWY.+KV0J+GuKgwWuGf,fY,+vuBppJWW.xK;VwVBJVGgKGg.uKg-f+,VXgBWpGWY+YY+BuVpWJGfK,wYu+,BfVYJ^fV.pKW).BV.GgpWfGGKVmw+VugpGJ,Gu&KYpwWB.ppJ+fp.JKG+uBwVpggW,G,KcSBupVVp,WwG+,gYJw,BKpwWffg.,K,wuBBVpgWf+.DK+;J+JVppKW+Gu,gYf+wgGpBJpfW,gKYwBBVV.GpWK.wKuwu+fuKg5WB..,WYYwYuVpVJJfGKKY,wVBfVfJ(f?.uKpwGBGuYgpWVG.,GYK+wuu..JfG+,mYBwpBWV.gYfg.VKK3GBBVwguWg..Ywo5+fupp.J.fY,+YV+pBGVKJwfG.gKGO,BrVKgpWWG.KtU++VuJpGJKGw,uYg+BB,p*JBfg..K.=YB+WKKG,.GYKV7u+guf.wYY++u+Yf+wBYp+JVwJ+.VgJBfgVJJJW,.PKBu.W+Gf,B,JwKufpKW+Ju..YPwpBwYwwJBpVWg.wB+BugguWxuYg.WuGg,fuuJVGgfWYwwVBGVpJgW,.WgYfg.uKg=fWpGKKpYG+GV5?^BwuVpJJGYGB+pgJGWY.YYWH+RGVfJwWJ.+,fY.G.KpTw+uugf.KKwBBKppgfWY.fWKfV.JKGlKuKVVggWfG,KZeB+puW+iJYG+,VYJwGBKpwWpWV.fK,wXBpVpgWW.GYYJ^V+WuGpYWwGu,gwf+WuwpuJpff..YJw+VVgzg.WY.wKVdgB>u,g{KwGg,fY.+wu+pVJJfG.VYwwuBgVfg,f+.BKfuu+.uYg+fKGJ,.YKuwV.pJJYf,,uYBwgBWpKJKf+..KJA,+KVwguWgWu,,cV+Bu,pWJKfY,JpKwWueVKW}fu.JKfFKB^VgGwWWG.,Yww+VuWpGW+K.,uYgwfVppaJufpKWEuwyBgVVg.WG.+KwwpBpufguWeGG,pYWw.BYB.JVf,.GYVwwBpVgJEWK.;KJ(pu+u.gAW+GV,JYYVWuwpuJg.B.,YwwBuJugg.fu.+KfkJ+GuKWwf*GJ,YY,+VuBp,JWf.KVY+wGBJVGgKfw.uKgYV+,VggBWfGW,.YY++KgpJWnfK,JYuwJBfpBY.fu.pKWwV+YVBgVWfGGK+B.+uugpfWpGI,uYpwW+WVYJ+fV.WKGOKBwVuggWfG,K*iV+puWp.WTGB,VYJwGWpp+JVfg.fK,pWuwVpgWW.GY.uaV+fuGpKWwGu,gYf+wuoppJpff..KYw+BVp+gGft.wKpcg+.u,g5fwGp,.Y.+wu+pVJJfGKGYwwJBgV,g,f-.B*pwY+.Vug+WgGJ,.YK+wufpgJYf,,VYBwpBWg.JJf+.GKJn,+KVBguWg.+,,)p+Bu.pWJ.fY,+ywwJu+VKJwfu.gKf<,wGVBgKWWG,,Y<++VuJWYJKGu,uYYwfB,pQJBKJ.fKYrYB+VVgJWGGK.Kvu+gufpKWEGB,pYGw.BYp+JVfJ.GKKwwBpVggfW,.oWgsp+Wu.pYW+GV,JYGvGuwpuJgfG.,YhwBBgVWg.WY.+KpcJ+GuKg+WJGg,fY,J,G+.fKKfK.YY+wVufdWgKfw.uKJ1f+,VkgBJBGW,.YY+BuVpJJGfY,wYuwgBfpwJ=fB.pK.U.+YV+gVWJGG.Ku<+VuJpfJ,G/+.YWwWB.VYJ+fV.JKGsKB+VVggWfG,BJwu+puWp.JY)G,VYfwGBKpwJufg.f^ww4BpVpgfW.GYK+XVBYuGgqWwGp,gY.w,u2gwJpf...Yww+BVVJgGf,.wKJ#g+,u,gNWBG.KBY.+uu+p,JJf..KYwwuBGWVg,fy.BKKXW+,uYW+fwGWKEYK+BuupGJfGBgJYBw.BWpggYfB.VKWHGB+J.guWgGfKJ&s+uupJWWJGl,JYVwfBGp2JwGp,pKfwuB-VugpWWG.,Ypg+VVrpGJKGw,uYgwfBKp6J.fp.,K.RYB+pggYWG.JKw<g+gufp,Wj.p,pY.w.uWp+JpfJ.GYGwwBuVggGW,.iKBEJ+Wu.pYW+GW,JYGwKu+pJJgff.,pugufW.ug,fB.+KV>Jf+fY,f7JGJKwY,+1uB.,KK+yBpVgJBfKV.JVfw.uKguGf+.uK+KBwKu>wO++uVpJW,W.,wYuwgBGV,JPfBKpYV#,+YV+gVWJG,,K5wBpugpfJ,Gw,BYJwWu+,JJBfV.JYw6KB+VugJWf.wwG0B+puWg+JYGB,VY.VpBKpwJuGg.fKKwQuVuugWW.GYKV*V+JuGpKfBGu,gYfwKujpVJp.W,JYdw+BVVJgGf+.wKf9J+fu,gEWBGp,fY.wYu+pW.BfG.KYwwuBgVGg,f%,WKp2W+.uYg+WVGJKwVY++uVpgJff,,wYBwgBWV.KBfB.VKJA.+KVwguWguY,,>N+BuJpWJ,fY,pBHwJBGVKJwfu.JKf;,w,VBgpWWG,,Y^++VuJp.JKGw,uowwfB,p;Juf,.WK.sYJ+.w,Wwu+BVBgg+JVpp,W-GB+BVKJdfJ,pKpw.Bcu,gJfW.OgGfJ.OKBFpgVGG,+YB+w+GVKW?ff,uYGfG,gY2wBBpWKYu1++gVJgGg+.B,fMgGJ,YY,+^uBG.KfwJuuVgwpu+VGgKfwXGu.gKJ8GVKVO.++BYpu+VuVpJJGfK,wYugUgfVKJGfB.pKWVJWKGV,pNudGufp+W,f.,.JKGW,BYpwWJ..GKBwK+,V,VVfpG,gJf/G,KeHBpKGJ,JYBwgug*VwGBKpwJu,u.fK,w<BBVpgWW.,YKp0V+JuGpKWwGf,ge.++ulpVJpff..KYw+BVVYgGWK.wKpLg+.u,WIfpGp,WY.wYu+p,JJ.G,YYwwuBgVfg,fW.BopwY+.uYg+WVGJ,YYKuw+upgJff,,IYBwJBWg.J.f+.VKJ2G+KVGguGgGY,,mC+BuppWJYfYY+YgwJBGVKJwfu..KfB,u,VBgpWW.w,YPW+VuJpKJKGw,uYJwfB,piJBfp.WK.4YBWVVgJWGGYYw^u+gufGVNV+EBgpgJGfJ.p,gwgBfp+pwWV.WKKf#Vw,jJ+pJuwKYB,gV,WYKwKuwpuYVOYuuYwwfBpVWg.YV+guJg.Wf.kfuWg,+G++gKwJVpp+VK.,8YfwVBJVG.Kw^BgV0gKWpGYKwWWY.fgGWfwGwu,YYKK,KYuwgBfpBYWfu.pKWzY+YVBgVWWGGK+B.+uugpfWIGc,uYpw,ggVYJ+fV,uKGrYBwVuJ,WfGKK}ZB+puWp.fYGK,pYWwGBYpwJVfg,.w.wwBVVpg,W.GYK++V+WuGg:WwGp,gY,w,V+pfJpf...Yuw+BVVJJ,f+.wKJ5gBwu,gvWB.JK+Y.+uu+pgJJfG.KYw+WBgV.g,fV.BKJmWB.pGg+WpGJKwYK+Buupgggf,,{YBwgBWV.gYfB.VKJdG+KpBguWgGf,Kwi+BuppW,u+uBYVpJpff.gKVYpBpVWJwJjGuKJ:,G,KB4++VuJ,BTBwJBWYJw,B,pUJBKYB.+,w;BGVVgJWGwVVkgpW+G,,,YwwpBGYf+wBYp+JVwJ+.VgJBfgVJJpW,.5KBV,JfGVKB,J+uufBKJpff,7KGfG,GY}wBBpfRKwwB^uVug,WWG+,f +wKw.p.WJuupGJWf..YBYJuW..=Kff+.,Kg}f+,G,,uY,+guVgBWgfW.,J.GJ,wYuwgJw.+YuYp+GVGJ+WJGV,fWWGY,K*w+uGu.G3wwJ,uYfwWB.VY.Ywu+fVKDYBYVuggWf)uuVggpffK,YY+wguBV.g.f.,VYgfJ,JK,wlBBW.K+qf+B+JpKWfGKK+,uw.u}ppJwuwpGJpfW..BYJwfJ.wKY2gBqV+3JB+u,gSWBYKuKpWJcGR,uYwDY,wYwwuBgVfg,fe.BKp%fB+uYg+WVqmuRVYJ,GJ.YGKf,,tYB+JGpV,gYf+,<KJyG+KgwJgWgGf,,2!+BuJpWJ..B,+YpwJB.VKJwfu.g9gT,B+VBgpWWG.,Y+++,uJp,JKGB,uY,wfuYggJBff.WK,>YB+VVgJGuGKKBlu+GufpYWA.VupYWwYBYpgJVfJ.GKKwfBuVGgfWK.}KBbpuWpupYWpGV,.YG+JuwgpJKff,BY}wgBpVWg.WY,pKV(.+GVugwWpGgYf4K+tugppJ,f.,GY+BVB.VGJ+fw.JKgwg+,VaJVWpG,,.)u++uVpJJGGg,wYgwgBfV,JVfB.fYu5.+YV+fVWJG.,K+wB.uJg+J,Gg,BYWwWuKpKJ+fY.JYB3KBwVuggguG,KJ4BBcuWpKJYGJ,pYJ+BBKWwJufJ.fK,w#BgWwgWW.GYw+{V+WuGJKfWGV,YYf+uumgwJpGG,GKYw.BVpJgGWK.wKuKw+fVVg*W,Gp,GY.+VGGppWFfGKfYwwVBgVGg,fuYKKp%W+.pGg+WpGJ,YBW+wuupgGff,,wYBBpVwV,Jgf+..KJwW+KpBJBWg.u,,wQ+BuppWJ.JW,+Y,wJuVVKJBfuKgYp>KBJVBgKWW.K,Yw7J+uJg.JK,u,uYJwfuVpaJgKw.WK.dYVVVVgWWG.+w.Uu+gufW,WZGu,pYWB+BYpfJVfJ.GKKwwVuKwgffV.>KGZp+fu.JYfpGVK0YG+puwgBJg.fKgY-w.BppCg.fp.+KV+V+GVggwWpGg,.Y,u^u.ppW+f.,JY++uBJVGJpfw..Kgw++,VWgBGp.w,.yg++u,pJWufK,gfWwgu+V,fKfB.gKWA.+YVpGvWJGG,K+Y+uuJpfWwKG,BYpwWp.VYJBfV.J,plKB+VugKWfG,KS?BwwuWp.JYGf,VYJwGuu,,JVff.fYKwPBuVpgGW..Bw,bV+JuGgYWwGV,gYfpYunpuJpfG..KYw+BVuVgGWK.wKV)g+fu,g<WBGp,WY.++u+pVJJf.,uYwwuBg.KKVw++Jugp,+,VBg+WVGJuWpBWWGJpJW4f,,vYBg,WK,bYw/g+.Y,1G+KVwguGuGG,,hH+BuppWJ..w.-YVwWBGpwJwfu.gKfwYBOVugpWfG.KwM+BgBppGWRGw,pYgwfB,pspKfp..K.wIB+VVgJWGBpK+PJ+guKp,W7GB,fBuw.BYp+WpfJ..KKwwufVgJwW,.cKBep+Wu.VfW+G,,J9wwKuwpuJg,I.,YgwBBJVWgKWYKJG.aJB+uKgKWuGJ,fYK+:ugfwJWf..YYYwVBWVGJ+,..uKgvfBKVhguWpGWY+YY+WuVpWJGfK,wYu-+BfpVJ!fB.pKWI.+YB,gVfwGGKuZw+uugpf+YG(,fYp++B.p9J+fGuuK.w2BwVGggWGG,K+xB+fJup.JYG+,.YJw.BKpw,pfg.fK,w+BBVpgWW.f.K+1V+Ju.pKWwGu,gYfw,u7pB");local u=0;s.RqKpBqkJ(function()s.SWtnPLOx()u=u+1 end)local function f(f,p)if p then return u end;u=f+u;end local p,u,r=t(0,t,f,l,s.oOrLdLfu);local function n()local u,p=s.oOrLdLfu(l,f(1,3),f(5,6)+2);f(2);return(p*256)+u;end;local k=true;local k=0 local function c()local g=u();local f=u();local e=1;local g=(p(f,1,20)*(2^32))+g;local u=p(f,21,31);local f=((-1)^p(f,32));if(u==0)then if(g==k)then return f*0;else u=1;e=0;end;elseif(u==2047)then return(g==0)and(f*(1/0))or(f*(0/0));end;return s.EtxLzrAH(f,u-1023)*(e+(g/(2^52)));end;local b=u;local function z(u)local p;if(not u)then u=b();if(u==0)then return'';end;end;p=s.JyczzMsL(l,f(1,3),f(5,6)+u-1);f(u)local f=""for u=(1+k),#p do f=f..s.JyczzMsL(p,u,u)end return f;end;local l=#s.IlbtFKAg(o('\49.\48'))~=1 local f=u;local function ef(...)return{...},s.LtChsaxn('#',...)end local function pf()local k={};local o={};local f={};local b={o,k,nil,f};local f=u()local t={}for g=1,f do local p=r();local f;if(p==2)then f=(r()~=#{});elseif(p==3)then local u=c();if l and s.OxSpuKSM(s.IlbtFKAg(u),'.(\48+)$')then u=s.hEcWDnBw(u);end f=u;elseif(p==1)then f=z();end;t[g]=f;end;for s=1,u()do local f=r();if(p(f,1,1)==0)then local l=p(f,2,3);local h=p(f,4,6);local f={n(),n(),nil,nil};if(l==0)then f[e]=n();f[d]=n();elseif(l==#{1})then f[e]=u();elseif(l==a[2])then f[e]=u()-(2^16)elseif(l==a[3])then f[e]=u()-(2^16)f[d]=n();end;if(p(h,1,1)==1)then f[g]=t[f[g]]end if(p(h,2,2)==1)then f[e]=t[f[e]]end if(p(h,3,3)==1)then f[d]=t[f[d]]end o[s]=f;end end;b[3]=r();for f=1,u()do k[f-(#{1})]=pf();end;return b;end;local function uf(p,f,u)local g=f;local g=u;return o(s.OxSpuKSM(s.OxSpuKSM(({s.RqKpBqkJ(p)})[2],f),u))end local function c(ff,l,r)local function uf(...)local n,z,b,uf,a,u,o,m,y,_,k,p;local f=0;while-1<f do if f<3 then if f>0 then if-2<f then repeat if 2>f then b=t(6,49,3,75,ff);a=ef uf=0;break;end;u=-41;o=-1;until true;else u=-41;o=-1;end else n=t(6,80,1,65,ff);z=t(6,6,2,6,ff);end else if f>4 then if f>3 then for u=11,64 do if 6>f then p=t(7);break;end;f=-2;break;end;else f=-2;end else if f>=1 then for u=21,82 do if f~=3 then _=s.LtChsaxn('#',...)-1;k={};break;end;m={};y={...};break;end;else m={};y={...};end end end f=f+1;end;for f=0,_ do if(f>=b)then m[f-b]=y[f+1];else p[f]=y[f+1];end;end;local y=_-b+1 local f;local t;local function b(...)while true do end end while true do if u<-40 then u=u+42 end f=n[u];t=f[j];if t>191 then if 288<=t then if 336>t then if t<312 then if t>=300 then if t>=306 then if t>308 then if t>309 then if t~=306 then repeat if t>310 then local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;break;end;local h,o;for t=0,6 do if 2>=t then if t>=1 then if 2~=t then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else h=f[g];o=p[f[e]];p[h+1]=o;p[h]=o[f[d]];u=u+1;f=n[u];end else if t>=5 then if 1<t then for d=17,97 do if t>5 then p[f[g]]=r[f[e]];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if-1~=t then for l=36,93 do if 4>t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end end end end until true;else local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;end else local o,k,s,a,r,l,d,t;d=0;while d>-1 do if d<4 then if 2>d then if d>0 then k=g;else o=f;end else if 3~=d then s=e;else a=p;end end else if d<6 then if 4<d then l=o[k];else r=a[o[s]];end else if 5<=d then repeat if 6~=d then d=-2;break;end;p[l]=r;until true;else p[l]=r;end end end d=d+1 end u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];do return p[f[g]]end u=u+1;f=n[u];do return end;end else if 307>t then local g=f[g];local n=p[g]local d=p[g+2];if(d>0)then if(n>p[g+1])then u=f[e];else p[g+3]=n;end elseif(n<p[g+1])then u=f[e];else p[g+3]=n;end else if t~=306 then for n=36,70 do if t~=307 then local n=p[f[d]];if not n then u=u+1;else p[f[g]]=n;u=f[e];end;break;end;if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;else local n=p[f[d]];if not n then u=u+1;else p[f[g]]=n;u=f[e];end;end end end else if 303<=t then if t>303 then if t>302 then repeat if 304<t then p[f[g]]=(f[e]~=0);u=u+1;break;end;local r;for t=0,6 do if 3<=t then if 4>=t then if-1<=t then repeat if t<4 then p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];end else if t>=4 then for d=12,61 do if t~=5 then r=f[g]p[r](h(p,r+1,f[e]))break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else r=f[g]p[r](h(p,r+1,f[e]))end end else if t>0 then if 1<t then p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end until true;else local r;for t=0,6 do if 3<=t then if 4>=t then if-1<=t then repeat if t<4 then p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];end else if t>=4 then for d=12,61 do if t~=5 then r=f[g]p[r](h(p,r+1,f[e]))break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else r=f[g]p[r](h(p,r+1,f[e]))end end else if t>0 then if 1<t then p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end else local l;for t=0,6 do if t<=2 then if t>=1 then if-3<t then repeat if 1~=t then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if 5>t then if t>=2 then repeat if t~=4 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if t>=3 then repeat if 6~=t then l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]][f[e]]=p[f[d]];until true;else p[f[g]][f[e]]=p[f[d]];end end end end end else if 300>=t then p[f[g]]=-p[f[e]];else if t>299 then for l=13,53 do if t<302 then local l;for t=0,5 do if 3>t then if t>0 then if t>1 then p[f[g]]=r[f[e]];u=u+1;f=n[u];else p[f[g]]();u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 4<=t then if 5>t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end else l=f[g]p[l]=p[l]()u=u+1;f=n[u];end end end break;end;for t=0,4 do if 2<=t then if 3<=t then if 3<t then p[f[g]][f[e]]=p[f[d]];else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if-1~=t then repeat if 0<t then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end break;end;else for t=0,4 do if 2<=t then if 3<=t then if 3<t then p[f[g]][f[e]]=p[f[d]];else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if-1~=t then repeat if 0<t then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end end end end end else if 293>=t then if 291>t then if 288>=t then local h,o,r;for t=0,4 do if t<2 then if 0~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]={};u=u+1;f=n[u];end else if 3>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if 0~=t then repeat if t>3 then u=f[e];break;end;h=f[g]o={p[h](p[h+1])};r=0;for f=h,f[d]do r=r+1;p[f]=o[r];end u=u+1;f=n[u];until true;else u=f[e];end end end end else if t<290 then local h;for t=0,4 do if 2>t then if t~=-1 then repeat if t>0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if t<3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if t~=4 then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end end end end else local o=z[f[e]];local h;local t={};h=s.hhp_xiYI({},{__index=function(u,f)local f=t[f];return f[1][f[2]];end,__newindex=function(p,f,u)local f=t[f]f[1][f[2]]=u;end;});for g=1,f[d]do u=u+1;local f=n[u];if f[j]==44 then t[g-1]={p,f[e]};else t[g-1]={l,f[e]};end;k[#k+1]=t;end;p[f[g]]=c(o,h,r);end end else if 291>=t then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];else if t<293 then local t;for d=0,4 do if d>1 then if 2<d then if 3~=d then p[f[g]]=l[f[e]];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if d>-3 then for t=19,98 do if d>0 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end end end else local e=f[e];local u=p[e]for f=e+1,f[d]do u=u..p[f];end;p[f[g]]=u;end end end else if 297<=t then if 297>=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];else if t~=297 then for o=38,55 do if 299>t then local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];break;end;local t;for d=0,5 do if 3<=d then if 3>=d then t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else if 2~=d then for t=28,68 do if 4~=d then p[f[g]]=p[f[e]];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];end end else if 0>=d then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];else if d~=-2 then repeat if d<2 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end break;end;else local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];end end else if 295<=t then if 296>t then local t,o,l;for h=0,4 do if 1>=h then if-1<h then for d=37,91 do if h<1 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if h>2 then if h>-1 then for r=45,60 do if h~=4 then t=f[g]o={p[t](p[t+1])};l=0;for f=t,f[d]do l=l+1;p[f]=o[l];end u=u+1;f=n[u];break;end;u=f[e];break;end;else t=f[g]o={p[t](p[t+1])};l=0;for f=t,f[d]do l=l+1;p[f]=o[l];end u=u+1;f=n[u];end else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end else local l;for t=0,6 do if t>=3 then if t<5 then if 3~=t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if t==6 then l=f[g]p[l]=p[l](p[l+1])else p(f[g],f[e]);u=u+1;f=n[u];end end else if 1<=t then if 1<t then p(f[g],f[e]);u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end end end else local d,s,r,t;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]s,r=a(p[d](p[d+1]))o=r+d-1 t=0;for f=d,o do t=t+1;p[f]=s[t];end;u=u+1;f=n[u];d=f[g]p[d]=p[d](h(p,d+1,o))u=u+1;f=n[u];do return p[f[g]]end u=u+1;f=n[u];do return end;end end end end else if 323<t then if t<330 then if 326>=t then if t<325 then p[f[g]]=(f[e]~=0);else if t>324 then for o=27,82 do if t~=325 then local t;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];break;end;local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;else local t;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];end end else if 327<t then if t~=324 then for l=37,81 do if t~=329 then local h,l;for t=0,6 do if 3>t then if 0>=t then h=f[g];l=p[f[e]];p[h+1]=l;p[h]=l[f[d]];u=u+1;f=n[u];else if t>=-2 then repeat if t<2 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end else if t<5 then if t<4 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if 1~=t then for d=14,88 do if 5~=t then p[f[g]]=p[f[e]];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];end end end end break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];break;end;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];end else local f=f[g];do return p[f],p[f+1]end end end else if t<333 then if t>=331 then if 329~=t then for u=21,69 do if t~=331 then p[f[g]]=c(z[f[e]],nil,r);break;end;local n=f[g];local g={};for f=1,#k do local f=k[f];for u=0,#f do local u=f[u];local e=u[1];local f=u[2];if e==p and f>=n then g[f]=e[f];u[1]=g;end;end;end;break;end;else p[f[g]]=c(z[f[e]],nil,r);end else local n=f[g];local g={};for f=1,#k do local f=k[f];for u=0,#f do local u=f[u];local e=u[1];local f=u[2];if e==p and f>=n then g[f]=e[f];u[1]=g;end;end;end;end else if t<334 then local l,a,r,o,s,t,k;for t=0,4 do if 1>=t then if 0~=t then t=0;while t>-1 do if t<=2 then if t>0 then if-1~=t then for f=16,54 do if 1~=t then r=e;break;end;a=g;break;end;else r=e;end else l=f;end else if 4<t then if 1<=t then for f=18,84 do if 5<t then t=-2;break;end;p(s,o);break;end;else t=-2;end else if t>1 then for f=30,54 do if t>3 then s=l[a];break;end;o=l[r];break;end;else o=l[r];end end end t=t+1 end u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t<3 then t=0;while t>-1 do if 2>=t then if 1<=t then if-2<t then for f=13,84 do if t~=1 then r=e;break;end;a=g;break;end;else r=e;end else l=f;end else if t>4 then if t~=5 then t=-2;else p(s,o);end else if 1<t then repeat if t>3 then s=l[a];break;end;o=l[r];until true;else o=l[r];end end end t=t+1 end u=u+1;f=n[u];else if-1<t then repeat if 4~=t then t=0;while t>-1 do if t<=2 then if t<1 then l=f;else if 1==t then a=g;else r=e;end end else if 5<=t then if t~=4 then for f=28,52 do if t~=6 then p(s,o);break;end;t=-2;break;end;else t=-2;end else if 0<=t then for f=14,88 do if 3<t then s=l[a];break;end;o=l[r];break;end;else o=l[r];end end end t=t+1 end u=u+1;f=n[u];break;end;k=f[g]p[k]=p[k](h(p,k+1,f[e]))until true;else t=0;while t>-1 do if t<=2 then if t<1 then l=f;else if 1==t then a=g;else r=e;end end else if 5<=t then if t~=4 then for f=28,52 do if t~=6 then p(s,o);break;end;t=-2;break;end;else t=-2;end else if 0<=t then for f=14,88 do if 3<t then s=l[a];break;end;o=l[r];break;end;else o=l[r];end end end t=t+1 end u=u+1;f=n[u];end end end end else if 332~=t then for l=32,94 do if t<335 then local f=f[g]local g,u=a(p[f](p[f+1]))o=u+f-1 local u=0;for f=f,o do u=u+1;p[f]=g[u];end;break;end;for t=0,6 do if 3<=t then if 4<t then if t<6 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if(p[f[g]]<=p[f[d]])then u=u+1;else u=f[e];end;end else if 1~=t then repeat if t~=3 then p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end else if t>0 then if t~=2 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end break;end;else for t=0,6 do if 3<=t then if 4<t then if t<6 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if(p[f[g]]<=p[f[d]])then u=u+1;else u=f[e];end;end else if 1~=t then repeat if t~=3 then p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end else if t>0 then if t~=2 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end end end end else if 318>t then if t>=315 then if t<316 then p[f[g]]=-p[f[e]];else if t~=315 then repeat if 317~=t then if p[f[g]]then u=u+1;else u=f[e];end;break;end;local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];until true;else local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];end end else if 313<=t then if t>=312 then for l=37,79 do if t<314 then local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];do return p[f[g]]end u=u+1;f=n[u];do return end;break;end;local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];break;end;else local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=(not p[f[e]]);u=u+1;f=n[u];do return p[f[g]]end u=u+1;f=n[u];do return end;end else p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];end end else if t>320 then if t<322 then local l,o;for t=0,8 do if t<4 then if t<2 then if-4<t then repeat if t<1 then r[f[e]]=p[f[g]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if t>-2 then repeat if 3>t then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];until true;else for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];end end else if t<6 then if t>2 then repeat if 4~=t then p(f[g],f[e]);u=u+1;f=n[u];break;end;l=f[g];o=p[f[e]];p[l+1]=o;p[l]=o[f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if t<7 then l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];else if 7<t then l=f[g];o=p[f[e]];p[l+1]=o;p[l]=o[f[d]];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end end else if 321<t then repeat if t~=322 then local b,d,r,s,a,o,d,d,t,z,c,k,l;for d=0,3 do if 2<=d then if d>=1 then repeat if 2<d then d=0;while d>-1 do if d<=2 then if 1<=d then if d==1 then z=g;else c=e;end else t=f;end else if 4<d then if 3<d then for f=47,83 do if 6~=d then p(l,k);break;end;d=-2;break;end;else d=-2;end else if-1~=d then for f=31,61 do if d~=3 then l=t[z];break;end;k=t[c];break;end;else k=t[c];end end end d=d+1 end break;end;d=0;while d>-1 do if d<=3 then if 2<=d then if-1~=d then for f=46,77 do if d~=3 then s=e;break;end;a=p;break;end;else s=e;end else if-2<=d then repeat if d<1 then t=f;break;end;r=g;until true;else t=f;end end else if 6<=d then if 4<=d then repeat if 6~=d then d=-2;break;end;p[l]=o;until true;else p[l]=o;end else if 2<d then for f=25,88 do if 5~=d then o=a[t[s]];break;end;l=t[r];break;end;else l=t[r];end end end d=d+1 end u=u+1;f=n[u];until true;else d=0;while d>-1 do if d<=3 then if 2<=d then if-1~=d then for f=46,77 do if d~=3 then s=e;break;end;a=p;break;end;else s=e;end else if-2<=d then repeat if d<1 then t=f;break;end;r=g;until true;else t=f;end end else if 6<=d then if 4<=d then repeat if 6~=d then d=-2;break;end;p[l]=o;until true;else p[l]=o;end else if 2<d then for f=25,88 do if 5~=d then o=a[t[s]];break;end;l=t[r];break;end;else l=t[r];end end end d=d+1 end u=u+1;f=n[u];end else if-4<=d then repeat if d>0 then b=f[g]p[b](h(p,b+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end break;end;local f=f[g];do return h(p,f,o)end;until true;else local k,d,s,r,a,o,d,d,t,z,b,c,l;for d=0,3 do if 2<=d then if d>=1 then repeat if 2<d then d=0;while d>-1 do if d<=2 then if 1<=d then if d==1 then z=g;else b=e;end else t=f;end else if 4<d then if 3<d then for f=47,83 do if 6~=d then p(l,c);break;end;d=-2;break;end;else d=-2;end else if-1~=d then for f=31,61 do if d~=3 then l=t[z];break;end;c=t[b];break;end;else c=t[b];end end end d=d+1 end break;end;d=0;while d>-1 do if d<=3 then if 2<=d then if-1~=d then for f=46,77 do if d~=3 then r=e;break;end;a=p;break;end;else r=e;end else if-2<=d then repeat if d<1 then t=f;break;end;s=g;until true;else t=f;end end else if 6<=d then if 4<=d then repeat if 6~=d then d=-2;break;end;p[l]=o;until true;else p[l]=o;end else if 2<d then for f=25,88 do if 5~=d then o=a[t[r]];break;end;l=t[s];break;end;else l=t[s];end end end d=d+1 end u=u+1;f=n[u];until true;else d=0;while d>-1 do if d<=3 then if 2<=d then if-1~=d then for f=46,77 do if d~=3 then r=e;break;end;a=p;break;end;else r=e;end else if-2<=d then repeat if d<1 then t=f;break;end;s=g;until true;else t=f;end end else if 6<=d then if 4<=d then repeat if 6~=d then d=-2;break;end;p[l]=o;until true;else p[l]=o;end else if 2<d then for f=25,88 do if 5~=d then o=a[t[r]];break;end;l=t[s];break;end;else l=t[s];end end end d=d+1 end u=u+1;f=n[u];end else if-4<=d then repeat if d>0 then k=f[g]p[k](h(p,k+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end end end else if t>318 then if t>317 then for s=49,91 do if t~=319 then local t;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];u=f[e];break;end;local t,c,b,k,s;for r=0,6 do if r>=3 then if 5<=r then if r>1 then for l=25,67 do if 6~=r then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];break;end;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if 1~=r then repeat if r>3 then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end else if 0<r then if 1<r then p[f[g]]=l[f[e]];u=u+1;f=n[u];else t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];end else t=f[g]c,b=a(p[t](h(p,t+1,f[e])))o=b+t-1 k=0;for f=t,o do k=k+1;p[f]=c[k];end;u=u+1;f=n[u];end end end break;end;else local t,b,c,k,s;for r=0,6 do if r>=3 then if 5<=r then if r>1 then for l=25,67 do if 6~=r then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];break;end;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if 1~=r then repeat if r>3 then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end else if 0<r then if 1<r then p[f[g]]=l[f[e]];u=u+1;f=n[u];else t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];end else t=f[g]b,c=a(p[t](h(p,t+1,f[e])))o=c+t-1 k=0;for f=t,o do k=k+1;p[f]=b[k];end;u=u+1;f=n[u];end end end end else local d;for t=0,4 do if t<2 then if 1==t then d=f[g]p[d]=p[d](p[d+1])u=u+1;f=n[u];else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if 3>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if t~=4 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else d=f[g]p[d]=p[d](p[d+1])end end end end end end end end end else if t<360 then if t<348 then if t>341 then if t<=344 then if 342>=t then local g=f[g]local e={p[g](p[g+1])};local u=0;for f=g,f[d]do u=u+1;p[f]=e[u];end else if 339~=t then for r=47,86 do if t<344 then local t,r;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))break;end;for t=0,6 do if 3>t then if t<=0 then p[f[g]]={};u=u+1;f=n[u];else if t>1 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end else if 5<=t then if 6==t then p[f[g]][f[e]]=f[d];else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else if t>=1 then repeat if t~=3 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end end end break;end;else for t=0,6 do if 3>t then if t<=0 then p[f[g]]={};u=u+1;f=n[u];else if t>1 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end else if 5<=t then if 6==t then p[f[g]][f[e]]=f[d];else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else if t>=1 then repeat if t~=3 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end end end end end else if t<346 then local t;p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];if not p[f[g]]then u=u+1;else u=f[e];end;else if 343<=t then for d=31,72 do if t~=346 then local f=f[g];do return p[f](h(p,f+1,o))end;break;end;local d;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))break;end;else local d;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))end end end else if 338>=t then if 336>=t then local t,r,o,a,k,b,s,l;for l=0,6 do if 3>l then if l<=0 then t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];else if l>-2 then for d=23,79 do if 1<l then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end else if l>4 then if 2<l then repeat if 6~=l then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];until true;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if l~=3 then l=0;while l>-1 do if l<=2 then if l>=1 then if l>0 then repeat if l~=2 then a=g;break;end;k=e;until true;else k=e;end else o=f;end else if 5<=l then if l==6 then l=-2;else p(s,b);end else if l>1 then repeat if l~=4 then b=o[k];break;end;s=o[a];until true;else s=o[a];end end end l=l+1 end u=u+1;f=n[u];else t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];end end end end else if t>=334 then for r=16,95 do if t~=338 then p[f[g]]=p[f[e]][p[f[d]]];break;end;local t,r,s,a,b,k,o,d;for d=0,9 do if d>=5 then if d<=6 then if 6>d then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 8<=d then if 5<=d then for t=25,55 do if 8<d then p(f[g],f[e]);break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);end else d=0;while d>-1 do if d<=3 then if 1<d then if d>=0 then for f=28,96 do if d~=2 then b=p;break;end;a=e;break;end;else a=e;end else if d>-4 then for u=22,57 do if 1~=d then r=f;break;end;s=g;break;end;else r=f;end end else if d>=6 then if 5~=d then for f=31,74 do if d~=7 then p[o]=k;break;end;d=-2;break;end;else d=-2;end else if d>3 then for f=16,67 do if 5~=d then k=b[r[a]];break;end;o=r[s];break;end;else o=r[s];end end end d=d+1 end u=u+1;f=n[u];end end else if d>=2 then if d>2 then if d>1 then for t=22,70 do if 4>d then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if-1<=d then for t=19,95 do if d~=0 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end break;end;else local t,r,s,o,b,k,a,d;for d=0,9 do if d>=5 then if d<=6 then if 6>d then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 8<=d then if 5<=d then for t=25,55 do if 8<d then p(f[g],f[e]);break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);end else d=0;while d>-1 do if d<=3 then if 1<d then if d>=0 then for f=28,96 do if d~=2 then b=p;break;end;o=e;break;end;else o=e;end else if d>-4 then for u=22,57 do if 1~=d then r=f;break;end;s=g;break;end;else r=f;end end else if d>=6 then if 5~=d then for f=31,74 do if d~=7 then p[a]=k;break;end;d=-2;break;end;else d=-2;end else if d>3 then for f=16,67 do if 5~=d then k=b[r[o]];break;end;a=r[s];break;end;else a=r[s];end end end d=d+1 end u=u+1;f=n[u];end end else if d>=2 then if d>2 then if d>1 then for t=22,70 do if 4>d then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if-1<=d then for t=19,95 do if d~=0 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end end else if t<340 then local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];else if 340<t then local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];else if(p[f[g]]<=p[f[d]])then u=u+1;else u=f[e];end;end end end end else if 354<=t then if t<=356 then if 354>=t then local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;else if t>352 then repeat if t~=356 then local l,o;for t=0,9 do if 4>=t then if 2<=t then if 2<t then if t~=1 then repeat if t~=4 then p(f[g],f[e]);u=u+1;f=n[u];break;end;l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else l=f[g];o=p[f[e]];p[l+1]=o;p[l]=o[f[d]];u=u+1;f=n[u];end else if-3<t then repeat if 0<t then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;r[f[e]]=p[f[g]];u=u+1;f=n[u];until true;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end else if 7<=t then if 8<=t then if 9==t then p[f[g]]=r[f[e]];else l=f[g]p[l]=p[l](p[l+1])u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t~=2 then repeat if 5<t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end break;end;p[f[g]]=l[f[e]];until true;else p[f[g]]=l[f[e]];end end else if 357>=t then for t=0,4 do if 1>=t then if t>=-4 then for l=19,56 do if t>0 then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if t<=2 then p(f[g],f[e]);u=u+1;f=n[u];else if 4~=t then p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];else p[f[g]][f[e]]=p[f[d]];end end end end else if 356<t then repeat if t>358 then local f=f[g]p[f](p[f+1])break;end;local u=f[g]local g,f=a(p[u](h(p,u+1,f[e])))o=f+u-1 local f=0;for u=u,o do f=f+1;p[u]=g[f];end;until true;else local f=f[g]p[f](p[f+1])end end end else if t<=350 then if t<349 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];else if 350>t then p[f[g]]=p[f[e]][f[d]];else if(p[f[g]]<p[f[d]])then u=u+1;else u=f[e];end;end end else if t<=351 then local d;p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d]=p[d](p[d+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];if not p[f[g]]then u=u+1;else u=f[e];end;else if t>=350 then repeat if t~=353 then local t,l;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[p[f[d]]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;local o=z[f[e]];local h;local t={};h=s.hhp_xiYI({},{__index=function(u,f)local f=t[f];return f[1][f[2]];end,__newindex=function(p,f,u)local f=t[f]f[1][f[2]]=u;end;});for g=1,f[d]do u=u+1;local f=n[u];if f[j]==44 then t[g-1]={p,f[e]};else t[g-1]={l,f[e]};end;k[#k+1]=t;end;p[f[g]]=c(o,h,r);until true;else local o=z[f[e]];local h;local t={};h=s.hhp_xiYI({},{__index=function(u,f)local f=t[f];return f[1][f[2]];end,__newindex=function(p,f,u)local f=t[f]f[1][f[2]]=u;end;});for g=1,f[d]do u=u+1;local f=n[u];if f[j]==44 then t[g-1]={p,f[e]};else t[g-1]={l,f[e]};end;k[#k+1]=t;end;p[f[g]]=c(o,h,r);end end end end end else if t>371 then if t<=377 then if t<=374 then if t>372 then if t>372 then repeat if t~=374 then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;p[f[g]]=p[f[e]]/f[d];until true;else local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;end else local l,s,o,h,r;for t=0,6 do if t<3 then if t>0 then if-3<=t then for e=21,92 do if t~=2 then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]]={};u=u+1;f=n[u];break;end;else p[f[g]]={};u=u+1;f=n[u];end else l=f[g]s={p[l]()};o=f[d];h=0;for f=l,o do h=h+1;p[f]=s[h];end u=u+1;f=n[u];end else if t<=4 then if-1<=t then repeat if t<4 then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if 4<=t then for h=34,68 do if 6~=t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;l=f[g];r=p[f[e]];p[l+1]=r;p[l]=r[f[d]];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end end else if t<=375 then local t,l,k,s,r;t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]k,s=a(p[t](h(p,t+1,f[e])))o=s+t-1 r=0;for f=t,o do r=r+1;p[f]=k[r];end;u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,o))else if t>373 then for n=46,76 do if t~=377 then for f=f[g],f[e]do p[f]=nil;end;break;end;if not p[f[g]]then u=u+1;else u=f[e];end;break;end;else if not p[f[g]]then u=u+1;else u=f[e];end;end end end else if 381>t then if 379<=t then if 380>t then p[f[g]][f[e]]=p[f[d]];else local g=f[g];local d=f[d];local n=g+2 local g={p[g](p[g+1],p[n])};for f=1,d do p[n+f]=g[f];end;local g=g[1]if g then p[n]=g u=f[e];else u=u+1;end;end else local l,o,h,r,s,t;for t=0,4 do if 2<=t then if 2<t then if 2<t then repeat if t~=4 then p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=p[f[d]];until true;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else t=0;while t>-1 do if t<=2 then if 1<=t then if t>-1 then for f=19,75 do if 1~=t then h=e;break;end;o=g;break;end;else h=e;end else l=f;end else if t<5 then if 2<t then for f=33,82 do if 3~=t then s=l[o];break;end;r=l[h];break;end;else r=l[h];end else if 2<=t then repeat if t~=5 then t=-2;break;end;p(s,r);until true;else t=-2;end end end t=t+1 end u=u+1;f=n[u];end else if t~=0 then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end end else if t>=383 then if 382<=t then for l=30,97 do if t~=384 then local u=f[g]p[u]=p[u](h(p,u+1,f[e]))break;end;local t,l;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[p[f[d]]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;else local u=f[g]p[u]=p[u](h(p,u+1,f[e]))end else if t==382 then local t,b,z,c,s,k;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];b=p[f[e]];p[t+1]=b;p[t]=b[f[d]];u=u+1;f=n[u];t=f[g]k,c=a(p[t](p[t+1]))o=c+t-1 s=0;for f=t,o do s=s+1;p[f]=k[s];end;u=u+1;f=n[u];t=f[g]k={p[t](h(p,t+1,o))};s=0;for f=t,f[d]do s=s+1;p[f]=k[s];end u=u+1;f=n[u];u=f[e];else local t,o;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))end end end end else if t<366 then if 363>t then if 361>t then local f=f[g]local g,u=a(p[f](h(p,f+1,o)))o=u+f-1 local u=0;for f=f,o do u=u+1;p[f]=g[u];end;else if t>=359 then for r=35,79 do if 361~=t then local r,k,o,b,a,s,c,t;p[f[g]]=l[f[e]];u=u+1;f=n[u];r=f[g];k=p[f[e]];p[r+1]=k;p[r]=k[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if t<=2 then if 1>t then o=f;else if t==2 then a=e;else b=g;end end else if 5>t then if-1<t then for f=42,54 do if t<4 then s=o[a];break;end;c=o[b];break;end;else s=o[a];end else if 3<=t then repeat if 5~=t then t=-2;break;end;p(c,s);until true;else t=-2;end end end t=t+1 end u=u+1;f=n[u];r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;local t,b,r,c,s,k;for r=0,7 do if 4>r then if r<2 then if 1~=r then p(f[g],f[e]);u=u+1;f=n[u];else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if r>-2 then repeat if 2<r then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if 6<=r then if r<7 then t=f[g]k={p[t](h(p,t+1,o))};s=0;for f=t,f[d]do s=s+1;p[f]=k[s];end u=u+1;f=n[u];else u=f[e];end else if r>4 then t=f[g]k,c=a(p[t](p[t+1]))o=c+t-1 s=0;for f=t,o do s=s+1;p[f]=k[s];end;u=u+1;f=n[u];else t=f[g];b=p[f[e]];p[t+1]=b;p[t]=b[f[d]];u=u+1;f=n[u];end end end end break;end;else local t,b,s,c,r,k;for s=0,7 do if 4>s then if s<2 then if 1~=s then p(f[g],f[e]);u=u+1;f=n[u];else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if s>-2 then repeat if 2<s then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if 6<=s then if s<7 then t=f[g]k={p[t](h(p,t+1,o))};r=0;for f=t,f[d]do r=r+1;p[f]=k[r];end u=u+1;f=n[u];else u=f[e];end else if s>4 then t=f[g]k,c=a(p[t](p[t+1]))o=c+t-1 r=0;for f=t,o do r=r+1;p[f]=k[r];end;u=u+1;f=n[u];else t=f[g];b=p[f[e]];p[t+1]=b;p[t]=b[f[d]];u=u+1;f=n[u];end end end end end end else if 363>=t then local t,k,s,l,r;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g]r,s=a(p[t](p[t+1]))o=s+t-1 l=0;for f=t,o do l=l+1;p[f]=r[l];end;u=u+1;f=n[u];t=f[g]r={p[t](h(p,t+1,o))};l=0;for f=t,f[d]do l=l+1;p[f]=r[l];end u=u+1;f=n[u];u=f[e];else if t==365 then local t;for h=0,4 do if h<=1 then if h~=0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 3>h then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if h~=3 then if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end end end end else if not p[f[g]]then u=u+1;else u=f[e];end;end end end else if 368<t then if 370>t then local s,o,a,b,k,t,l,c;for t=0,6 do if 3<=t then if 4<t then if 3<=t then for d=37,80 do if 5<t then l=f[g]p[l]=p[l](h(p,l+1,f[e]))break;end;t=0;while t>-1 do if t>=3 then if t<5 then if 4~=t then b=s[a];else k=s[o];end else if t<6 then p(k,b);else t=-2;end end else if t<=0 then s=f;else if-2<t then for f=43,62 do if t>1 then a=e;break;end;o=g;break;end;else o=g;end end end t=t+1 end u=u+1;f=n[u];break;end;else l=f[g]p[l]=p[l](h(p,l+1,f[e]))end else if 2~=t then for h=41,83 do if t~=3 then l=f[g];c=p[f[e]];p[l+1]=c;p[l]=c[f[d]];u=u+1;f=n[u];break;end;l=f[g]p[l]=p[l]()u=u+1;f=n[u];break;end;else l=f[g]p[l]=p[l]()u=u+1;f=n[u];end end else if t<1 then t=0;while t>-1 do if t<3 then if t<=0 then s=f;else if t~=-2 then repeat if 1<t then a=e;break;end;o=g;until true;else o=g;end end else if t>4 then if 6~=t then p(k,b);else t=-2;end else if t~=3 then k=s[o];else b=s[a];end end end t=t+1 end u=u+1;f=n[u];else if t>-1 then for d=11,90 do if 1<t then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];break;end;else l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];end end end end else if 367<t then for l=10,75 do if 370~=t then local r,t,l;p[f[g]]=p[f[e]];u=u+1;f=n[u];r=f[e];t=p[r]for f=r+1,f[d]do t=t..p[f];end;p[f[g]]=t;u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];l=f[g]p[l](h(p,l+1,f[e]))u=u+1;f=n[u];do return end;break;end;local l;for t=0,2 do if 1<=t then if 0~=t then for l=29,86 do if 2>t then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else l=f[g]p[l](h(p,l+1,f[e]))u=u+1;f=n[u];end end break;end;else local r,t,l;p[f[g]]=p[f[e]];u=u+1;f=n[u];r=f[e];t=p[r]for f=r+1,f[d]do t=t..p[f];end;p[f[g]]=t;u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];l=f[g]p[l](h(p,l+1,f[e]))u=u+1;f=n[u];do return end;end end else if t>366 then if t~=368 then local t;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))else for t=0,9 do if t>=5 then if 6<t then if 8>t then p(f[g],f[e]);u=u+1;f=n[u];else if t==8 then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];else p[f[g]][f[e]]=p[f[d]];end end else if 2<=t then for l=14,59 do if t<6 then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end else if 1>=t then if t~=-3 then for d=27,58 do if t~=0 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end else if t>2 then if 0<t then for d=36,54 do if 4>t then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end end end end else local t;for d=0,6 do if d<3 then if d<1 then p(f[g],f[e]);u=u+1;f=n[u];else if d~=-3 then for l=49,84 do if 2>d then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end end else if 4<d then if d>2 then repeat if 5<d then p(f[g],f[e]);break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p(f[g],f[e]);end else if d~=3 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end end end end end end else if 239>=t then if 215>=t then if 203>=t then if 198>t then if t>194 then if 195<t then if 196==t then for f=f[g],f[e]do p[f]=nil;end;else local o;for t=0,9 do if t>4 then if t>=7 then if 8>t then p[f[g]]=-p[f[e]];u=u+1;f=n[u];else if t>4 then repeat if t>8 then o=f[g]p[o]=p[o](h(p,o+1,f[e]))break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end else if t>3 then repeat if t~=5 then o=f[g]p[o]=p[o](p[o+1])u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end else if 2>t then if t>-4 then for d=39,66 do if 0<t then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;o=f[g]p[o]=p[o](p[o+1])u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if t>=3 then if 3==t then p(f[g],f[e]);u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end end else if(p[f[g]]<=f[d])then u=u+1;else u=f[e];end;end else if t>=193 then if t<194 then local u=f[g]local e={p[u](p[u+1])};local g=0;for f=u,f[d]do g=g+1;p[f]=e[g];end else local t;for d=0,6 do if d>2 then if 4>=d then if d~=4 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else if d>2 then repeat if d~=5 then p[f[g]]=l[f[e]];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];end end else if 1<=d then if 0~=d then for t=41,69 do if d<2 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end else local d;for t=0,3 do if 1>=t then if-2<t then for l=38,59 do if 0~=t then d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;else d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];end else if t>1 then for d=48,97 do if t~=3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end else if t>200 then if 202>t then p[f[g]]=p[f[e]]*p[f[d]];else if t==202 then for t=0,4 do if 1<t then if 2<t then if 2<t then for l=47,76 do if 3~=t then p[f[g]][f[e]]=p[f[d]];break;end;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];end else p(f[g],f[e]);u=u+1;f=n[u];end else if 1~=t then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);end end else if 199<=t then if t>195 then for u=46,66 do if 199~=t then local f=f[g]local g,u=a(p[f](p[f+1]))o=u+f-1 local u=0;for f=f,o do u=u+1;p[f]=g[u];end;break;end;local f=f[g]p[f](h(p,f+1,o))break;end;else local f=f[g]p[f](h(p,f+1,o))end else local d;for t=0,4 do if t>1 then if 3<=t then if 0<=t then repeat if 3~=t then if p[f[g]]then u=u+1;else u=f[e];end;break;end;d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];until true;else d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if t>=-1 then repeat if t<1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end end else if t>209 then if t<=212 then if t>=211 then if t==211 then local h;for t=0,4 do if t<=1 then if t>-1 then repeat if 0~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 2<t then if 2<=t then repeat if t<4 then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];break;end;if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;until true;else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end else p[f[g]]=p[f[e]]+p[f[d]];end else local h,a,o,s,k,t,l;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 3>t then if 1>t then h=f;else if 1~=t then o=e;else a=g;end end else if 4<t then if t>=4 then repeat if 6~=t then p(k,s);break;end;t=-2;until true;else t=-2;end else if-1<=t then for f=20,54 do if t~=4 then s=h[o];break;end;k=h[a];break;end;else s=h[o];end end end t=t+1 end u=u+1;f=n[u];l=f[g]p[l]=p[l](p[l+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];l=f[g]p[l]=p[l](p[l+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end else if t<214 then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];else if t>211 then for r=24,81 do if 215~=t then local t;for d=0,5 do if 3>d then if d>=1 then if-3<=d then for l=47,82 do if d<2 then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else p(f[g],f[e]);u=u+1;f=n[u];end else if d<=3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if 3~=d then repeat if d~=4 then p[f[g]]=l[f[e]];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];end end end end break;end;if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;break;end;else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end end end else if t<207 then if 204<t then if 203<t then repeat if t~=206 then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]=r[f[e]];break;end;p[f[g]]=#p[f[e]];until true;else local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]=r[f[e]];end else local g=f[g];local u=p[f[e]];p[g+1]=u;p[g]=u[f[d]];end else if t>207 then if 204<=t then for n=17,84 do if t~=208 then if(f[g]<=p[f[d]])then u=f[e];else u=u+1;end;break;end;local f=f[g]p[f]=p[f]()break;end;else if(f[g]<=p[f[d]])then u=f[e];else u=u+1;end;end else p[f[g]]=p[f[e]]*p[f[d]];end end end end else if t<=227 then if 221<t then if t>=225 then if t>=226 then if 225~=t then repeat if t~=227 then local h;for t=0,9 do if 4>=t then if 2<=t then if 3>t then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];else if 0<=t then repeat if 4>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if-1<=t then repeat if t~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if t>=7 then if 7<t then if t~=8 then p[f[g]]=p[f[e]];else p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 4~=t then for l=19,77 do if t>5 then p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];end end end end break;end;local h,s,b,k,a,o,t,r;for t=0,4 do if t>=2 then if t>2 then if 4~=t then r=f[g]p[r]=p[r](p[r+1])u=u+1;f=n[u];else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end else t=0;while t>-1 do if 3<t then if t<=5 then if t>1 then repeat if t<5 then a=k[h[b]];break;end;o=h[s];until true;else o=h[s];end else if t~=5 then for f=26,68 do if 7~=t then p[o]=a;break;end;t=-2;break;end;else t=-2;end end else if t<=1 then if-3~=t then for u=14,68 do if 0~=t then s=g;break;end;h=f;break;end;else h=f;end else if t~=3 then b=e;else k=p;end end end t=t+1 end u=u+1;f=n[u];end else if t~=0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end until true;else local h;for t=0,9 do if 4>=t then if 2<=t then if 3>t then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];else if 0<=t then repeat if 4>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if-1<=t then repeat if t~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if t>=7 then if 7<t then if t~=8 then p[f[g]]=p[f[e]];else p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 4~=t then for l=19,77 do if t>5 then p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]]+p[f[d]];u=u+1;f=n[u];end end end end end else p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];end else if t>222 then if t==224 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];do return end;else local t;for d=0,4 do if d<=1 then if-1~=d then repeat if d<1 then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if 3<=d then if 4==d then p(f[g],f[e]);else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end end end else p[f[g]][f[e]]=p[f[d]];end end else if t<219 then if 216<t then if 217<t then local u=f[g]p[u]=p[u](h(p,u+1,f[e]))else p[f[g]][f[e]]=f[d];end else do return p[f[g]]end end else if 219>=t then local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];else if t~=216 then for o=31,87 do if t>220 then local t,o;p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;break;end;local t,r;p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;else local t,r;p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];end end end end else if 234<=t then if 237<=t then if 238<=t then if 236<=t then repeat if t<239 then p[f[g]]=r[f[e]];break;end;local o,c,s,a,z,b,k,t;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];o=f[g];c=p[f[e]];p[o+1]=c;p[o]=c[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if t<=2 then if t>=1 then if t~=-3 then for f=22,91 do if 1~=t then z=e;break;end;a=g;break;end;else a=g;end else s=f;end else if t<5 then if 0<t then repeat if t>3 then k=s[a];break;end;b=s[z];until true;else k=s[a];end else if t~=4 then repeat if t>5 then t=-2;break;end;p(k,b);until true;else p(k,b);end end end t=t+1 end u=u+1;f=n[u];o=f[g]p[o]=p[o](h(p,o+1,f[e]))until true;else p[f[g]]=r[f[e]];end else do return end;end else if t<235 then p[f[g]]=#p[f[e]];else if 235<t then local t;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];else p[f[g]]=p[f[e]];end end end else if 231>t then if 229<=t then if 230>t then local t,r;for l=0,5 do if 3>l then if 1>l then p(f[g],f[e]);u=u+1;f=n[u];else if-1<=l then for o=23,63 do if 2>l then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];break;end;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end else if l<4 then p(f[g],f[e]);u=u+1;f=n[u];else if l<5 then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else if not p[f[g]]then u=u+1;else u=f[e];end;end end end end else if(p[f[g]]~=p[f[d]])then u=u+1;else u=f[e];end;end else local t,r;p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))end else if t>=232 then if t~=229 then for r=33,64 do if 233~=t then local g=f[g]local e={p[g](h(p,g+1,f[e]))};local u=0;for f=g,f[d]do u=u+1;p[f]=e[u];end break;end;local t;for h=0,4 do if h<2 then if 0<h then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if h>2 then if h~=-1 then repeat if 3~=h then if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];until true;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end break;end;else local t;for h=0,4 do if h<2 then if 0<h then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if h>2 then if h~=-1 then repeat if 3~=h then if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];until true;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end else local t;p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];u=f[e];end end end end end else if t<264 then if 252<=t then if t>257 then if t>=261 then if 262<=t then if t>260 then repeat if t~=263 then do return p[f[g]]();end;break;end;local g=f[g];local d=f[d];local n=g+2 local g={p[g](p[g+1],p[n])};for f=1,d do p[n+f]=g[f];end;local g=g[1]if g then p[n]=g u=f[e];else u=u+1;end;until true;else local n=f[g];local d=f[d];local g=n+2 local n={p[n](p[n+1],p[g])};for f=1,d do p[g+f]=n[f];end;local n=n[1]if n then p[g]=n u=f[e];else u=u+1;end;end else if(p[f[g]]==p[f[d]])then u=u+1;else u=f[e];end;end else if t>=259 then if t>=257 then for h=27,91 do if t<260 then local h,t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];h=f[g];t=p[f[e]];p[h+1]=t;p[h]=t[f[d]];u=u+1;f=n[u];p(f[g],f[e]);break;end;if(f[g]<p[f[d]])then u=f[e];else u=u+1;end;break;end;else local h,t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];h=f[g];t=p[f[e]];p[h+1]=t;p[h]=t[f[d]];u=u+1;f=n[u];p(f[g],f[e]);end else p[f[g]]=p[f[e]]/p[f[d]];end end else if 255>t then if t<253 then if(f[g]<p[f[d]])then u=u+1;else u=f[e];end;else if 253~=t then local d;for t=0,6 do if t<3 then if 0<t then if 0~=t then for r=11,89 do if t<2 then d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if 4>=t then if t>0 then repeat if t>3 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if 5~=t then d=f[g]p[d](h(p,d+1,f[e]))else p(f[g],f[e]);u=u+1;f=n[u];end end end end else local u=f[g]local g={p[u]()};local e=f[d];local f=0;for u=u,e do f=f+1;p[u]=g[f];end end end else if t<=255 then local l;for t=0,9 do if 4>=t then if 2>t then if t==1 then l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if 3<=t then if t>-1 then for d=17,59 do if t~=4 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]]={};u=u+1;f=n[u];end end else if 6<t then if 8>t then p(f[g],f[e]);u=u+1;f=n[u];else if t~=6 then repeat if t~=8 then p(f[g],f[e]);break;end;p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];until true;else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end else if t>5 then p(f[g],f[e]);u=u+1;f=n[u];else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end end end else if 256==t then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];else local t,l,r;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g];r=p[t];for f=t+1,f[e]do s.JrKALLxp(r,p[f])end;end end end end else if t<=245 then if 242<t then if 244>t then local t,o;for r=0,6 do if 3>r then if r>0 then if 0<=r then for l=13,97 do if 2>r then t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if r<=4 then if r~=4 then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 3<=r then repeat if 6>r then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];until true;else p[f[g]]=l[f[e]];end end end end else if 241~=t then for h=19,87 do if t~=244 then local r,o,h;for t=0,4 do if 1>=t then if-4~=t then for d=11,85 do if t>0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]={};u=u+1;f=n[u];break;end;else p[f[g]]={};u=u+1;f=n[u];end else if 3<=t then if-1<t then repeat if 3<t then u=f[e];break;end;r=f[g]o={p[r](p[r+1])};h=0;for f=r,f[d]do h=h+1;p[f]=o[h];end u=u+1;f=n[u];until true;else u=f[e];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end break;end;r[f[e]]=p[f[g]];break;end;else r[f[e]]=p[f[g]];end end else if t<241 then local e=f[e];local u=p[e]for f=e+1,f[d]do u=u..p[f];end;p[f[g]]=u;else if t==242 then p[f[g]][p[f[e]]]=f[d];else local t;for d=0,3 do if d<=1 then if d~=0 then t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if-2<d then repeat if d<3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end end else if 249>t then if t<=246 then local l;for t=0,4 do if t<2 then if t>=-1 then repeat if 1~=t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 3<=t then if t==3 then p(f[g],f[e]);u=u+1;f=n[u];else l=f[g]p[l](h(p,l+1,f[e]))end else p(f[g],f[e]);u=u+1;f=n[u];end end end else if t~=244 then for r=41,59 do if 248~=t then local u=f[g]local e={p[u](h(p,u+1,o))};local g=0;for f=u,f[d]do g=g+1;p[f]=e[g];end break;end;local r;for t=0,4 do if 1<t then if t<3 then r=f[g]p[r](h(p,r+1,f[e]))u=u+1;f=n[u];else if 2<t then repeat if 3<t then if(p[f[g]]~=p[f[d]])then u=u+1;else u=f[e];end;break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if t<1 then p(f[g],f[e]);u=u+1;f=n[u];else p(f[g],f[e]);u=u+1;f=n[u];end end end break;end;else local u=f[g]local e={p[u](h(p,u+1,o))};local g=0;for f=u,f[d]do g=g+1;p[f]=e[g];end end end else if t>249 then if t~=249 then for r=46,96 do if t~=251 then local f=f[g];do return p[f](h(p,f+1,o))end;break;end;local t;for h=0,4 do if 2>h then if h~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 3>h then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if-1<h then for l=45,59 do if h~=4 then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];break;end;if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end end end end break;end;else local f=f[g];do return p[f](h(p,f+1,o))end;end else local l;for t=0,4 do if 2>t then if-2<=t then for l=39,58 do if 0~=t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t>=3 then if 1~=t then for d=45,54 do if t>3 then l=f[g]p[l](h(p,l+1,f[e]))break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end else p(f[g],f[e]);u=u+1;f=n[u];end end end end end end end else if 275>=t then if t>=270 then if 272<t then if t<=273 then local u=f[g];local g=p[u];for f=u+1,f[e]do s.JrKALLxp(g,p[f])end;else if t==275 then local h;for t=0,9 do if t<5 then if t>=2 then if t<=2 then p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];else if-1<t then repeat if t<4 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end else if t==0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if 6>=t then if t~=1 then repeat if 5<t then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 7>=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if t~=8 then h=f[g]p[h]=p[h](p[h+1])else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end else local t,s;for o=0,7 do if o<=3 then if o<2 then if-3<=o then repeat if o<1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 1~=o then for l=45,56 do if 3~=o then t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];break;end;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];break;end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end end else if 6<=o then if 4~=o then repeat if 7~=o then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];until true;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if 5~=o then p(f[g],f[e]);u=u+1;f=n[u];else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end end end end end else if 271<=t then if 270<=t then repeat if 272>t then local r,o,h;for t=0,4 do if 1<t then if 3>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if t>0 then for l=34,90 do if 4>t then r=f[g]o={p[r](p[r+1])};h=0;for f=r,f[d]do h=h+1;p[f]=o[h];end u=u+1;f=n[u];break;end;u=f[e];break;end;else u=f[e];end end else if t>-3 then for d=44,55 do if 1>t then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end break;end;local u=f[g]local g,f=a(p[u](h(p,u+1,f[e])))o=f+u-1 local f=0;for u=u,o do f=f+1;p[u]=g[f];end;until true;else local u=f[g]local g,f=a(p[u](h(p,u+1,f[e])))o=f+u-1 local f=0;for u=u,o do f=f+1;p[u]=g[f];end;end else p[f[g]][p[f[e]]]=p[f[d]];end end else if t<267 then if t>=265 then if t==265 then local l,h;for t=0,6 do if 3<=t then if 4<t then if 5==t then p[f[g]]=p[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]];end else if 4==t then p[f[g]]=p[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end else if 1<=t then if 2~=t then l=f[g];h=p[f[e]];p[l+1]=h;p[l]=h[f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end else p[f[g]]=p[f[e]]/f[d];end else if(f[g]<=p[f[d]])then u=f[e];else u=u+1;end;end else if t<=267 then local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);else if t>=264 then repeat if 268<t then local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g];do return p[d](h(p,d+1,f[e]))end;u=u+1;f=n[u];d=f[g];do return h(p,d,o)end;u=u+1;f=n[u];do return end;break;end;p[f[g]]=p[f[e]][f[d]];until true;else local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g];do return p[d](h(p,d+1,f[e]))end;u=u+1;f=n[u];d=f[g];do return h(p,d,o)end;u=u+1;f=n[u];do return end;end end end end else if 282>t then if 278>=t then if 276<t then if 276<=t then for l=12,98 do if 277<t then local t,a,r,l,o,s,d,k;for d=0,6 do if d>=3 then if d<=4 then if d>=2 then repeat if d~=3 then d=0;while d>-1 do if 4>d then if 2>d then if d==1 then a=g;else t=f;end else if-2~=d then repeat if d<3 then r=e;break;end;l=p;until true;else l=p;end end else if 6>d then if 1~=d then repeat if 5>d then o=l[t[r]];break;end;s=t[a];until true;else s=t[a];end else if d>5 then repeat if d~=6 then d=-2;break;end;p[s]=o;until true;else d=-2;end end end d=d+1 end u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if d~=2 then for t=37,95 do if 5~=d then k=f[g]p[k](h(p,k+1,f[e]))break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;else k=f[g]p[k](h(p,k+1,f[e]))end end else if 0<d then if d~=-1 then for h=21,96 do if d~=1 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;d=0;while d>-1 do if d>3 then if d>=6 then if d>=4 then for f=25,77 do if d~=7 then p[s]=o;break;end;d=-2;break;end;else d=-2;end else if 2<=d then for f=18,68 do if 4<d then s=t[a];break;end;o=l[t[r]];break;end;else o=l[t[r]];end end else if 2<=d then if d>=0 then for f=18,56 do if d~=3 then r=e;break;end;l=p;break;end;else r=e;end else if d>=-3 then repeat if d~=0 then a=g;break;end;t=f;until true;else t=f;end end end d=d+1 end u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else d=0;while d>-1 do if d>3 then if 6>d then if d~=0 then repeat if d>4 then s=t[a];break;end;o=l[t[r]];until true;else o=l[t[r]];end else if d~=2 then repeat if 6~=d then d=-2;break;end;p[s]=o;until true;else d=-2;end end else if d>=2 then if 2<d then l=p;else r=e;end else if d~=0 then a=g;else t=f;end end end d=d+1 end u=u+1;f=n[u];end end end break;end;local t,l;p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;break;end;else local t,s,r,l,o,a,d,k;for d=0,6 do if d>=3 then if d<=4 then if d>=2 then repeat if d~=3 then d=0;while d>-1 do if 4>d then if 2>d then if d==1 then s=g;else t=f;end else if-2~=d then repeat if d<3 then r=e;break;end;l=p;until true;else l=p;end end else if 6>d then if 1~=d then repeat if 5>d then o=l[t[r]];break;end;a=t[s];until true;else a=t[s];end else if d>5 then repeat if d~=6 then d=-2;break;end;p[a]=o;until true;else d=-2;end end end d=d+1 end u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if d~=2 then for t=37,95 do if 5~=d then k=f[g]p[k](h(p,k+1,f[e]))break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;else k=f[g]p[k](h(p,k+1,f[e]))end end else if 0<d then if d~=-1 then for h=21,96 do if d~=1 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;d=0;while d>-1 do if d>3 then if d>=6 then if d>=4 then for f=25,77 do if d~=7 then p[a]=o;break;end;d=-2;break;end;else d=-2;end else if 2<=d then for f=18,68 do if 4<d then a=t[s];break;end;o=l[t[r]];break;end;else o=l[t[r]];end end else if 2<=d then if d>=0 then for f=18,56 do if d~=3 then r=e;break;end;l=p;break;end;else r=e;end else if d>=-3 then repeat if d~=0 then s=g;break;end;t=f;until true;else t=f;end end end d=d+1 end u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else d=0;while d>-1 do if d>3 then if 6>d then if d~=0 then repeat if d>4 then a=t[s];break;end;o=l[t[r]];until true;else o=l[t[r]];end else if d~=2 then repeat if 6~=d then d=-2;break;end;p[a]=o;until true;else d=-2;end end else if d>=2 then if 2<d then l=p;else r=e;end else if d~=0 then s=g;else t=f;end end end d=d+1 end u=u+1;f=n[u];end end end end else local r;for t=0,4 do if 1>=t then if-4<t then repeat if t~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];end else if t<3 then p[f[g]]=-p[f[e]];u=u+1;f=n[u];else if 1<t then for l=35,77 do if t~=3 then p[f[g]][f[e]]=p[f[d]];break;end;r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];end end end end end else if 280>t then local f=f[g];local u=p[f];for f=f+1,o do s.JrKALLxp(u,p[f])end;else if t>=278 then repeat if t~=280 then local r;for t=0,5 do if t<3 then if 0>=t then r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];else if t>-2 then repeat if 1<t then for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end else if 4>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if 4<t then if not p[f[g]]then u=u+1;else u=f[e];end;else p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];end end end end break;end;local u=f[g];local g=p[f[e]];p[u+1]=g;p[u]=g[f[d]];until true;else local r;for t=0,5 do if t<3 then if 0>=t then r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];else if t>-2 then repeat if 1<t then for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end else if 4>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if 4<t then if not p[f[g]]then u=u+1;else u=f[e];end;else p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];end end end end end end end else if 285>t then if t<=282 then local t;for d=0,6 do if 3<=d then if d>4 then if d>4 then for t=45,79 do if 6>d then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]={};break;end;else p[f[g]]={};end else if d~=2 then repeat if 3<d then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if 0>=d then p(f[g],f[e]);u=u+1;f=n[u];else if d==1 then p(f[g],f[e]);u=u+1;f=n[u];else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end end end else if 282<=t then for r=39,54 do if 283<t then local h;for t=0,4 do if 2<=t then if 2>=t then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if 3~=t then if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;else h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];end end else if-1<=t then for d=27,92 do if 0<t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end break;end;local t,r;for l=0,5 do if 3>l then if l<1 then t=f[g]p[t]=p[t]()u=u+1;f=n[u];else if l>=-2 then for h=22,92 do if 1~=l then t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if 3>=l then p(f[g],f[e]);u=u+1;f=n[u];else if l>1 then for d=10,75 do if l>4 then u=f[e];break;end;t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end end end break;end;else local h;for t=0,4 do if 2<=t then if 2>=t then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if 3~=t then if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;else h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];end end else if-1<=t then for d=27,92 do if 0<t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end else if t<286 then p[f[g]]={};else if 282~=t then repeat if 286<t then for t=0,6 do if 3>t then if 1<=t then if 0<t then repeat if t~=2 then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if t>4 then if 3~=t then for l=15,67 do if t~=5 then p[f[g]][f[e]]=f[d];break;end;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if t>=2 then repeat if 3<t then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end end end break;end;p[f[g]]=(not p[f[e]]);until true;else for t=0,6 do if 3>t then if 1<=t then if 0<t then repeat if t~=2 then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if t>4 then if 3~=t then for l=15,67 do if t~=5 then p[f[g]][f[e]]=f[d];break;end;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else if t>=2 then repeat if 3<t then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end end end end end end end end end end end else if 95<t then if 143<t then if t>167 then if 180>t then if t<174 then if 171<=t then if t<172 then local f=f[g]p[f]=p[f](h(p,f+1,o))else if 169<=t then repeat if 172<t then local g=f[g];local u=p[f[e]];p[g+1]=u;p[g]=u[p[f[d]]];break;end;local t,o;for r=0,6 do if 3>r then if r>=1 then if-3~=r then for l=43,76 do if 2>r then t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else p(f[g],f[e]);u=u+1;f=n[u];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if r<=4 then if 1~=r then repeat if 4>r then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 5<r then t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end until true;else local g=f[g];local u=p[f[e]];p[g+1]=u;p[g]=u[p[f[d]]];end end else if t>168 then if 167<=t then for u=10,87 do if t>169 then local u=f[g];do return p[u](h(p,u+1,f[e]))end;break;end;local f=f[g];o=f+y-1;for u=f,o do local f=m[u-f];p[u]=f;end;break;end;else local u=f[g];do return p[u](h(p,u+1,f[e]))end;end else local n=p[f[d]];if not n then u=u+1;else p[f[g]]=n;u=f[e];end;end end else if t<=176 then if 175<=t then if t>173 then for r=43,66 do if 176>t then p[f[g]][f[e]]=f[d];break;end;local y,o,b,k,c,y,d,a,t,s,m,z,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if 3<d then if 6>d then if 2~=d then for f=45,89 do if d~=5 then c=k[t[b]];break;end;r=t[o];break;end;else r=t[o];end else if d>2 then for f=11,77 do if d~=7 then p[r]=c;break;end;d=-2;break;end;else d=-2;end end else if 2>d then if d>=-4 then for u=39,89 do if d<1 then t=f;break;end;o=g;break;end;else o=g;end else if 2<d then k=p;else b=e;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];a=f[g]p[a](h(p,a+1,f[e]))u=u+1;f=n[u];d=0;while d>-1 do if d<3 then if 1>d then t=f;else if d>0 then repeat if 1<d then m=e;break;end;s=g;until true;else s=g;end end else if d<=4 then if d~=3 then r=t[s];else z=t[m];end else if d~=2 then for f=37,71 do if d<6 then p(r,z);break;end;d=-2;break;end;else d=-2;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;else local y,o,m,z,k,y,d,a,t,s,c,b,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if 3<d then if 6>d then if 2~=d then for f=45,89 do if d~=5 then k=z[t[m]];break;end;r=t[o];break;end;else r=t[o];end else if d>2 then for f=11,77 do if d~=7 then p[r]=k;break;end;d=-2;break;end;else d=-2;end end else if 2>d then if d>=-4 then for u=39,89 do if d<1 then t=f;break;end;o=g;break;end;else o=g;end else if 2<d then z=p;else m=e;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];a=f[g]p[a](h(p,a+1,f[e]))u=u+1;f=n[u];d=0;while d>-1 do if d<3 then if 1>d then t=f;else if d>0 then repeat if 1<d then c=e;break;end;s=g;until true;else s=g;end end else if d<=4 then if d~=3 then r=t[s];else b=t[c];end else if d~=2 then for f=37,71 do if d<6 then p(r,b);break;end;d=-2;break;end;else d=-2;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];end else r[f[e]]=p[f[g]];end else if t>=178 then if 178<t then local t;for d=0,4 do if 2>d then if 1~=d then p(f[g],f[e]);u=u+1;f=n[u];else p(f[g],f[e]);u=u+1;f=n[u];end else if d>2 then if 3<d then p[f[g]]=l[f[e]];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end end else p[f[g]]=(not p[f[e]]);end else local r,a,o,s,b,c,k,t;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];r=f[g];a=p[f[e]];p[r+1]=a;p[r]=a[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if t>2 then if 4<t then if t~=2 then repeat if 5<t then t=-2;break;end;p(k,c);until true;else t=-2;end else if t>=0 then for f=21,66 do if 3<t then k=o[s];break;end;c=o[b];break;end;else k=o[s];end end else if 1>t then o=f;else if t~=-2 then for f=13,92 do if t~=2 then s=g;break;end;b=e;break;end;else s=g;end end end t=t+1 end u=u+1;f=n[u];r=f[g]p[r]=p[r](h(p,r+1,f[e]))end end end else if t<=185 then if 182<t then if 184>t then local h,r,a,k,o,t,s;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 2<t then if t<5 then if 1<=t then for f=22,52 do if t~=4 then k=h[a];break;end;o=h[r];break;end;else o=h[r];end else if 5<t then t=-2;else p(o,k);end end else if t<=0 then h=f;else if t>=-3 then for f=33,86 do if 1~=t then a=e;break;end;r=g;break;end;else r=g;end end end t=t+1 end u=u+1;f=n[u];s=f[g]p[s](p[s+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];else if t~=184 then local l;for t=0,4 do if 2<=t then if 2>=t then p(f[g],f[e]);u=u+1;f=n[u];else if 4==t then l=f[g]p[l](h(p,l+1,f[e]))else p(f[g],f[e]);u=u+1;f=n[u];end end else if t~=-3 then repeat if t~=1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end else local t,b,z,c,s,k;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];b=p[f[e]];p[t+1]=b;p[t]=b[f[d]];u=u+1;f=n[u];t=f[g]k,c=a(p[t](p[t+1]))o=c+t-1 s=0;for f=t,o do s=s+1;p[f]=k[s];end;u=u+1;f=n[u];t=f[g]k={p[t](h(p,t+1,o))};s=0;for f=t,f[d]do s=s+1;p[f]=k[s];end u=u+1;f=n[u];u=f[e];end end else if 181<=t then if 177~=t then repeat if 181<t then if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;break;end;if(p[f[g]]<p[f[d]])then u=f[e];else u=u+1;end;until true;else if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;end else l[f[e]]=p[f[g]];end end else if t>=189 then if 189>=t then for t=0,1 do if-1<=t then repeat if t~=0 then p[f[g]][f[e]]=p[f[d]];break;end;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];until true;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end end else if t>=188 then repeat if 191~=t then local t,r;p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;local r,t,k,z,m,y,t,t,o,a,b,c,s;for t=0,5 do if 3>t then if t<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if t~=-2 then repeat if 2~=t then r=f[g]p[r]=p[r](p[r+1])u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if 4>t then t=0;while t>-1 do if t<=3 then if 1>=t then if-3<t then repeat if t~=1 then o=f;break;end;k=g;until true;else k=g;end else if t~=2 then m=p;else z=e;end end else if t>5 then if 5~=t then for f=11,85 do if t~=6 then t=-2;break;end;p[s]=y;break;end;else t=-2;end else if t~=4 then s=o[k];else y=m[o[z]];end end end t=t+1 end u=u+1;f=n[u];else if t>=3 then repeat if 4<t then r=f[g]p[r](h(p,r+1,f[e]))break;end;t=0;while t>-1 do if t>2 then if 5<=t then if t<6 then p(s,c);else t=-2;end else if t>=0 then repeat if t<4 then c=o[b];break;end;s=o[a];until true;else s=o[a];end end else if 1<=t then if t>=0 then for f=11,82 do if t>1 then b=e;break;end;a=g;break;end;else a=g;end else o=f;end end t=t+1 end u=u+1;f=n[u];until true;else r=f[g]p[r](h(p,r+1,f[e]))end end end end until true;else local r,t,k,y,z,m,t,t,o,a,b,c,s;for t=0,5 do if 3>t then if t<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if t~=-2 then repeat if 2~=t then r=f[g]p[r]=p[r](p[r+1])u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if 4>t then t=0;while t>-1 do if t<=3 then if 1>=t then if-3<t then repeat if t~=1 then o=f;break;end;k=g;until true;else k=g;end else if t~=2 then z=p;else y=e;end end else if t>5 then if 5~=t then for f=11,85 do if t~=6 then t=-2;break;end;p[s]=m;break;end;else t=-2;end else if t~=4 then s=o[k];else m=z[o[y]];end end end t=t+1 end u=u+1;f=n[u];else if t>=3 then repeat if 4<t then r=f[g]p[r](h(p,r+1,f[e]))break;end;t=0;while t>-1 do if t>2 then if 5<=t then if t<6 then p(s,c);else t=-2;end else if t>=0 then repeat if t<4 then c=o[b];break;end;s=o[a];until true;else s=o[a];end end else if 1<=t then if t>=0 then for f=11,82 do if t>1 then b=e;break;end;a=g;break;end;else a=g;end else o=f;end end t=t+1 end u=u+1;f=n[u];until true;else r=f[g]p[r](h(p,r+1,f[e]))end end end end end end else if t<=186 then local t,l;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);else if t~=183 then repeat if t<188 then local t;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];do return end;break;end;local t,r;t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=(f[e]~=0);until true;else local t;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];do return end;end end end end end else if 156>t then if t>=150 then if t>=153 then if t<=153 then local t,k,b,r,o,s,d,a;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];d=0;while d>-1 do if 3<d then if 6>d then if d>4 then s=t[k];else o=r[t[b]];end else if 4<d then repeat if d~=7 then p[s]=o;break;end;d=-2;until true;else p[s]=o;end end else if 2>d then if d>-2 then repeat if 0~=d then k=g;break;end;t=f;until true;else t=f;end else if-2<=d then repeat if 2~=d then r=p;break;end;b=e;until true;else r=p;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];a=f[g]p[a](h(p,a+1,f[e]))u=u+1;f=n[u];do return end;else if 150~=t then for h=39,86 do if t<155 then local t,l;for h=0,3 do if h>1 then if h==3 then if p[f[g]]then u=u+1;else u=f[e];end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else if h~=-1 then repeat if 0~=h then t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];break;end;p[f[g]]();u=u+1;f=n[u];until true;else t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];end end end break;end;local t;for h=0,4 do if 1>=h then if h~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 3<=h then if h<4 then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];else if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end break;end;else local t,l;for h=0,3 do if h>1 then if h==3 then if p[f[g]]then u=u+1;else u=f[e];end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else if h~=-1 then repeat if 0~=h then t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];break;end;p[f[g]]();u=u+1;f=n[u];until true;else t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];end end end end end else if t<=150 then for d=0,6 do if 2<d then if 4<d then if d>3 then repeat if d~=6 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];until true;else p[f[g]]=r[f[e]];end else if d>=-1 then repeat if 3<d then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end else if d>=1 then if d>=0 then for t=20,77 do if d~=2 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end end else if t>=150 then for l=38,94 do if t~=152 then local l;for t=0,6 do if 3>t then if t>0 then if-3<t then for h=27,67 do if t~=1 then p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;l=f[g]p[l]=p[l]()u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if t<=4 then if 4~=t then p[f[g]]=r[f[e]];u=u+1;f=n[u];else l=f[g]p[l]=p[l]()u=u+1;f=n[u];end else if 4<t then repeat if 6>t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;if not p[f[g]]then u=u+1;else u=f[e];end;until true;else if not p[f[g]]then u=u+1;else u=f[e];end;end end end end break;end;local l,a,s,k,b,t,o;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 2<t then if t>=5 then if 4<t then repeat if t~=6 then p(b,k);break;end;t=-2;until true;else t=-2;end else if t>0 then for f=44,59 do if t<4 then k=l[s];break;end;b=l[a];break;end;else b=l[a];end end else if t<1 then l=f;else if 2>t then a=g;else s=e;end end end t=t+1 end u=u+1;f=n[u];o=f[g]p[o]=p[o](p[o+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=0;while t>-1 do if t>=3 then if t<5 then if-1<t then for f=32,59 do if 3<t then b=l[a];break;end;k=l[s];break;end;else k=l[s];end else if 5~=t then t=-2;else p(b,k);end end else if 1>t then l=f;else if-2~=t then repeat if 2>t then a=g;break;end;s=e;until true;else s=e;end end end t=t+1 end u=u+1;f=n[u];o=f[g]p[o]=p[o](h(p,o+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;else local l;for t=0,6 do if 3>t then if t>0 then if-3<t then for h=27,67 do if t~=1 then p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];break;end;l=f[g]p[l]=p[l]()u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if t<=4 then if 4~=t then p[f[g]]=r[f[e]];u=u+1;f=n[u];else l=f[g]p[l]=p[l]()u=u+1;f=n[u];end else if 4<t then repeat if 6>t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;if not p[f[g]]then u=u+1;else u=f[e];end;until true;else if not p[f[g]]then u=u+1;else u=f[e];end;end end end end end end end else if t>=147 then if t<148 then p[f[g]]={};else if 149==t then local f=f[g]p[f](p[f+1])else local l;for t=0,3 do if t>=2 then if 3~=t then p(f[g],f[e]);u=u+1;f=n[u];else p[f[g]]=p[f[e]][p[f[d]]];end else if 1==t then p[f[g]]=r[f[e]];u=u+1;f=n[u];else l=f[g]p[l](p[l+1])u=u+1;f=n[u];end end end end end else if t<=144 then local t;for d=0,5 do if 3>d then if d<1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if d>1 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end else if 4>d then t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else if 2~=d then for t=25,76 do if 4<d then p(f[g],f[e]);break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end else if t~=141 then repeat if t~=146 then p(f[g],f[e]);break;end;local o,h;for t=0,7 do if 3>=t then if t<=1 then if-2~=t then for l=17,81 do if t~=0 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;o=f[g];h=p[f[e]];p[o+1]=h;p[o]=h[f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if 1<t then for l=48,73 do if t~=2 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if t>=6 then if 6==t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];end else if 5~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end until true;else local o,h;for t=0,7 do if 3>=t then if t<=1 then if-2~=t then for l=17,81 do if t~=0 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;o=f[g];h=p[f[e]];p[o+1]=h;p[o]=h[f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end else if 1<t then for l=48,73 do if t~=2 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if t>=6 then if 6==t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];end else if 5~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end end end end end else if t>=162 then if t<165 then if t<163 then local u=f[g]p[u](h(p,u+1,f[e]))else if t>=162 then for r=26,65 do if t~=164 then local d;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;break;end;local l;for t=0,3 do if 2<=t then if t~=2 then p[f[g]]=p[f[e]][f[d]];else l=f[g]p[l]=p[l](p[l+1])u=u+1;f=n[u];end else if t>-4 then repeat if 0<t then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end end break;end;else local t;for l=0,3 do if 2<=l then if l~=2 then p[f[g]]=p[f[e]][f[d]];else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else if l>-4 then repeat if 0<l then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end end end end else if t>165 then if t<167 then if(p[f[g]]<=p[f[d]])then u=u+1;else u=f[e];end;else do return end;end else local d;for t=0,1 do if t~=-4 then repeat if 0<t then p[f[g]]=r[f[e]];break;end;d=f[g]p[d](p[d+1])u=u+1;f=n[u];until true;else p[f[g]]=r[f[e]];end end end end else if 158>=t then if 157<=t then if t>=156 then for l=23,73 do if t<158 then local d;for t=0,1 do if-3<t then for l=39,73 do if 0<t then p[f[g]]=r[f[e]];break;end;d=f[g]p[d](p[d+1])u=u+1;f=n[u];break;end;else p[f[g]]=r[f[e]];end end break;end;p[f[g]]=p[f[e]]/p[f[d]];break;end;else p[f[g]]=p[f[e]]/p[f[d]];end else if(p[f[g]]<=f[d])then u=u+1;else u=f[e];end;end else if 159<t then if 159<=t then repeat if 160~=t then local l,h;for t=0,6 do if t<=2 then if 0<t then if 0~=t then for r=27,89 do if 1<t then l=f[g];h=p[f[e]];p[l+1]=h;p[l]=h[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else l=f[g];h=p[f[e]];p[l+1]=h;p[l]=h[f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t>=5 then if 2<t then for d=19,88 do if 6>t then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if 0<t then repeat if 4~=t then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end break;end;local r;for t=0,6 do if 3>t then if t<=0 then p(f[g],f[e]);u=u+1;f=n[u];else if-3~=t then for l=44,82 do if t>1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];break;end;else r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];end end else if 4>=t then if 0<=t then for d=39,89 do if 3~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if t>2 then repeat if t>5 then p[f[g]]=l[f[e]];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end until true;else local h,l;for t=0,6 do if t<=2 then if 0<t then if 0~=t then for r=27,89 do if 1<t then h=f[g];l=p[f[e]];p[h+1]=l;p[h]=l[f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else h=f[g];l=p[f[e]];p[h+1]=l;p[h]=l[f[d]];u=u+1;f=n[u];end else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t>=5 then if 2<t then for d=19,88 do if 6>t then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];break;end;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if 0<t then repeat if 4~=t then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end else local t,r;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))end end end end end else if 120>t then if 107<t then if 114<=t then if 117>t then if 115<=t then if t>=112 then repeat if t~=116 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];break;end;local f=f[g]local g,u=a(p[f](h(p,f+1,o)))o=u+f-1 local u=0;for f=f,o do u=u+1;p[f]=g[u];end;until true;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];end else p[f[g]][p[f[e]]]=f[d];end else if t>=118 then if 114<t then for d=21,73 do if 118~=t then local d;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];do return end;break;end;local d;for t=0,3 do if 2<=t then if t<3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else p(f[g],f[e]);end else if t>=-1 then for l=42,71 do if t~=0 then d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;else d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];end end end break;end;else local d;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];do return end;end else local t,r,s,o;t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]s={p[t](p[t+1])};o=0;for f=t,f[d]do o=o+1;p[f]=s[o];end u=u+1;f=n[u];u=f[e];end end else if 110>=t then if t>108 then if 108<t then repeat if 110>t then local t,o;for l=0,4 do if 1<l then if 2>=l then p(f[g],f[e]);u=u+1;f=n[u];else if 3==l then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];end end else if-3<=l then for h=16,67 do if 1>l then r[f[e]]=p[f[g]];u=u+1;f=n[u];break;end;t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];break;end;else r[f[e]]=p[f[g]];u=u+1;f=n[u];end end end break;end;if(p[f[g]]<p[f[d]])then u=f[e];else u=u+1;end;until true;else local t,o;for l=0,4 do if 1<l then if 2>=l then p(f[g],f[e]);u=u+1;f=n[u];else if 3==l then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];end end else if-3<=l then for h=16,67 do if 1>l then r[f[e]]=p[f[g]];u=u+1;f=n[u];break;end;t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];break;end;else r[f[e]]=p[f[g]];u=u+1;f=n[u];end end end end else local f=f[g];do return h(p,f,o)end;end else if t<112 then local l;for t=0,7 do if 3<t then if t<6 then if t<5 then p[f[g]]={};u=u+1;f=n[u];else p[f[g]]={};u=u+1;f=n[u];end else if t>2 then repeat if t~=7 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;if p[f[g]]then u=u+1;else u=f[e];end;until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if t>=2 then if 3>t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t~=-2 then for d=13,79 do if 0<t then l=f[g]p[l](h(p,l+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end end end end else if t~=112 then local t,h;for d=0,5 do if 2>=d then if d<1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if-1<=d then repeat if d~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]={};u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end else if 4>d then p[f[g]]={};u=u+1;f=n[u];else if 4<d then t=f[g];h=p[t];for f=t+1,f[e]do s.JrKALLxp(h,p[f])end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end else local t,k,s,z,b,c;for s=0,9 do if s>4 then if 6<s then if s>=8 then if s~=9 then t=f[g]c={p[t](h(p,t+1,o))};b=0;for f=t,f[d]do b=b+1;p[f]=c[b];end u=u+1;f=n[u];else u=f[e];end else t=f[g]c,z=a(p[t](p[t+1]))o=z+t-1 b=0;for f=t,o do b=b+1;p[f]=c[b];end;u=u+1;f=n[u];end else if 2<s then repeat if 6>s then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];until true;else t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];end end else if 1<s then if s<=2 then t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];else if s==4 then t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];else p(f[g],f[e]);u=u+1;f=n[u];end end else if-4~=s then repeat if s>0 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end end end end else if 102>t then if 99<=t then if t>=100 then if t>100 then local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;else for t=0,6 do if t>2 then if 4<t then if t~=5 then p(f[g],f[e]);else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if 1~=t then for l=34,86 do if 3<t then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end end else if 0<t then if-3<=t then for l=24,70 do if 2>t then p[f[g]]={};u=u+1;f=n[u];break;end;p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else p[f[g]]={};u=u+1;f=n[u];end end end end else local l;for t=0,5 do if t<3 then if t<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if t>=0 then repeat if t~=2 then p(f[g],f[e]);u=u+1;f=n[u];break;end;p(f[g],f[e]);u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end end else if 4>t then p(f[g],f[e]);u=u+1;f=n[u];else if 2<=t then for r=15,87 do if t<5 then l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]][f[e]]=p[f[d]];break;end;else p[f[g]][f[e]]=p[f[d]];end end end end end else if t>=97 then if 97<t then if(p[f[g]]<=f[d])then u=f[e];else u=u+1;end;else local l,t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];l=f[g];t=p[f[e]];p[l+1]=t;p[l]=t[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];end else local d;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d]=p[d](p[d+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g];do return p[d](h(p,d+1,f[e]))end;u=u+1;f=n[u];d=f[g];do return h(p,d,o)end;u=u+1;f=n[u];do return end;end end else if t>104 then if t>105 then if 103~=t then repeat if 107~=t then local u=f[g]local e={p[u](h(p,u+1,o))};local g=0;for f=u,f[d]do g=g+1;p[f]=e[g];end break;end;if(p[f[g]]<p[f[d]])then u=u+1;else u=f[e];end;until true;else local u=f[g]local e={p[u](h(p,u+1,o))};local g=0;for f=u,f[d]do g=g+1;p[f]=e[g];end end else local u=f[g]p[u](h(p,u+1,f[e]))end else if 103<=t then if 102~=t then for o=15,65 do if 104>t then local t,s,o;for r=0,9 do if r<5 then if r<2 then if-3<=r then repeat if r>0 then p[f[g]]=p[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end else if r>=3 then if 4==r then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else t=f[g]s={p[t](h(p,t+1,f[e]))};o=0;for f=t,f[d]do o=o+1;p[f]=s[o];end u=u+1;f=n[u];end end else if 6<r then if r>7 then if r>8 then t=f[g]p[t]=p[t](h(p,t+1,f[e]))else p(f[g],f[e]);u=u+1;f=n[u];end else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else if 2~=r then repeat if r<6 then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end break;end;local t,s;for o=0,9 do if 4<o then if 7>o then if o~=4 then repeat if 5~=o then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if 7<o then if o>7 then for l=49,57 do if o~=8 then p[f[g]]=p[f[e]][f[d]];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];break;end;else t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];end else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end else if o<=1 then if-1<=o then for t=15,69 do if o<1 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 2>=o then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if o~=2 then repeat if 3<o then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end break;end;else local t,s;for o=0,9 do if 4<o then if 7>o then if o~=4 then repeat if 5~=o then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];until true;else p(f[g],f[e]);u=u+1;f=n[u];end else if 7<o then if o>7 then for l=49,57 do if o~=8 then p[f[g]]=p[f[e]][f[d]];break;end;t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];break;end;else t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];end else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end end else if o<=1 then if-1<=o then for t=15,69 do if o<1 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 2>=o then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if o~=2 then repeat if 3<o then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end end end else local f=f[g];do return p[f],p[f+1]end end end end end else if t<=131 then if t<126 then if t<=122 then if t<121 then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];else if 119<=t then repeat if t>121 then local d;for t=0,4 do if 2>t then if-3~=t then for l=36,66 do if 1>t then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;d=f[g]p[d]=p[d](p[d+1])u=u+1;f=n[u];break;end;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if t<=2 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if t>1 then repeat if t>3 then d=f[g]p[d]=p[d](p[d+1])break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end break;end;if(p[f[g]]==p[f[d]])then u=u+1;else u=f[e];end;until true;else local d;for t=0,4 do if 2>t then if-3~=t then for l=36,66 do if 1>t then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;d=f[g]p[d]=p[d](p[d+1])u=u+1;f=n[u];break;end;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if t<=2 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else if t>1 then repeat if t>3 then d=f[g]p[d]=p[d](p[d+1])break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end end else if t<124 then p[f[g]][p[f[e]]]=p[f[d]];else if t~=120 then repeat if 125>t then local t,l,k,b,s;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]k,b=a(p[t](h(p,t+1,f[e])))o=b+t-1 s=0;for f=t,o do s=s+1;p[f]=k[s];end;u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]={};break;end;local t,o;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))until true;else local t,o;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))end end end else if 129>t then if t>126 then if t==127 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);else local t,h;for l=0,4 do if 1<l then if 2>=l then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];else if l>=1 then for d=32,94 do if l<4 then p[f[g]]=r[f[e]];u=u+1;f=n[u];break;end;if p[f[g]]then u=u+1;else u=f[e];end;break;end;else p[f[g]]=r[f[e]];u=u+1;f=n[u];end end else if-4<=l then repeat if 1~=l then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];break;end;t=f[g];h=p[f[e]];p[t+1]=h;p[t]=h[f[d]];u=u+1;f=n[u];until true;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end end end end else local t,o;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end else if 129>=t then local u=f[g]local e={p[u]()};local g=f[d];local f=0;for u=u,g do f=f+1;p[u]=e[f];end else if 127~=t then repeat if t>130 then local t,o;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];break;end;p[f[g]]();until true;else p[f[g]]();end end end end else if 138<=t then if t<=140 then if 138>=t then local t,h;for l=0,6 do if l>2 then if 5>l then if l>0 then for h=17,67 do if l>3 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];break;end;else t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];end else if l>4 then repeat if l>5 then p[f[g]]=p[f[e]][f[d]];break;end;p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];end end else if l<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if l~=-2 then repeat if 2~=l then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;t=f[g];h=p[f[e]];p[t+1]=h;p[t]=h[f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end else if 135~=t then repeat if t<140 then local o,a,k,c,b,t,r,s;for t=0,6 do if t>2 then if t<5 then if 4>t then r=f[g];s=p[f[e]];p[r+1]=s;p[r]=s[f[d]];u=u+1;f=n[u];else p(f[g],f[e]);u=u+1;f=n[u];end else if 3<t then repeat if t>5 then p[f[g]]=p[f[e]][f[d]];break;end;r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];until true;else r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];end end else if t<=0 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if-1<=t then repeat if 2>t then t=0;while t>-1 do if t>=3 then if t>4 then if 3<t then repeat if t~=6 then p(b,c);break;end;t=-2;until true;else t=-2;end else if 4~=t then c=o[k];else b=o[a];end end else if 1>t then o=f;else if t<2 then a=g;else k=e;end end end t=t+1 end u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end break;end;local l,a,r,z,k,o,c,t,b;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];l=f[g];a=p[f[e]];p[l+1]=a;p[l]=a[f[d]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=0;while t>-1 do if 2>=t then if 1<=t then if 2>t then z=g;else k=e;end else r=f;end else if t>=5 then if t>5 then t=-2;else p(c,o);end else if t>0 then repeat if 4>t then o=r[k];break;end;c=r[z];until true;else o=r[k];end end end t=t+1 end u=u+1;f=n[u];l=f[g];b=p[l];for f=l+1,f[e]do s.JrKALLxp(b,p[f])end;until true;else local l,k,r,c,a,o,b,t,z;p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];l=f[g]p[l]=p[l](h(p,l+1,f[e]))u=u+1;f=n[u];l=f[g];k=p[f[e]];p[l+1]=k;p[l]=k[f[d]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=0;while t>-1 do if 2>=t then if 1<=t then if 2>t then c=g;else a=e;end else r=f;end else if t>=5 then if t>5 then t=-2;else p(b,o);end else if t>0 then repeat if 4>t then o=r[a];break;end;b=r[c];until true;else o=r[a];end end end t=t+1 end u=u+1;f=n[u];l=f[g];z=p[l];for f=l+1,f[e]do s.JrKALLxp(z,p[f])end;end end else if 142>t then local l,r;for t=0,9 do if t<=4 then if t<=1 then if t==0 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else l=f[g];r=p[f[e]];p[l+1]=r;p[l]=r[f[d]];u=u+1;f=n[u];end else if 2>=t then p(f[g],f[e]);u=u+1;f=n[u];else if 0<t then for l=41,60 do if t>3 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];break;end;p[f[g]]={};u=u+1;f=n[u];break;end;else p[f[g]]={};u=u+1;f=n[u];end end end else if t<7 then if t<6 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];else p[f[g]][f[e]]=f[d];u=u+1;f=n[u];end else if t<8 then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];else if 7<=t then for d=38,57 do if 9>t then l=f[g]p[l](h(p,l+1,f[e]))u=u+1;f=n[u];break;end;u=f[e];break;end;else u=f[e];end end end end end else if t>141 then for u=12,71 do if 143~=t then local g=f[g];local u=p[f[e]];p[g+1]=u;p[g]=u[p[f[d]]];break;end;local f=f[g]p[f](h(p,f+1,o))break;end;else local f=f[g]p[f](h(p,f+1,o))end end end else if t<=134 then if 132<t then if t~=133 then p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]]/p[f[d]];else for t=0,6 do if 2>=t then if t<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if 1==t then p[f[g]]=r[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end else if t<5 then if-1<t then repeat if t>3 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=r[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if t==5 then p[f[g]]=r[f[e]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];end end end end end else local d;for t=0,4 do if t>1 then if 3>t then p(f[g],f[e]);u=u+1;f=n[u];else if 4~=t then d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];else if not p[f[g]]then u=u+1;else u=f[e];end;end end else if t>0 then p(f[g],f[e]);u=u+1;f=n[u];else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end else if 135>=t then local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);else if 132<t then repeat if t>136 then local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];r[f[e]]=p[f[g]];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];r[f[e]]=p[f[g]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];until true;else local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];end end end end end end end else if t>=48 then if 71<t then if 84<=t then if 89<t then if 92>=t then if t<91 then local t,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);else if t~=92 then do return p[f[g]]();end;else local d,t;p[f[g]]={};u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g];t=p[d];for f=d+1,f[e]do s.JrKALLxp(t,p[f])end;end end else if t>93 then if 93<=t then repeat if t>94 then local d,s,b,k,r;for t=0,4 do if 1>=t then if 1~=t then p[f[g]]=l[f[e]];u=u+1;f=n[u];else d=f[g];o=d+y-1;for f=d,o do s=m[f-d];p[f]=s;end;u=u+1;f=n[u];end else if t<3 then d=f[g]b,k=a(p[d](h(p,d+1,o)))o=k+d-1 r=0;for f=d,o do r=r+1;p[f]=b[r];end;u=u+1;f=n[u];else if t>0 then repeat if 4>t then d=f[g]p[d](h(p,d+1,o))u=u+1;f=n[u];break;end;u=f[e];until true;else d=f[g]p[d](h(p,d+1,o))u=u+1;f=n[u];end end end end break;end;local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;until true;else local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;end else if(f[g]<p[f[d]])then u=f[e];else u=u+1;end;end end else if t<87 then if 84>=t then local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=-p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];else if 85==t then p[f[g]]=(f[e]~=0);u=u+1;else if(p[f[g]]<=f[d])then u=f[e];else u=u+1;end;end end else if 87>=t then local l;for t=0,4 do if t>=2 then if t>2 then if t~=0 then for d=12,73 do if t~=3 then l=f[g]p[l](h(p,l+1,f[e]))break;end;p(f[g],f[e]);u=u+1;f=n[u];break;end;else l=f[g]p[l](h(p,l+1,f[e]))end else p(f[g],f[e]);u=u+1;f=n[u];end else if t~=-3 then for l=46,80 do if t<1 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end else if t~=84 then for h=48,55 do if 89~=t then local l,a,o,h,s,t;p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 3<=t then if 4>=t then if-1~=t then for f=20,72 do if 3<t then s=l[a];break;end;h=l[o];break;end;else h=l[o];end else if t~=2 then repeat if 6>t then p(s,h);break;end;t=-2;until true;else p(s,h);end end else if t<1 then l=f;else if t<2 then a=g;else o=e;end end end t=t+1 end u=u+1;f=n[u];t=0;while t>-1 do if t>=3 then if t<5 then if t>=1 then for f=28,68 do if t<4 then h=l[o];break;end;s=l[a];break;end;else h=l[o];end else if t>3 then repeat if t~=5 then t=-2;break;end;p(s,h);until true;else p(s,h);end end else if 1>t then l=f;else if 0~=t then for f=34,77 do if 2>t then a=g;break;end;o=e;break;end;else a=g;end end end t=t+1 end u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=p[f[e]][p[f[d]]];break;end;local t,h;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];h=p[f[d]];if not h then u=u+1;else p[f[g]]=h;u=f[e];end;break;end;else local l,a,o,h,s,t;p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 3<=t then if 4>=t then if-1~=t then for f=20,72 do if 3<t then s=l[a];break;end;h=l[o];break;end;else h=l[o];end else if t~=2 then repeat if 6>t then p(s,h);break;end;t=-2;until true;else p(s,h);end end else if t<1 then l=f;else if t<2 then a=g;else o=e;end end end t=t+1 end u=u+1;f=n[u];t=0;while t>-1 do if t>=3 then if t<5 then if t>=1 then for f=28,68 do if t<4 then h=l[o];break;end;s=l[a];break;end;else h=l[o];end else if t>3 then repeat if t~=5 then t=-2;break;end;p(s,h);until true;else p(s,h);end end else if 1>t then l=f;else if 0~=t then for f=34,77 do if 2>t then a=g;break;end;o=e;break;end;else a=g;end end end t=t+1 end u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=p[f[e]][p[f[d]]];end end end end else if t<=77 then if 74<t then if t<76 then local r,o,a,k,b,s,t,h;for t=0,4 do if 2>t then if-4<t then for d=39,71 do if 1>t then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if t<=2 then t=0;while t>-1 do if t<=3 then if t<2 then if t>=-3 then repeat if t>0 then o=g;break;end;r=f;until true;else o=g;end else if 3~=t then a=e;else k=p;end end else if 6>t then if t>=1 then for f=33,78 do if 5>t then b=k[r[a]];break;end;s=r[o];break;end;else s=r[o];end else if t>6 then t=-2;else p[s]=b;end end end t=t+1 end u=u+1;f=n[u];else if 2~=t then for l=22,96 do if t~=3 then if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;break;end;h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];break;end;else h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];end end end end else if t~=76 then local g=f[g];local d=p[g+2];local n=p[g]+d;p[g]=n;if(d>0)then if(n<=p[g+1])then u=f[e];p[g+3]=n;end elseif(n>=p[g+1])then u=f[e];p[g+3]=n;end else local u=f[g];do return h(p,u,u+f[e])end;end end else if t>=73 then if 71<t then repeat if t<74 then local d,r,s,t;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]r,s=a(p[d](p[d+1]))o=s+d-1 t=0;for f=d,o do t=t+1;p[f]=r[t];end;u=u+1;f=n[u];d=f[g]p[d]=p[d](h(p,d+1,o))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];break;end;p[f[g]]=c(z[f[e]],nil,r);until true;else p[f[g]]=c(z[f[e]],nil,r);end else local t;for d=0,3 do if 2>d then if d>-1 then repeat if 0~=d then t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if d>2 then p(f[g],f[e]);else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end end end else if 80>=t then if t<79 then local s,b,o,l,k,t,a;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=0;while t>-1 do if t>=3 then if 5<=t then if 4<=t then repeat if 5~=t then t=-2;break;end;p(k,l);until true;else p(k,l);end else if 2~=t then repeat if t~=3 then k=s[b];break;end;l=s[o];until true;else l=s[o];end end else if 1>t then s=f;else if-3<=t then repeat if t~=1 then o=e;break;end;b=g;until true;else o=e;end end end t=t+1 end u=u+1;f=n[u];a=f[g]p[a](h(p,a+1,f[e]))u=u+1;f=n[u];do return end;else if t~=80 then local u=f[g];do return h(p,u,u+f[e])end;else for t=0,4 do if t<2 then if-3<=t then repeat if 0<t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end else if 2>=t then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if 2~=t then repeat if 3~=t then p[f[g]]=p[f[e]][f[d]];break;end;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];until true;else p[f[g]]=p[f[e]][f[d]];end end end end end end else if 81<t then if t~=83 then do return p[f[g]]end else local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];if(f[g]<p[f[d]])then u=f[e];else u=u+1;end;end else p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];end end end end else if 59>=t then if t<54 then if t<51 then if 49>t then local t;for l=0,4 do if 1>=l then if 0==l then p[f[g]]=r[f[e]];u=u+1;f=n[u];else t=f[g]p[t]=p[t]()u=u+1;f=n[u];end else if 3>l then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else if 3~=l then u=f[e];else t=f[g]p[t](p[t+1])u=u+1;f=n[u];end end end end else if t~=47 then repeat if t~=49 then local t,s,b,c,k;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];t=f[g]b,c=a(p[t](p[t+1]))o=c+t-1 k=0;for f=t,o do k=k+1;p[f]=b[k];end;break;end;if(p[f[g]]~=p[f[d]])then u=u+1;else u=f[e];end;until true;else local t,s,c,b,k;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];t=f[g]c,b=a(p[t](p[t+1]))o=b+t-1 k=0;for f=t,o do k=k+1;p[f]=c[k];end;end end else if t>=52 then if 52~=t then local f=f[g];local u=p[f];for f=f+1,o do s.JrKALLxp(u,p[f])end;else local u=f[g];do return p[u](h(p,u+1,f[e]))end;end else local g=f[g];local d=p[g+2];local n=p[g]+d;p[g]=n;if(d>0)then if(n<=p[g+1])then u=f[e];p[g+3]=n;end elseif(n>=p[g+1])then u=f[e];p[g+3]=n;end end end else if t>56 then if t>57 then if t~=55 then repeat if t~=59 then local t,r;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))break;end;u=f[e];until true;else u=f[e];end else p[f[g]]=r[f[e]];end else if 55<=t then if 52<=t then for o=37,89 do if 56>t then local t;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;local d;d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];d=f[g]p[d]=p[d]()u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;break;end;else local d;d=f[g]p[d]=p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];d=f[g]p[d]=p[d]()u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;end else local f=f[g]p[f]=p[f](h(p,f+1,o))end end end else if t<=65 then if 62>=t then if t>60 then if t~=58 then repeat if 61<t then p[f[g]]=p[f[e]]-p[f[d]];break;end;local t,s,b,k,l,r;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];s=p[f[e]];p[t+1]=s;p[t]=s[f[d]];u=u+1;f=n[u];t=f[g]r,k=a(p[t](p[t+1]))o=k+t-1 l=0;for f=t,o do l=l+1;p[f]=r[l];end;u=u+1;f=n[u];t=f[g]r={p[t](h(p,t+1,o))};l=0;for f=t,f[d]do l=l+1;p[f]=r[l];end u=u+1;f=n[u];u=f[e];until true;else p[f[g]]=p[f[e]]-p[f[d]];end else for d=0,4 do if d>=2 then if d>2 then if 4>d then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if p[f[g]]then u=u+1;else u=f[e];end;end else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if d~=-4 then repeat if 1~=d then p[f[g]]=l[f[e]];u=u+1;f=n[u];break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];until true;else p[f[g]]=l[f[e]];u=u+1;f=n[u];end end end end else if 63>=t then local t;for d=0,3 do if 2>d then if-3<=d then repeat if d<1 then p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if d~=2 then p(f[g],f[e]);else p[f[g]]=p[f[e]];u=u+1;f=n[u];end end end else if t==65 then local t,h;t=f[g];h=p[f[e]];p[t+1]=h;p[t]=h[f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];else local t,r;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]();u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))end end end else if 68>=t then if t<67 then local f=f[g]p[f]=p[f](p[f+1])else if 64<t then for r=36,64 do if t~=67 then local t,h;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];h=p[f[e]];p[t+1]=h;p[t]=h[f[d]];u=u+1;f=n[u];p(f[g],f[e]);break;end;local t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];l[f[e]]=p[f[g]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;else local h,t;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];h=f[g];t=p[f[e]];p[h+1]=t;p[h]=t[f[d]];u=u+1;f=n[u];p(f[g],f[e]);end end else if 69>=t then local g=f[g]local e={p[g](h(p,g+1,f[e]))};local u=0;for f=g,f[d]do u=u+1;p[f]=e[u];end else if t>=67 then for r=36,70 do if 70~=t then local y,c,z,b,m,y,d,s,t,a,o,k,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if d>=4 then if d<6 then if d==4 then m=b[t[z]];else r=t[c];end else if d~=6 then d=-2;else p[r]=m;end end else if d>1 then if d~=-2 then for f=32,62 do if 2<d then b=p;break;end;z=e;break;end;else b=p;end else if d>=-3 then for u=18,84 do if d>0 then c=g;break;end;t=f;break;end;else c=g;end end end d=d+1 end u=u+1;f=n[u];s=f[g]p[s](h(p,s+1,f[e]))u=u+1;f=n[u];d=0;while d>-1 do if 3<=d then if 4<d then if 2<d then repeat if d~=6 then p(r,k);break;end;d=-2;until true;else p(r,k);end else if 1<d then for f=31,52 do if 4>d then k=t[o];break;end;r=t[a];break;end;else r=t[a];end end else if d<=0 then t=f;else if 0~=d then repeat if 1<d then o=e;break;end;a=g;until true;else o=e;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;local t,l;p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];break;end;else local y,o,m,c,z,y,d,b,t,k,s,a,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if d>=4 then if d<6 then if d==4 then z=c[t[m]];else r=t[o];end else if d~=6 then d=-2;else p[r]=z;end end else if d>1 then if d~=-2 then for f=32,62 do if 2<d then c=p;break;end;m=e;break;end;else c=p;end else if d>=-3 then for u=18,84 do if d>0 then o=g;break;end;t=f;break;end;else o=g;end end end d=d+1 end u=u+1;f=n[u];b=f[g]p[b](h(p,b+1,f[e]))u=u+1;f=n[u];d=0;while d>-1 do if 3<=d then if 4<d then if 2<d then repeat if d~=6 then p(r,a);break;end;d=-2;until true;else p(r,a);end else if 1<d then for f=31,52 do if 4>d then a=t[s];break;end;r=t[k];break;end;else r=t[k];end end else if d<=0 then t=f;else if 0~=d then repeat if 1<d then s=e;break;end;k=g;until true;else s=e;end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];end end end end end end else if 24>t then if t>=12 then if t<=17 then if t<15 then if 13<=t then if 9<=t then for l=25,70 do if t~=13 then local t;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]];break;end;local g=f[g];local n=p[g]local d=p[g+2];if(d>0)then if(n>p[g+1])then u=f[e];else p[g+3]=n;end elseif(n<p[g+1])then u=f[e];else p[g+3]=n;end break;end;else local g=f[g];local n=p[g]local d=p[g+2];if(d>0)then if(n>p[g+1])then u=f[e];else p[g+3]=n;end elseif(n<p[g+1])then u=f[e];else p[g+3]=n;end end else local t;t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end else if t<=15 then p(f[g],f[e]);else if 14<t then for r=36,53 do if t>16 then local d;p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];do return p[f[g]]end u=u+1;f=n[u];do return end;break;end;local t,o,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]o={p[t](h(p,t+1,f[e]))};r=0;for f=t,f[d]do r=r+1;p[f]=o[r];end u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];if p[f[g]]then u=u+1;else u=f[e];end;break;end;else local t,o,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]o={p[t](h(p,t+1,f[e]))};r=0;for f=t,f[d]do r=r+1;p[f]=o[r];end u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];if p[f[g]]then u=u+1;else u=f[e];end;end end end else if 20>=t then if t<=18 then local f=f[g]p[f]=p[f]()else if 19<t then p[f[g]]();else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]]-p[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]]/f[d];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end end else if t>=22 then if 18<=t then repeat if t<23 then p[f[g]]=l[f[e]];break;end;local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;until true;else local d;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];do return end;end else local t;t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end end end else if 6>t then if t<3 then if t>0 then if t~=-2 then repeat if t~=1 then local a,t,l,s,o,r,d;for d=0,3 do if 1>=d then if-3~=d then repeat if d~=0 then a=f[g]p[a](h(p,a+1,f[e]))u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];until true;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if d>=-2 then repeat if d>2 then d=0;while d>-1 do if 3<=d then if d<5 then if d~=2 then repeat if 3<d then r=t[l];break;end;o=t[s];until true;else r=t[l];end else if d>1 then for f=44,84 do if 6~=d then p(r,o);break;end;d=-2;break;end;else p(r,o);end end else if 0>=d then t=f;else if 0<=d then repeat if 2>d then l=g;break;end;s=e;until true;else l=g;end end end d=d+1 end break;end;p[f[g]]=p[f[e]];u=u+1;f=n[u];until true;else d=0;while d>-1 do if 3<=d then if d<5 then if d~=2 then repeat if 3<d then r=t[l];break;end;o=t[s];until true;else r=t[l];end else if d>1 then for f=44,84 do if 6~=d then p(r,o);break;end;d=-2;break;end;else p(r,o);end end else if 0>=d then t=f;else if 0<=d then repeat if 2>d then l=g;break;end;s=e;until true;else l=g;end end end d=d+1 end end end end break;end;if p[f[g]]then u=u+1;else u=f[e];end;until true;else if p[f[g]]then u=u+1;else u=f[e];end;end else for t=0,4 do if 2>t then if t~=-1 then for d=21,91 do if 1>t then p(f[g],f[e]);u=u+1;f=n[u];break;end;p[f[g]]=(f[e]~=0);u=u+1;f=n[u];break;end;else p[f[g]]=(f[e]~=0);u=u+1;f=n[u];end else if 3<=t then if t>3 then p[f[g]][f[e]]=f[d];else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end else p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];end end end end else if 4<=t then if t~=2 then for r=49,87 do if t>4 then local s,k,b,r,c,m,d,t,y,j,z;d=0;while d>-1 do if 3>=d then if 1<d then if-1~=d then repeat if 2~=d then r=p;break;end;b=e;until true;else r=p;end else if-2~=d then for u=41,81 do if d~=1 then s=f;break;end;k=g;break;end;else k=g;end end else if d>5 then if 3<d then for f=23,95 do if 6~=d then d=-2;break;end;p[m]=c;break;end;else d=-2;end else if d>4 then m=s[k];else c=r[s[b]];end end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if d>3 then if 5>=d then if d~=5 then c=r[s[b]];else m=s[k];end else if 6==d then p[m]=c;else d=-2;end end else if d<2 then if 0==d then s=f;else k=g;end else if d~=-1 then for f=29,69 do if 2<d then r=p;break;end;b=e;break;end;else r=p;end end end d=d+1 end u=u+1;f=n[u];t=f[g]y,j=a(p[t](p[t+1]))o=j+t-1 z=0;for f=t,o do z=z+1;p[f]=y[z];end;u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];if not p[f[g]]then u=u+1;else u=f[e];end;break;end;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];break;end;else p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];end else local r,o,a,z,s,b,k,c,t;p[f[g]]=l[f[e]];u=u+1;f=n[u];r=f[g];o=p[f[e]];p[r+1]=o;p[r]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];r=f[g]p[r]=p[r](h(p,r+1,f[e]))u=u+1;f=n[u];r=f[g];o=p[f[e]];p[r+1]=o;p[r]=o[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if t<=3 then if t<2 then if t==0 then a=f;else z=g;end else if t>0 then repeat if 2<t then b=p;break;end;s=e;until true;else s=e;end end else if 5<t then if t==7 then t=-2;else p[c]=k;end else if 1<=t then repeat if t>4 then c=a[z];break;end;k=b[a[s]];until true;else k=b[a[s]];end end end t=t+1 end u=u+1;f=n[u];r=f[g]p[r]=p[r](h(p,r+1,f[e]))end end else if 9<=t then if 9<t then if 11>t then p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];for f=f[g],f[e]do p[f]=nil;end;u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];else p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);end else local t,r;p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))end else if t<=6 then local t,o;p[f[g]]=r[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t]()u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];o=p[f[e]];p[t+1]=o;p[t]=o[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))else if t>=4 then repeat if t~=7 then local t,k,z,c,s,b;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];t=f[g]b,c=a(p[t](p[t+1]))o=c+t-1 s=0;for f=t,o do s=s+1;p[f]=b[s];end;u=u+1;f=n[u];t=f[g]b={p[t](h(p,t+1,o))};s=0;for f=t,f[d]do s=s+1;p[f]=b[s];end u=u+1;f=n[u];u=f[e];break;end;local t;p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;until true;else local t,k,z,c,s,b;p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];k=p[f[e]];p[t+1]=k;p[t]=k[f[d]];u=u+1;f=n[u];t=f[g]b,c=a(p[t](p[t+1]))o=c+t-1 s=0;for f=t,o do s=s+1;p[f]=b[s];end;u=u+1;f=n[u];t=f[g]b={p[t](h(p,t+1,o))};s=0;for f=t,f[d]do s=s+1;p[f]=b[s];end u=u+1;f=n[u];u=f[e];end end end end end else if t>35 then if 42>t then if 38>=t then if t<37 then local t;p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];do return p[t],p[t+1]end u=u+1;f=n[u];do return end;else if t~=35 then for d=13,87 do if t~=37 then local f=f[g]p[f]=p[f](p[f+1])break;end;local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);break;end;else local d;p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];d=f[g]p[d](h(p,d+1,f[e]))u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p(f[g],f[e]);end end else if 39>=t then local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];else if 40~=t then local t,r,s,a,o,d,k;p(f[g],f[e]);u=u+1;f=n[u];d=0;while d>-1 do if d<3 then if 0>=d then t=f;else if d~=1 then s=e;else r=g;end end else if d>4 then if 6~=d then p(o,a);else d=-2;end else if d~=1 then repeat if d~=4 then a=t[s];break;end;o=t[r];until true;else o=t[r];end end end d=d+1 end u=u+1;f=n[u];k=f[g]p[k](h(p,k+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];d=0;while d>-1 do if d>2 then if d<5 then if-1<d then repeat if 4~=d then a=t[s];break;end;o=t[r];until true;else o=t[r];end else if d==5 then p(o,a);else d=-2;end end else if 0<d then if d~=-3 then for f=27,56 do if d~=1 then s=e;break;end;r=g;break;end;else s=e;end else t=f;end end d=d+1 end u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p(f[g],f[e]);else p[f[g]]=p[f[e]][p[f[d]]];end end end else if 44<t then if 45<t then if t~=42 then repeat if 47>t then p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];break;end;local h;for t=0,4 do if 1>=t then if t~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if t<3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if t~=4 then h=f[g]p[h]=p[h](p[h+1])u=u+1;f=n[u];else if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;end end end end until true;else local t;for h=0,4 do if 1>=h then if h~=1 then p[f[g]]=l[f[e]];u=u+1;f=n[u];else p[f[g]]=l[f[e]];u=u+1;f=n[u];end else if h<3 then p[f[g]]=p[f[e]];u=u+1;f=n[u];else if h~=4 then t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];else if(p[f[g]]==f[d])then u=u+1;else u=f[e];end;end end end end end else local t,r;p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end else if 43<=t then if t~=43 then p[f[g]]=p[f[e]];else local u=f[g];local g=p[u];for f=u+1,f[e]do s.JrKALLxp(g,p[f])end;end else local t,r;p[f[g]]=l[f[e]];u=u+1;f=n[u];t=f[g];r=p[f[e]];p[t+1]=r;p[t]=r[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];end end end else if t<30 then if t<27 then if 24<t then if t~=26 then local t,a,o,l,s,r;for b=0,2 do if 1<=b then if b>1 then t=f[g];a={};for f=1,#k do o=k[f];for f=0,#o do l=o[f];s=l[1];r=l[2];if s==p and r>=t then a[r]=s[r];l[1]=a;end;end;end;else t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];end else p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];end end else local d;p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];d=f[g]p[d](p[d+1])u=u+1;f=n[u];u=f[e];end else p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];end else if t>=28 then if t~=24 then repeat if t>28 then local t;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];if p[f[g]]then u=u+1;else u=f[e];end;break;end;local t,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];t=f[g];l=p[f[e]];p[t+1]=l;p[t]=l[f[d]];u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];p[f[g]][f[e]]=f[d];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];u=f[e];until true;else local t;p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=l[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][p[f[d]]];u=u+1;f=n[u];if p[f[g]]then u=u+1;else u=f[e];end;end else l[f[e]]=p[f[g]];end end else if t<33 then if 30<t then if 29<t then for l=36,88 do if 31~=t then local t,k,s,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]k,s=a(p[t](p[t+1]))o=s+t-1 l=0;for f=t,o do l=l+1;p[f]=k[l];end;u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];break;end;local a,k,l,o,h,s,r,t;a=f[g];k=p[f[e]];p[a+1]=k;p[a]=k[p[f[d]]];u=u+1;f=n[u];p[f[g]]={};u=u+1;f=n[u];t=0;while t>-1 do if 2>=t then if t<=0 then l=f;else if 0<=t then for f=36,82 do if t>1 then h=e;break;end;o=g;break;end;else h=e;end end else if 4>=t then if t>2 then for f=19,83 do if 4>t then s=l[h];break;end;r=l[o];break;end;else r=l[o];end else if t~=5 then t=-2;else p(r,s);end end end t=t+1 end u=u+1;f=n[u];p[f[g]][f[e]]=p[f[d]];u=u+1;f=n[u];t=0;while t>-1 do if 2>=t then if t<=0 then l=f;else if t~=-2 then for f=27,53 do if 2>t then o=g;break;end;h=e;break;end;else h=e;end end else if t>4 then if t>5 then t=-2;else p(r,s);end else if 1<t then repeat if 3<t then r=l[o];break;end;s=l[h];until true;else s=l[h];end end end t=t+1 end u=u+1;f=n[u];p[f[g]]=(f[e]~=0);u=u+1;f=n[u];p[f[g]][p[f[e]]]=p[f[d]];break;end;else local t,s,k,l;p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];t=f[g]s,k=a(p[t](p[t+1]))o=k+t-1 l=0;for f=t,o do l=l+1;p[f]=s[l];end;u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,o))u=u+1;f=n[u];p[f[g]]=p[f[e]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];p[f[g]]=r[f[e]];u=u+1;f=n[u];p[f[g]]=p[f[e]];end else local t;for l=0,4 do if 1<l then if l<3 then p(f[g],f[e]);u=u+1;f=n[u];else if l>=1 then repeat if 4>l then p(f[g],f[e]);u=u+1;f=n[u];break;end;t=f[g]p[t](h(p,t+1,f[e]))until true;else t=f[g]p[t](h(p,t+1,f[e]))end end else if l~=0 then p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];else p[f[g]]=p[f[e]][f[d]];u=u+1;f=n[u];end end end end else if t<=33 then if(p[f[g]]~=f[d])then u=u+1;else u=f[e];end;else if 35>t then p[f[g]]=p[f[e]]+p[f[d]];else local t;p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](p[t+1])u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];p(f[g],f[e]);u=u+1;f=n[u];t=f[g]p[t]=p[t](h(p,t+1,f[e]))u=u+1;f=n[u];p[f[g]]=p[f[e]]*p[f[d]];u=u+1;f=n[u];p(f[g],f[e]);end end end end end end end end end u=1+u;end;end;return uf end;local g=0xff;local l={};local d=(1);local e='';(function(u)local p=u local n=0x00 local f=0x00 p={(function(t)if n>0x1f then return t end n=n+1 f=(f+0x122e-t)%0x46 return(f%0x03==0x1 and(function(p)if not u[p]then f=f+0x01 u[p]=(0x15);e='\37';g={function()g()end};e=e..'\100\43';end return true end)'JKCLK'and p[0x2](0x252+t))or(f%0x03==0x0 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xc9);g[2]=(g[2]*(uf(function()l()end,h(e))-uf(g[1],h(e))))+1;l[d]={};g=g[2];d=d+g;end return true end)'VBXHq'and p[0x3](t+0x326))or(f%0x03==0x2 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xa9);end return true end)'gvdVO'and p[0x1](t+0x171))or t end),(function(t)if n>0x2e then return t end n=n+1 f=(f+0x4d1-t)%0x17 return(f%0x03==0x1 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xe7);end return true end)'SlFDg'and p[0x3](0x2c9+t))or(f%0x03==0x2 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xaf);e={e..'\58 a',e};l[d]=pf();d=d+((not s.STyLdxFR)and 1 or 0);e[1]='\58'..e[1];g[2]=0xff;end return true end)'HQi_f'and p[0x1](t+0x173))or(f%0x03==0x0 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xea);end return true end)'vjmuv'and p[0x2](t+0x203))or t end),(function(e)if n>0x2e then return e end n=n+1 f=(f+0xb42-e)%0x1e return(f%0x03==0x1 and(function(p)if not u[p]then f=f+0x01 u[p]=(0x79);l[d]=gf();d=d+g;end return true end)'EADhC'and p[0x1](0x68+e))or(f%0x03==0x0 and(function(p)if not u[p]then f=f+0x01 u[p]=(0x97);end return true end)'vXuBp'and p[0x2](e+0x19b))or(f%0x03==0x2 and(function(p)if not u[p]then f=f+0x01 u[p]=(0xb);end return true end)'cKzoa'and p[0x3](e+0x17f))or e end)}p[0x1](0x1a80)end){};local f=c(h(l));return f(...);end return pf((function()local u={}local f=0x01;local p;if s.STyLdxFR then p=s.STyLdxFR(pf)else p=''end if s.OxSpuKSM(p,s.uoyymEml)then f=f+0;else f=f+1;end u[f]=0x02;u[u[f]+0x01]=0x03;return u;end)(),...)end)((function(f,p,u,g,e,n)local n;if f>=4 then if 6>f then if f==4 then local f=g;local e,d,n=e(2);do return function()local t,u,p,g=p(u,f(f,f),f(f,f)+3);f(4);return(g*e)+(p*d)+(u*n)+t;end;end;else local f=g;do return function()local u=p(u,f(f,f),f(f,f));f(1);return u;end;end;end else if f>6 then if 5<f then for p=11,98 do if 8>f then do return setmetatable({},{['__\99\97\108\108']=function(f,e,g,p,u)if u then return f[u]elseif p then return f else f[e]=g end end})end break;end;do return u(f,nil,u);end break;end;else do return u(f,nil,u);end end else do return e[u]end;end end else if 1<f then if f>=1 then for n=15,95 do if f>2 then do return p(1),p(4,e,g,u,p),p(5,e,g,u)end;break;end;do return 16777216,65536,256 end;break;end;else do return 16777216,65536,256 end;end else if f~=-3 then for n=36,80 do if f~=0 then do return function(u,f,p)if p then local f=(u/2^(f-1))%2^((p-1)-(f-1)+1);return f-f%1;else local f=2^(f-1);return(u%(f+f)>=f)and 1 or 0;end;end;end;break;end;do return p(1),p(4,e,g,u,p),p(5,e,g,u)end;break;end;else do return function(p,f,u)if u then local f=(p/2^(f-1))%2^((u-1)-(f-1)+1);return f-f%1;else local f=2^(f-1);return(p%(f+f)>=f)and 1 or 0;end;end;end;end end end end),...)
+        -- Project Slayer
+        local Instance_new = Instance.new
+        local Vector3_new = Vector3.new
+        local CFrame_new = CFrame.new
+        local CFrame_Angles = CFrame.Angles
+        local coroutine_wrap = coroutine.wrap
+        local coroutine_yield = coroutine.yield
+        local coroutine_running = coroutine.running
+        local string_find = string.find
+        local string_match = string.match
+        local string_gsub = string.gsub
+        local string_sub = string.sub
+        local string_byte = string.byte
+        local string_split = string.split
+        local table_concat = table.concat
+        local table_insert = table.insert
+        local debug_traceback = debug.traceback
+        local math_rad = math.rad
+        local math_abs = math.abs
+        local math_floor = math.floor
+        local pog pog = nil
+        local game = game
+        local delay = delay
+        local wait = wait
+        local rawget = rawget
+        local error = error
+        local rawset = rawset
+        local assert = function(p1, p2, p3)
+        if not p1 then
+        error(p2, p3)
+        end
+        end
+        local newproxy = newproxy
+        local ipairs = ipairs
+        local getmetatable = getmetatable
+        local setmetatable = setmetatable
+        local tostring = tostring
+        local tonumber = tonumber
+        local type = type
+        local typeof = typeof
+        local pcall = pcall
+        local xpcall = xpcall
+        local setfenv = setfenv
+        local getfenv = getfenv
+        local workspace = workspace
+        local newcclosure = newcclosure or function(p1)
+        return coroutine_wrap(function(...)
+        while true do
+        coroutine_yield(p1(...))
+        end
+        end)
+        end
+        -- < Services > --
+        local VirtualInputManager = game:GetService("VirtualInputManager")
+        local UserInputService = game:GetService("UserInputService")
+        local ScriptContext = game:GetService("ScriptContext")
+        local InsertService = game:GetService("InsertService")
+        local TestService = game:GetService("TestService")
+        local StudioData = game:GetService("StudioData")
+        local RunService = game:GetService("RunService")
+        local CoreGui = game:GetService("CoreGui")
+        local Players = game:GetService("Players")
+        local GlobalSettings = settings()
+        local TaskScheduler = GlobalSettings:GetService("TaskScheduler")
+        -- < Class Aliases > --
+        local IsA = game.IsA
+        local IsDescendantOf = game.IsDescendantOf
+        local GetPropertyChangedSignal = game.GetPropertyChangedSignal
+        local Destroy = game.Destroy
+        local WaitForChild = game.WaitForChild
+        local Fire = Instance_new("BindableEvent").Fire
+        local MoveTo = Instance_new("Model").MoveTo
+        local InputHoldBegin, InputHoldEnd = (function()
+            local A = Instance_new("ProximityPrompt")
+            return A.InputHoldBegin, A.InputHoldEnd
+        end)()
+        local GetFFlag = GlobalSettings.GetFFlag
+        local IsClient = RunService.IsClient
+        local IsServer = RunService.IsServer
+        local Error = ScriptContext.Error
+        local RenderStepped = RunService.RenderStepped
+        local LoadLocalAsset = InsertService.LoadLocalAsset
+        local Message = TestService.Message
+        local SendMouseButtonEvent = VirtualInputManager.SendMouseButtonEvent
+        local SendMouseWheelEvent = VirtualInputManager.SendMouseWheelEvent
+        local SendMouseMoveEvent = VirtualInputManager.SendMouseMoveEvent
+        local SendKeyEvent = VirtualInputManager.SendKeyEvent
+        local GetMouseLocation = UserInputService.GetMouseLocation
+        local Wait, Connect, Disconnect = (function()
+            local A = game.Changed
+            local B = A.Connect
+            return A.Wait, B, B(A, function()end).Disconnect
+        end)()
+        -- < Upvalues > --
+        local ChangedSignals = {}
+        local HiddenPropertyEvents = {}
+        local IsRBXActive = true
+        local LocalCamera = workspace.CurrentCamera
+        local LocalPlayer = Players.LocalPlayer
+        local LocalMouse = LocalPlayer:GetMouse()
+        local instance_table = game:GetDescendants()
+        local env = (getgenv and getgenv or getrenv and getrenv or getfenv)()
+        local env_add = function(p1, p2, p3, p4)
+        if rawget(env, p1) then return end
+        if p4 and not rawget(env, p4) then return end
+        rawset((p4 and env[p4] or env), p1, (p3 and newcclosure or function(p1) 
+        return p1
+        end)(p2))
+        end
+        -- < Source > --
+        Connect(game.DescendantAdded, function(p1)
+        table_insert(instance_table, p1)
+        end)
+        Connect(game.ItemChanged, function(p1, p2)
+        local A = HiddenPropertyEvents[p1]
+        if A then
+        local B = A[p2]
+        if B then
+        for C, D in ipairs(B) do
+        Fire(D)
+        end
+        end
+        end
+        end)
+        Connect(UserInputService.WindowFocusReleased, function()
+        IsRBXActive = false
+        end)
+        Connect(UserInputService.WindowFocused, function()
+        IsRBXActive = true
+        end)
+        env_add("info", function(p1)
+        assert(type(p1) ~= "nil", "invalid argument #1 to '?' (value expected)", 2)
+        local A = pcall(Message, TestService, "Information\n" .. tostring(p1))
+        return A
+        end, true)
+        env_add("httpget", game.HttpGetAsync)
+        env_add("httppost", game.HttpPostAsync)
+        env_add("getreg", function()
+        -- There is no known method to do this in lua
+        return {}
+        end, true)
+        env_add("getgc", function(p1)
+        -- There is no known method to do this in lua
+        return {}
+        end, true)
+        env_add("newcclosure", newcclosure, true)
+        env_add("clonefunction", function(p1)
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = p1
+        local B = xpcall(setfenv, function(p2, p3)
+        return p2, p3
+        end, p1, getfenv(p1))
+        if B then
+        return function(...)
+        return A(...)
+        end
+        end
+        return coroutine_wrap(function(...)
+        while true do
+        A = coroutine_yield(A(...))
+        end
+        end)
+        end, true)
+        env_add("iscclosure", function(p1)
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = xpcall(setfenv, function(p2, p3)
+        return p2, p3
+        end, p1, getfenv(p1))
+        return not A
+        end, true)
+        env_add("islclosure", function(p1)
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = xpcall(setfenv, function(p2, p3)
+        return p2, p3
+        end, p1, getfenv(p1))
+        return A
+        end, true)
+        env_add("newlclosure", function(p1)
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = p1
+        return function(...)
+        return A(...)
+        end
+        end, true)
+        env_add("getexecutioncontext", function()
+        return IsClient(RunService) and "Client" or IsServer(RunService) and "Server" or "Studio"
+        end, true)
+        env_add("getthreadidentity", function()
+        local A, B = xpcall(GetPropertyChangedSignal, function(p1, p2)
+        return p1, p2
+        end, StudioData, "SrcUniverseId")
+        return A and 7 or string_sub(string_split(B, "identity (")[2], 1, 1)
+        end, true)
+        env_add("setthreadidentity", function(p1)
+        -- There is no known method to do this in lua
+        end, true)
+        env_add("ishiddenproperty", function(p1, p2)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(type(p2) == "string", "invalid argument #2 to '?' (string expected)", 2)
+        local A, B = xpcall(GetPropertyChangedSignal, function(p3, p4)
+        return p3, p4
+        end, p1, p2)
+        assert(not string_find(tostring(B), "not a valid"), "invalid argument #2 to '?' (property expected)", 2)
+        return (not A)
+        end, true)
+        env_add("isreadonly", function(p1)
+        assert(type(p1) == "table", "invalid argument #1 to '?' (table expected)", 2)
+        local A = xpcall(rawset, function(p2)
+        return p2
+        end, p1)
+        return (not A)
+        end, true)
+        env_add("getpropvalue", function(p1, p2)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(type(p2) == "string", "invalid argument #2 to '?' (string expected)", 2)
+        local A, B = xpcall(GetPropertyChangedSignal, function(p3, p4)
+        return p3, p4
+        end, p1, p2)
+        assert(not string_find(tostring(B), "not a valid"), "invalid argument #2 to '?' (property expected)", 2)
+        local A, B = pcall(function()
+        return p1[p2]
+        end)
+        if A then
+        return B
+        end
+        end, true)
+        env_add("setpropvalue", function(p1, p2, p3)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(type(p2) == "string", "invalid argument #2 to '?' (string expected)", 2)
+        assert(type(p3) ~= "nil", "invalid argument #3 to '?' (value expected)", 2)
+        local A, B = xpcall(GetPropertyChangedSignal, function(p3, p4)
+        return p3, p4
+        end, p1, p2)
+        assert(not string_find(tostring(B), "not a valid"), "invalid argument #2 to '?' (property expected)", 2)
+        local A, B = pcall(function()
+        p1[p2] = p3
+        end)
+        return A
+        end, true)
+        env_add("getsenv", function(p1)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "LocalScript"), "invalid argument #1 to '?' (LocalScript expected)", 2)
+        local A = getreg()
+        local B = {}
+        for C, D in next, A do
+        if type(D) == "function" and islclosure(D) then
+        local E = getfenv(D)
+        local F = rawget(E, "script")
+        if F and F == p1 then
+        for G, H in next, E do
+        if G ~= "script" then
+        rawset(B, G, H)
+        end
+        end
+        end
+        end
+        end
+        return B
+        end, true)
+        env_add("getmenv", function(p1)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "ModuleScript"), "invalid argument #1 to '?' (ModuleScript expected)", 2)
+        local A = getreg()
+        local B = {}
+        if #A == 0 then
+        return require(p1)
+        end
+        for C, D in next, A do
+        if type(D) == "function" and islclosure(D) then
+        local E = getfenv(D)
+        local F = rawget(E, "script")
+        if F and F == p1 then
+        for G, H in next, E do
+        if G ~= "script" then
+        rawset(B, G, H)
+        end
+        end
+        end
+        end
+        end
+        return B
+        end, true)
+        env_add("nyspawn", function(p1)
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = xpcall(setfenv, function(p1)
+        return p1
+        end, p1, getfenv(p1))
+        assert(A, "invalid argument #1 to '?' (Lua function expected)", 2)
+        local B = setmetatable({}, setmetatable({__concat = function()p1()end}, {__mode = "vk"})) .. pog
+        end, true)
+        env_add("isrobloxscript", function(p1)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "LuaSourceContainer"), "invalid argument #1 to '?' (LuaSourceContainer expected)", 2)
+        assert(gethiddenproperty, "isrobloxscript is not enabled.", 3)
+        if IsA(p1, "CoreScript") then
+        return true
+        end
+        local A = gethiddenproperty(p1, "ScriptGuid")
+        return #A == 0
+        end, true)
+        env_add("unlockmodulescript", function(p1)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "ModuleScript"), "invalid argument #1 to '?' (ModuleScript expected)", 2)
+        end, true)
+        env_add("isluau", function()
+        return _VERSION == "Luau"
+        end, true)
+        env_add("dumpstring", function(p1)
+        assert(type(p1) == "string", "invalid argument #1 to '?' (string expected)", 2)
+        return tostring("\\" .. table_concat({string_byte(p1, 1, #p1)}, "\\"))
+        end, true)
+        pcall(env_add, "isvalidlevel", function(p1)
+        assert(type(p1) == "number", "invalid argument #1 to '?' (number expected)")
+        local A = xpcall(getfenv, function(p2)
+        return p2
+        end, p1)
+        return A
+        end, true, "debug")
+        pcall(env_add, "getregistry", getreg, false, "debug")
+        pcall(env_add, "getconstants", function(p1)
+        -- There is no known method to do this in lua
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = xpcall(setfenv, function(p1, p2)
+        return p1, p2
+        end, p1, getfenv(p1))
+        assert(A, "invalid argument #1 to '?' (Lua function expected)", 2)
+        return {}
+        end, true, "debug")
+        pcall(env_add, "getprotos", function(p1)
+        -- There is no known method to do this in lua
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        local A = xpcall(setfenv, function(p2, p3)
+        return p2, p3
+        end, p1, getfenv(p1))
+        assert(A, "invalid argument #1 to '?' (Lua function expected)", 2)
+        return {}
+        end, true, "debug")
+        pcall(env_add, "getupvalues", function(p1)
+        -- There is no known method to do this in lua
+        assert(type(p1) == "function", "invalid argument #1 to '?' (function expected)", 2)
+        return {}
+        end, true, "debug")
+        pcall(env_add, "getstack", function(p1)
+        -- There is no known method to do this in lua
+        assert(type(p1) == "number", "invalid argument #1 to '?' (number expected)", 2)
+        local A = xpcall(getfenv, function(p2)
+        return p2
+        end, p1)
+        assert(A, "invalid argument #1 to '?' (valid level expected)", 2)
+        return {}
+        end, true, "debug")
+        env_add("getinstances", function()
+        return instance_table
+        end, true)
+        env_add("getnilinstances", function()
+        local A = {}
+        for B, C in ipairs(instance_table) do
+        if C.Parent == pog then
+        table_insert(A, C)
+        end
+        end
+        return A
+        end, true)
+        env_add("getscripts", function(p1)
+        local A = {}
+        for B, C in ipairs(instance_table) do
+        if IsA(C, "LocalScript") or IsA(C, "ModuleScript") or (p1 and IsA(C, "CoreScript")) then
+        table_insert(A, C)
+        end
+        end
+        return A
+        end, true)
+        env_add("getmodules", function()
+        local A = {}
+        for B, C in ipairs(instance_table) do
+        if IsA(C, "ModuleScript") then
+        table_insert(A, C)
+        end
+        end
+        return A
+        end, true)
+        env_add("getallthreads", function()
+        local A = {}
+        local B = getreg()
+        for C, D in next, B do
+        if type(D) == "thread" then
+        table_insert(A, D)
+        end
+        end
+        return A
+        end, true)
+        env_add("getthread", function()
+        return coroutine_running()
+        end, true)
+        env_add("isnetworkowner", function(p1)
+        -- "NetworkOwnerV3" can't be accessed in lua due to it being a 'SystemAddress' type property
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "BasePart"), "invalid argument #1 to '?' (BasePart expected)", 2)
+        local A = LocalPlayer.SimulationRadius
+        local B = LocalPlayer.Character or Wait(LocalPlayer.CharacterAdded)
+        local C = WaitForChild(B, "HumanoidRootPart", 300)
+        if C then
+            if p1.Anchored then
+                return false
+            end
+            if IsDescendantOf(p1, B) or (C.Position - p1.Position).Magnitude <= A then
+                return true
+            end
+        end
+        return false
+        end, true)
+        env_add("setsimulationradius", function(p1, p2)
+        assert(type(p1) == "number", "invalid argument #1 to '?' (number expected)", 2)
+        local A = setpropvalue
+        A(LocalPlayer, "SimulationRadius", p1)
+        if p2 then
+        A(LocalPlayer, "MaxSimulationRadius", p2)
+        end
+        end, true)
+        env_add("gettypeof", function(p1)
+        if type(p1) == "function" then
+        return "function"
+        end
+        delay(0, p1)
+        local A = Wait(Error)
+        local B = string_match(A, "%a+", 18)
+        return B
+        end)
+        env_add("getcallingscript", function()
+        local A, B = xpcall(getfenv, function()
+        return rawget(getfenv(0), "script")
+        end, 3)
+        local C = rawget(B, "script")
+        if not C or typeof(C) ~= "Instance" then
+        local D = string_match(debug_traceback(), "%w+:[%d%s]+$")
+        return string_split(D, ":")[1]
+        end
+        return C
+        end, true)
+        env_add("getcurrentline", function()
+        return tonumber(string_match(debug_traceback(), "[%d%s]+$"))
+        end, true)
+        env_add("getmemoryaddress", function(p1, p2)
+        assert(type(p2) == "boolean" or type(p2) == "nil", "invalid argument #2 to '?' (<boolean, nil> expected)", 2)
+        local A = p2 == pog and true or p2
+        local B, C = xpcall(tostring, function()
+        return
+        end, p1)
+        local D = string_match(C, ": ?(.+)")
+        return (not A) and string_gsub(D, "0x", "") or D
+        end, true)
+        env_add("getfflag", function(p1)
+        assert(type(p1) == "string", "invalid argument #1 to '?' (string expected)", 2)
+        return GetFFlag(p1)
+        end, true)
+        env_add("gethui", function()
+        return CoreGui
+        end, true)
+        env_add("getscheduler", function()
+        return TaskScheduler
+        end, true)
+        env_add("GetObjects", function(p1)
+        assert(type(p1) == "string", "invalid argument #1 to '?' (string expected)", 2)
+        assert(string_find(p1, "://"), "invalid argument #1 to '?' (url expected)", 2)
+        return {
+        LoadLocalAsset(InsertService, p1)
+        }
+        end, true)
+        env_add("setpropertylocked", function(p1, p2, p3)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)")
+        assert(type(p2) == "string", "invalid argument #2 to '?' (string expected)")
+        assert(type(p3) == "boolean", "invalid argument #3 to '?' (boolean expected)")
+        local A, B = xpcall(GetPropertyChangedSignal, function(p4, p5)
+        return p4, p5
+        end, p1, p2)
+        assert(A, B, 0)
+        if ChangedSignals[p1] and p3 then
+        assert(not ChangedSignals[p1][p2], "This property is already locked!", 0)
+        end
+        if p3 then
+        local C C = p1[p2]
+        local D D = Connect(B, function()
+        local A = tostring(C)
+        A = A == "nil" and "NULL" or A
+        p1[p2] = C
+        error("The " .. p2 .. " property of " .. tostring(p1) .. " is locked, current: " .. A, 0)
+        end)
+        local E E = ChangedSignals[p1]
+        if E then
+        E[p2] = D
+        else
+        ChangedSignals[p1] = {
+        [p2] = D
+        }
+        end
+        else
+        local F F = ChangedSignals[p1]
+        if F then
+        local G G = F[p2]
+        if G then
+        Disconnect(G)
+        F[p2] = nil
+        end
+        end
+        end
+        end, true)
+        env_add("GetHiddenPropertyChangedSignal", function(p1, p2)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(type(p2) == "string", "invalid argument #2 to '?' (string expected)", 2)
+        local A, B = xpcall(GetPropertyChangedSignal, function(p3, p4)
+        return p3, p4
+        end, p1, p2)
+        assert(not string_find(tostring(B), "not a valid"), "invalid argument #2 to '?' (property expected)", 2)
+        if A then
+        return GetPropertyChangedSignal(p1, p2)
+        end
+        local D = newproxy(true)
+        local E = getmetatable(D)
+        E.__newindex = function(p5, p6, p7)
+        error(tostring(p6) .. " cannot be assigned to", 0)
+        end
+        E.__index = function(p8, p9)
+        local A = {}
+        local C = Instance_new("BindableEvent")
+        function A:Connect(p10)
+        Connect(C.Event, p10)
+        local A = HiddenPropertyEvents[p1]
+        if A then
+        local B = A[p2]
+        if B then
+        table_insert(B, C)
+        else
+        A[p2] = {C}
+        end
+        else
+        HiddenPropertyEvents[p1] = {[p2] = {C}}
+        end
+        local B = newproxy(true)
+        local D = getmetatable(B)
+        D.__newindex = function(p1, p2)
+        error(tostring(p2) .. " cannot be assigned to", 0)
+        end
+        D.__index = function(p3, p4)
+        local A = {}
+        function A:Disconnect()
+        local A = HiddenPropertyEvents[p1]
+        if A then
+        local B = A[p2]
+        if B then
+        Destroy(C)
+        else
+        A[p2] = {}
+        end
+        else
+        HiddenPropertyEvents[p1] = {}
+        end
+        end
+        local B = A[p4]
+        if B then
+        return B
+        end
+        error(p4 .. " is not a valid member of CustomScriptConnection", 0)
+        end
+        D.__tostring = function()
+        return "Connection"
+        end
+        D.__metatable = "The metatable is locked"
+        return B
+        end
+        function A:Wait()
+        local A = HiddenPropertyEvents[p1]
+        if A then
+        local B = A[p2]
+        if B then
+        table_insert(B, C)
+        else
+        A[p2] = {C}
+        end
+        else
+        HiddenPropertyEvents[p1] = {[p2] = {C}}
+        end
+        Wait(C.Event)
+        end
+        local B = A[p9]
+        if B then
+        return B
+        end
+        error(p9 .. " is not a valid member of CustomScriptSignal", 0)
+        end
+        E.__tostring = function(p12)
+        return "Signal " .. p2 .. "Changed"
+        end
+        E.__metatable = "The metatable is locked"
+        return D
+        end, true)
+        env_add("isrbxactive", function()
+        return IsRBXActive
+        end, true)
+        env_add("fireproximityprompt", function(p1, p2)
+        assert(typeof(p1) == "Instance", "invalid argument #1 to '?' (Instance expected)", 2)
+        assert(IsA(p1, "ProximityPrompt"), "invalid argument #1 to '?' (ProximityPrompt expected)", 2)
+        assert(type(p2) == "number" or type(p2) == "nil", "invalid argument #2 to '?' (<number, void> expected)", 2)
+        local A = p1.Parent
+        if A then
+            local C = LocalPlayer.Character or Wait(LocalPlayer.CharacterAdded)
+            if C then
+                local D = WaitForChild(C, "HumanoidRootPart", 300)
+                if D then
+                    local E = D.Position
+                    local F = A.Position
+                    local G = p1.HoldDuration
+                    local H = p1.MaxActivationDistance
+                    p1.HoldDuration = 0
+                    if (E - F).Magnitude <= H then
+                        InputHoldBegin(p1)
+                        InputHoldEnd(p1)
+                    else
+                        p1.MaxActivationDistance = 9e99
+                        MoveTo(C, F)
+                        delay(.5, function()
+                            InputHoldBegin(p1)
+                            InputHoldEnd(p1)
+                        end)
+                    end
+                    p1.MaxActivationDistance = H
+                    p1.HoldDuration = G
+                end
+            end
+        end
+        end, true)
+        env_add("mouse1click", function(p1, p2, p3)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p2 or A.X, p3 or A.Y, 0, true, pog, 0)
+        delay(p1, function()
+        SendMouseButtonEvent(VirtualInputManager, p2 or A.X, p3 or A.Y, 0, false, pog, 0)
+        end)
+        end, true)
+        env_add("mouse1press", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p1 or A.X, p2 or A.Y, 0, true, pog, 0)
+        end, true)
+        env_add("mouse1release", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p1 or A.X, p2 or A.Y, 0, false, pog, 0)
+        end, true)
+        env_add("mouse2click", function(p1, p2, p3)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p2 or A.X, p3 or A.Y, 1, true, pog, 0)
+        delay(p1, function()
+        SendMouseButtonEvent(VirtualInputManager, p2 or A.X, p3 or A.Y, 1, false, pog, 0)
+        end)
+        end, true)
+        env_add("mouse2press", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p1 or A.X, p2 or A.Y, 1, true, pog, 0)
+        end, true)
+        env_add("mouse2release", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        SendMouseButtonEvent(VirtualInputManager, p1 or A.X, p2 or A.Y, 1, false, pog, 0)
+        end, true)
+        env_add("keypress", function(p1, p2)
+        SendKeyEvent(VirtualInputManager, true, p1, p2 and p2 or false, pog)
+        end, true)
+        env_add("keyrelease", function(p1)
+        SendKeyEvent(VirtualInputManager, false, p1, false, pog)
+        end, true)
+        env_add("mousemoveabs", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        return SendMouseMoveEvent(VirtualInputManager, p1, p2)
+        end, true)
+        env_add("mousemoverel", function(p1, p2)
+        local A = GetMouseLocation(UserInputService)
+        return SendMouseMoveEvent(VirtualInputManager, A.X + p1, A.Y + p1, p1, p2)
+        end, true)
+        env_add("mousescroll", function(p1, p2, p3)
+        if (type(p1) == "boolean") then
+        p1 = p1 and 120 or -120
+        end
+        assert(type(p1) == "number", "invalid argument #1 to '?' (<boolean, number> expected)")
+        local A = GetMouseLocation(UserInputService)
+        for B = 1, math_abs(math_floor(p1 / 120)) do
+        SendMouseWheelEvent(VirtualInputManager, p2 or A.X, p3 or A.Y, p1 >= 0, pog)
+        Wait(RenderStepped)
+        end
+        end, true)
+
+        local player = game.Players.LocalPlayer
+        local weapons = {}
+        local mobs = {}
+        local character = player.Character or player.CharacterAdded:Wait()
+        local client = game:GetService("Players").LocalPlayer
+        local user = client.Name
+        local TweenService = game:GetService("TweenService")
+        local noclipE = nil
+        local antifall = nil
+        Skills = {
+            Z = false,
+            X = false,
+            C = false,
+            V = false,
+            B = false,
+            N = false,
+        }
+        local mod = require(game:GetService("ReplicatedStorage").Modules.Server["Skills_Modules_Handler"])
+        getrenv()._G.handle_irregular = nil
+        getrenv()._G.cuasdamsndasdasd = nil
+        
+        _G.cuasdamsndasdasd = function()
+            return
+        end
+
+        _G.handle_irregular = function()
+            return false
+        end
+
+        mod.Kick = function()
+            return
+        end
+
+        game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"]["Client_Global_utility"].Disabled = true
+        game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"]["client_global_delete_script"].Disabled = true
+
+        game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"]["Client_Global_utility"]:GetPropertyChangedSignal("Disabled"):Connect(function()
+            game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"]["Client_Global_utility"].Disabled = true
+            game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"]["client_global_delete_script"].Disabled = true
+       end)
+
+        
+        repeat wait() until game:IsLoaded()
+        
+        
+        local enabled = true
+        local walkSpeed = 100
+        
+        function Walkspeed()
+            local UIS = game:GetService("UserInputService")
+            local RS = game:GetService("RunService")
+            local W, A, S, D
+            local xVelo, yVelo
+        
+            RS.RenderStepped:Connect(function()
+                if not enabled then return end
+                task.wait(0.1)
+                local HRP = game.Players.LocalPlayer.Character.HumanoidRootPart
+                local C = game.Workspace.CurrentCamera
+                local LV = C.CFrame.LookVector
+        
+                for i,v in pairs(UIS:GetKeysPressed()) do
+                    if v.KeyCode == Enum.KeyCode.W then
+                        W = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.A then
+                        A = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.S then
+                        S = true
+                    end
+                    if v.KeyCode == Enum.KeyCode.D then
+                        D = true
+                    end
+                end
+        
+                if W == true and S == true then
+                    yVelo = false
+                    W,S = nil
+                end
+        
+                if A == true and D == true then
+                    xVelo = false
+                    A,D = nil
+                end
+        
+                if yVelo ~= false then
+                    if W == true then
+                        if xVelo ~= false then
+                            if A == true then
+                                local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(45), 0)).LookVector
+                                HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+                                W,A = nil
+                            else
+                                if D == true then
+                                    local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-45), 0)).LookVector
+                                    HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+                                    W,D = nil
+                                end
+                            end
+                        end
+                    else
+                        if S == true then
+                            if xVelo ~= false then
+                                if A == true then
+                                    local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(135), 0)).LookVector
+                                    HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+                                    S,A = nil
+                                else
+                                    if D == true then
+                                        local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-135), 0)).LookVector
+                                        HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+                                        S,D = nil
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+        
+        if W == true then
+           HRP.Velocity = Vector3.new((LV.X * walkSpeed), HRP.Velocity.Y, (LV.Z * walkSpeed))
+        end
+        if S == true then
+           HRP.Velocity = Vector3.new(-(LV.X * walkSpeed), HRP.Velocity.Y, -(LV.Z * walkSpeed))
+        end
+        if A == true then
+           local LeftLV = (C.CFrame * CFrame.Angles(0, math.rad(90), 0)).LookVector
+           HRP.Velocity = Vector3.new((LeftLV.X * walkSpeed), HRP.Velocity.Y, (LeftLV.Z * walkSpeed))
+        end
+        if D == true then
+           local RightLV = (C.CFrame * CFrame.Angles(0, math.rad(-90), 0)).LookVector
+           HRP.Velocity = Vector3.new((RightLV.X * walkSpeed), HRP.Velocity.Y, (RightLV.Z * walkSpeed))
+        end
+        
+        xVelo, yVelo, W, A, S, D = nil
+        end)
+        
+        end
+        
+        local function noclip()
+            for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+                if v:IsA("BasePart") and v.CanCollide == true then
+                    v.CanCollide = false
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0, 0, 0)
+                end
+            end
+        end
+        
+        local function moveto(obj, speed)
+            local info = TweenInfo.new(((client.Character.HumanoidRootPart.Position - obj.Position).Magnitude) / speed,Enum.EasingStyle.Linear)
+            local tween = TweenService:Create(client.Character.HumanoidRootPart, info, {CFrame = obj})
+            if not client.Character.HumanoidRootPart:FindFirstChild("BodyVelocity") then
+                antifall = Instance.new("BodyVelocity", client.Character.HumanoidRootPart)
+                antifall.Velocity = Vector3.new(0, 0, 0)
+                noclipE = game:GetService("RunService").Stepped:Connect(noclip) 
+                tween:Play()
+                tween.Completed:Wait()
+                antifall:Destroy()
+                noclipE:Disconnect()
+            end
+        end
+        
+        local Data = game:GetService("ReplicatedStorage")["Player_Data"][player.Name]
+        
+            function RW()
+                weapons = {}
+                    for i, v in pairs(player.Backpack:GetChildren()) do
+                        if v:IsA("Tool") and v:FindFirstChild("Mastery_Equiped") then
+                        table.insert(weapons, v)
+                    end
+                end    
+            end
+            RW()
+        
+            function RN()
+                mobs = {}
+                for _,v in pairs(game:GetService("Workspace").Mobs:GetDescendants()) do -- LOOPS THROUGH ALL MOBS
+                    if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("Humanoid").Health > 0 then
+                    insert = true -- VALUE TO CHECK THE MOB
+                    for _,v2 in pairs(mobs) do if v2.Name == v.Name or v2 == v then insert = false end end -- CHECKS IF MOB IS ALREADY IN THE TABLE
+                    if insert then table.insert(mobs, v) end -- IF THE MOB ISNT INSERTED THEN INSERT IT
+                    end
+                end
+            end
+            RN()
+        
+            function closestHorse()
+        
+                    local largest = math.huge
+                    local closestChild = nil
+                    for i,v in pairs(game:GetService("Workspace"):GetChildren())do
+                        if v.Name == "Model" and v:FindFirstChild("newhorse") and v:FindFirstChild("Customization data ting") and v:FindFirstChild("Customization data ting"):FindFirstChild("HumanoidRootPart") then 
+                            local magnitude = (player.Character.HumanoidRootPart.Position - v:FindFirstChild("Customization data ting"):FindFirstChild("HumanoidRootPart").Position).magnitude
+                            if magnitude < largest then
+                                closestChild = v
+                                largest = magnitude
+                            end
+                        end
+                    end
+                    return closestChild
+            end
+        
+            function findMob()
+                local largest = math.huge
+                local closestChild = nil
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                for i, v in pairs(game:GetService("Workspace").Mobs:GetDescendants()) do
+                    if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("Humanoid").Health > 0 and v.Name == getgenv().SelectedMob then
+                        local magnitude = (character.HumanoidRootPart.Position - v:GetBoundingBox().Position).magnitude
+                        if magnitude < largest then
+                            closestChild = v
+                            largest = magnitude
+                        end
+                    end
+                end
+                return closestChild
+            end
+            
+        
+            _G.noclip = nil
+            local Loop  game:GetService('RunService').Stepped:connect(function()
+                if _G.noclip then
+                    for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+                        if v:IsA("BasePart") then
+                            if v.CanCollide ~= not _G.noclip then
+                                v.CanCollide = not _G.noclip
+                            end
+                        end
+                    end
+                end
+            end)
+
+
+    
+        
+            function tweenCharacterTo(targetPosition, noclip, antifall)
+                if noclip then
+                    _G.noclip = true
+                end
+                if antifall then
+                    antifall = Instance.new("BodyVelocity", player.Character.HumanoidRootPart)
+                    antifall.Velocity = Vector3.new(0, 0, 0)
+                end
+                local character = player.Character
+                local tweenInfo = TweenInfo.new(
+                    (targetPosition - character.HumanoidRootPart.Position).Magnitude / 200, -- duration
+                    Enum.EasingStyle.Linear,
+                    Enum.EasingDirection.Out
+                )
+                local tween = game:GetService("TweenService"):Create(
+                    character.HumanoidRootPart,
+                    tweenInfo,
+                    { CFrame = CFrame.new(targetPosition + Vector3.new(0, 4, 0)) }
+                )
+                tween:Play()
+                tween.Completed:Wait()
+                if noclip then
+                    _G.noclip = false
+                end
+                if antifall then
+                    antifall:Destroy()
+                end
+            end
+            function customtwn(input, studspersecond, offset)
+                local char = game:GetService("Players").LocalPlayer.Character;
+                local input = input or error("input is nil");
+                local studspersecond = studspersecond or 1000;
+                local offset = offset or CFrame.new(0,0,0);
+                local vec3, cframe;
+             
+                if typeof(input) == "table" then
+                    vec3 = Vector3.new(unpack(input)); cframe = CFrame.new(unpack(input));
+                elseif typeof(input) ~= "Instance" then
+                    return error("wrong format used");
+                end;
+                
+                Time = (char.HumanoidRootPart.Position - (vec3 or input.Position)).magnitude/studspersecond;
+                local twn = game.TweenService:Create(char.HumanoidRootPart, TweenInfo.new(Time,Enum.EasingStyle.Linear), {CFrame = (cframe or input.CFrame) * offset});
+                twn:Play();
+                twn.Completed:Wait();
+             end;
+            
+             function findMob()
+                local largest = math.huge
+                local closestChild = nil
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                for i, v in pairs(game:GetService("Workspace").Mobs:GetDescendants()) do
+                    if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("Humanoid").Health > 0 and v.Name == getgenv().SelectedMob then
+                        local magnitude = (character.HumanoidRootPart.Position - v:GetBoundingBox().Position).magnitude
+                        if magnitude < largest then
+                            closestChild = v
+                            largest = magnitude
+                        end
+                    end
+                end
+                return closestChild
+            end
+
+            function findMob1()
+                local largest = math.huge
+                local closestChild = nil
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                for i, v in pairs(game:GetService("Workspace").Mobs:GetDescendants()) do
+                    if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("Humanoid").Health > 0 then
+                        local magnitude = (character.HumanoidRootPart.Position - v:GetBoundingBox().Position).magnitude
+                        if magnitude < largest then
+                            closestChild = v
+                            largest = magnitude
+                        end
+                    end
+                end
+                return closestChild
+            end
+
+            function nostun()
+                local a = {"KnockedOut", "Stun", "FakeStun", "carry_ting_asdasd", "RagDoll", "novelocity"}
+                
+                    for _,o in pairs(getconnections(game:GetService("ReplicatedStorage").PlayerValues[game.Players.LocalPlayer.Name].ChildAdded)) do 
+                        o:Disable()
+                    end
+                    game:GetService("ReplicatedStorage").PlayerValues[game.Players.LocalPlayer.Name].ChildAdded:Connect(function(child)
+                        if table.find(a, child.Name) then 
+                            child.Name = "FakeStun"
+                            child:Destroy()
+                        end
+                    end)
+                end
+
+            function findBoss()
+                local largest = math.huge
+                local closestChild = nil
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                for i, v in pairs(game:GetService("Workspace").Mobs.Bosses:GetDescendants()) do
+                    if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("Humanoid").Health > 0 then
+                        if v.Name == "Akeza" or v.Name == "Rengoku" or v.Name == "Douma" or v.Name == "Tengen" then
+                            closestChild = v
+                            return closestChild
+                        end
+                        local magnitude = (character.HumanoidRootPart.Position - v:GetBoundingBox().Position).magnitude
+                        if magnitude < largest then
+                            closestChild = v
+                            largest = magnitude
+                        end
+                    end
+                end
+                return closestChild
+            end
+
+            local client = game:GetService("Players").LocalPlayer
+            local function attack(method)
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, 919, "ground_slash")
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(method, client, client.Character, client.Character.HumanoidRootPart, client.Character.Humanoid, math.huge, "ground_slash")
+            end
+
+
+
+
+        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/ArrayField'))()
+        
+        local Window = Rayfield:CreateWindow({
+            Name = "PS │ Skeered Hub",
+            LoadingTitle = "Skeered Hub",
+            LoadingSubtitle = "by Skeered",
+            ConfigurationSaving = {
+                Enabled = true,
+                FolderName = "Skeered Hub", -- Create a custom folder for your hub/game
+                FileName = "Project Slayer"
+            },
+            Discord = {
+                Enabled = true,
+                Invite = "gbHkVD5S2g", 
+                RememberJoins = true
+            },
+            KeySystem = true,
+            KeySettings = {
+                Title = "Skeered Hub",
+                Subtitle = "Key System",
+                Note = "Join discord server for the key",
+                FileName = "SkeeredHub Key", 
+                SaveKey = true, 
+                GrabKeyFromSite = false,
+                Key = _G.key
+            }
+        })
+        local Main = Window:CreateTab("Main", 4483362458)
+        local Teleports = Window:CreateTab("Teleports", 4483362458)
+        local Misc = Window:CreateTab("Misc", 4483362458)
+        
+        local Settings = Main:CreateSection("Settings Section")
+        local Farm = Main:CreateSection("Farm Section")
+        
+        local Teleport = Teleports:CreateSection("Teleport")
+        local Miscs = Misc:CreateSection("Others")
+        
+        local NPCs = Main:CreateDropdown({
+            Name = "Select NPCs",
+            Options = mobs,
+            CurrentOption = "Skeered Hub",
+            MultiSelection = false,
+            Flag = "Npcs",
+            SectionParent = Settings,
+            Callback = function(v)
+                getgenv().SelectedMob = v.Name
+            end,
+        })
+        local Method = Main:CreateDropdown({
+            Name = "Farm Method",
+            Options = {"Above", "Below"},
+            CurrentOption = "Select something here",
+            MultiSelection = false,
+            Flag = "Npcs",
+            SectionParent = Settings,
+            Callback = function(v)
+                mode = v
+            end,
+        })
+        local KillMethod = Main:CreateDropdown({
+            Name = "Killaura Method",
+            Options = {"Slow", "Fast"},
+            CurrentOption = "Select something here",
+            MultiSelection = false,
+            Flag = "Method",
+            SectionParent = Settings,
+            Callback = function(v)
+                Method = v
+            end,
+        })
+        local KillWeapon = Main:CreateDropdown({
+            Name = "Killaura Weapon",
+            Options = {"Fist", "Claws", "Sword", "Fans", "Scythe"},
+            CurrentOption = "Select something here",
+            MultiSelection = false,
+            Flag = "Weapon",
+            SectionParent = Settings,
+            Callback = function(v)
+                Weapon = v
+            end,
+        })    
+        local RefNPCs = Main:CreateButton({
+            Name = "Refresh NPCs",
+            SectionParent = Settings,
+            Callback = function()
+                RN()
+                task.wait(0.1)
+                NPCs:Refresh(mobs,"Skeered HUB")
+            end,
+        })
+        
+        local Distance = Main:CreateSlider({
+            Name = "Autofarm Distance",
+            Range = {0, 20},
+            Increment = 1,
+            Suffix = "Studs",
+            CurrentValue = 7,
+            Flag = "Distance",
+            SectionParent = Settings,
+            Callback = function(v)
+            dist = v
+            end,
+        })
+
+        local KillWait = Main:CreateSlider({
+            Name = "Killaura Delay",
+            Range = {2, 5},
+            Increment = 1,
+            Suffix = "Seconds",
+            CurrentValue = 3,
+            Flag = "Wait",
+            SectionParent = Settings,
+            Callback = function(v)
+            getgenv().KillWait = v
+            end,
+        })
+
+        local Autofarm = Main:CreateToggle({
+            Name = "Auto Farm",
+            CurrentValue = false,
+            Flag = "AutoFarm",
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().autofarmmobs = v
+               
+            end
+        })
+        
+        
+        
+local FarmAllNpc = Main:CreateToggle({
+    Name = "Farm all NPC",
+    CurrentValue = false,
+    Flag = "FarmAll", 
+    SectionParent = Farm,
+    Callback = function(v)
+        getgenv().FarmAll = v
+        local Humanoid = character.Humanoid
+        local hrp = character:WaitForChild("HumanoidRootPart")
+        while task.wait() do
+            if getgenv().FarmAll == false then return end
+
+            local mob = findMob1()
+            if mobs == nil then
+                while task.wait() do
+                    task.wait()
+                    if getgenv().FarmAll == false then return end
+                    if findMob1() ~= nil then break end
+                end
+            else
+                while wait() do
+                    task.wait()
+
+                    if getgenv().FarmAll == false then return end
+
+                    if mob and mob:FindFirstChild("Humanoid") ~= nil and mob:FindFirstChild("Humanoid").Health > 0 then
+                        local ehum = mob:WaitForChild("Humanoid")
+                        local character = player.Character
+                        local hrp = character:WaitForChild("HumanoidRootPart")
+                        
+                        if mode == "Above" then
+                            repeat
+                                task.wait()
+                                local character = player.Character
+                                local hrp = character:WaitForChild("HumanoidRootPart")
+                                local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                if magnitude > 20 then
+                                    moveto(mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0), 150)
+                                else
+                                    hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
+                                end
+                            until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0
+                        elseif mode == "Below" then
+                            repeat
+                                task.wait()
+                                local character = player.Character
+                                local hrp = character:WaitForChild("HumanoidRootPart")
+                                local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                if magnitude > 20 then
+                                    moveto(v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0), 150)
+                                else
+                                    hrp.CFrame = v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
+                                end
+                            until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0
+                        elseif mode == nil then
+                            game.StarterGui:SetCore("SendNotification", {
+                                Title = "Info!",
+                                Text = "Select the autofarm mode in the dropdown above",
+                                Icon = "",
+                                Duration = 2.5
+                            })
+                        end
+                    else
+                        break
+                    end
+                end
+            end
+            task.wait()
+        end
+    end
+})
+
+
+        local Farmallboss = Main:CreateToggle({
+            Name = "Farm all Bosses",
+            CurrentValue = false,
+            Flag = "Farmallboss", 
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().FarmAllBosses = v
+                local Humanoid = character.Humanoid
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                while task.wait() do
+                    if getgenv().FarmAllBosses == false then return end
+        
+                    local mob = findBoss()
+                    if mob == nil then
+                        while task.wait() do
+                            task.wait()
+                            if getgenv().FarmAllBosses == false then return end
+                            if findBoss() ~= nil then break end
+                        end
+                    else
+                        while wait() do
+                            task.wait()
+        
+                            if getgenv().FarmAllBosses == false then return end
+        
+                            if mob and mob:FindFirstChild("Humanoid") ~= nil and mob:FindFirstChild("Humanoid").Health > 0 then
+                                local ehum = mob:WaitForChild("Humanoid")
+                                local character = player.Character
+                                local hrp = character:WaitForChild("HumanoidRootPart")
+                                
+                                if mode == "Above" then
+                                    repeat
+                                        task.wait()
+                                        local character = player.Character
+                                        local hrp = character:WaitForChild("HumanoidRootPart")
+                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                        if magnitude > 20 then
+                                            moveto(mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0), 150)
+                                        else
+                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
+                                        end
+                                    until not FarmAllBosses or mob:FindFirstChild("Humanoid").Health <= 0
+                                elseif mode == "Below" then
+                                    repeat
+                                        task.wait()
+                                        local character = player.Character
+                                        local hrp = character:WaitForChild("HumanoidRootPart")
+                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                        if magnitude > 20 then
+                                            moveto(mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0), 150)
+                                        else
+                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
+                                        end
+                                    until not FarmAllBosses or mob:FindFirstChild("Humanoid").Health <= 0
+                                elseif mode == nil then
+                                    game.StarterGui:SetCore("SendNotification", {
+                                        Title = "Info!",
+                                        Text = "Select the autofarm mode in the dropdown above",
+                                        Icon = "",
+                                        Duration = 2.5
+                                    })
+                                end
+                            else
+                                break
+                            end
+                        end
+                    end
+                    task.wait()
+                end
+            end
+        })
+        
+        local Killaura = Main:CreateToggle({
+            Name = "Killaura",
+            CurrentValue = false,
+            Flag = "AutoFarm", 
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().killaura = v
+                while getgenv().killaura do
+                    if Method == "Slow" then
+                        if Weapon == "Fist" then
+                        local ohString1 = "fist_combat"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fist_combat"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fist_combat"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fist_combat"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        elseif Weapon == "Claws" then
+                        local ohString1 = "claw_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "claw_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "claw_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "claw_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        elseif Weapon == "Sword" then 
+                        local ohString1 = "Sword_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Sword_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Sword_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Sword_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        elseif Weapon == "Fans" then
+                            local ohString1 = "fans_combat_slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 1
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "fans_combat_slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 2
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "fans_combat_slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 3
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "fans_combat_slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 4
+                
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        elseif Weapon == "Scythe" then
+                            local ohString1 = "Scythe_Combat_Slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 1
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "Scythe_Combat_Slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 2
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "Scythe_Combat_Slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 3
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                
+                            local ohString1 = "Scythe_Combat_Slash"
+                            local ohInstance2 = game:GetService("Players").LocalPlayer
+                            local ohInstance3 = character
+                            local ohInstance4 = character.HumanoidRootPart
+                            local ohInstance5 = character.Humanoid
+                            local ohNumber6 = 4
+                
+                
+                            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        end
+                    end
+                    if Method == "Fast" then
+                    if Weapon == "Fist" then
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "fist_combat"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    elseif Weapon == "Claws" then
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "claw_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    elseif Weapon == "Sword" then
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 1
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 2
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 3
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+        
+                    local ohString1 = "Sword_Combat_Slash"
+                    local ohInstance2 = game:GetService("Players").LocalPlayer
+                    local ohInstance3 = character
+                    local ohInstance4 = character.HumanoidRootPart
+                    local ohInstance5 = character.Humanoid
+                    local ohNumber6 = 4
+        
+        
+        
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    elseif Weapon == "Fans" then
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "fans_combat_slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    elseif Weapon == "Scythe" then
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                        
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 1
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 2
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 3
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+            
+                        local ohString1 = "Scythe_Combat_Slash"
+                        local ohInstance2 = game:GetService("Players").LocalPlayer
+                        local ohInstance3 = character
+                        local ohInstance4 = character.HumanoidRootPart
+                        local ohInstance5 = character.Humanoid
+                        local ohNumber6 = 4
+            
+            
+            
+                        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohNumber6)
+                    end
+                    end
+            wait(getgenv().KillWait)
+            end
+        end
+        })
+
+        local KillauraOp = Main:CreateToggle({
+            Name = "KillauraOp (RISKY)",
+            CurrentValue = false,
+            Flag = "AutoFarm", 
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().killauraOp = v
+        end
+        })
+        
+        local Autoloot = Main:CreateToggle({
+            Name = "Auto Loot",
+            CurrentValue = false,
+            Flag = "AutoLoot",
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().Loot = v
+                
+                
+            end,
+        })
+        
+        local Webhook = Main:CreateInput({
+            Name = "Webhook For Autoloot",
+            Info = "This is not for brain issue.",
+            PlaceholderText = "INSERT WEBHOOK URL",
+            SectionParent = Farm,
+            OnEnter = false,
+            RemoveTextAfterFocusLost = false,
+            Callback = function(v)
+                url = v
+            end,
+        })
+        
+        local Godmode = Main:CreateToggle({
+            Name = "Godmode (ONLY IF YOU HAVE REGENERATION)",
+            CurrentValue = false,
+            SectionParent = Farm,
+            Callback = function(v)
+                getgenv().god = v
+                if getgenv().god then
+                    local ohBoolean1 = true
+        
+                    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
+                elseif not getgenv().god then
+                    local ohBoolean1 = false
+        
+                    game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
+                end
+        end
+        })
+        
+        local NoStun = Misc:CreateButton({
+            Name = "NoStun",
+            Flag = "AutoFarm", 
+            SectionParent = Miscs,
+            Callback = function()
+                    nostun()
+                end
+            })
+
+        local AutoSkill = Misc:CreateToggle({
+            Name = "Auto Skill",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Skills",
+            Callback = function(value)
+                using_move = false
+                stop_kill_aura = false
+                _G.SkillMastery = value
+                while _G.SkillMastery and task.wait() do
+                    for i,v in next, Skills do
+                        if v then
+                            using_move = true
+                        end
+                        game:GetService("VirtualInputManager"):SendKeyEvent(v, i, false, game)
+                        using_move = false
+                        game:GetService("VirtualInputManager"):SendKeyEvent(false, i, false, game)
+                    end
+                end
+            end,
+        })
+
+        for i,v in next, Skills do
+            local AutoUse = Misc:CreateToggle({
+                Name = "Auto Use " .. i,
+                CurrentValue = false,
+                SectionParent = Miscs,
+                Flag = "Skills",
+                Callback = function(value)
+                    Skills[i] = value
+                end,
+            })
+        end
+
+
+        local NoCooldown = Misc:CreateToggle({
+            Name = "No Cooldown (RISKY)",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Cooldown",
+            Callback = function(value)
+                getgenv().NoCdMoves = value           
+            end,
+        })
+        
+        local NoDrown = Misc:CreateToggle({
+            Name = "No Drown",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Cooldown",
+            Callback = function(value)
+                getgenv().NoDrown = value           
+            end,
+        })
+
+        local AutoMeditate = Misc:CreateToggle({
+            Name = "Auto Meditate",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Cooldown",
+            Callback = function(value)
+                getgenv().AutoMed = value           
+            end,
+        })
+
+        local AutoSplitBoulder = Misc:CreateToggle({
+            Name = "No Boulder",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Cooldown",
+            Callback = function(value)
+                getgenv().AutoSplit = value           
+            end,
+        })
+
+        local WhiteScreen = Misc:CreateToggle({
+            Name = "Activate White Screen (LOW GPU USAGE)",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "WhiteScreen",
+            Callback = function(value)
+                getgenv().WhiteScreen = value
+                if getgenv().WhiteScreen then
+                    game:GetService("RunService"):Set3dRenderingEnabled(false)
+                elseif getgenv().WhiteScreen == false then
+                    game:GetService("RunService"):Set3dRenderingEnabled(true)
+                end
+                
+            end,
+        })
+
+        local Muzan = Misc:CreateButton({
+            Name = "Teleport To Muzan",
+            SectionParent = Miscs,
+            Callback = function()
+                if workspace:FindFirstChild("Muzan") then
+                    local Cnice = CFrame.new(workspace:WaitForChild("Muzan"):WaitForChild("SpawnPos").Value)
+                    moveto(Cnice, 110)
+                end
+            end,
+        })
+        
+        local Flowers = Misc:CreateToggle({
+            Name = "Auto Pick Flowers",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Flowers",
+            Callback = function(Value)
+                getgenv().Flowers = Value
+                while getgenv().Flowers do
+                    task.wait()
+                    local flowers = {}
+                    
+                    for _,v in pairs(game:GetService("Workspace")["Demon_Flowers_Spawn"]:GetDescendants()) do
+                        if v:IsA("Model") then
+                            table.insert(flowers, v)
+                        end
+                    end
+                    
+                    local totalFlowers = #flowers
+                    if totalFlowers > 0 then
+                        local randomIndex = math.random(1, totalFlowers)
+                        local selectedFlower = flowers[randomIndex]
+                        
+                        if selectedFlower then
+                            pcall(function()
+                                moveto(selectedFlower:GetModelCFrame(), 120)
+                                fireproximityprompt(selectedFlower:FindFirstChild("Cube.002"):FindFirstChild('Pick_Demon_Flower_Thing'))
+                            end)
+                        end
+                    end
+                
+                    task.wait()
+                end
+            end
+        })
+        
+
+        
+        
+        local Walk = Misc:CreateToggle({
+            Name = "Walkspeed",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "MobEsp",
+            Callback = function(Value)
+                Walkspeed()
+                enabled = Value
+            end
+        })
+        
+        local speedSlider = Misc:CreateSlider({
+            Name = "WSpeed",
+            Info = "Select how fast you go lol", -- Speaks for itself, Remove if none.
+            Range = {0, 300},
+            Increment = 1,
+            Suffix = "Speed",
+            CurrentValue = 100,
+            SectionParent = Miscs,
+            Flag = "Walkspeed2",
+        
+            Callback = function(Value)
+                walkSpeed = Value
+            end,
+        })
+        
+        local SunDamage = Misc:CreateToggle({
+            Name = "No Sun Damage",
+            CurrentValue = false,
+            Flag = "Sun",
+            SectionParent = Miscs,
+            Callback = function(v)
+                game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"].Gameplay["Sun_Damage"].Disabled = v
+            end,
+        })
+        
+        local InfStam = Misc:CreateToggle({
+            Name = "Inf Stamina",
+            CurrentValue = false,
+            Flag = "Stam",
+            SectionParent = Miscs,
+            Callback = function(v)
+                getgenv().Stam = v
+                while getgenv().Stam and task.wait(0.3) do
+                    getrenv()._G:Stamina(-9e9)
+                end
+            end,
+        })
+        
+        local InfBreath = Misc:CreateToggle({
+            Name = "Inf Breath",
+            CurrentValue = false,
+            Flag = "Breath",
+            SectionParent = Miscs,
+            Callback = function(v)
+                getgenv().Breath = v
+                while getgenv().Breath and task.wait(0.3) do
+                    getrenv()._G:Breath(-100)
+                end
+            end,
+        })
+        
+        
+        local Gamepass = Misc:CreateButton({
+            Name = "Give Prog Gamepass",
+            SectionParent = Miscs,
+            Callback = function()
+                local gamepass1 = Instance.new("StringValue")
+                local gamepass2 = Instance.new("StringValue")
+                local gamepass3 = Instance.new("StringValue")
+                local gamepass4 = Instance.new("StringValue")
+                local gamepass5 = Instance.new("StringValue")
+                local gamepass6 = Instance.new("StringValue")
+                local gamepass7 = Instance.new("StringValue")
+                local gamepass8 = Instance.new("StringValue")
+                gamepass1.Name = "18589360"
+                gamepass2.Name = "19300397"
+                gamepass3.Name = "15101943"
+                gamepass4.Name = "17958345"
+                gamepass5.Name = "18710993"
+                gamepass6.Name = "19241624"
+                gamepass7.Name = "19340032"
+                gamepass8.Name = "42670615"
+                gamepass1.Parent = player.gamepasses
+                gamepass2.Parent = player.gamepasses
+                gamepass3.Parent = player.gamepasses
+                gamepass4.Parent = player.gamepasses
+                gamepass5.Parent = player.gamepasses
+                gamepass6.Parent = player.gamepasses
+                gamepass7.Parent = player.gamepasses
+                gamepass8.Parent = player.gamepasses
+        
+            end,
+        })
+        
+        local WindTrainer = Teleports:CreateToggle({
+            Name = "Teleport to Wind Trainer",
+            CurrentValue = false,
+            Flag = "WindTrainer", 
+            SectionParent = Teleport,
+            Callback = function(v)
+                if v then
+                character.HumanoidRootPart.Position = Vector3.new(1792.06519, 334.338989, -3520.479)
+                end
+            end,
+        })
+
+        
+        local ThunderTrainer = Teleports:CreateToggle({
+            Name = "Teleport to Thunder Trainer",
+            CurrentValue = false,
+            Flag = "ThunderTrainer", 
+            SectionParent = Teleport,
+            Callback = function(v)
+                if v then
+                    character.HumanoidRootPart.Position = Vector3.new(-321.562347, 426.857788, -2383.81519)
+                end
+            end,
+        })
+        
+        local ButterflyTrainer = Teleports:CreateToggle({
+            Name = "Teleport to Butterfly Trainer",
+            CurrentValue = false,
+            Flag = "ButterflyTrainer", 
+            SectionParent = Teleport,
+            Callback = function(v)
+                if v then
+                    character.HumanoidRootPart.Position = Vector3.new(2875.76538, 316.767059, -3917.08398)
+                end
+            end,
+        })
+        
+        local WaterTrainer = Teleports:CreateToggle({
+            Name = "Teleport to Water Trainer",
+            CurrentValue = false,
+            Flag = "WaterTrainer", 
+            SectionParent = Teleport,
+            Callback = function(v)
+                if v then
+                    character.HumanoidRootPart.Position = Vector3.new(711.290039, 260.92688, -2394.80396)
+                end
+            end,
+        })
+        local SoundTrainer = Teleports:CreateToggle({
+            Name = "Teleport to Sound Trainer",
+            CurrentValue = false,
+            Flag = "SoundTrainer", 
+            SectionParent = Teleport,
+            Callback = function(v)
+                if v then
+                    character.HumanoidRootPart.Position = Vector3.new(1650, 694, -2640)
+                end
+            end,
+        })
+
+        local attackMethods = {
+            Fist = "fist_combat",
+            Sword = "Sword_Combat_Slash",
+            Claws = "claw_Combat_Slash",
+            Fans = "fans_combat_slash",
+            Scythe = "Scythe_Combat_Slash",
+        }
+
+
+
+        
+        task.spawn(function()
+            while task.wait() do
+                pcall(function()
+                if killauraOp then
+                    attack(attackMethods[Weapon])
+                    task.wait(1.8)
+                    end
+                end)
+            end
+        end)
+
+
+        task.spawn(function()
+            pcall(function()
+                while task.wait() do
+                    if getgenv().Loot == true then
+                        local lootChests = game:GetService("Workspace").Debree:GetDescendants()
+                        for _, chest in ipairs(lootChests) do
+                            if chest.Name == "Loot_Chest" and chest:FindFirstChild("Drops") then
+                                local remote = chest:WaitForChild("Add_To_Inventory")
+                                for _, drop in ipairs(chest.Drops:GetChildren()) do
+                                    remote:InvokeServer(drop.Name)
+                                    if url then
+    
+                                        local Thing = game:HttpGet(string.format("https://thumbnails.roblox.com/v1/users/avatar?userIds=%d&size=180x180&format=Png&isCircular=true", game.Players.LocalPlayer.UserId))
+                    
+                                        Thing = game:GetService("HttpService"):JSONDecode(Thing).data[1]
+                    
+                                        local AvatarImage = Thing.imageUrl
+                                        local webhookcheck =
+                                        is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+                                        secure_load and "Sentinel" or
+                                        KRNL_LOADED and "Krnl" or
+                                        SONA_LOADED and "Sona" or
+                                        "Not Detected"
+                    
+                                        local data = {
+                                        ["embeds"] = {
+                                            {
+                                                ["title"] = "Skeered Hub: Autoloot",
+                                                ["description"] =  "**You just got**",
+                                                ["type"] = "rich",
+                                                ["color"] = tonumber(0x7269da),
+                                                ["fields"] = {
+                                                    {
+                                                        ["name"] = "Drop:",
+                                                        ["value"] = "| "..drop.Name.." |",
+                                                        ["inline"] = true
+                                                    },
+                                                    {
+                                                        ["name"] = "Username",
+                                                        ["value"] = "||"..player.Name.."||",
+                                                        ["inline"] = true
+                                                    },
+                                                },
+                                                ["thumbnail"] = {
+                                                    ["url"] = AvatarImage,
+                                                }
+                                            }
+                                        }
+                                        }
+                                        local newdata = game:GetService("HttpService"):JSONEncode(data)
+                    
+                                        local headers = {
+                                        ["content-type"] = "application/json"
+                                        }
+                                        request = http_request or request or HttpPost or syn.request
+                                        local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+                                        request(abcdef)
+                                        end
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        end)
+
+        --No Cooldown Moves
+        oldindex = hookmetamethod(game, "__index", function(index, value)
+            if tostring(index) == "LastUsed" and getgenv().NoCdMoves then
+                return 0
+            end
+            return oldindex(index, value)
+        end)
+
+        spawn(function()
+            while task.wait() do
+                if getgenv().autofarmmobs then
+                local Humanoid = character.Humanoid
+                local hrp = character:WaitForChild("HumanoidRootPart")
+                    if getgenv().autofarmmobs == false then return end
+        
+                    local mob = findMob()
+                    if mobs == nil then
+                        while task.wait() do
+                            task.wait()
+                            if getgenv().autofarmmobs == false then return end
+                            if findMob() ~= nil then break end
+                        end
+                    else
+                        while wait() do
+                            task.wait()
+        
+                            if getgenv().autofarmmobs == false then return end
+
+                            if mob and mob:FindFirstChild("Humanoid") ~= nil and mob:FindFirstChild("Humanoid").Health > 0 then
+                                local ehum = mob:WaitForChild("Humanoid")
+                                local character = player.Character
+                                local hrp = character:WaitForChild("HumanoidRootPart")
+                                
+                                if mode == "Above" then
+                                    repeat
+                                        task.wait()
+                                        local character = player.Character
+                                        local hrp = character:WaitForChild("HumanoidRootPart")
+                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                        if magnitude > 20 then
+                                            moveto(mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0), 150)
+                                        else
+                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
+                                        end
+                                    until not autofarmmobs or mob:FindFirstChild("Humanoid").Health <= 0
+                                elseif mode == "Below" then
+                                    repeat
+                                        task.wait()
+                                        local character = player.Character
+                                        local hrp = character:WaitForChild("HumanoidRootPart")
+                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
+                                        if magnitude > 20 then
+                                            moveto(v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0), 150)
+                                        else
+                                            hrp.CFrame = v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
+                                        end
+                                    until not autofarmmobs or mob:FindFirstChild("Humanoid").Health <= 0
+                                elseif mode == nil then
+                                    game.StarterGui:SetCore("SendNotification", {
+                                        Title = "Info!",
+                                        Text = "Select the autofarm mode in the dropdown above",
+                                        Icon = "",
+                                        Duration = 2.5
+                                    })
+                                end
+                            else
+                                break
+                            end
+                        end
+                    end
+                    task.wait()
+                end
+                end
+        end)
+
+        spawn(function()
+            while task.wait() do
+                if getgenv().AutoMed then
+                    pcall(function()
+                        game:GetService("Players").LocalPlayer.PlayerGui.ExcessGuis["Meditate_gui"].Holder.LocalScript.Value.Value = 100
+                    end)
+                end
+            end
+        end)
+        
+        spawn(function()
+            while task.wait() do
+                if getgenv().AutoSplit then
+                    pcall(function()
+                        game:GetService("Players").LocalPlayer.PlayerGui.ExcessGuis["boulder_split_ui"].Holder.LocalScript.Value.Value = 10000
+                    end)
+                end
+            end
+        end)
+
+        task.spawn(function()
+            for i,v in next, getgc(true) do
+                if type(v) == "table" and rawget(v, "swim_bar") then
+                    while task.wait() do
+                        if getgenv().NoDrown then
+                            rawset(v, "swim_bar", {
+                                [1] = 2,
+                                [2] = 2
+                            })
+                        end
+                    end
+                end
+            end
+        end)
+
+        player.CharacterAdded:Connect(function(char)
+            character = char
+        end)
