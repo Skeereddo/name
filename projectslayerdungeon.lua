@@ -579,27 +579,32 @@
             while task.wait() do
             while _G.Enabled do
                 task.wait()
+                if not _G.Enabled then return end
                 for i, v in next, Mobs:GetChildren() do
                     if v:FindFirstChildOfClass("Model") and v:FindFirstChildOfClass("Model"):FindFirstChild("Humanoid") and v:FindFirstChildOfClass("Model"):FindFirstChild("Humanoid").Health > 0 then
                         Mob = v:FindFirstChildOfClass("Model")
                     pcall(function()
                         BodyVelocity:Clone().Parent = Client.Character.LowerTorso
                         BodyAngularVelocity:Clone().Parent = Client.Character.LowerTorso
-        
+                        if not _G.Enabled then return end
                         Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 200)
                     end)        
                     
                     repeat
                         local Status = pcall(function()
                             if #Mobs:GetChildren() == 0 then
+                                if not _G.Enabled then return end
                                 spawn(ClaimOrbs)
                             end
-        
+                            if not _G.Enabled then return end
                             Client.Character.HumanoidRootPart.CFrame = Mob.HumanoidRootPart.CFrame
                             wait(0.30)
+                            if not _G.Enabled then return end
                             Attack()
                             task.wait(0.1)
+                            if not _G.Enabled then return end
                             Teleport(Mob.HumanoidRootPart.CFrame.Position, Vector3.new(0, 50, 0), 250)
+                            if not _G.Enabled then return end
                             repeat wait() until Client:WaitForChild("combotangasd123", 9e9).Value == 0 and wait(0.25)
                         end)
                         if not Status or not _G.Enabled then
