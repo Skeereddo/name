@@ -1,4 +1,5 @@
-repeat wait() until game:IsLoaded()
+
+        repeat wait() until game:IsLoaded()
 
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
@@ -326,21 +327,9 @@ repeat wait() until game:IsLoaded()
             SectionParent = Settings,
             Callback = function(v)
                 _G.EXP = v
-                repeat wait() until game:GetService("Workspace")["Dungeon_Timer"].Value == 0
+                repeat wait() until game:GetService("Workspace")["Dungeon_Timer"].Value == 0 and game:GetService("Workspace")["Total_Time"].Value > 0
                 if _G.EXP then
-                
-                    _G.Enabled = false
-                    getgenv().FarmAll = false
-                    task.wait(15)
-                    game:GetService("ReplicatedStorage").TeleportToShop:FireServer()
-                    task.wait(1)
-                    Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Shop Items"]["EXP Elixir"].Handle.CFrame
-                    task.wait(0.3)
-                    repeat
-                        fireproximityprompt(game:GetService("Workspace")["Shop Items"]["EXP Elixir"].Handle.Buy)
-                    until task.wait() and Client.leaderstats.Points.Value < 25
-                    task.wait(0.1)
-                    game:GetService("TeleportService"):Teleport(9321822839, Client)  -- replace the numbers with the id of the game you want to teleport to
+                    Client.Character.Humanoid.Health = 0
                 end
             end
         })
@@ -352,21 +341,9 @@ repeat wait() until game:IsLoaded()
             SectionParent = Settings,
             Callback = function(v)
                 _G.WEN = v
-                repeat wait() until game:GetService("Workspace")["Dungeon_Timer"].Value == 0
+                repeat wait() until game:GetService("Workspace")["Dungeon_Timer"].Value == 0 and game:GetService("Workspace")["Total_Time"].Value > 0
                 if _G.WEN then
-                    _G.Enabled = false
-                    getgenv().FarmAll = false
-    
-                    task.wait(15)
-                    game:GetService("ReplicatedStorage").TeleportToShop:FireServer()
-                    task.wait(1)
-                    Client.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Shop Items"]["Wen Bag"]["Cylinder.001"].CFrame
-                    task.wait(0.3)
-                    repeat
-                        fireproximityprompt(game:GetService("Workspace")["Shop Items"]["Wen Bag"].Buy)
-                    until task.wait() and Client.leaderstats.Points.Value < 25
-                    task.wait(0.1)
-                    game:GetService("TeleportService"):Teleport(9321822839, Client)  -- replace the numbers with the id of the game you want to teleport to
+                    Client.Character.Humanoid.Health = 0
                 end
             end
         })
