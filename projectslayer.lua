@@ -2157,14 +2157,7 @@ local FarmAllNpc = Main:CreateToggle({
         end
         })
         
-        local NoStun = Misc:CreateButton({
-            Name = "NoStun",
-            Flag = "AutoFarm", 
-            SectionParent = Miscs,
-            Callback = function()
-                    nostun()
-                end
-            })
+
 
         local AutoSkill = Misc:CreateToggle({
             Name = "Auto Skill",
@@ -2200,6 +2193,24 @@ local FarmAllNpc = Main:CreateToggle({
             })
         end
 
+        local NoStun = Misc:CreateButton({
+            Name = "NoStun",
+            Flag = "AutoFarm", 
+            SectionParent = Miscs,
+            Callback = function()
+                nostun()
+            end
+        })
+
+        local AutoBuff = Misc:CreateToggle({
+            Name = "Auto All Buff (risky)",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Buff",
+            Callback = function(value)
+                getgenv().Buff = value           
+            end,
+        })
 
         local NoCooldown = Misc:CreateToggle({
             Name = "No Cooldown (RISKY)",
@@ -2471,7 +2482,6 @@ local FarmAllNpc = Main:CreateToggle({
 
 
 
-        
         task.spawn(function()
             while task.wait() do
                 pcall(function()
@@ -2483,17 +2493,59 @@ local FarmAllNpc = Main:CreateToggle({
             end
         end)
 
+        
+        task.spawn(function()
+            while task.wait() do
+                pcall(function()
+                    if game:GetService("Players").LocalPlayer:FindFirstChild("hacktanbgasd12312312") then
+                        game:GetService("Players").LocalPlayer:FindFirstChild("hacktanbgasd12312312"):Destroy()
+                    end
+                end)
+            end
+        end)
+        local playerName = game.Players.LocalPlayer.Name
+        local ghostName = playerName .. "'s ghost tang123asd"
+        task.spawn(function()
+            while task.wait() do
+                pcall(function()
+                if getgenv().Buff then  
+                    if not game:GetService("Workspace").Debree:FindFirstChild(ghostName) then
+
+                        local ohBoolean1 = true
+
+                        game:GetService("ReplicatedStorage").Remotes.war_Drums_remote:FireServer(ohBoolean1)               
+
+                    local ohBoolean1 = true
+
+                    game:GetService("ReplicatedStorage").Remotes.clan_furiosity_add:FireServer(ohBoolean1)
+                        game:GetService("ReplicatedStorage").Remotes.immense_reflexes_asd123:FireServer()
+                        task.wait(2)
+                    end
+                    
+                    end
+                end)
+            end
+        end)
+
 
         task.spawn(function()
             pcall(function()
                 while task.wait() do
                     if getgenv().Loot == true then
-                        local lootChests = game:GetService("Workspace").Debree:GetDescendants()
-                        for _, chest in ipairs(lootChests) do
-                            if chest.Name == "Loot_Chest" and chest:FindFirstChild("Drops") then
-                                local remote = chest:WaitForChild("Add_To_Inventory")
-                                for _, drop in ipairs(chest.Drops:GetChildren()) do
-                                    remote:InvokeServer(drop.Name)
+                        task.wait()
+                        for i, v in pairs(workspace.Debree:GetChildren()) do
+                            if v.Name == 'Loot_Chest' and v:FindFirstChild('Drops') then
+                                if #v.Drops:GetChildren() == 0 then
+                                    v:Destroy()
+                                else
+                                    for _, drop in pairs(v.Drops:GetChildren()) do
+                                        local args = {
+                                            [1] = drop.Name
+                                        }
+                                        v.Add_To_Inventory:InvokeServer(unpack(args))
+                                        if #v.Drops:GetChildren() == 0 then
+                                            v:Destroy()
+                                        end
                                     if url then
     
                                         local Thing = game:HttpGet(string.format("https://thumbnails.roblox.com/v1/users/avatar?userIds=%d&size=180x180&format=Png&isCircular=true", game.Players.LocalPlayer.UserId))
@@ -2542,6 +2594,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
                                         request(abcdef)
                                         end
+                                    end
                                 end
                             end
                         end
@@ -2551,12 +2604,6 @@ local FarmAllNpc = Main:CreateToggle({
         end)
 
         --No Cooldown Moves
-        oldindex = hookmetamethod(game, "__index", function(index, value)
-            if tostring(index) == "LastUsed" and getgenv().NoCdMoves then
-                return 0
-            end
-            return oldindex(index, value)
-        end)
 
         spawn(function()
             while task.wait() do
