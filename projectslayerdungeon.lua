@@ -1,5 +1,40 @@
+repeat wait() until game:IsLoaded()
 
-        repeat wait() until game:IsLoaded()
+
+        local Player = game:GetService("Players").LocalPlayer;
+        local player = game:GetService("Players").LocalPlayer;
+        local UIS = game:GetService'UserInputService';
+        local Players = game:FindService("Players")
+        local players = game:FindService("Players")
+        local plr = game.Players.LocalPlayer
+        local camera = game:GetService("Workspace").CurrentCamera
+        local CurrentCamera = Workspace.CurrentCamera
+        local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+        local UserInputService = cloneref(game:GetService'UserInputService')
+        local runservice = game:GetService("RunService")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local TweenService = game:GetService("TweenService")
+        local PathfindingService = game:GetService("PathfindingService")
+        local mouse = player:GetMouse()
+        local mobs = {""} -- MOBS TABLE
+        local npcs = {""}
+        local fiend = {}
+        local fiends = {}
+        local Character = Player.Character
+        local offset = 0
+        local zones = {}
+        local zonesN = {""}
+        local boss = {}
+        local enemy = {}
+        local noclipE = false
+        local antifall = nil
+        local tp_speed = 250
+        local infinite_gas = false
+        local infinite_blade_durability = false
+
+
+        local mt = getrawmetatable(game)
+        local nc = mt.__namecall
 
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
