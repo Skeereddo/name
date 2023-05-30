@@ -2519,7 +2519,18 @@ function Library:CreateWindow(WindowTitle)
             Cursor.Thickness = 1;
             Cursor.Filled = true;
 
-            
+            while Outer.Visible do
+                local mPos = workspace.CurrentCamera:WorldToViewportPoint(Mouse.Hit.p);
+
+                Cursor.Color = Library.AccentColor;
+                Cursor.PointA = Vector2.new(mPos.X, mPos.Y);
+                Cursor.PointB = Vector2.new(mPos.X, mPos.Y) + Vector2.new(6, 14);
+                Cursor.PointC = Vector2.new(mPos.X, mPos.Y) + Vector2.new(-6, 14);
+
+                Cursor.Visible = not InputService.MouseIconEnabled;
+
+                RenderStepped:Wait();
+            end;
 
             Cursor:Remove();
         end;
