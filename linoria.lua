@@ -2507,7 +2507,23 @@ function Library:CreateWindow(WindowTitle)
         Parent = ScreenGui;
     });
 
+    InputService.InputBegan:Connect(function(Input, Processed)
+        if Input.KeyCode == Enum.KeyCode.RightControl or (Input.KeyCode == Enum.KeyCode.RightShift and (not Processed)) then
+            Outer.Visible = not Outer.Visible;
+            ModalElement.Modal = Outer.Visible;
 
+            local oIcon = Mouse.Icon;
+            local State = InputService.MouseIconEnabled;
+
+            local Cursor = Drawing.new('Triangle');
+            Cursor.Thickness = 1;
+            Cursor.Filled = true;
+
+            
+
+            Cursor:Remove();
+        end;
+    end);
 
     Window.Holder = Outer;
 
