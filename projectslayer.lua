@@ -2193,6 +2193,45 @@ local FarmAllNpc = Main:CreateToggle({
             })
         end
 
+        local Players = game:GetService("Players")
+        local LocalPlayer = Players.LocalPlayer
+        
+        local KickAllPlayer = Misc:CreateToggle({
+            Name = "Kick All Player",
+            CurrentValue = false,
+            Flag = "KickAllPlayer",
+            SectionParent = Miscs,
+            Callback = function(v)
+                getgenv().KickAll = v
+                while getgenv().KickAll do
+                    task.wait()
+
+                            local ohString1 = "ice_demon_art_wintry_iciles_damage"
+                            local players = Players:GetPlayers()
+                            local randomPlayer = nil
+        
+                            -- Find a random player (excluding the local player)
+                            repeat
+                                task.wait()
+                                randomPlayer = players[math.random(1, #players)]
+                                wait()
+                            until randomPlayer ~= LocalPlayer
+        
+                            if randomPlayer then
+                                task.wait()
+                                local ohInstance2 = randomPlayer
+                                local ohCFrame3 = CFrame.new(1020, 487, -1532, -1, 0, -1, 0, 1, 0, 1, 0, -1)
+        
+                                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohInstance2, ohCFrame3)
+                            end
+        
+                            task.wait()
+
+                    
+                end
+            end
+        })
+
         local NoStun = Misc:CreateButton({
             Name = "NoStun",
             Flag = "AutoFarm", 
@@ -2527,25 +2566,16 @@ local FarmAllNpc = Main:CreateToggle({
             end
         end)
 
-
         task.spawn(function()
             pcall(function()
                 while task.wait() do
                     if getgenv().Loot == true then
-                        task.wait()
-                        for i, v in pairs(workspace.Debree:GetChildren()) do
-                            if v.Name == 'Loot_Chest' and v:FindFirstChild('Drops') then
-                                if #v.Drops:GetChildren() == 0 then
-                                    v:Destroy()
-                                else
-                                    for _, drop in pairs(v.Drops:GetChildren()) do
-                                        local args = {
-                                            [1] = drop.Name
-                                        }
-                                        v.Add_To_Inventory:InvokeServer(unpack(args))
-                                        if #v.Drops:GetChildren() == 0 then
-                                            v:Destroy()
-                                        end
+                        local lootChests = game:GetService("Workspace").Debree:GetDescendants()
+                        for _, chest in ipairs(lootChests) do
+                            if chest.Name == "Loot_Chest" and chest:FindFirstChild("Drops") then
+                                local remote = chest:WaitForChild("Add_To_Inventory")
+                                for _, drop in ipairs(chest.Drops:GetChildren()) do
+                                    remote:InvokeServer(drop.Name)
                                     if url then
     
                                         local Thing = game:HttpGet(string.format("https://thumbnails.roblox.com/v1/users/avatar?userIds=%d&size=180x180&format=Png&isCircular=true", game.Players.LocalPlayer.UserId))
@@ -2596,7 +2626,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         end
                                     end
                                 end
-                            end
+                            
                         end
                     end
                 end
