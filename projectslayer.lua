@@ -2193,44 +2193,6 @@ local FarmAllNpc = Main:CreateToggle({
             })
         end
 
-        local Players = game:GetService("Players")
-        local LocalPlayer = Players.LocalPlayer
-        
-        local KickAllPlayer = Misc:CreateToggle({
-            Name = "Kick All Player",
-            CurrentValue = false,
-            Flag = "KickAllPlayer",
-            SectionParent = Miscs,
-            Callback = function(v)
-                getgenv().KickAll = v
-                while getgenv().KickAll do
-                    task.wait()
-
-                            local ohString1 = "ice_demon_art_wintry_iciles_damage"
-                            local players = Players:GetPlayers()
-                            local randomPlayer = nil
-        
-                            -- Find a random player (excluding the local player)
-                            repeat
-                                task.wait()
-                                randomPlayer = players[math.random(1, #players)]
-                                wait()
-                            until randomPlayer ~= LocalPlayer
-        
-                            if randomPlayer then
-                                task.wait()
-                                local ohInstance2 = randomPlayer
-                                local ohCFrame3 = CFrame.new(1020, 487, -1532, -1, 0, -1, 0, 1, 0, 1, 0, -1)
-        
-                                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohInstance2, ohCFrame3)
-                            end
-        
-                            task.wait()
-
-                    
-                end
-            end
-        })
 
         local NoStun = Misc:CreateButton({
             Name = "NoStun",
@@ -2589,7 +2551,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         KRNL_LOADED and "Krnl" or
                                         SONA_LOADED and "Sona" or
                                         "Not Detected"
-                    
+                
                                         local data = {
                                         ["embeds"] = {
                                             {
