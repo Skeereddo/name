@@ -2193,6 +2193,9 @@ local FarmAllNpc = Main:CreateToggle({
             })
         end
 
+        local Players = game:GetService("Players")
+        local LocalPlayer = Players.LocalPlayer
+        
 
         local NoStun = Misc:CreateButton({
             Name = "NoStun",
@@ -2529,7 +2532,7 @@ local FarmAllNpc = Main:CreateToggle({
         end)
 
         task.spawn(function()
-            pcall(function()
+
                 while task.wait() do
                     if getgenv().Loot == true then
                         local lootChests = game:GetService("Workspace").Debree:GetDescendants()
@@ -2592,7 +2595,7 @@ local FarmAllNpc = Main:CreateToggle({
                         end
                     end
                 end
-            end)
+
         end)
 
         --No Cooldown Moves
