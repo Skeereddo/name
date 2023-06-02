@@ -1,4 +1,4 @@
-        repeat wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 
 
         local Player = game:GetService("Players").LocalPlayer;
@@ -312,6 +312,7 @@
         local Misc = Window:CreateTab("Misc", 4483362458)
         
         local Settings = Main:CreateSection("Both Section")
+        local Method2 = Main:CreateSection("Main Method")
         
         
         local Teleport = Teleports:CreateSection("Teleport")
@@ -330,19 +331,6 @@
             end,
         })
 
-
-        local Distance = Main:CreateSlider({
-            Name = "Autofarm Distance",
-            Range = {0, 20},
-            Increment = 1,
-            Suffix = "Studs",
-            CurrentValue = 7,
-            Flag = "Distance",
-            SectionParent = Method2,
-            Callback = function(v)
-            dist = v
-            end,
-        })
 
         local AutoBuyExp = Main:CreateToggle({
             Name = "Inf Block",
