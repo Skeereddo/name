@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded()
+ repeat wait() until game:IsLoaded()
 
 
         local Player = game:GetService("Players").LocalPlayer;
@@ -359,7 +359,15 @@ repeat wait() until game:IsLoaded()
             end
         })
 
-
+        local Autoloot = Main:CreateToggle({
+            Name = "Auto Loot",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Settings,
+            Callback = function(v)
+                _G.Autoloot = v
+            end
+        })
 
         local AutoBuyExp = Main:CreateToggle({
             Name = "Auto Buy EXP on dead",
@@ -603,7 +611,7 @@ repeat wait() until game:IsLoaded()
 end)
         spawn(function()
             while task.wait() do
-            while _G.Enabled or getgenv().FarmAll do
+            while _G.Autoloot do
                 local lootChests = game:GetService("Workspace").Debree:GetDescendants()
                 for _, chest in ipairs(lootChests) do
                     if chest and chest.Name == "Loot_Chest" and chest:FindFirstChild("Drops") then
