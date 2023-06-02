@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded()
+        repeat wait() until game:IsLoaded()
 
 
         local Player = game:GetService("Players").LocalPlayer;
@@ -76,7 +76,7 @@ repeat wait() until game:IsLoaded()
             end
             local Method = AttackMethods[Method]
 
-            for Cycle=1, 5 do
+            for Cycle=1, 8 do
                 Call(
                     Initiate_S,
                     Method,
@@ -84,10 +84,12 @@ repeat wait() until game:IsLoaded()
                     Client.Character,
                     Client.Character.HumanoidRootPart,
                     Client.Character.Humanoid,
-                    Cycle ~= 5 and Cycle or Cycle == 5 and 919
+                    Cycle ~= 8 and Cycle or Cycle == 8 and 919
                 )
+                task.wait(0.2)
             end
         end
+
 
         function Attack1()
             if Method == nil then 
@@ -310,13 +312,11 @@ repeat wait() until game:IsLoaded()
         local Misc = Window:CreateTab("Misc", 4483362458)
         
         local Settings = Main:CreateSection("Both Section")
-        local Method1 = Main:CreateSection("Method 1")
-        local Method2 = Main:CreateSection("Method 2")
+        
         
         local Teleport = Teleports:CreateSection("Teleport")
         local Miscs = Misc:CreateSection("Others")
 
-        local Tutorial = Main:CreateParagraph({Title = "Auto Dungeon Tutorial", Content = "New ServerHop Dungeon:\nPut the script in Auto Execute\nYou must activate Auto Buy EXP or WEN on Dead\nFor now it will farm with fist when you server hop"})
 
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
@@ -330,17 +330,6 @@ repeat wait() until game:IsLoaded()
             end,
         })
 
-        local Mode = Main:CreateDropdown({
-            Name = "Farm Mode",
-            Options = {"Above", "Below", "Behind"},
-            CurrentOption = "Select something here",
-            MultiSelection = false,
-            Flag = "mode",
-            SectionParent = Method2,
-            Callback = function(v)
-                mode = v
-            end,
-        })
 
         local Distance = Main:CreateSlider({
             Name = "Autofarm Distance",
@@ -354,6 +343,35 @@ repeat wait() until game:IsLoaded()
             dist = v
             end,
         })
+
+        local AutoBuyExp = Main:CreateToggle({
+            Name = "Inf Block",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Settings,
+            Callback = function(v)
+                _G.Block = v
+                
+                while _G.Block do
+                task.wait()
+                local ohString1 = "add_blocking"
+                local ohString2 = math.huge
+                local ohNumber3 = math.huge
+                local ohInstance4 = math.huge
+                local ohNumber5 = math.huge
+
+                game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohString2, ohNumber3, ohInstance4, ohNumber5)
+                end
+                if not _G.Block then
+            local ohString1 = "remove_blocking"
+            local ohInstance2 = game:GetService("ReplicatedStorage").PlayerValues[player.Name]
+
+            game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S_:InvokeServer(ohString1, ohInstance2)
+                end
+            end
+        })
+
+
 
         local AutoBuyExp = Main:CreateToggle({
             Name = "Auto Buy EXP on dead",
@@ -383,19 +401,6 @@ repeat wait() until game:IsLoaded()
             end
         })
 
-        local AutoDungeon = Main:CreateToggle({
-            Name = "Auto Dungeon (Method 1)",
-            CurrentValue = false,
-            Flag = "AutoDungeon",
-            SectionParent = Method1,
-            Callback = function(v)
-                _G.Enabled = v
-                local ohString1 = "Normal"
-
-                game:GetService("ReplicatedStorage").TeleportCirclesEvent:FireServer(ohString1)
-            end
-        })
-
         local Killaura = Main:CreateToggle({
             Name = "Killaura",
             CurrentValue = false,
@@ -405,7 +410,7 @@ repeat wait() until game:IsLoaded()
                 getgenv().Killaura = v
                 while getgenv().Killaura do
                     Attack()
-                    wait(1.5)
+                    wait(1.8)
                 end
             end
         })
@@ -440,89 +445,19 @@ repeat wait() until game:IsLoaded()
                                 local character = Client.Character
                                 local hrp = character:WaitForChild("HumanoidRootPart")
                                 
-                                if mode == "Above" then
+
                                     repeat
                                         task.wait()
                                         local character = Client.Character
                                         local hrp = character:WaitForChild("HumanoidRootPart")
                                         local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-
-                                        if magnitude > 150 then
-                                            local tween = TweenService:Create(hrp, TweenInfo.new(magnitude / 300, Enum.EasingStyle.Linear), {
-                                                CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
+                                        local tween = TweenService:Create(hrp, TweenInfo.new(magnitude / 300, Enum.EasingStyle.Linear), {
+                                            CFrame = mob:GetModelCFrame() * CFrame.new(0, 0, -tonumber(5)) * CFrame.Angles(0, math.rad(180), 0)
                                             })
 
                                             tween:Play()
 
-                                            repeat
-                                                magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-                                                task.wait()
-                                            until magnitude < 150 or getgenv().FarmAll == false
-
-                                            tween:Cancel()
-                                        else
-                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
-                                        end
-
-                                    until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0 
-                                elseif mode == "Behind" then
-                                    repeat
-                                        task.wait()
-                                        local character = Client.Character
-                                        local hrp = character:WaitForChild("HumanoidRootPart")
-                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-
-                                        if magnitude > 150 then
-                                            local tween = TweenService:Create(hrp, TweenInfo.new(magnitude / 300, Enum.EasingStyle.Linear), {
-                                                CFrame = mob:GetModelCFrame() * CFrame.new(0, 0, tonumber(dist))
-                                            })
-
-                                            tween:Play()
-
-                                            repeat
-                                                magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-                                                task.wait()
-                                            until magnitude < 150 or getgenv().FarmAll == false
-
-                                            tween:Cancel()
-                                        else
-                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, 0, tonumber(dist))
-                                        end
-
-                                    until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0 
-                                elseif mode == "Below" then
-                                    repeat
-                                        task.wait()
-                                        local character = Client.Character
-                                        local hrp = character:WaitForChild("HumanoidRootPart")
-                                        local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-
-                                        if magnitude > 150 then
-                                            local tween = TweenService:Create(hrp, TweenInfo.new(magnitude / 300, Enum.EasingStyle.Linear), {
-                                                CFrame = mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
-                                            })
-
-                                            tween:Play()
-
-                                            repeat
-                                                magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-                                                task.wait()
-                                            until magnitude < 150
-
-                                            tween:Cancel()
-                                        else
-                                            hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
-                                        end
-
-                                    until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0 
-                                elseif mode == nil then
-                                    game.StarterGui:SetCore("SendNotification", {
-                                        Title = "Info!",
-                                        Text = "Select the autofarm mode in the dropdown above",
-                                        Icon = "",
-                                        Duration = 2.5
-                                    })
-                                end
+                                    until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0 
                             else
                                 break
                             end
@@ -549,6 +484,26 @@ repeat wait() until game:IsLoaded()
                     game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
                 end
         end
+        })
+
+        local AutoInvincible = Main:CreateToggle({
+            Name = "Invincible (Akaza BD)",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Settings,
+            Callback = function(v)
+                _G.Invicinbility = v
+                
+                while _G.Invicinbility do
+                    local A_1 = "skil_ting_asd"
+                    local A_2 = game:GetService("Players").LocalPlayer
+                    local A_3 = "akaza_bda_compass_needle"
+                    local A_4 = 1
+                    local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
+                        Event:FireServer(A_1, A_2, A_3, A_4)
+                        task.wait(0.5)
+                end
+            end
         })
 
         local InfStam = Misc:CreateToggle({
