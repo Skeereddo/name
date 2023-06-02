@@ -1,4 +1,6 @@
- repeat wait() until game:IsLoaded()
+      _G.key = "TYalexx"
+      
+        repeat wait() until game:IsLoaded()
 
 
         local Player = game:GetService("Players").LocalPlayer;
@@ -97,7 +99,7 @@
             end
             local Method = AttackMethods[Method]
 
-            for Cycle=1, 2 do
+            for Cycle=1, 8 do
                 Call(
                     Initiate_S,
                     Method,
@@ -105,7 +107,18 @@
                     Client.Character,
                     Client.Character.HumanoidRootPart,
                     Client.Character.Humanoid,
-                    Cycle ~= 2 and Cycle or Cycle == 2 and 919
+                    919,
+                    "ground_slash"
+                )
+                Call(
+                    Initiate_S,
+                    Method,
+                    Client,
+                    Client.Character,
+                    Client.Character.HumanoidRootPart,
+                    Client.Character.Humanoid,
+                    math.huge
+                    "ground_slash"
                 )
             end
         end
@@ -410,6 +423,20 @@
                 end
             end
         })
+
+        local Killaura = Main:CreateToggle({
+            Name = "Killaura (OP)",
+            CurrentValue = false,
+            Flag = "BuyWen",
+            SectionParent = Method2,
+            Callback = function(v)
+                getgenv().KillauraOP = v
+                while getgenv().KillauraOP do
+                    Attack1()
+                    wait(3)
+                end
+            end
+        })
         
         local AutoDungeonN = Main:CreateToggle({
             Name = "Auto Dungeon (Method 2)",
@@ -447,11 +474,7 @@
                                         local character = Client.Character
                                         local hrp = character:WaitForChild("HumanoidRootPart")
                                         local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-                                        local tween = TweenService:Create(hrp, TweenInfo.new(magnitude / 300, Enum.EasingStyle.Linear), {
-                                            CFrame = mob:GetModelCFrame() * CFrame.new(0, 0, -tonumber(5)) * CFrame.Angles(0, math.rad(180), 0)
-                                            })
-
-                                            tween:Play()
+                                        moveto(mob:GetModelCFrame() * CFrame.new(0, 0, -tonumber(5)) * CFrame.Angles(0, math.rad(180), 0), 300)
 
                                     until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0 
                             else
