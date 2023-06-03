@@ -1,3 +1,4 @@
+        -- Project Slayer
         local Instance_new = Instance.new
         local Vector3_new = Vector3.new
         local CFrame_new = CFrame.new
@@ -1175,8 +1176,6 @@
             end
         })
         
-        
-        
 local FarmAllNpc = Main:CreateToggle({
     Name = "Farm all NPC",
     CurrentValue = false,
@@ -2155,8 +2154,25 @@ local FarmAllNpc = Main:CreateToggle({
                 end
         end
         })
-        
 
+        local AutoInvincible = Misc:CreateToggle({
+            Name = "Invincible (Akaza BD)",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Miscs,
+            Callback = function(v)
+                _G.Invicinbility = v
+                while _G.Invicinbility do
+                    local A_1 = "skil_ting_asd"
+                    local A_2 = game:GetService("Players").LocalPlayer
+                    local A_3 = "akaza_bda_compass_needle"
+                    local A_4 = 1
+                    local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
+                        Event:FireServer(A_1, A_2, A_3, A_4)
+                        task.wait(0.5)
+                end
+            end
+        })
 
         local AutoSkill = Misc:CreateToggle({
             Name = "Auto Skill",
