@@ -117,7 +117,7 @@
                     Client.Character,
                     Client.Character.HumanoidRootPart,
                     Client.Character.Humanoid,
-                    math.huge
+                    math.huge,
                     "ground_slash"
                 )
             end
@@ -424,7 +424,7 @@
             end
         })
 
-        local Killaura = Main:CreateToggle({
+        local KillauraOP = Main:CreateToggle({
             Name = "Killaura (OP)",
             CurrentValue = false,
             Flag = "BuyWen",
@@ -474,7 +474,8 @@
                                         local character = Client.Character
                                         local hrp = character:WaitForChild("HumanoidRootPart")
                                         local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).Magnitude
-                                        moveto(mob:GetModelCFrame() * CFrame.new(0, 0, -tonumber(5)) * CFrame.Angles(0, math.rad(180), 0), 300)
+                                            moveto(mob:GetModelCFrame() * CFrame.new(0, 0, -tonumber(5)) * CFrame.Angles(0, math.rad(180), 0), 300)
+
 
                                     until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0 
                             else
