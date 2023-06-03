@@ -2155,24 +2155,7 @@ local FarmAllNpc = Main:CreateToggle({
         end
         })
 
-        local AutoInvincible = Misc:CreateToggle({
-            Name = "Invincible (Akaza BD)",
-            CurrentValue = false,
-            Flag = "BuyExp",
-            SectionParent = Miscs,
-            Callback = function(v)
-                _G.Invicinbility = v
-                while _G.Invicinbility do
-                    local A_1 = "skil_ting_asd"
-                    local A_2 = game:GetService("Players").LocalPlayer
-                    local A_3 = "akaza_bda_compass_needle"
-                    local A_4 = 1
-                    local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
-                        Event:FireServer(A_1, A_2, A_3, A_4)
-                        task.wait(0.5)
-                end
-            end
-        })
+
 
         local AutoSkill = Misc:CreateToggle({
             Name = "Auto Skill",
@@ -2207,6 +2190,52 @@ local FarmAllNpc = Main:CreateToggle({
                 end,
             })
         end
+
+        local AutoInvincible = Misc:CreateToggle({
+            Name = "Invincible (Akaza BD)",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Miscs,
+            Callback = function(v)
+                _G.Invicinbility = v
+                while _G.Invicinbility do
+                    local A_1 = "skil_ting_asd"
+                    local A_2 = game:GetService("Players").LocalPlayer
+                    local A_3 = "akaza_bda_compass_needle"
+                    local A_4 = 1
+                    local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
+                        Event:FireServer(A_1, A_2, A_3, A_4)
+                        task.wait(0.5)
+                end
+            end
+        })
+
+        local ServerHop = Misc:CreateButton({
+            Name = "Server Hop to Lowest Server",
+            SectionParent = Miscs,
+            Callback = function()
+                local Http = game:GetService("HttpService")
+                local TPS = game:GetService("TeleportService")
+                local Api = "https://games.roblox.com/v1/games/"
+
+                local _place = game.PlaceId
+                local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+                function ListServers(cursor)
+                local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+                return Http:JSONDecode(Raw)
+                end
+
+                local Server, Next; repeat
+                local Servers = ListServers(Next)
+                Server = Servers.data[1]
+                Next = Servers.nextPageCursor
+                until Server
+
+                TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+            end,
+        })
+
+
 
         local Players = game:GetService("Players")
         local LocalPlayer = Players.LocalPlayer
