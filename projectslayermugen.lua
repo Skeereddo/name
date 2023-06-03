@@ -1,4 +1,4 @@
-        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
         local TweenService = game:GetService("TweenService")
         local Player = game:GetService("Players").LocalPlayer;
@@ -84,7 +84,7 @@
             end
             local Method = AttackMethods[Method]
 
-            for Cycle=1, 5 do
+            for Cycle=1, 8 do
                 Call(
                     Initiate_S,
                     Method,
@@ -92,10 +92,12 @@
                     Client.Character,
                     Client.Character.HumanoidRootPart,
                     Client.Character.Humanoid,
-                    Cycle ~= 5 and Cycle or Cycle == 5 and 919
+                    Cycle ~= 8 and Cycle or Cycle == 8 and 919
                 )
+                task.wait(0.2)
             end
         end
+
         local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/ArrayField'))()
         
         local Window = Rayfield:CreateWindow({
@@ -135,7 +137,7 @@
 
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
-            Options = {"Above", "Below", "Behind", "Front"},
+            Options = {"Above", "Front"},
             CurrentOption = "Select something here",
             MultiSelection = false,
             Flag = "Npcs",
@@ -167,7 +169,7 @@
                 getgenv().Killaura = v
                 while getgenv().Killaura do
                     Attack()
-                    wait(1.5)
+                    wait(2)
                 end
             end
         })
@@ -204,7 +206,7 @@
                     if getgenv().FarmAll == false then return end
         
                     local mob = findMob1()
-                    print("mob")
+ 
                     if mobs == nil then
                         while task.wait() do
                             task.wait()
@@ -218,7 +220,6 @@
                             if getgenv().FarmAll == false then return end
         
                             if mob and mob:FindFirstChild("Humanoid") ~= nil and mob:FindFirstChild("Humanoid").Health > 0 then
-                                print("mob an dall")
                                 local ehum = mob:WaitForChild("Humanoid")
                                 local character = Client.Character
                                 local hrp = character:WaitForChild("HumanoidRootPart")
@@ -247,7 +248,7 @@
                                             hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
                                         end
 
-                                    until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0 
+                                    until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0 
                                 elseif mode == "Behind" then
                                     repeat
                                         task.wait()
@@ -300,7 +301,6 @@
                                     until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0 
                                 elseif mode == "Front" then
                                     repeat
-                                        print("front")
                                         task.wait()
                                         local character = Client.Character
                                         local hrp = character:WaitForChild("HumanoidRootPart")
@@ -367,7 +367,6 @@
                 walkSpeed = Value
             end,
         })
-
         
         local InfStam = Misc:CreateToggle({
             Name = "Inf Stamina",
