@@ -1,4 +1,4 @@
-      _G.key = "TYalexx"
+
       
         repeat wait() until game:IsLoaded()
 
