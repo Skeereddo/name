@@ -1,4 +1,4 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
         local TweenService = game:GetService("TweenService")
         local Player = game:GetService("Players").LocalPlayer;
@@ -94,7 +94,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
                     Client.Character.Humanoid,
                     Cycle ~= 8 and Cycle or Cycle == 8 and 919
                 )
-                task.wait(0.2)
+                task.wait(0.1)
             end
         end
 
@@ -338,6 +338,25 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
                         end
                     end
                     task.wait()
+                end
+            end
+        })
+
+        local AutoInvincible = Misc:CreateToggle({
+            Name = "Invincible (Akaza BD)",
+            CurrentValue = false,
+            Flag = "BuyExp",
+            SectionParent = Miscs,
+            Callback = function(v)
+                _G.Invicinbility = v
+                while _G.Invicinbility do
+                    local A_1 = "skil_ting_asd"
+                    local A_2 = game:GetService("Players").LocalPlayer
+                    local A_3 = "akaza_bda_compass_needle"
+                    local A_4 = 1
+                    local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
+                    Event:FireServer(A_1, A_2, A_3, A_4)
+                    task.wait(0.5)
                 end
             end
         })
