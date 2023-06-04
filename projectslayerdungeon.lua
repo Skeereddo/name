@@ -1,5 +1,4 @@
-
-repeat wait() until game:IsLoaded()
+        repeat wait() until game:IsLoaded()
 
 
         local Player = game:GetService("Players").LocalPlayer;
@@ -653,6 +652,18 @@ end)
                 
                 wait(3)
             end
+            end
+        end)
+
+        spawn(function()
+            while task.wait() do
+                if getgenv().Killaura or getgenv().KillauraOP then
+                    for i,v in pairs(player.Character:GetChildren()) do
+                        if v:IsA("Tool") then
+                            v.Parent = player.Backpack
+                        end
+                    end
+                end
             end
         end)
 
