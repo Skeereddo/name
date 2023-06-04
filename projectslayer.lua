@@ -1,5 +1,4 @@
-        -- Project Slayer
-        local Instance_new = Instance.new
+local Instance_new = Instance.new
         local Vector3_new = Vector3.new
         local CFrame_new = CFrame.new
         local CFrame_Angles = CFrame.Angles
@@ -2770,6 +2769,18 @@ local FarmAllNpc = Main:CreateToggle({
                     task.wait()
                 end
                 end
+        end)
+
+        spawn(function()
+            while task.wait() do
+                if getgenv().killaura or getgenv().killauraOp then
+                    for i,v in pairs(player.Character:GetChildren()) do
+                        if v:IsA("Tool") then
+                            v.Parent = player.Backpack
+                        end
+                    end
+                end
+            end
         end)
 
         spawn(function()
