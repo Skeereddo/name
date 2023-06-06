@@ -1,3 +1,4 @@
+
         repeat wait() until game:IsLoaded()
 
 
@@ -10,6 +11,7 @@
         local camera = game:GetService("Workspace").CurrentCamera
         local CurrentCamera = Workspace.CurrentCamera
         local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+        local Loader = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Loader'))()
         local UserInputService = cloneref(game:GetService'UserInputService')
         local runservice = game:GetService("RunService")
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -297,7 +299,7 @@
         
 
 
-        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/ArrayField'))()
+        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
             Name = "PS Dungeon │ Skeered Hub",
@@ -525,7 +527,7 @@
                     local A_4 = 1
                     local Event = game:GetService("ReplicatedStorage").Remotes["To_Server"]["Handle_Initiate_S"]
                         Event:FireServer(A_1, A_2, A_3, A_4)
-                        task.wait(0.5)
+                        task.wait()
                 end
             end
         })
