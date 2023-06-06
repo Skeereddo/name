@@ -1,4 +1,4 @@
-        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
         local TweenService = game:GetService("TweenService")
         local Player = game:GetService("Players").LocalPlayer;
@@ -69,6 +69,7 @@
         end
 
         local Initiate_S = Remotes.To_Server.Handle_Initiate_S_
+        
 
         local AttackMethods = {
             Fist = "fist_combat",
@@ -77,6 +78,7 @@
             Fans = "fans_combat_slash",
             Scythe = "Scythe_Combat_Slash",
         }
+        local Loader = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Loader'))()
 
         function Attack()
             if Method == nil then 
@@ -98,7 +100,7 @@
             end
         end
 
-        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/ArrayField'))()
+        local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
             Name = "PS Mugen │ Skeered Hub",
@@ -399,3 +401,15 @@
                 end
             end,
         })
+
+        spawn(function()
+            while task.wait() do
+                if getgenv().Killaura then
+                    for i,v in pairs(player.Character:GetChildren()) do
+                        if v:IsA("Tool") then
+                            v.Parent = player.Backpack
+                        end
+                    end
+                end
+            end
+        end)
