@@ -1,4 +1,4 @@
--- Project Slayer
+        -- Project Slayer
         local Instance_new = Instance.new
         local Vector3_new = Vector3.new
         local CFrame_new = CFrame.new
@@ -1218,7 +1218,7 @@ local FarmAllNpc = Main:CreateToggle({
                                 else
                                     hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
                                 end
-                            until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0
+                            until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0
                         elseif mode == "Below" then
                             repeat
                                 task.wait()
@@ -1226,11 +1226,11 @@ local FarmAllNpc = Main:CreateToggle({
                                 local hrp = character:WaitForChild("HumanoidRootPart")
                                 local magnitude = (character.HumanoidRootPart.Position - mob:GetModelCFrame().Position).magnitude
                                 if magnitude > 20 then
-                                    moveto(v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0), 300)
+                                    moveto(mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0), 300)
                                 else
-                                    hrp.CFrame = v:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
+                                    hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
                                 end
-                            until not FarmAll or mob:FindFirstChild("Humanoid").Health <= 0
+                            until not FarmAll or not mob or mob:FindFirstChild("Humanoid").Health <= 0
                         elseif mode == nil then
                             game.StarterGui:SetCore("SendNotification", {
                                 Title = "Info!",
@@ -1291,7 +1291,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         else
                                             hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, tonumber(dist), 0) * CFrame.Angles(math.rad(-90), 0, 0)
                                         end
-                                    until not FarmAllBosses or mob:FindFirstChild("Humanoid").Health <= 0
+                                    until not FarmAllBosses or not mob or mob:FindFirstChild("Humanoid").Health <= 0
                                 elseif mode == "Below" then
                                     repeat
                                         task.wait()
@@ -1303,7 +1303,7 @@ local FarmAllNpc = Main:CreateToggle({
                                         else
                                             hrp.CFrame = mob:GetModelCFrame() * CFrame.new(0, -tonumber(dist), 0) * CFrame.Angles(math.rad(90), 0, 0)
                                         end
-                                    until not FarmAllBosses or mob:FindFirstChild("Humanoid").Health <= 0
+                                    until not FarmAllBosses or not mob or mob:FindFirstChild("Humanoid").Health <= 0
                                 elseif mode == nil then
                                     game.StarterGui:SetCore("SendNotification", {
                                         Title = "Info!",
