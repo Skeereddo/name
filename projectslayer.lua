@@ -1,4 +1,4 @@
-        -- Project Slayer
+ -- Project Slayer
         local Instance_new = Instance.new
         local Vector3_new = Vector3.new
         local CFrame_new = CFrame.new
@@ -1062,14 +1062,14 @@
             },
             Discord = {
                 Enabled = true,
-                Invite = "gbHkVD5S2g", 
+                Invite = "skeeredhub", 
                 RememberJoins = true
             },
             KeySystem = true,
             KeySettings = {
                 Title = "Skeered Hub",
                 Subtitle = "Key System",
-                Note = "Join discord server for the key",
+                Note = "Join discord server for the key (.gg/SkeeredHub) (.gg/SkeeredHub)",
                 FileName = "SkeeredHub Key", 
                 SaveKey = true, 
                 GrabKeyFromSite = false,
@@ -1186,7 +1186,15 @@ local FarmAllNpc = Main:CreateToggle({
         getgenv().FarmAll = v
         local Humanoid = character.Humanoid
         local hrp = character:WaitForChild("HumanoidRootPart")
+        if dist == nil then
+            dist = 10
+        end
+        if mode == nil then
+            mode = "Front"
+        end
         while task.wait() do
+            pcall(function()
+            
             if getgenv().FarmAll == false then return end
 
             local mob = findMob1()
@@ -1245,6 +1253,7 @@ local FarmAllNpc = Main:CreateToggle({
                 end
             end
             task.wait()
+        end)
         end
     end
 })
@@ -1259,7 +1268,15 @@ local FarmAllNpc = Main:CreateToggle({
                 getgenv().FarmAllBosses = v
                 local Humanoid = character.Humanoid
                 local hrp = character:WaitForChild("HumanoidRootPart")
+                if dist == nil then
+                    dist = 10
+                end
+                if mode == nil then
+                    mode = "Front"
+                end
                 while task.wait() do
+                    pcall(function()
+                    
                     if getgenv().FarmAllBosses == false then return end
         
                     local mob = findBoss()
@@ -1318,6 +1335,7 @@ local FarmAllNpc = Main:CreateToggle({
                         end
                     end
                     task.wait()
+                end)
                 end
             end
         })
