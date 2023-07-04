@@ -551,7 +551,7 @@ Main:CreateToggle({
         while getgenv().KillauraOP do
             pcall(function()
                 task.wait(0.2)
-                if not character:FindFirstChild("Right Arm"):FindFirstChildOfClass("Model") then
+                if character:FindFirstChild("Right Arm") and not character:FindFirstChild("Right Arm"):FindFirstChildOfClass("Model") then
 
                 character.CharacterHandler.Remotes.Weapon:FireServer()
                 end
