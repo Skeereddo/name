@@ -6,14 +6,14 @@ local SaveManager = {} do
 	SaveManager.Folder = 'LinoriaLibSettings'
 	SaveManager.Ignore = {}
 	SaveManager.Parser = {
-		Toggle = {
-			Save = function(idx, object) 
-				return { type = 'Toggle', idx = idx, value = object.Value } 
+		Dropdown = {
+			Save = function(idx, object)
+				return { type = 'Dropdown', idx = idx, value = object.Value, mutli = object.Multi }
 			end,
 			Load = function(idx, data)
-				if Toggles[idx] then 
-					Toggles[idx]:SetValue(data.value)
-				end
+
+					Options[idx]:SetValue(data.value)
+
 			end,
 		},
 		Slider = {
@@ -26,16 +26,7 @@ local SaveManager = {} do
 				end
 			end,
 		},
-		Dropdown = {
-			Save = function(idx, object)
-				return { type = 'Dropdown', idx = idx, value = object.Value, mutli = object.Multi }
-			end,
-			Load = function(idx, data)
 
-					Options[idx]:SetValue(data.value)
-
-			end,
-		},
 		ColorPicker = {
 			Save = function(idx, object)
 				return { type = 'ColorPicker', idx = idx, value = object.Value:ToHex(), transparency = object.Transparency }
@@ -67,6 +58,17 @@ local SaveManager = {} do
 				end
 			end,
 		},
+		Toggle = {
+			Save = function(idx, object) 
+				return { type = 'Toggle', idx = idx, value = object.Value } 
+			end,
+			Load = function(idx, data)
+				if Toggles[idx] then 
+					Toggles[idx]:SetValue(data.value)
+				end
+			end,
+		},
+		
 	}
 
 	function SaveManager:SetIgnoreIndexes(list)
