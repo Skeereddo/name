@@ -1,5 +1,5 @@
 
--- Project Slayer
+        -- Project Slayer
         local Instance_new = Instance.new
         local Vector3_new = Vector3.new
         local CFrame_new = CFrame.new
@@ -1085,6 +1085,16 @@
                 end
                 return closestChild
             end
+
+            function getClash()
+                local Clash = {}
+                for i, v in pairs(game:GetService("Workspace").Debree.clash_folder:GetDescendants()) do
+                    if v:IsA("IntConstrainedValue") then
+                        table.insert(Clash, v)
+                    end
+                end
+                return Clash
+            end
         
         
         
@@ -1467,6 +1477,24 @@
                     game:GetService("ReplicatedStorage").Remotes.heal_tang123asd:FireServer(ohBoolean1)
                 end
         end
+        })
+
+        local GlobalClash = Misc:CreateToggle({
+            Name = "Global Clash",
+            CurrentValue = false,
+            SectionParent = Miscs,
+            Flag = "Skills",
+            Callback = function(value)
+                local ohString1 = "Change_Value"
+                local Clash = getClash()
+            
+                for i, clashInstance in ipairs(Clash) do
+                    local ohInstance2 = clashInstance
+                    local ohNumber3 = 99999999
+            
+                    game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohInstance2, ohNumber3)
+                end
+            end,
         })
         
         
