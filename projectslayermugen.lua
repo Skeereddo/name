@@ -146,9 +146,11 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
         
         local Teleport = Teleports:CreateSection("Teleport")
         local Miscs = Misc:CreateSection("Others")
-
-        local InstaClash = Misc:AddButton('Global Clash', function()
-    local ohString1 = "Change_Value"
+        local InstaClash = Misc:CreateButton({
+            Name = "Global Clash",
+            SectionParent = Miscs,
+            Callback = function()
+ local ohString1 = "Change_Value"
     local Clash = getClash()
 
     for i, clashInstance in ipairs(Clash) do
@@ -157,7 +159,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
         game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohInstance2, ohNumber3)
     end
-end)
+            end,
+        })
+
 
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
