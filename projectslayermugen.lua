@@ -100,6 +100,16 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
             end
         end
 
+    function getClash()
+        local Clash = {}
+        for i, v in pairs(game:GetService("Workspace").Debree.clash_folder:GetDescendants()) do
+            if v:IsA("IntConstrainedValue") then
+                table.insert(Clash, v)
+            end
+        end
+        return Clash
+    end
+
         local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfield'))()
         
         local Window = Rayfield:CreateWindow({
@@ -136,6 +146,18 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
         
         local Teleport = Teleports:CreateSection("Teleport")
         local Miscs = Misc:CreateSection("Others")
+
+        local InstaClash = Misc:AddButton('Global Clash', function()
+    local ohString1 = "Change_Value"
+    local Clash = getClash()
+
+    for i, clashInstance in ipairs(Clash) do
+        local ohInstance2 = clashInstance
+        local ohNumber3 = 99999999
+
+        game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(ohString1, ohInstance2, ohNumber3)
+    end
+end)
 
         local Method = Main:CreateDropdown({
             Name = "Farm Method",
