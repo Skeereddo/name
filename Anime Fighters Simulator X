@@ -1,0 +1,209 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local Players = game:GetService("Players")
+        local TweenService = game:GetService("TweenService")
+        local Player = game:GetService("Players").LocalPlayer;
+        local player = game:GetService("Players").LocalPlayer;
+        local UIS = game:GetService'UserInputService';
+        local Players = game:FindService("Players")
+        local players = game:FindService("Players")
+        local plr = game.Players.LocalPlayer
+        local camera = game:GetService("Workspace").CurrentCamera
+        local CurrentCamera = Workspace.CurrentCamera
+        local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+        local UserInputService = cloneref(game:GetService'UserInputService')
+        local runservice = game:GetService("RunService")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local TweenService = game:GetService("TweenService")
+        local PathfindingService = game:GetService("PathfindingService")
+        local mouse = player:GetMouse()
+        local mobs = {""} -- MOBS TABLE
+        local npcs = {""}
+        local fiend = {}
+        local fiends = {}
+        local Character = Player.Character
+        local offset = 0
+        local zones = {}
+        local zonesN = {""}
+        local boss = {}
+        local enemy = {}
+        local noclipE = false
+        local antifall = nil
+        local tp_speed = 250
+        local infinite_gas = false
+        local infinite_blade_durability = false
+        local mt = getrawmetatable(game)
+        local nc = mt.__namecall
+        local character = player.Character
+
+        local vim = game:GetService('VirtualInputManager')
+
+        local uis = game:GetService('UserInputService')
+        local client = game:GetService('Players').LocalPlayer
+        local rs = game:GetService('RunService')
+
+        local function pressKey(key)
+            vim:SendKeyEvent(true, key, false, game)
+            wait()
+            vim:SendKeyEvent(false, key, false, game)
+        end
+        
+        
+		function getTrainingArea() 
+		   local TrainingArea = {}
+		   for i,v in pairs(game:GetService("Workspace").Scriptable.TrainingsAreas:GetChildren()) do
+		      if v:IsA("Part") then
+		         table.insert(TrainingArea, v.Name)
+		      end
+		   end
+		   return TrainingArea
+		end
+
+    local Client = player
+    
+    local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfield'))()
+        
+        local Window = Rayfield:CreateWindow({
+            Name = "Anime Fighting Simulator X │ Skeered Hub",
+            LoadingTitle = "Skeered Hub",
+            LoadingSubtitle = "by Skeered",
+            ConfigurationSaving = {
+                Enabled = true,
+                FolderName = "Skeered Hub", -- Create a custom folder for your hub/game
+                FileName = "Anime Fighting Simulator X"
+            },
+            Discord = {
+                Enabled = true,
+                Invite = "gbHkVD5S2g", 
+                RememberJoins = true
+            },
+            KeySystem = true,
+            KeySettings = {
+                Title = "Skeered Hub",
+                Subtitle = "Key System",
+                Note = "Join discord server for the key (.gg/SkeeredHub)",
+                FileName = "SkeeredHub Key", 
+                SaveKey = true, 
+                GrabKeyFromSite = false,
+                Key = _G.key
+            }
+        })
+
+
+-- You do not have to set your tabs & groups up this way, just a prefrence.
+local Main = Window:CreateTab("Main", 4483362458)
+
+local AutoTrain = Main:CreateSection("Auto Train")
+local Teleport = Main:CreateSection("Teleport")
+
+Main:CreateToggle({
+    Name = "Train Strength",
+    CurrentValue = false,
+    Flag = "TrainStrength",
+    SectionParent = AutoTrain,
+    Callback = function(v)
+        getgenv().TrainStrenght = v
+       	while getgenv().TrainStrenght and task.wait(0.1) do
+
+         local ohString1 = "TrainStat"
+         local ohString2 = "Strength"
+
+         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+            
+      end
+        
+    end
+})
+
+Main:CreateToggle({
+    Name = "Train Durability",
+    CurrentValue = false,
+    Flag = "TraindDurability",
+    SectionParent = AutoTrain,
+    Callback = function(v)
+        getgenv().TrainDurability = v
+       	while getgenv().TrainDurability and task.wait(0.1) do
+
+         local ohString1 = "TrainStat"
+         local ohString2 = "Durability"
+
+         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+            
+      end
+        
+    end
+})
+
+Main:CreateToggle({
+    Name = "Train Chakra",
+    CurrentValue = false,
+    Flag = "TrainChakra",
+    SectionParent = AutoTrain,
+    Callback = function(v)
+        getgenv().TrainChakra = v
+       	while getgenv().TrainChakra and task.wait(0.1) do
+
+         local ohString1 = "TrainStat"
+         local ohString2 = "Chakra"
+
+         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+            
+      end
+        
+    end
+})
+
+Main:CreateToggle({
+    Name = "Train Sword",
+    CurrentValue = false,
+    Flag = "TrainSword",
+    SectionParent = AutoTrain,
+    Callback = function(v)
+        getgenv().TrainSword = v
+       	while getgenv().TrainSword and task.wait(0.1) do
+
+         local ohString1 = "TrainStat"
+         local ohString2 = "Sword"
+
+         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+            
+      end
+        
+    end
+})
+
+Main:CreateToggle({
+    Name = "Train Speed",
+    CurrentValue = false,
+    Flag = "TrainSpeed",
+    SectionParent = AutoTrain,
+    Callback = function(v)
+        getgenv().TrainSpeed = v
+       	while getgenv().TrainSpeed and task.wait(0.1) do
+
+         local ohString1 = "TrainStat"
+         local ohString2 = "Speed"
+
+         game:GetService("ReplicatedStorage").Events["Stats/RemoteFunction"]:InvokeServer(ohString1, ohString2)
+            
+      end
+        
+    end
+})
+
+Main:CreateDropdown({
+    Name = "Select A Training Area",
+    Options = getTrainingArea(),
+    CurrentOption = "",
+    MultiSelection = false,
+    Flag = "TraininingArea",
+    SectionParent = Teleport,
+    Callback = function(v)
+        Client.Character:FindFirstChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Scriptable.TrainingsAreas[v].CFrame
+    end,
+})
+
+
+
+player.CharacterAdded:Connect(function(char)
+    character = char
+end)
