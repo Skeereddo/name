@@ -354,8 +354,10 @@ local function SaveConfiguration()
 		else
 			Data[i] = v.CurrentValue or v.CurrentKeybind or v.Color or v.CurrentOption
 		end
-	end	
+	end
+	pcall(function()
 	writefile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+	end)
 end
 
 local neon = (function()  --Open sourced neon module
@@ -1257,7 +1259,9 @@ function ArrayFieldLibrary:CreateWindow(Settings)
 			end
 
 			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
+				pcall(function()
 				writefile(ArrayFieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"ArrayField RememberJoins is true for this invite, this invite will not ask you to join again")
+				end)
 			end
 		else
 
@@ -1406,7 +1410,9 @@ function ArrayFieldLibrary:CreateWindow(Settings)
 					Passthrough = true
 					if Settings.KeySettings.SaveKey then
 						if writefile then
+							pcall(function()
 							writefile(ArrayFieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension, Settings.KeySettings.Key)
+							end)
 						end
 						ArrayFieldLibrary:Notify({Title = "Key System", Content = "The key for this script has been saved successfully"})
 					end
