@@ -1260,7 +1260,7 @@ function ArrayFieldLibrary:CreateWindow(Settings)
 
 			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
 				pcall(function()
-				writefile(ArrayFieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"ArrayField RememberJoins is true for this invite, this invite will not ask you to join again")
+				
 				end)
 			end
 		else
