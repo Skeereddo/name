@@ -3318,5 +3318,6 @@ end
 if not getgenv().DisableArrayfieldAutoLoad then
   task.delay(9, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 end
-end)
+
 return RayfieldLibrary
+end)
