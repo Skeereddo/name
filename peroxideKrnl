@@ -31,135 +31,11 @@ local PathfindingService = game:GetService("PathfindingService")
 local client = game:GetService('Players').LocalPlayer
 local Sense = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Sirius/request/library/sense/source.lua'))()
 
-
-local disableChatMessages = false --Turn this to false if you don't want my chat messages
-local autoFaceAttackers = false --Turn this to false if you don't want the script to automatically face attackers
-local parryDist = 13 --Anyone attacking within this many units of your character will trigger auto-parry
-local blacklist = {"someone you like", "someone else you like"} --Put the names of your friends here, separated by commas
-
---You may not want to mess with the stuff below, but if you know what you're doing, go ahead!
-local plr = game:GetService("Players").LocalPlayer
-local char = plr.Character
-local runService = game:GetService("RunService")
-local vim = Instance.new("VirtualInputManager")
-
-local animIds = {
-    "rbxassetid://9105174060";
-    "rbxassetid://5428578390";
-    "rbxassetid://5428613396";
-    "rbxassetid://5435382827";
-    "rbxassetid://5435969402";
-    "rbxassetid://5431979188";
-    "rbxassetid://5436083192";
-    "rbxassetid://5436059670";
-    "rbxassetid://4061495031";
-    "rbxassetid://3857610554";
-    "rbxassetid://3857630958";
-    "rbxassetid://5435928313";
-    "rbxassetid://5424166879";
-} --Probably a better way to go about it, but this game has relatively few animations.
-vim:SendKeyEvent(true, "F", false, game)
-local cmds = {}
-cmds.changeParryDist = function(x)
-    local oldParryDist = parryDist
-    parryDist = tonumber(x) or parryDist
-    
-    if tonumber(x) then
-        makeMessage("parryDist changed from ".. oldParryDist.. " to ".. parryDist, Color3.fromRGB(0, 255, 0))
-    else
-        makeMessage(x.. " must be a float or numeric value!", Color3.fromRGB(255, 0, 0))
-    end    
-end
-cmds.blacklistAdd = function(x)
-    if game:GetService("Players"):FindFirstChild(x) then
-        table.insert(blacklist, tostring(x))
-        makeMessage("Player '".. x.. "' added to blacklist!", Color3.fromRGB(0, 255, 0))
-    else
-        makeMessage("Player '".. x "' not found!", Color3.fromRGB(255, 0, 0))
-    end
-end
-cmds.blacklistRemove = function(x)
-    local index = table.find(blacklist, x)
-    if index then
-        table.remove(blacklist, index)
-        makeMessage("Player '".. x .. "' removed from blacklist!", Color3.fromRGB(0, 255, 0))
-    else
-        makeMessage("Player '".. x .. "' not found in blacklist", Color3.fromRGB(255, 0, 0))
-    end
-end
-cmds.faceAttackers = function(x)
-    if x == "true" then
-        autoFaceAttackers = true
-    else
-        autoFaceAttackers = false
-    end
-    makeMessage("autoFaceAttackers set to ".. tostring(autoFaceAttackers), Color3.fromRGB(0, 255, 0))
-end
-cmds.makeMessages = function(x)
-    local bool
-    if x == "true" then
-        bool = true
-    else
-        bool = false
-    end
-    makeMessage("disableChatMessages set to ".. tostring(disableChatMessages), Color3.fromRGB(0, 255, 0))
-    disableChatMessages = bool
-end
-
-plr.Chatted:Connect(function(msg)
-    local splitMsg = string.split(msg, "/e ")
-    splitMsg = splitMsg[2]
-    local splitSplitMsg = string.split(splitMsg, " ")
-    local cmd = splitSplitMsg[1]
-    local var = splitSplitMsg[2]
-    cmds[cmd](var)
-end)
-
-function makeMessage(message, color)
-    if not disableChatMessages then
-        color = color or Color3.fromRGB(255, 255, 255)
-        game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-            Text = message;
-            Color = color;
-        })
-    end
-end
-
-function getParryEvent()
-    for i, v in next, char:GetDescendants() do
-        if v:IsA("RemoteEvent") and v.Name == "ability" then
-            return v
-        end
-    end
-    return nil
-end
-
-function parry()
-    local myParryEvent = getParryEvent()
-    if myParryEvent then
-        myParryEvent:FireServer()
-    end
-end
-
-function main()
-   
-end
-        
-main()
-
-function getSpeed()
-    for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
-    if v:IsA("BillboardGui") and v:FindFirstChild("Frame") and v:FindFirstChild("Frame"):FindFirstChild("Gear") and v:FindFirstChild("Frame"):FindFirstChild("Target") then
-    return v
-    end
-    end
-    end
-
 local Client = Players.LocalPlayer
 
 
 local enabled = true
-local walkSpeed = 100
+local walkSpeed = 80
 
 function Walkspeed()
     local UIS = game:GetService("UserInputService")
@@ -253,58 +129,6 @@ end)
 
 end
 
-local mt = getrawmetatable(game)
-local old = mt.__namecall
-setreadonly(mt,false)
-mt.__namecall = newcclosure(function(self, ...)
-local args = {...}
-if getnamecallmethod() == 'FireServer' and self.Name == 'Training' and getgenv().SwordTraining then
-    args[1] = true
-end
-return old(self, unpack(args))
-end)
-
-function getKisuke()
-    local largest = math.huge
-    local closestChild = nil
-    for i,v in pairs(game:GetService("Workspace").JobBoards:GetDescendants()) do
-    if v:IsA("TextLabel") and v.Name == "Title" and v.Text == "Clean up the Plastic Near Kisuke's House" and v.Parent.Enabled == true then
-    local magnitude = (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Parent.Parent.Position).magnitude
-            if magnitude < largest then
-                closestChild = v
-                largest = magnitude
-            end
-        end
-    end
-    
-    return closestChild
-    end
-    
-    function getClosestTrash()
-            local largest = math.huge
-            local closestChild = nil
-            
-            for i, v in pairs(workspace.Effects.JobStuff.Trash:GetChildren()) do
-                if v:IsA("Part") and v:FindFirstChild("Decal") and v:FindFirstChild("Decal").Transparency == 0 and v.Size ~= Vector3.new(10.398998260498047, 17.52899932861328, 1.0567727088928223) then
-                    local magnitude = (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Position).magnitude
-                    if magnitude < largest then
-                        closestChild = v
-                        largest = magnitude
-                    end
-                end
-            end
-            
-            return closestChild
-        end
-
-        function getVitality()
-            for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
-            if v:IsA("BillboardGui") and v:FindFirstChild("GameBar") and v:FindFirstChild("GameBar"):FindFirstChild("Container") then
-            return v
-            end
-            end
-            end
-
     function closestMob()
         local largest = math.huge
         local closestChild = nil
@@ -323,7 +147,7 @@ function getKisuke()
 
     local MobsEsp = {}
     local PlayerESP = {}
-
+    local NPCsEsp = {}
         
     for i, v in pairs(game:GetService("Workspace").Live:GetChildren()) do
     if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and not v:FindFirstChild("Health") then
@@ -343,9 +167,25 @@ function getKisuke()
     end
     end
 
+    for i, v in pairs(game:GetService("Workspace").NPCs:GetChildren()) do
+        if v:IsA("Model") and v:FindFirstChild("Humanoid") and not v:FindFirstChild("Health") then
+        table.insert(NPCsEsp, Sense.AddInstance(v, {
+            enabled = false,
+            text = v.Name .. "\n{distance}",
+            distance = true,
+            textColor = { Color3.new(1, 0, 0), 1 },
+            textOutline = true,
+            textOutlineColor = Color3.new(),
+            textSize = 13,
+            textFont = 2,
+            limitDistance = true,
+            maxDistance = 100000,
+        }))
+        end
+        end
+
     game:GetService("Workspace").Live.DescendantAdded:Connect(function(v)
         wait(5)
-        print("mob")
     if v:IsA("Model") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and not v:FindFirstChild("Health") then
     local mobName = v.Name:split("_")[1]  -- Extract the part of the name before the underscore
     if getgenv().MobESP then
@@ -379,7 +219,7 @@ function getKisuke()
     end)
     
         
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/Rayfieldlast'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "Peroxide │ Skeered Hub",
@@ -388,7 +228,7 @@ local Window = Rayfield:CreateWindow({
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "Skeered Hub", -- Create a custom folder for your hub/game
-        FileName = "Type Soul"
+        FileName = "Peroxide"
     },
     Discord = {
         Enabled = true,
@@ -412,10 +252,7 @@ local Window = Rayfield:CreateWindow({
 
 local Main = Window:CreateTab("Main", 4483362458)
 
-local Teleport = Main:CreateSection("ESP")
 local Farm = Main:CreateSection("Farming")
-local Miscs = Main:CreateSection("Miscs")
-
 Main:CreateToggle({
     Name = "Farm Near Npc",
     CurrentValue = false,
@@ -513,6 +350,7 @@ Main:CreateSlider({
     end,
 })
 
+local Teleport = Main:CreateSection("ESP")
 Main:CreateToggle({
     Name = "Mobs ESP",
     CurrentValue = false,
@@ -530,7 +368,7 @@ Main:CreateSlider({
     Name = "Mob ESP Size",
     Range = {0, 20},
     Increment = 1,
-    Suffix = "Speed",
+    Suffix = "Size",
     CurrentValue = 13,
     Flag = "WalkspeedSpeed",
     SectionParent = Teleport,
@@ -542,6 +380,36 @@ Main:CreateSlider({
     end,
 })
 
+Main:CreateToggle({
+    Name = "NPC ESP",
+    CurrentValue = false,
+    Flag = "MobESP",
+    SectionParent = Teleport,
+    Callback = function(v)
+        getgenv().NPCESP = v
+        for _, Mob in next, NPCsEsp do
+            Mob.options.enabled = v
+        end
+        end
+})
+
+Main:CreateSlider({
+    Name = "NPC ESP Size",
+    Range = {0, 20},
+    Increment = 1,
+    Suffix = "Size",
+    CurrentValue = 13,
+    Flag = "WalkspeedSpeed",
+    SectionParent = Teleport,
+    Callback = function(v)
+        getgenv().NPCESPSize = v
+        for _, Mob in next, NPCsEsp do
+            Mob.options.textSize = v
+        end
+    end,
+})
+
+local Miscs = Main:CreateSection("Miscs")
 Main:CreateSlider({
     Name = "HitBox",
     Range = {0, 20},
