@@ -1,1 +1,450 @@
-.
+local MacLib = loadstring(game:HttpGet("https://github.com/biggaboy212/Maclib/releases/latest/download/maclib.txt"))()
+local CommonUtils = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skeereddo/SkeeredHub-V2/refs/heads/main/CommonUtils"))()
+local dungeonInfo = require(game:GetService("ReplicatedStorage").Modules.Dungeon_Info)
+
+getgenv().isnetworkowner = function(part)
+    return not part.Anchored and part.ReceiveAge == 0
+end
+
+
+
+-- Initialize Core Utilities
+local Fly = CommonUtils.Fly()
+local Noclip = CommonUtils.Noclip()
+local Walkspeed = CommonUtils.Walkspeed()
+local Tween = CommonUtils.TweenTo()
+local Players = MacLib.GetService("Players")
+local localPlayer = cloneref(Players.LocalPlayer)
+local GuiService = game:GetService("GuiService")
+
+-- ========== GUI SETUP ========== --
+local Window = MacLib:Window({
+    Title = "Hunters",
+    Subtitle = "Skeered Hub",
+    Size = UDim2.fromOffset(868, 650),
+    DragStyle = 2,
+    ShowUserInfo = true,
+    Keybind = Enum.KeyCode.RightControl,
+})
+
+-- ========== TAB STRUCTURE ========== --
+local tabGroups = {
+    Main = Window:TabGroup(),
+    Automation = Window:TabGroup(),
+    Movement = Window:TabGroup(),
+    Debug = Window:TabGroup()
+}
+
+local tabs = {
+    Combat = tabGroups.Main:Tab({ Name = "Main", Image = "rbxassetid://138474926565264" }),
+    NPC = tabGroups.Main:Tab({ Name = "NPC/Buyables", Image = "rbxassetid://77414705827883" }),
+    Farming = tabGroups.Automation:Tab({ Name = "Farming", Image = "rbxassetid://97634344751363" }),
+    Movement = tabGroups.Movement:Tab({ Name = "Movement", Image = "rbxassetid://128538889778961" }),
+    Settings = Window:TabGroup():Tab({ Name = "Settings", Image = "rbxassetid://10734950309" }),
+    Debugging = tabGroups.Debug:Tab({ Name = "Debugging", Image = "rbxassetid://114056464880748" }),
+}
+
+-- ========== SECTION STRUCTURE ========== --
+local sections = {
+    -- Combat Tab
+    CombatMain = tabs.Combat:Section({ Name = "Combat Utilities", Side = "Left" }),
+    CombatMisc = tabs.Combat:Section({ Name = "Miscellaneous", Side = "Right" }),
+    
+    -- NPC Tab
+    NPCInteract = tabs.NPC:Section({ Name = "NPC Interactions", Side = "Left" }),
+    Buyables = tabs.NPC:Section({ Name = "Buyables", Side = "Right" }),
+    
+    -- Farming Tab
+    ItemFarm = tabs.Farming:Section({ Name = "Item Farming", Side = "Left" }),
+    OreFarm = tabs.Farming:Section({ Name = "Ore Farming", Side = "Right" }),
+    
+    -- Movement Tab
+    Speed = tabs.Movement:Section({ Name = "Speed Controls", Side = "Left" }),
+    Flight = tabs.Movement:Section({ Name = "Flight Controls", Side = "Right" }),
+    MovementMisc = tabs.Movement:Section({ Name = "Miscellaneous", Side = "Left" }),
+    
+    -- Debugging Tab
+    DevTools = tabs.Debugging:Section({ Name = "Developer Tools", Side = "Left" })
+}
+
+-- ========== CORE UTILITIES ========== --
+local function notify(title, description, lifetime)
+    Window:Notify({
+        Title = title or "Notification",
+        Description = description or "",
+        Lifetime = lifetime or 3,
+    })
+end
+
+-- Global Settings
+local function createGlobalSetting(name, defaultValue, callback)
+    return Window:GlobalSetting({
+        Name = name,
+        Default = defaultValue,
+        Callback = function(value)
+            callback(value)
+            notify(
+                Window.Settings.Title,
+                string.format("%s %s", name, value and "Enabled" or "Disabled"),
+                5
+            )
+        end,
+    })
+end
+
+local function presskey(key, options)
+    local VirtualInputManager = VirtualInputManager or game:GetService("VirtualInputManager")
+    key = type(key) == "string" and key or "Space"
+    if type(options) == "table" then
+        if type(options[1]) ~= "nil" then
+            VirtualInputManager:SendKeyEvent(options[1], key, false, game)
+        end
+        if type(options[3]) == "number" or type(options[3]) == "function" then
+            task.wait((type(options[3]) == "number" and options[3] or options[3]()))
+        end
+        if type(options[2]) ~= "nil" then
+            VirtualInputManager:SendKeyEvent(options[2], key, false, game)
+        end
+    else
+        VirtualInputManager:SendKeyEvent(true, key, false, game)
+        task.wait(.1)
+        VirtualInputManager:SendKeyEvent(false, key, false, game)
+    end
+end
+
+getgenv().fireproximityprompt = function(Prompt)
+    local PromptTime = Prompt.HoldDuration
+    Prompt.HoldDuration = 0
+    Prompt:InputHoldBegin()
+    Prompt:InputHoldEnd()
+    Prompt.HoldDuration = PromptTime
+end
+
+local globalSettings = {
+    NotificationToggler = createGlobalSetting("Notifications", Window:GetNotificationsState(), function(value)
+        Window:SetNotificationsState(value)
+    end),
+    ShowUserInfo = createGlobalSetting("Show User Info", Window:GetUserInfoState(), function(value)
+        Window:SetUserInfoState(value)
+    end),
+}
+
+-- Toggle Manager
+local toggleManager = {
+    toggles = {} -- Store references to created toggles
+}
+
+function toggleManager:createToggle(section, name, config)
+    -- Default configuration
+    config = config or {}
+    local isLoop = config.isLoop or false
+    local onActivate = config.onActivate or function() end
+    local onDeactivate = config.onDeactivate or function() end
+    local toggleState = false
+    local runningLoop = nil
+
+    -- Toggle definition
+    local toggle = {
+        UpdateState = function(state)
+            if state ~= toggleState then
+                toggleState = state
+                if toggleState then
+                    local success, err = pcall(onActivate)
+                    if success then
+                        notify(name, "Activated", 3)
+                    else
+                        warn(string.format("Error activating '%s': %s", name, err))
+                        notify(name, "Error while activating", 3)
+                    end
+
+                    if isLoop then
+                        runningLoop = task.spawn(function()
+                            while toggleState do
+                                success, err = pcall(onActivate)
+                                if not success then
+                                    warn(string.format("Error in '%s' loop: %s", name, err))
+                                    notify(name, "Error during loop execution", 3)
+                                end
+                                task.wait()
+                            end
+                        end)
+                    end
+                else
+                    local success, err = pcall(onDeactivate)
+                    if success then
+                        notify(name, "Deactivated", 3)
+                    else
+                        warn(string.format("Error deactivating '%s': %s", name, err))
+                        notify(name, "Error while deactivating", 3)
+                    end
+
+                    if runningLoop then
+                        task.cancel(runningLoop)
+                        runningLoop = nil
+                    end
+                end
+            end
+        end,
+        getRawToggle = function()
+            return rawToggle
+        end
+    }
+
+    -- Add toggle to UI
+    local rawToggle = section:Toggle({
+        Name = name,
+        Default = false,
+        Callback = function(value)
+            toggle.UpdateState(value)
+        end,
+    }, config.flag)
+
+    toggle.rawToggle = rawToggle 
+
+    if config.keybind then
+        local kbConfig = config.keybind
+        section:Keybind({
+            Name = kbConfig.Name or (name .. " Keybind"),
+            Key = kbConfig.Key or nil,
+            Blacklist = kbConfig.Blacklist or false,
+            Callback = function(pressed)
+                if pressed then
+                    rawToggle:UpdateState(not rawToggle:GetState())
+                end
+            end,
+        }, kbConfig.flag)
+    end
+
+    -- Store the toggle reference
+    self.toggles[name] = toggle
+    return toggle
+end
+
+function toggleManager:getToggle(name)
+    return self.toggles[name]
+end
+
+-- Button Manager
+local buttonManager = {}
+
+function buttonManager:createButton(section, name, callback)
+    section:Button({
+        Name = name,
+        Callback = function()
+            local success, err = pcall(callback)
+            if not success then
+                warn(string.format("Error executing button '%s': %s", name, err))
+                notify("Error", string.format("Failed to execute '%s'. Check logs.", name), 3)
+            else
+                notify("Executed", string.format("'%s' ran successfully.", name), 3)
+            end
+        end,
+    })
+end
+
+-- Create Debugging Buttons
+buttonManager:createButton(sections.DevTools, "Remote Spy", function()
+ 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+end)
+
+buttonManager:createButton(sections.DevTools, "Dex Explorer", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+buttonManager:createButton(sections.DevTools, "Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+buttonManager:createButton(sections.DevTools, "Grab Place ID", function()
+    setclipboard(tostring(game.PlaceId))
+end)
+
+local status = {
+    tpBusy = false,
+}
+-- Utility Functions
+local function getOrderedMobList(whitelist)
+    local spawnedItems = {}
+    local playerPosition = localPlayer.Character and localPlayer.Character.PrimaryPart and localPlayer.Character.PrimaryPart.Position
+
+    if not playerPosition then
+        warn("Player position not found!")
+        return {}
+    end
+
+    for _, item in pairs(workspace.Mobs:GetChildren()) do
+        if not item or (whitelist and not table.find(whitelist, item.Name)) then continue end 
+        local itemPosition 
+        if item:IsA("Model") then
+            if item.PrimaryPart then
+                itemPosition = item.PrimaryPart.Position
+            end
+        else
+            itemPosition = item.Position
+        end
+        if not itemPosition then continue end
+        local distance = (playerPosition - itemPosition).Magnitude
+        table.insert(spawnedItems, {
+            Item = item,
+            Distance = distance
+        })
+    end
+
+    table.sort(spawnedItems, function(a, b)
+        return a.Distance < b.Distance
+    end)
+
+    return spawnedItems
+end
+
+local function joinDungeon(mapName,difficulty)
+    local args = {
+        [1] = mapName
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("createLobby"):InvokeServer(unpack(args))    
+
+    local args = {
+        [1] = difficulty
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("LobbyDifficulty"):FireServer(unpack(args))
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("LobbyStart"):FireServer()
+end
+
+local function joinBestDungeon()
+    local playerLevel = Players.LocalPlayer:GetAttribute("Level")
+    repeat playerLevel = Players.LocalPlayer:GetAttribute("Level") task.wait() until playerLevel ~= nil
+
+    local bestLevel = 0
+    local map = nil
+    local difficulty = nil
+    for dungeonName,info in pairs(dungeonInfo) do
+        for difficultyName,difficultyInfo in pairs(info.Difficulty) do
+            local level = difficultyInfo["Minimum_Level"]
+            if level <= playerLevel and level > bestLevel then
+                bestLevel = level
+                map = dungeonName
+                difficulty = difficultyName
+            end
+        end
+    end
+    joinDungeon(map,difficulty)
+    return true
+end
+-- ========== COMBAT FEATURES ========== --
+toggleManager:createToggle(sections.CombatMain, "Auto Void Mobs", {
+    isLoop = true,
+    onActivate = function()
+        local mobs = getOrderedMobList()
+        if #mobs > 0 then
+            for i = 1,5 do
+                local mob = mobs[i]
+                if mob and mob.Item and mob.Item.PrimaryPart and mob.Item:FindFirstChild("Humanoid") and isnetworkowner(mob.Item.PrimaryPart) then
+                    mob.Item.Humanoid.Health = 0
+                end
+            end
+            
+        end
+    end,
+    flag = "AutoVoid"
+})
+
+toggleManager:createToggle(sections.CombatMain, "Auto Dungeon", {
+    isLoop = true,
+    onActivate = function()
+        if Players.LocalPlayer.PlayerGui:WaitForChild("ScreenGui"):FindFirstChild("DungeonEnd") and Players.LocalPlayer.PlayerGui:WaitForChild("ScreenGui"):FindFirstChild("DungeonEnd").Visible == true then
+            game:GetService("ReplicatedStorage").Remotes.LeaveToLobby:FireServer()
+        elseif Players.LocalPlayer.PlayerGui:WaitForChild("ScreenGui"):FindFirstChild("StartDungeon") and Players.LocalPlayer.PlayerGui:WaitForChild("ScreenGui"):FindFirstChild("StartDungeon"):FindFirstChild("StartDungeon").Visible then
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DungeonStart"):FireServer()
+        elseif workspace:GetAttribute("Dungeon") then
+            Players.LocalPlayer.Character.PrimaryPart.CFrame = workspace.Map:FindFirstChildOfClass("Model").SpawnLocation.CFrame * CFrame.new(0,20,0)
+        else
+            joinBestDungeon()
+        end
+    end,
+    flag = "AutoDungeon"
+})
+
+local state = {
+    activeTween = nil,
+    activeProcess = nil,
+    running = true,
+    cooldown = false,  -- New cooldown flag
+    isCollecting = false  -- Collection debounce flag
+}
+
+-- Cache frequently used services
+
+local function cancelActive()
+    if state.activeTween then
+        state.activeTween:Cancel()
+        state.activeTween = nil
+    end
+    if state.activeProcess and coroutine.status(state.activeProcess) ~= "running" then
+        coroutine.close(state.activeProcess)  
+        state.activeProcess = nil
+    end
+end
+
+-- ========== MOVEMENT FEATURES ========== --
+-- Walk Speed
+sections.Speed:Slider({
+    Name = "Walk Speed",
+    Default = 16,
+    Minimum = 1,
+    Maximum = 500,
+    DisplayMethod = "Value",
+    Precision = 0,
+    Callback = Walkspeed.SetSpeed
+})
+
+toggleManager:createToggle(sections.Speed, "Walkspeed Toggle", {
+    isLoop = false,
+    onActivate = Walkspeed.Activate,
+    onDeactivate = Walkspeed.Deactivate,
+    flag = "SpeedToggle",
+    keybind = {flag = "SpeedKeybind"}
+})
+
+-- Flight Controls
+sections.Flight:Slider({
+    Name = "Fly Speed",
+    Default = 50,
+    Minimum = 1,
+    Maximum = 500,
+    DisplayMethod = "Value",
+    Precision = 0,
+    Callback = Fly.SetSpeed
+})
+
+toggleManager:createToggle(sections.Flight, "Fly Toggle", {
+    isLoop = false,
+    onActivate = Fly.Activate,
+    onDeactivate = Fly.Deactivate,
+    flag = "FlyToggle",
+    keybind = {flag = "FlyKeybind"}
+})
+
+toggleManager:createToggle(sections.MovementMisc, "NoClip Toggle", {
+    isLoop = false,
+    onActivate = Noclip.Activate,
+    onDeactivate = Noclip.Deactivate,
+    flag = "NoclipToggle",
+    keybind = {flag = "NoclipKeybind"}
+})
+
+MacLib:SetFolder("MacLib")
+tabs.Settings:InsertConfigSection("Left")
+tabs.Combat:Select()
+MacLib:LoadAutoLoadConfig()
+
+local TeleportCheck = false
+Players.LocalPlayer.OnTeleport:Connect(function(State)
+	if TeleportCheck == false then
+		TeleportCheck = true
+		queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/refs/heads/main/random%20thingy'))()")
+	end
+end)
+
